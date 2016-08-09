@@ -1,0 +1,5 @@
+
+{
+    "cmd": ["amxxpc.exe", "-oF:/SteamCMD/steamapps/common/Half-Life/czero/addons/amxmodx/plugins/${file_base_name}.amxx", "${file}"],
+    "working_dir": "${file_path}",
+}

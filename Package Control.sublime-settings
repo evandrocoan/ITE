@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"ANSIescape",
+		"ApplySyntax",
+		"BracketHighlighter",
+		"C++11",
+		"Clipboard Manager",
+		"ClipboardCommands",
+		"Column Select",
+		"DictionaryAutoComplete",
+		"Matlab Completions",
+		"MatlabFilenameAutoComplete",
+		"Package Control",
+		"sublime-text-2-buildview",
+		"SublimeCodeIntel",
+		"Theme - Soda",
+		"Theme - SoDaReloaded"
+	]
+}
