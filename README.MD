@@ -15,19 +15,9 @@ ___
 1) Open the Sublime Text.
 
 2) Install package manager [https://packagecontrol.io/installation](https://packagecontrol.io/installation):
-```
-import urllib.request,os,hashlib;
-
-h   = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88';
-pf  = 'Package Control.sublime-package';
-ipp = sublime.installed_packages_path();
-
-urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) );
-by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read();
-
-dh hashlib.sha256(by).hexdigest();
-print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-```
+`
+import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+`
 
 3) Close your Sublime Text and delete the folder below:
 ```
@@ -59,8 +49,14 @@ git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git $SUBL
 1. The packages will be automatically installed on the first run after the repository clone.
 
 
+___
+## Debugging
 
-
+Use on the console:
+```
+sublime.log_commands(True)
+sublime.log_input(True)
+```
 
 
 

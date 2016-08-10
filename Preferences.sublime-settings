@@ -24,12 +24,42 @@
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": true,
+	"font_face_1": "Inconsolata",
+	"font_face_2": "Menlo Regular",
+	"font_face_3": "Monospace",
 	"font_face": "Consolas",
 	"font_options":
 	[
 		"no_bold"
 	],
 	"font_size": 14,
+	"fonts_list":
+	[
+		{
+			"font_face": "Consolas",
+			"font_size": 14,
+			"line_padding_bottom": 1,
+			"line_padding_top": 1
+		},
+		{
+			"font_face": "Monospace",
+			"font_size": 14,
+			"line_padding_bottom": 1,
+			"line_padding_top": 1
+		},
+		{
+			"font_face": "Inconsolata",
+			"font_size": 14,
+			"line_padding_bottom": 1,
+			"line_padding_top": 1
+		},
+		{
+			"font_face": "Menlo Regular",
+			"font_size": 16,
+			"line_padding_bottom": 1,
+			"line_padding_top": 1
+		}
+	],
 	"gutter": true,
 	"highlightLine": true,
 	"highlight_line": true,

@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "FontCycler - Next Font",
+        "command": "next_font"
+    },
+    {
+        "caption": "FontCycler - Prev Font",
+        "command": "previous_font"
+    }
+]
