@@ -22,5 +22,37 @@
             { "command": "paste_and_indent", "mnemonic": "I" },
             { "command": "paste_from_history", "caption": "Paste from History" }
         ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "FontCycler",
+                        "children":
+                        [
+                            {
+                                "command": "next_font",
+                                "caption": "Next Font"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "previous_font",
+                                "caption": "Previous Font"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
