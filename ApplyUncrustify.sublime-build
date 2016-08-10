@@ -1,0 +1,5 @@
+{
+    "cmd": ["uncrustify","-c","D:/User/Dropbox/Applications/SoftwareVersioning/MyUncrustifyConfigs/amxmodx_semicolon.cfg","--no-backup","$file_name"],
+    "target": "ansi_color_build",
+    "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+}
