@@ -1,6 +1,6 @@
 # My Sublime Text 3 Settings
 
-This are my sublime settings/packages used to program on:
+These are my sublime settings/packages used to program on:
 
 1. Java
 2. Octave/Matlab
