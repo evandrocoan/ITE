@@ -46,8 +46,8 @@ git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git "$SUB
 ```
 
 1. You can open the Console on View -> Console (Ctrl+`).
-1. If you are a Windows user, just figure out where are your settings folders.
 1. The packages will be automatically installed on the first run after the repository clone.
+1. If you are a Windows user, just figure out where are your settings folders.
 
 ```
 "~/.config/sublime-text-3/Packages/User" --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\Packages\User"

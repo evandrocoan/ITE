@@ -9,8 +9,6 @@
 		"hxx",
 		"h++",
 		"inl",
-		"ipp",
-		"bbcode",
-		"sma"
+		"ipp"
 	]
 }
