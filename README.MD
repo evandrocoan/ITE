@@ -21,7 +21,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 3) Close your Sublime Text and delete the folder below:
 ```
-~/.config/sublime-text-3/Packages/User
+rm -r ~/.config/sublime-text-3/Packages/User
 ```
 
 4) While keeping your Sublime Text closed, clone this repository using this command:
