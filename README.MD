@@ -66,6 +66,12 @@ sublime.log_input(True)
 
 
 
+___
+## Licence
+All files in this repository are released under GNU General Public License v3.0, unless stated otherwise.
+See [LICENSE](LICENSE.TXT) file for more information.
+
+
 
 
 
