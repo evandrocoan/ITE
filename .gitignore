@@ -3,3 +3,4 @@ Package Control.cache
 
 
 /Package Control.last-run
+*.merged-ca-bundle
