@@ -1,5 +1,6 @@
 {
-    "cmd": ["sh","$packages/User/build_and_run_JAVA.sh","$file_name"],
+    "cmd": ["sh","$packages/User/build_and_run_JAVA.sh","$file", "$file_base_name"],
+    "selector": "source.java, source.jar", 
     "target": "ansi_color_build",
     "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
 }
