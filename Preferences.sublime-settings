@@ -17,7 +17,7 @@
 	"bold_folder_labels": true,
 	"buildview_scroll": "last",
 	"buildview_silence_modified_warning": true,
-	"color_scheme": "Packages/User/Theme - NotepadPlusPlus/iPlastic.tmTheme",
+	"color_scheme": "Packages/User/Theme - NotepadPlusPlus/Notepad-Plus-Plus.tmTheme",
 	"copyOnMouseSelect": false,
 	"default_line_ending": "CRLF",
 	"drawWhiteSpace": "none",
@@ -28,10 +28,6 @@
 	"font_face_1": "Inconsolata",
 	"font_face_2": "Menlo Regular",
 	"font_face_3": "Monospace",
-	"font_options":
-	[
-		"no_bold"
-	],
 	"font_size": 14,
 	"fonts_list":
 	[
