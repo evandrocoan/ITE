@@ -20,6 +20,7 @@
 	"color_scheme": "Packages/User/Theme - NotepadPlusPlus/Notepad-Plus-Plus.tmTheme",
 	"copyOnMouseSelect": false,
 	"default_line_ending": "CRLF",
+	"drag_text": false,
 	"drawWhiteSpace": "none",
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -62,6 +63,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"BracketHighlighter",
+		"Color Highlighter",
 		"Vintage"
 	],
 	"indent_to_bracket": true,
