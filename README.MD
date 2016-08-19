@@ -21,12 +21,12 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 3) Close your Sublime Text and delete the folder below:
 ```
-mv -v "~/.config/sublime-text-3/Packages/User" "~/.config/sublime-text-3/Packages/User_Old"
+mv -v ~/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User_Old
 ```
 
 4) While keeping your Sublime Text closed, clone this repository using this command:
 ```
-git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git "~/.config/sublime-text-3/Packages/User"
+git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git ~/.config/sublime-text-3/Packages/User
 ```
 
 5) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
@@ -42,7 +42,7 @@ $SUBLIME_ROOT_FOLDER/Data/Packages/User
 ```
 And clone it with:
 ```
-git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git "$SUBLIME_ROOT_FOLDER/Data/Packages/User"
+git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git $SUBLIME_ROOT_FOLDER/Data/Packages/User
 ```
 
 1. You can open the Console on View -> Console (Ctrl+`).
@@ -50,7 +50,7 @@ git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git "$SUB
 1. If you are a Windows user, just figure out where are your settings folders.
 
 ```
-"~/.config/sublime-text-3/Packages/User" --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\Packages\User"
+~/.config/sublime-text-3/Packages/User --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\Packages\User"
 ```
 
 
