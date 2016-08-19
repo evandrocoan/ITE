@@ -1,6 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+
 # Custom for Visual Studio
 *.cs diff=csharp
 
@@ -22,6 +25,6 @@
 
 # Set lf for sublime files
 *.sublime-settings -lf
-
+*.sh -lf
 
 
