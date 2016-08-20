@@ -1,4 +1,4 @@
-# My Sublime Text 3 Settings
+# Sublime Text Studio
 
 These are my sublime settings/packages used to program on:
 
@@ -12,7 +12,7 @@ These are my sublime settings/packages used to program on:
 ___
 ## Installation
 
-1) Open the Sublime Text.
+1) Open the Sublime Text, after install it from [https://www.sublimetext.com/download](https://www.sublimetext.com/3)
 
 2) Install package manager [https://packagecontrol.io/installation](https://packagecontrol.io/installation):
 `
