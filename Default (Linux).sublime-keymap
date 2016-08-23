@@ -1,4 +1,11 @@
 [
+    { "keys": ["ctrl+k", "ctrl+8"], "command": "stickysearch", "args": {"op" : "set"} },
+    { "keys": ["ctrl+shift+8"], "command": "stickysearch", "args": {"op" : "add"} },
+    { "keys": ["ctrl+k", "ctrl+7"], "command": "stickysearch", "args": {"op" : "clear"} },
+
+    { "keys": ["ctrl+k", "ctrl+h"], "command": "highlight_words" },
+    { "keys": ["ctrl+k", "ctrl+i"], "command": "unhighlight_words" },
+
     { "keys": ["ctrl+alt+c"], "command": "ansi_color_build", "args": {"kill": true} },
     { "keys": ["ctrl+shift+n"], "command": "new_window" },
     { "keys": ["ctrl+shift+w"], "command": "close_window" },
@@ -252,8 +259,8 @@
     { "keys": ["ctrl+delete"], "command": "delete_word", "args": { "forward": true } },
     { "keys": ["ctrl+shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
 
-    { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
-    { "keys": ["ctrl+shift+/"], "command": "toggle_comment", "args": { "block": true } },
+    { "keys": ["ctrl+keypad_divide"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": true } },
 
     { "keys": ["ctrl+j"], "command": "join_lines" },
     { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
