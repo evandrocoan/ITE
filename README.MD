@@ -73,6 +73,17 @@ See [LICENSE](LICENSE.TXT) file for more information.
 
 
 
+___
+## TODO
+Remove all settings from the user files, and added them to the default settings well documented.
+
+
+1. Go to: `Preferences -> Pacakge Settings -> Gist -> Settings - Default`
+  Copy its contents and go to: `Preferences -> Pacakge Settings -> Gist -> Settings - User`
+  Then read the instructions on `// Your GitHub API token`
+
+
+
 
 
 
