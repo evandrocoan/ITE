@@ -26,9 +26,9 @@
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": true,
 	"font_face": "Consolas",
-	"font_face_1": "Inconsolata",
+	"font_face_1": "Monospace",
 	"font_face_2": "Menlo Regular",
-	"font_face_3": "Monospace",
+	"font_face_3": "Inconsolata",
 	"font_size": 14,
 	"fonts_list":
 	[
