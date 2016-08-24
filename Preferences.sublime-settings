@@ -73,7 +73,7 @@
 	"new_file_syntax": "Packages/C++/C++.tmLanguage",
 	"preview_on_click": false,
 	"rulers": true,
-	"scroll_past_end": true,
+	"scroll_past_end": false,
 	"shift_tab_unindent": true,
 	"show_encoding": true,
 	"show_full_path": false,

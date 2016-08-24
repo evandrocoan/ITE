@@ -6,5 +6,5 @@
     "icon": "dot",
     // Style of search highlighting
     "fill": true,
-    "outline": true
+    "outline": false
 }
