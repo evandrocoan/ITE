@@ -1,4 +1,9 @@
 {
+	"AmxxPawn":
+	[
+		"inc",
+		"sma"
+	],
 	"HTML (Rails)":
 	[
 		"html.erb"
