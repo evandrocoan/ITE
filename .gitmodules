@@ -4,3 +4,6 @@
 [submodule "SublimeAmxxPawn"]
 	path = SublimeAmxxPawn
 	url = https://github.com/evandrocoan/SublimeAmxxPawn
+[submodule "SublimeTextToolBar"]
+	path = SublimeTextToolBar
+	url = https://github.com/evandrocoan/SublimeTextToolBar
