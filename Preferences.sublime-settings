@@ -20,6 +20,7 @@
 	"color_scheme": "Packages/User/SublimeNotepadPlusPlusTheme/DefaultStylersTheme.tmTheme",
 	"copyOnMouseSelect": false,
 	"default_line_ending": "CRLF",
+	"dictionary": "Packages/User/Dictionary/EN_PT.dic",
 	"drag_text": false,
 	"drawWhiteSpace": "none",
 	"draw_minimap_border": true,
