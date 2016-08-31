@@ -6,12 +6,14 @@
 
 # Except these folder and files
 !User
-!User/
 !User/*
+
 !ANSIescape
 !SublimeTextToolBar
 !SublimeAmxxPawn
 !SublimeNotepadPlusPlusTheme
+!SublimeBuildSystem
+!SublimeMultiLingualDictionary
 
 !.gitattributes
 !.gitmodules
