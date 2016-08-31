@@ -1,6 +1,0 @@
-{
-    "cmd": ["sh","$packages/User/Build_and_run_OCTAVE.sh","$file"],
-    "selector": "source.matlab, source.octave",
-    "target": "ansi_color_build",
-    "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
-}

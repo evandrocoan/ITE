@@ -1,8 +1,8 @@
 {
-    "cmd": ["sh","$packages/User/Build_and_run_JAVA.sh","$file", "$file_base_name"],
+    "cmd": ["sh","$packages/User/BuildSystems/Octave.sh","$file"],
     
+    "selector": "source.matlab, source.octave",
     "working_dir": "$file_path",
-    "selector": "source.java, source.jar", 
     
     "target": "ansi_color_build",
     "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
