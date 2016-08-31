@@ -1,0 +1,12 @@
+[submodule "SublimeNotepadPlusPlusTheme"]
+	path = SublimeNotepadPlusPlusTheme
+	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
+[submodule "SublimeAmxxPawn"]
+	path = SublimeAmxxPawn
+	url = https://github.com/evandrocoan/SublimeAmxxPawn
+[submodule "SublimeTextToolBar"]
+	path = SublimeTextToolBar
+	url = https://github.com/evandrocoan/SublimeTextToolBar
+[submodule "SublimeANSI"]
+	path = SublimeANSI
+	url = https://github.com/evandrocoan/SublimeANSI
