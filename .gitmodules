@@ -7,3 +7,6 @@
 [submodule "SublimeTextToolBar"]
 	path = SublimeTextToolBar
 	url = https://github.com/evandrocoan/SublimeTextToolBar
+[submodule "SublimeANSI"]
+	path = SublimeANSI
+	url = https://github.com/evandrocoan/SublimeANSI
