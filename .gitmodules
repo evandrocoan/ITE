@@ -7,6 +7,6 @@
 [submodule "SublimeTextToolBar"]
 	path = SublimeTextToolBar
 	url = https://github.com/evandrocoan/SublimeTextToolBar
-[submodule "SublimeANSI"]
-	path = SublimeANSI
+[submodule "ANSIescape"]
+	path = ANSIescape
 	url = https://github.com/evandrocoan/SublimeANSI
