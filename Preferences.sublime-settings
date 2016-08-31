@@ -4,7 +4,8 @@
 		"Plugin",
 		"param",
 		"plugin",
-		"Whitelist"
+		"Whitelist",
+		"settings"
 	],
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
@@ -67,7 +68,13 @@
 		"ApplySyntax",
 		"BracketHighlighter",
 		"Color Highlighter",
-		"Vintage"
+		"Vintage",
+		"WordHighlight"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 1,
