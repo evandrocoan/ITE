@@ -18,7 +18,7 @@
 	"bold_folder_labels": true,
 	"buildview_scroll": "last",
 	"buildview_silence_modified_warning": true,
-	"color_scheme": "Packages/User/SublimeNotepadPlusPlusTheme/DefaultStylersTheme.tmTheme",
+	"color_scheme": "Packages/SublimeNotepadPlusPlusTheme/DefaultStylersTheme.tmTheme",
 	"copyOnMouseSelect": false,
 	"default_line_ending": "CRLF",
 	"dictionary": "Packages/User/Dictionary/EN_PT.dic",

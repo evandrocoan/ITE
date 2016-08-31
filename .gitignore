@@ -1,8 +1,35 @@
 
-Package Control.cache
-Color Highlighter
 
-/Package Control.last-run
+# Igonores everything
+*/
+
+
+# Except these folder and files
+!User
+!User/
+!User/*
+!SublimeANSI
+!SublimeTextToolBar
+!SublimeAmxxPawn
+!SublimeNotepadPlusPlusTheme
+
+!.gitattributes
+!.gitmodules
+!.gitignore
+
+!SublimeStudioDevelopment.sublime-project
+
+
+# Now start ignoring things again
 *.merged-ca-bundle
-/Gist.sublime-settings
-/Terminal.sublime-settings
+
+User/Package Control.last-run
+
+User/Package Control.cache
+User/Color Highlighter
+
+User/Gist.sublime-settings
+User/Terminal.sublime-settings
+
+
+
