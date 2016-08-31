@@ -19,14 +19,14 @@ ___
 import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 `
 
-3) Close your Sublime Text and rename the folder below: (the folder `User` below contain all your current settings)
+3) Close your Sublime Text and rename the folder below: (the folder `Packages/User` below contain all your current settings)
 ```
-mv -v ~/.config/sublime-text-3/Packages/User ~/.config/sublime-text-3/Packages/User_Old
+mv -v ~/.config/sublime-text-3/Packages ~/.config/sublime-text-3/Packages_Old
 ```
 
 4) While keeping your Sublime Text closed, clone this repository using this command:
 ```
-git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git ~/.config/sublime-text-3/Packages/User
+git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.config/sublime-text-3/Packages
 ```
 
 5) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
@@ -42,7 +42,7 @@ $SUBLIME_ROOT_FOLDER/Data/Packages/User
 ```
 And clone it with:
 ```
-git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git $SUBLIME_ROOT_FOLDER/Data/Packages/User
+git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git $SUBLIME_ROOT_FOLDER/Data/Packages
 ```
 
 1. You can open the Console on View -> Console (Ctrl+`).
@@ -50,7 +50,7 @@ git clone --recursive https://github.com/evandrocoan/MySublimeSettings.git $SUBL
 1. If you are a Windows user, just figure out where are your settings folders.
 
 ```
-~/.config/sublime-text-3/Packages/User --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\Packages\User"
+~/.config/sublime-text-3/Packages --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\Packages"
 ```
 
 
