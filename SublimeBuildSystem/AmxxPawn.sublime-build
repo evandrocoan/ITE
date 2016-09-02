@@ -1,8 +1,8 @@
 {
-    "cmd": ["sh","$packages/User/BuildSystem/AmxxPawn.sh","$file", "$file_base_name"],
-    
     "working_dir": "$file_path",
     "selector": "source.AmxxPawn, source.AMXX",
+    
+    "cmd": ["sh","$packages/SublimeBuildSystem/AmxxPawn.sh","$file", "$file_name"],
     
     "target": "ansi_color_build",
     "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
