@@ -1,17 +1,17 @@
 {
-	"folders":
-	[
+    "folders":
+    [
         {
             "path": "..\\Local"
         },
-		{
-			"path": "."
-		},
+        {
+            "path": "."
+        },
         {
             "path": "..\\Installed Packages"
         },
         {
             "path": "..\\..\\Packages"
         }
-	]
+    ]
 }
