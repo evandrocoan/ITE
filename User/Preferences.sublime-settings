@@ -12,7 +12,7 @@
 	"autoIndent": true,
 	"auto_complete": true,
 	"auto_complete_cycle": true,
-	"auto_complete_delay": 200,
+	"auto_complete_delay": 3000,
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"auto_match_enabled": false,
@@ -41,6 +41,7 @@
 	"ignored_packages":
 	[
 		"ApplySyntax",
+		"AutoFileName",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"SublimeCodeIntel",
