@@ -12,6 +12,7 @@
 	"autoIndent": true,
 	"auto_complete": true,
 	"auto_complete_cycle": true,
+	"auto_complete_delay": 200,
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"auto_match_enabled": false,
@@ -21,6 +22,7 @@
 	"color_scheme": "Packages/SublimeNotepadPlusPlusTheme/DefaultStylersTheme.tmTheme",
 	"copyOnMouseSelect": false,
 	"default_line_ending": "CRLF",
+	"detect_slow_plugins": true,
 	"dictionary": "Packages/SublimeMultiLingualDictionary/EN_PT.dic",
 	"drag_text": false,
 	"drawWhiteSpace": "none",
@@ -41,6 +43,7 @@
 		"ApplySyntax",
 		"BracketHighlighter",
 		"Color Highlighter",
+		"SublimeCodeIntel",
 		"Vintage",
 		"WordHighlight"
 	],
