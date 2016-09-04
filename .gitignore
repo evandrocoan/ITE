@@ -26,6 +26,9 @@
 !/SublimeMultiLingualDictionary
 !/SublimeMultiLingualDictionary/*
 
+!/Octave
+!/Octave/*
+
 
 !.gitattributes
 !.gitmodules

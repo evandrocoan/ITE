@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+name: OCTAVE
+file_extensions:
+  - octave
+scope: source.octave
+contexts:
+  main:
+    - match: ''
+      push: Packages/Matlab/Matlab.sublime-syntax
+      with_prototype:
+      - match: '#.*\n'
+        scope: comment.line.percentage.octave
+      - match: (?<!\.)\b(end(for|if|while|swith|function))\b
+        comment: Control keywords
+        scope: keyword.control.octave
+
+
