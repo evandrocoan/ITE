@@ -5,15 +5,27 @@
 
 
 # Except these folder and files
-!User
-!User/*
+!/User
+!/User/*
 
-!ANSIescape
-!SublimeTextToolBar
-!SublimeAmxxPawn
-!SublimeNotepadPlusPlusTheme
-!SublimeBuildSystem
-!SublimeMultiLingualDictionary
+!/ANSIescape
+!/ANSIescape/*
+
+!/SublimeTextToolBar
+!/SublimeTextToolBar/*
+
+!/SublimeAmxxPawn
+!/SublimeAmxxPawn/*
+
+!/SublimeNotepadPlusPlusTheme
+!/SublimeNotepadPlusPlusTheme/*
+
+!/SublimeBuildSystem
+!/SublimeBuildSystem/*
+
+!/SublimeMultiLingualDictionary
+!/SublimeMultiLingualDictionary/*
+
 
 !.gitattributes
 !.gitmodules
@@ -25,13 +37,7 @@
 # Now start ignoring things again
 *.merged-ca-bundle
 
-User/Package Control.last-run
 
-User/Package Control.cache
-User/Color Highlighter
-
-User/Gist.sublime-settings
-User/Terminal.sublime-settings
 
 
 
