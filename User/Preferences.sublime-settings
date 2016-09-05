@@ -41,9 +41,9 @@
 	"ignored_packages":
 	[
 		"ApplySyntax",
-		"AutoFileName",
 		"BracketHighlighter",
 		"Color Highlighter",
+		"DictionaryAutoComplete",
 		"SublimeCodeIntel",
 		"Vintage",
 		"WordHighlight"

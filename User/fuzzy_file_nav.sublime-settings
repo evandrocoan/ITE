@@ -1,0 +1,45 @@
+{
+    // Location of home folder
+    "home": "~",
+
+    // Patterns of files/folders to exclude
+    "regex_exclude": [".*\\.(DS_Store|svn|git)$"],
+
+    // Keep panel open after a file is opened, deleted, created, etc. so
+    // More files can be have actions performed on them.
+    "keep_panel_open_after_action": true,
+
+    // Actions that can ignore the keep panel open settings
+    // Available actions: delete, open, saveas, mkfile, mkdir, paste
+    "keep_panel_open_exceptions": [],
+
+    // Controls whether system hidden files are shown in FuzzyFileNav.
+    "show_system_hidden_files": true,
+
+    // (fuzzy/windows/nix)
+    // fuzzy   - this will auto-complete with the selected index in the quick panel
+    // windows - this will complete like a windows terminal would complete paths
+    // nix     - this will complete like a unix/linux terminal traditionally completes paths
+    "completion_style": "nix",
+
+    // If the "FuzzyStartFromFileCommand" is run outside of a open buffer
+    // or from a buffer that does not exist on disk, you can specify
+    // its default action to do instead of starting navigation from
+    // a file's location.  Options are "bookmarks", "home", "root", "project".
+    "start_from_here_default_action": "bookmarks",
+
+    // Bookmarked paths
+    "bookmarks": [
+        {"name": "My Computer", "path": {"#multiconf#": [{"os:windows": ""}]}},
+        {"name": "Root", "path": {"#multiconf#": [{"os:linux": "/"}, {"os:osx": "/"}]}}
+    ],
+
+    // Add your folders relative to the project file (if project file exists on disk)
+    "add_folder_to_project_relative": true,
+
+    // When adding folder to project, set "follow_symlinks" setting as true or false
+    "add_folder_to_project_follow_symlink": true,
+
+    // Use subnotify if available
+    "use_sub_notify": true
+}
