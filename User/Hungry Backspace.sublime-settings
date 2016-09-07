@@ -1,0 +1,28 @@
+{
+  // enable/disable plugin
+  "enabled": true,
+  
+  // filetypes with these extensions don't have hungry backspacing
+  "excluded_filetypes": ["hs", "py"],
+  
+  // controls whether the default/hungry backspace bindings should be flipped
+  "flipped_key_bindings": false,
+  
+  // when the upper line is empty but contains some indentation a backspace
+  // causes the upper line to obtain this lines indentation
+  "force_indent_at_upper_level" : true,
+  
+  // [Experimental] When you press backspace with your cursor at line start
+  // if the indentation level of the current line is wrong it is reindented
+  // Options: "enabled"/ "disabled" / "forced"
+  "right_to_left_backspacing" : "disabled",
+  
+  // If you are on line start and the upper line is empty
+  // the current line gets moved one up
+  "consume_above_line": true,
+  
+  // [Experimental] If you are on line start and press backspace and the upper line is not empty
+  // the current lines contents get moved up
+  // Options: "enabled"/ "disabled" / "forced"
+  "backspace_line_content_move": "disabled"
+}

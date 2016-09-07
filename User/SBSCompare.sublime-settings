@@ -3,7 +3,7 @@
     "expanded_filenames": true,
     
     // make the comparison output read only (recommended)
-    "read_only": true,
+    "read_only": false,
     
     // toggle the sidebar on/off upon opening the comparison output window
     // turn this on if you usually have the sidebar open in your main window
@@ -49,5 +49,5 @@
     "outlines_only": false,
     
     // show a popup after comparison counting # of lines added/removed/total
-    "line_count_popup": true
+    "line_count_popup": false
 }

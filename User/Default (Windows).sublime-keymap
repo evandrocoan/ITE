@@ -33,9 +33,8 @@
     { "keys": ["f11"], "command": "toggle_full_screen" },
     { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
 
-    { "keys": ["backspace"], "command": "left_delete" },
+    { "keys": ["backspace"], "command": "hungry_backspace" },
     { "keys": ["shift+backspace"], "command": "left_delete" },
-    { "keys": ["ctrl+shift+backspace"], "command": "left_delete" },
     { "keys": ["delete"], "command": "right_delete" },
     { "keys": ["enter"], "command": "insert", "args": {"characters": "\n"} },
     { "keys": ["shift+enter"], "command": "insert", "args": {"characters": "\n"} },
