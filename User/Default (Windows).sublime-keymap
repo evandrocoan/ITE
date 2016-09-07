@@ -18,6 +18,11 @@
         } 
     },
     
+    { "keys": ["ctrl+f10"], "command": "distraction_free_window" },
+    { "keys": ["ctrl+f11"], "command": "max_pane" },
+    { "keys": ["ctrl+k","ctrl+right"], "command": "shift_pane" },
+    { "keys": ["ctrl+k","ctrl+left"], "command": "unshift_pane" },
+    
     { "keys": ["ctrl+n"], "command": "new_file" },
     { "keys": ["ctrl+s"], "command": "save" },
     { "keys": ["ctrl+shift+s"], "command": "prompt_save_as" },
