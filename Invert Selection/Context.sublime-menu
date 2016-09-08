@@ -1,0 +1,6 @@
+[
+    {
+        "id": "selection"
+    },
+    { "command": "invert_selection" }
+]
