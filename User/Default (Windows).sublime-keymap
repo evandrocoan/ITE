@@ -306,8 +306,9 @@
     { "keys": ["ctrl+b"], "command": "build", "context":
         [ { "key": "build_fake", "operator":"equal", "operand":true } ]
     },
-    { "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} },
     { "keys": ["ctrl+break"], "command": "exec", "args": {"kill": true} },
+    { "keys": ["ctrl+shift+c"], "command": "ansi_color_build", "args": {"kill": true} },
+    { "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} },
 
     { "keys": ["ctrl+t"], "command": "transpose" },
 
