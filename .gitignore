@@ -41,6 +41,12 @@
 !/Origami
 !/Origami/*
 
+!/Project Specific Syntax Settings
+!/Project Specific Syntax Settings/*
+
+!/ExportHtml
+!/ExportHtml/*
+
 
 !.gitattributes
 !.gitmodules

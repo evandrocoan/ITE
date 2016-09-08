@@ -1,0 +1,21 @@
+[
+    {
+        "caption": "Project Specific Syntax",
+        "children":
+        [
+            { "caption": "Copy syntax setting to clipboard", "command": "project_specific_syntax_to_clipboard" },
+            { "caption": "-" },
+            { "command": "export_html_panel", "caption": "Export HTML" },
+            { "command": "export_bbcode_panel", "caption": "Export BBCode"},
+            { "caption": "-" },
+            { "command": "enable_annotation_mode", "caption": "Enable Annotation Mode" },
+            { "command": "disable_annotation_mode", "caption": "Disable Annotation Mode" },
+            { "caption": "-" },
+            { "command": "add_annotation", "caption": "Add Annotation" },
+            { "command": "edit_annotation", "caption": "Edit Annotation" },
+            { "command": "delete_annotations", "caption": "Delete Annotation(s)" },
+            { "command": "clear_annotations", "caption": "Delete All Annotations" },
+            { "command": "show_annotation_comment", "caption": "Show Annotation Comment" }
+        ]
+    }
+]
