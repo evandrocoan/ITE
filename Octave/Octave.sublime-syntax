@@ -9,10 +9,17 @@ contexts:
     - match: ''
       push: Packages/Matlab/Matlab.sublime-syntax
       with_prototype:
-      - match: '#.*\n'
-        scope: comment.line.percentage.octave
-      - match: (?<!\.)\b(end(for|if|while|swith|function))\b
-        comment: Control keywords
-        scope: keyword.control.octave
+        - match: '[#%]{.*\n'
+          scope: comment.line.octave
+          push:
+            - meta_scope: comment.line.octave
+            - match: '[#%]}.*\n'
+              scope: comment.line.octave
+              pop: true
+        - match: '#.*\n'
+          scope: comment.line.percentage.octave
+        - match: (?<!\.)\b(end(for|if|while|swith|function))\b
+          comment: Control keywords
+          scope: keyword.control.octave
 
 
