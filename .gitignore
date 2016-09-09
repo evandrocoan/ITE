@@ -50,6 +50,9 @@
 !/FuzzyFileNav
 !/FuzzyFileNav/*
 
+!/Copy Filepath With Line Numbers
+!/Copy Filepath With Line Numbers/*
+
 
 !.gitattributes
 !.gitmodules

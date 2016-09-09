@@ -21,6 +21,15 @@
                 "command": "fuzzy_bookmarks_load"
             },
             { "caption": "-"},
+            {
+                "caption": "Copy Filepath With Line Numbers",
+                "command": "copy_filepath_with_line_numbers"
+            },
+            {
+                "caption": "Copy Reference",
+                "command": "copy_reference"
+            },
+            { "caption": "-"},
             { "caption": "Copy syntax setting to clipboard", "command": "project_specific_syntax_to_clipboard" },
             { "caption": "-" },
             { "command": "export_html_panel", "caption": "Export HTML" },
