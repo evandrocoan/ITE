@@ -1,77 +1,20 @@
 
 
-# Igonores everything
-*/
 
-
-# Except these folder and files
-!/User
-!/User/*
-
-!/ANSIescape
-!/ANSIescape/*
-
-!/SublimeTextToolBar
-!/SublimeTextToolBar/*
-
-!/SublimeAmxxPawn
-!/SublimeAmxxPawn/*
-
-!/SublimeNotepadPlusPlusTheme
-!/SublimeNotepadPlusPlusTheme/*
-
-!/SublimeBuildSystem
-!/SublimeBuildSystem/*
-
-!/SublimeMultiLingualDictionary
-!/SublimeMultiLingualDictionary/*
-
-!/Octave
-!/Octave/*
-
-!/Trimmer
-!/Trimmer/*
-
-!/Local History
-!/Local History/*
-
-!/Invert Selection
-!/Invert Selection/*
-
-!/Origami
-!/Origami/*
-
-!/Project Specific Syntax Settings
-!/Project Specific Syntax Settings/*
-
-!/ExportHtml
-!/ExportHtml/*
-
-!/FuzzyFileNav
-!/FuzzyFileNav/*
-
-!/Copy Filepath With Line Numbers
-!/Copy Filepath With Line Numbers/*
-
-!/CopyWithLineNumbersReloaded
-!/CopyWithLineNumbersReloaded/*
-
-!/Gist
-!/Gist/*
-
-!/Google Spell Check
-!/Google Spell Check/*
-
-
-!.gitattributes
-!.gitmodules
-!.gitignore
-
-!SublimeStudioDevelopment.sublime-project
-
-
-# Now start ignoring things again
+# Start ignoring things
 *.merged-ca-bundle
+
+/Terminal/*
+/SublimeCodeIntel/*
+/Pyyaml/*
+/Pyv8/*
+/python-markdown/*
+/python-jinja2/*
+/pygments/*
+/mdpopups/*
+/markupsafe/*
+/bz2/*
+/backrefs/*
 
 
 
