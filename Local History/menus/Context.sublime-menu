@@ -1,4 +1,8 @@
 [
+    { "caption": "-" },
+    { "caption": "Compare with...", "command": "sbs_compare" },
+    { "caption": "Mark selection for comparison", "command": "sbs_mark_sel" },
+    { "caption": "Compare selection", "command": "sbs_compare", "args": { "compare_selections": true } },
     {
         "caption": "Local History",
         "children":
@@ -22,7 +26,15 @@
             {
                 "caption": "Incremental Diff",
                 "command": "history_incremental_diff"
-            }
+            },
+            { "caption": "-" },
+            { "command": "destroy_pane", "args": {"direction": "self"}, "caption": "Destroy Current Pane" },
+            { "caption": "-"},
+            { "command": "create_pane", "args": {"direction": "up"}, "caption":    "Create Panel Above" },
+            { "command": "create_pane", "args": {"direction": "down"}, "caption":  "Create Panel Below" },
+            { "command": "create_pane", "args": {"direction": "right"}, "caption": "Create Panel Right" },
+            { "command": "create_pane", "args": {"direction": "left"}, "caption":  "Create Panel Left" },
+            { "caption": "-"},
         ]
     }
 ]
