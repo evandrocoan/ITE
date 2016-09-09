@@ -1,5 +1,4 @@
 [
-	{ "command": "google_spell_check" },
     {
         "caption": "Project Specific Syntax",
         "children":

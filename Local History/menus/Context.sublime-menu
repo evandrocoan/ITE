@@ -1,41 +1,24 @@
 [
     { "caption": "-" },
-    
     { "caption": "Mark selection for comparison", "command": "sbs_mark_sel" },
     { "caption": "Compare selection", "command": "sbs_compare", "args": { "compare_selections": true } },
     {
         "caption": "Local History",
         "children":
         [
-            { "caption": "Compare with...", "command": "sbs_compare" },
+            { "caption": "Show Unsaved Changes…", "command": "diff_changes" },
             {
                 "id" : "highlight_build_errors",
                 "caption" : "Show Error Message",
                 "command" : "show_error_message"
             },
+            { "command": "google_spell_check" },
             { "caption": "-" },
-            {
-                "caption": "Browse",
-                "command": "history_browse"
-            },
-            {
-                "caption": "Open",
-                "command": "history_open"
-            },
-            {
-                "caption": "Compare",
-                "command": "history_compare"
-            },
-            {
-                "caption": "Replace",
-                "command": "history_replace"
-            },
-            {
-                "caption": "Incremental Diff",
-                "command": "history_incremental_diff"
-            },
-            { "caption": "-" },
-            { "command": "destroy_pane", "args": {"direction": "self"}, "caption": "Destroy Current Pane" },
+            { "caption": "Local History Browse", "command": "history_browse" },
+            { "caption": "Local History Open", "command": "history_open" },
+            { "caption": "Local History Compare", "command": "history_compare" },
+            { "caption": "Local History Replace", "command": "history_replace" },
+            { "caption": "Local History Incremental Diff", "command": "history_incremental_diff" },
             { "caption": "-"},
             { "command": "gist", "caption": "Create Public Gist…" },
             { "command": "gist_private", "caption": "Create Private Gist…" },
