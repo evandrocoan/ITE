@@ -1,4 +1,5 @@
 [
+	{ "command": "google_spell_check" },
     {
         "caption": "Project Specific Syntax",
         "children":
@@ -46,5 +47,4 @@
             { "command": "show_annotation_comment", "caption": "Show Annotation Comment" },
         ]
     },
-    { "caption": "-" },
 ]

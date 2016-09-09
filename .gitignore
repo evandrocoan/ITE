@@ -59,6 +59,9 @@
 !/Gist
 !/Gist/*
 
+!/Google Spell Check
+!/Google Spell Check/*
+
 
 !.gitattributes
 !.gitmodules
