@@ -97,8 +97,11 @@
     { "keys": ["ctrl+pagedown"], "command": "next_view" },
     { "keys": ["ctrl+pageup"], "command": "prev_view" },
 
+    { "keys": ["ctrl+alt+tab"], "command": "extended_switcher", "args": {"list_mode": "window"} },
+    { "keys": ["ctrl+shift+tab"], "command": "extended_switcher", "args": {"list_mode": "active_group"} },
+
     { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
-    { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
+    { "keys": ["ctrl+alt+shift+tab"], "command": "prev_view_in_stack" },
 
     { "keys": ["ctrl+a"], "command": "select_all" },
     { "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
@@ -275,7 +278,7 @@
     { "keys": ["ctrl+j"], "command": "join_lines" },
     { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
 
-    { "keys": ["ctrl+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 
     { "keys": ["ctrl+space"], "command": "auto_complete" },
     { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
@@ -306,8 +309,9 @@
     { "keys": ["ctrl+b"], "command": "build", "context":
         [ { "key": "build_fake", "operator":"equal", "operand":true } ]
     },
-    { "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} },
     { "keys": ["ctrl+break"], "command": "exec", "args": {"kill": true} },
+    { "keys": ["ctrl+shift+c"], "command": "ansi_color_build", "args": {"kill": true} },
+    { "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} },
 
     { "keys": ["ctrl+t"], "command": "transpose" },
 
