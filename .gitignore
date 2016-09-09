@@ -56,6 +56,9 @@
 !/CopyWithLineNumbersReloaded
 !/CopyWithLineNumbersReloaded/*
 
+!/Gist
+!/Gist/*
+
 
 !.gitattributes
 !.gitmodules

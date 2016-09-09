@@ -30,10 +30,8 @@
             { "caption": "-" },
             { "command": "destroy_pane", "args": {"direction": "self"}, "caption": "Destroy Current Pane" },
             { "caption": "-"},
-            { "command": "create_pane", "args": {"direction": "up"}, "caption":    "Create Panel Above" },
-            { "command": "create_pane", "args": {"direction": "down"}, "caption":  "Create Panel Below" },
-            { "command": "create_pane", "args": {"direction": "right"}, "caption": "Create Panel Right" },
-            { "command": "create_pane", "args": {"direction": "left"}, "caption":  "Create Panel Left" },
+            { "command": "gist", "caption": "Create Public Gist…" },
+            { "command": "gist_private", "caption": "Create Private Gist…" },
             { "caption": "-"},
         ]
     }
