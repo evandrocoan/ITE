@@ -21,6 +21,7 @@
                 "command": "fuzzy_bookmarks_load"
             },
             { "caption": "-"},
+            { "caption": "Copy With Line Numbers", "command": "copy_with_line_numbers" },
             {
                 "caption": "Copy Filepath With Line Numbers",
                 "command": "copy_filepath_with_line_numbers"
