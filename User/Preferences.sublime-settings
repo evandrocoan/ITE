@@ -60,7 +60,7 @@
 	"line_padding_top": 1,
 	"new_file_syntax": "Packages/C++/C++.tmLanguage",
 	"preview_on_click": false,
-	"rulers": true,
+	"rulers": [100],
 	"scroll_past_end": false,
 	"shift_tab_unindent": true,
 	"show_encoding": true,
