@@ -47,6 +47,9 @@
 !/ExportHtml
 !/ExportHtml/*
 
+!/FuzzyFileNav
+!/FuzzyFileNav/*
+
 
 !.gitattributes
 !.gitmodules

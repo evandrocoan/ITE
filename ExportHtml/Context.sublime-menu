@@ -3,6 +3,24 @@
         "caption": "Project Specific Syntax",
         "children":
         [
+            { "caption": "-" },
+            {
+                "caption": "Fuzzy Nav Here...",
+                "command": "fuzzy_start_from_file"
+            },
+            {
+                "caption": "Fuzzy Nav",
+                "command": "fuzzy_file_nav"
+            },
+            {
+                "caption": "Fuzzy Project Folders",
+                "command": "fuzzy_project_folder_load"
+            },
+            {
+                "caption": "Fuzzy BookMarks",
+                "command": "fuzzy_bookmarks_load"
+            },
+            { "caption": "-"},
             { "caption": "Copy syntax setting to clipboard", "command": "project_specific_syntax_to_clipboard" },
             { "caption": "-" },
             { "command": "export_html_panel", "caption": "Export HTML" },
@@ -15,7 +33,8 @@
             { "command": "edit_annotation", "caption": "Edit Annotation" },
             { "command": "delete_annotations", "caption": "Delete Annotation(s)" },
             { "command": "clear_annotations", "caption": "Delete All Annotations" },
-            { "command": "show_annotation_comment", "caption": "Show Annotation Comment" }
+            { "command": "show_annotation_comment", "caption": "Show Annotation Comment" },
         ]
-    }
+    },
+    { "caption": "-" },
 ]
