@@ -12,7 +12,7 @@
 	"autoIndent": true,
 	"auto_complete": true,
 	"auto_complete_cycle": true,
-	"auto_complete_delay": 750,
+	"auto_complete_delay": 350,
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"auto_match_enabled": false,

@@ -18,6 +18,20 @@ contexts:
               pop: true
         - match: '#.*\n'
           scope: comment.line.percentage.octave
+          
+        - match: '"'
+          scope: punctuation.definition.string.begin.octave
+          push:
+          - meta_scope: string.quoted.double.octave
+          - match: '(")|(?<=^|[^\\])\s*(\n)'
+            captures:
+              1: punctuation.definition.string.end.octave
+              2: invalid.illegal.unexpected-end-of-line.octave
+            pop: true
+            
+        - match: '#.*\n'
+          scope: comment.line.percentage.octave
+          
         - match: (?<!\.)\b(end(for|if|while|swith|function))\b
           comment: Control keywords
           scope: keyword.control.octave
