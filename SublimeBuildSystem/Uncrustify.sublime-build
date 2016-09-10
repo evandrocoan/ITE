@@ -3,7 +3,7 @@
     // "selector": "source.AmxxPawn, source.AMXX",
     
     "shell": true,
-    "cmd": ["sh","$packages/SublimeBuildSystem/Uncrustify.sh","$file"],
+    "cmd": ["sh", "$packages/SublimeBuildSystem/Uncrustify.sh", "$file"],
     
     "target": "ansi_color_build",
     "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
