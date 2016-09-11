@@ -38,7 +38,8 @@
                         ]
                     }
                 ]
-            }
+            },
+            { "caption": "Force Re-write Sublime Settings", "command": "force_reload_sublime_settings" },
         ]
     }
 ]

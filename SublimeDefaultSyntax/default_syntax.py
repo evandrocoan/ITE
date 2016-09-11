@@ -8,4 +8,7 @@ class DefaultSyntaxCommand(sublime_plugin.EventListener):
 		view.set_syntax_file("Packages/C++/C++.tmLanguage")
 
 
+class ForceReloadSublimeSettingsCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        sublime.save_settings('Preferences.sublime-settings')
 
