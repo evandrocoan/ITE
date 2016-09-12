@@ -11,5 +11,6 @@
     { "command": "copy_path", "caption": "Copy File Path" },
     { "command": "open_in_browser", "caption": "Open in Browser" },
     { "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Open Containing Folder…" },
+    { "command": "synced_side_bar_reveal_in_side_bar", "caption": "Reveal in Side Bar" },
     { "caption": "-", "id": "end" }
 ]
