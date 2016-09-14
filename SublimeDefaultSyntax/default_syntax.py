@@ -1,8 +1,8 @@
 
 
+
 import sublime
 import sublime_plugin
-
 
 
 class DefaultSyntaxCommand(sublime_plugin.EventListener):
@@ -34,7 +34,7 @@ class SyncedSideBarRevealInSideBarCommand(sublime_plugin.TextCommand):
 
     def is_visible(self):
 
-        print( 'isNotSyncedSideBarEnabled: ' + str( isNotSyncedSideBarEnabled ) )
+        #print( 'isNotSyncedSideBarEnabled: ' + str( isNotSyncedSideBarEnabled ) )
         return isNotSyncedSideBarEnabled
 
 
@@ -42,21 +42,22 @@ def plugin_loaded():
 
     global isNotSyncedSideBarEnabled
 
+    userSettings           = sublime.active_window().active_view().settings()
     packageControlSettings = sublime.load_settings('Package Control.sublime-settings')
-    userSettings           = sublime.load_settings('Preferences.sublime-settings')
 
     def updateIsSyncedSideBarEnabled():
 
+        #print('    updateIsSyncedSideBarEnabled!!!!')
         global isNotSyncedSideBarEnabled
-        print('    updateIsSyncedSideBarEnabled!!!!')
 
         ignoredPackages   = userSettings.get( "ignored_packages" )
         installedPackages = packageControlSettings.get( "installed_packages" )
+
         isIgnored         = any( "SyncedSideBar" in package for package in ignoredPackages )
         isInstalled       = any( "SyncedSideBar" in package for package in installedPackages )
-        
-        print( 'isIgnored: ' + str( isIgnored ) )
-        print( 'isInstalled: ' + str( isInstalled ) )
+
+        #print( 'isIgnored: ' + str( isIgnored ) )
+        #print( 'isInstalled: ' + str( isInstalled ) )
 
         if isIgnored:
 
@@ -66,31 +67,31 @@ def plugin_loaded():
 
             if isInstalled:
 
-                isNotSyncedSideBarEnabled = False
+                isEnabled = userSettings.get( "reveal-on-activate" )
+                isNotSyncedSideBarEnabled = not isEnabled
 
             else:
 
                 isNotSyncedSideBarEnabled = True
 
-        print( 'isNotSyncedSideBarEnabled: ' + str( isNotSyncedSideBarEnabled ) )
-
+        #print( 'isNotSyncedSideBarEnabled: ' + str( isNotSyncedSideBarEnabled ) )
 
 
     def read_pref_async():
 
-        print('READ_PREF_ASYNC!!!!')
+        #print('READ_PREF_ASYNC!!!!')
         updateIsSyncedSideBarEnabled()
 
 
     def read_pref_package():
 
-        print('READ_PREF_PACKAGE!!!!')
+        #print('READ_PREF_PACKAGE!!!!')
         updateIsSyncedSideBarEnabled()
 
 
     def read_pref_preferences():
 
-        print('READ_PREF_PREFERENCES!!!!')
+        #print('READ_PREF_PREFERENCES!!!!')
         updateIsSyncedSideBarEnabled()
 
 
@@ -98,8 +99,8 @@ def plugin_loaded():
     sublime.set_timeout_async( read_pref_async, 10000 )
 
     # listen for changes
-    packageControlSettings.add_on_change( "Package Control", read_pref_package )
     userSettings.add_on_change( "Preferences", read_pref_preferences )
+    packageControlSettings.add_on_change( "Package Control", read_pref_package )
 
     #print( userSettings.get( "ignored_packages" ) )
     #print( packageControlSettings.get( "installed_packages" ) )
