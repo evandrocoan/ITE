@@ -40,8 +40,8 @@
     { "keys": ["shift+enter"], "command": "insert", "args": {"characters": "\n"} },
 
     { "keys": ["ctrl+z"], "command": "undo" },
-    { "keys": ["ctrl+shift+z"], "command": "redo" },
-    { "keys": ["ctrl+y"], "command": "redo_or_repeat" },
+    { "keys": ["ctrl+y"], "command": "redo" },
+    { "keys": ["ctrl+shift+z"], "command": "redo_or_repeat" },
     { "keys": ["ctrl+u"], "command": "soft_undo" },
     { "keys": ["ctrl+shift+u"], "command": "soft_redo" },
 
