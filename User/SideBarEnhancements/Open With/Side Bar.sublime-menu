@@ -1,0 +1,36 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+			{
+				"caption": "Windows - Notepad++ Light",
+				"id": "windows-notepad++",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Notepad++Portable\\App\\Notepad++\\notepad++.exe",
+									"extensions":".*", //any file with extension
+									"args":[]
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			
+			{
+				"caption": "Windows - Notepad++ Full",
+				"id": "windows-notepad++",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\Notepad++\\notepad++.exe",
+									"extensions":".*", //any file with extension
+									"args":[]
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			
+			{"caption":"-"},
+		]
+	}
+]
