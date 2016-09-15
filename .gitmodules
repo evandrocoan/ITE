@@ -7,3 +7,6 @@
 [submodule "SublimeTextToolBar"]
 	path = SublimeTextToolBar
 	url = https://github.com/evandrocoan/SublimeTextToolBar
+[submodule "SideBarEnhancements"]
+	path = SideBarEnhancements
+	url = https://github.com/evandrocoan/SideBarEnhancements
