@@ -60,8 +60,7 @@ ___
 
 Use on the console:
 ```
-sublime.log_commands(True)
-sublime.log_input(True)
+sublime.log_input(True); sublime.log_commands(True); sublime.log_result_regex(True)
 ```
 
 
