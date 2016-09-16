@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"inc",
-		"sma"
+		"bbcode"
 	]
 }

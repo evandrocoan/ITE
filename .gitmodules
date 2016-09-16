@@ -10,3 +10,6 @@
 [submodule "SideBarEnhancements"]
 	path = SideBarEnhancements
 	url = https://github.com/evandrocoan/SideBarEnhancements
+[submodule "BBCode"]
+	path = BBCode
+	url = https://github.com/evandrocoan/BBCode
