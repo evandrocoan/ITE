@@ -5,7 +5,8 @@
 		"param",
 		"plugin",
 		"Whitelist",
-		"settings"
+		"settings",
+		"reviewed"
 	],
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
