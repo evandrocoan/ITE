@@ -7,6 +7,7 @@
 /Terminal/*
 /SublimeCodeIntel/*
 /Pyyaml/*
+/pyyaml/*
 /Pyv8/*
 /python-markdown/*
 /python-jinja2/*
@@ -15,7 +16,7 @@
 /markupsafe/*
 /bz2/*
 /backrefs/*
-
+/ssl-linux/*
 
 
 
