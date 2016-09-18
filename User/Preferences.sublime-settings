@@ -60,8 +60,6 @@
 	"mark_dirty_file_char": "*",
 	"new_file_syntax": "Packages/C++/C++.tmLanguage",
 	"preview_on_click": false,
-	"reveal-all-tabs": false,
-	"reveal-on-activate": true,
 	"rulers":
 	[
 		100
