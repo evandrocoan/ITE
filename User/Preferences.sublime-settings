@@ -75,7 +75,6 @@
 	"show_full_path": false,
 	"show_line_endings": true,
 	"show_tab_close_buttons": true,
-	"skip_current_file": false,
 	"smart_indent": true,
 	"soda_classic_tabs": true,
 	"sort": true,
