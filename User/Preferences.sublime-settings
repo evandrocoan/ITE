@@ -1,13 +1,4 @@
 {
-	"added_words":
-	[
-		"Plugin",
-		"param",
-		"plugin",
-		"Whitelist",
-		"settings",
-		"reviewed"
-	],
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
 	"autoIndent": true,
