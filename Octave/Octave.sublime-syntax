@@ -32,7 +32,7 @@ contexts:
         - match: '#.*\n'
           scope: comment.line.percentage.octave
           
-        - match: (?<!\.)\b(end(for|if|while|swith|function))\b
+        - match: (?<!\.)\b(end(for|if|while|switch|function))\b
           comment: Control keywords
           scope: keyword.control.octave
 
