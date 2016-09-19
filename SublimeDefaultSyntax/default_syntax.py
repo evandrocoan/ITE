@@ -53,7 +53,7 @@ def plugin_loaded():
 
     global isNotSyncedSideBarEnabled
 
-    userSettings           = sublime.active_window().active_view().settings()
+    userSettings           = sublime.load_settings('SyncedSideBar.sublime-settings')
     packageControlSettings = sublime.load_settings('Package Control.sublime-settings')
 
     def updateIsSyncedSideBarEnabled():
@@ -118,7 +118,7 @@ def plugin_loaded():
     def read_pref_preferences():
 
         #print('READ_PREF_PREFERENCES!!!!')
-        userSettings = sublime.active_window().active_view().settings()
+        userSettings = sublime.load_settings('SyncedSideBar.sublime-settings')
         updateIsSyncedSideBarEnabled()
 
 
@@ -126,7 +126,7 @@ def plugin_loaded():
     sublime.set_timeout_async( read_pref_async, 10000 )
 
     # listen for changes
-    userSettings.add_on_change( "Preferences", read_pref_preferences )
+    userSettings.add_on_change( "SyncedSideBar", read_pref_preferences )
     packageControlSettings.add_on_change( "Package Control", read_pref_package )
 
     #print( userSettings.get( "ignored_packages" ) )
