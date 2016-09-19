@@ -13,3 +13,6 @@
 [submodule "BBCode"]
 	path = BBCode
 	url = https://github.com/evandrocoan/BBCode
+[submodule "ANSIescape"]
+	path = ANSIescape
+	url = https://github.com/evandrocoan/SublimeANSI
