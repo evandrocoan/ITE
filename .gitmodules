@@ -16,3 +16,6 @@
 [submodule "ANSIescape"]
 	path = ANSIescape
 	url = https://github.com/evandrocoan/SublimeANSI
+[submodule "Package Control"]
+	path = Package Control
+	url = https://github.com/evandrocoan/package_control

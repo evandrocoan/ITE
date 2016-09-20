@@ -14,22 +14,17 @@ ___
 
 1) Open the Sublime Text, after install it from [https://www.sublimetext.com/download](https://www.sublimetext.com/3)
 
-2) Install package manager [https://packagecontrol.io/installation](https://packagecontrol.io/installation):
-`
-import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-`
-
-3) Close your Sublime Text and delete/rename the folder below: (the folder `Packages/` below contain all your current settings)
+2) Close your Sublime Text and delete/rename the folder below: (the folder `Packages/` below contain all your current settings)
 ```
 mv -v ~/.config/sublime-text-3/Packages ~/.config/sublime-text-3/Packages_Old
 ```
 
-4) While keeping your Sublime Text closed, clone this repository using this command:
+3) While keeping your Sublime Text closed, clone this repository using this command:
 ```
 git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.config/sublime-text-3/Packages
 ```
 
-5) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
+4) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
 
 
 
