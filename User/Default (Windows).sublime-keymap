@@ -6,6 +6,64 @@
     { "keys": ["ctrl+k", "ctrl+h"], "command": "highlight_words" },
     { "keys": ["ctrl+k", "ctrl+i"], "command": "unhighlight_words" },
 
+
+    { "keys": ["enter"], "command": "jsdocs",
+    "context": [
+      { "key": "setting.auto_indent",   "operator": "equal",          "operand": true,                        "match_all": true },
+      { "key": "selection_empty",       "operator": "equal",          "operand": true,                        "match_all": true },
+      { "key": "auto_complete_visible", "operator": "equal",          "operand": false,                       "match_all": true },
+      { "key": "preceding_text",        "operator": "regex_contains", "operand": "^\\s*(\\/\\*|###)[*!]\\s*$", "match_all": true }
+    ]
+    },
+    
+    { "keys": ["enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line in Braces.sublime-macro"}, "context":
+        [
+            { "key": "setting.auto_indent", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "\\{$", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^\\}", "match_all": true }
+        ]
+    },
+    { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line in Braces.sublime-macro"}, "context":
+        [
+            { "key": "setting.auto_indent", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "\\{$", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^\\}", "match_all": true }
+        ]
+    },
+
+    { "keys": ["enter"], "command": "auto_indent_tag", "context":
+        [
+            { "key": "setting.auto_indent", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "punctuation.definition.tag.begin", "match_all": true },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": ">$", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^</", "match_all": true },
+        ]
+    },
+    { "keys": ["shift+enter"], "command": "auto_indent_tag", "context":
+        [
+            { "key": "setting.auto_indent", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "punctuation.definition.tag.begin", "match_all": true },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": ">$", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^</", "match_all": true },
+        ]
+    },
+
+    { "keys": ["enter"], "command": "insert", "args": {"characters": "\n"} },
+    { "keys": ["shift+enter"], "command": "insert", "args": {"characters": "\n"} },
+
+    { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+    { "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+    { "keys": ["enter"], "command": "commit_completion", "context":
+        [
+            { "key": "auto_complete_visible" },
+            { "key": "setting.auto_complete_commit_on_tab", "operand": false }
+        ]
+    },
+
     { "keys": ["ctrl+alt+c"], "command": "ansi_color_build", "args": {"kill": true} },
     { "keys": ["ctrl+shift+n"], "command": "new_window" },
     { "keys": ["ctrl+shift+w"], "command": "close_window" },
@@ -36,8 +94,7 @@
     { "keys": ["backspace"], "command": "hungry_backspace" },
     { "keys": ["shift+backspace"], "command": "left_delete" },
     { "keys": ["delete"], "command": "right_delete" },
-    { "keys": ["enter"], "command": "insert", "args": {"characters": "\n"} },
-    { "keys": ["shift+enter"], "command": "insert", "args": {"characters": "\n"} },
+
 
     { "keys": ["ctrl+z"], "command": "undo" },
     { "keys": ["ctrl+y"], "command": "redo" },
@@ -222,14 +279,6 @@
     { "keys": ["ctrl+q"], "command": "toggle_record_macro" },
     { "keys": ["ctrl+shift+q"], "command": "run_macro" },
 
-    { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
-    { "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
-    { "keys": ["enter"], "command": "commit_completion", "context":
-        [
-            { "key": "auto_complete_visible" },
-            { "key": "setting.auto_complete_commit_on_tab", "operand": false }
-        ]
-    },
 
     { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
@@ -488,41 +537,6 @@
         ]
     },
 
-    { "keys": ["enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line in Braces.sublime-macro"}, "context":
-        [
-            { "key": "setting.auto_indent", "operator": "equal", "operand": true },
-            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "preceding_text", "operator": "regex_contains", "operand": "\\{$", "match_all": true },
-            { "key": "following_text", "operator": "regex_contains", "operand": "^\\}", "match_all": true }
-        ]
-    },
-    { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line in Braces.sublime-macro"}, "context":
-        [
-            { "key": "setting.auto_indent", "operator": "equal", "operand": true },
-            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "preceding_text", "operator": "regex_contains", "operand": "\\{$", "match_all": true },
-            { "key": "following_text", "operator": "regex_contains", "operand": "^\\}", "match_all": true }
-        ]
-    },
-
-    { "keys": ["enter"], "command": "auto_indent_tag", "context":
-        [
-            { "key": "setting.auto_indent", "operator": "equal", "operand": true },
-            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "selector", "operator": "equal", "operand": "punctuation.definition.tag.begin", "match_all": true },
-            { "key": "preceding_text", "operator": "regex_contains", "operand": ">$", "match_all": true },
-            { "key": "following_text", "operator": "regex_contains", "operand": "^</", "match_all": true },
-        ]
-    },
-    { "keys": ["shift+enter"], "command": "auto_indent_tag", "context":
-        [
-            { "key": "setting.auto_indent", "operator": "equal", "operand": true },
-            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "selector", "operator": "equal", "operand": "punctuation.definition.tag.begin", "match_all": true },
-            { "key": "preceding_text", "operator": "regex_contains", "operand": ">$", "match_all": true },
-            { "key": "following_text", "operator": "regex_contains", "operand": "^</", "match_all": true },
-        ]
-    },
 
     {
         "keys": ["alt+shift+1"],
