@@ -12,11 +12,11 @@ These are my sublime settings/packages used to program on:
 ___
 ## Installation
 
-1) Open the Sublime Text, after install it from [https://www.sublimetext.com/download](https://www.sublimetext.com/3)
+1) Open the Sublime Text, after install it from [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
 
-2) Close your Sublime Text and delete/rename the folder below: (the folder `Packages/` below contain all your current settings)
+2) Close your Sublime Text and delete/rename the folder below: (the folder `sublime-text-3/` below contain all your current settings)
 ```
-mv -v ~/.config/sublime-text-3/Packages ~/.config/sublime-text-3/Packages_Old
+mv -v ~/.config/sublime-text-3/ ~/.config/sublime-text-3_Old/
 ```
 
 3) While keeping your Sublime Text closed, clone this repository using this command:
@@ -24,28 +24,30 @@ mv -v ~/.config/sublime-text-3/Packages ~/.config/sublime-text-3/Packages_Old
 git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.config/sublime-text-3/Packages
 ```
 
+ * The packages will be automatically installed on the first `Sublime Text` run after the repository clone.
+
 4) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
+
+5) You can open the Console on View -> Console (Ctrl+`) to view the download progress.
 
 
 
 ___
 ## Notes
 
-If you are using the portable version (Linux/Windows/Mac), delete/rename the folder: (the folder `Packages/` below contain all your current settings)
+If you are using the portable version (Linux/Windows/Mac), delete/rename the folder `Data/`: (the folder `Data/` below contain all your current settings)
 ```
-$SUBLIME_ROOT_FOLDER/Data/Packages/ $SUBLIME_ROOT_FOLDER/Data/Packages_Old/
+rename $SUBLIME_ROOT_FOLDER/Data/ $SUBLIME_ROOT_FOLDER/Data_Old/
 ```
 And clone it with:
 ```
 git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git $SUBLIME_ROOT_FOLDER/Data/Packages
 ```
 
-1. You can open the Console on View -> Console (Ctrl+`).
-1. The packages will be automatically installed on the first run after the repository clone.
-1. If you are a Windows user, just figure out where are your settings folders.
+1. If you are a Windows user, just figure out where are your settings folders. (the folder `Sublime Text 3\` below contain all your current settings)
 
 ```
-~/.config/sublime-text-3/Packages --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\Packages"
+~/.config/sublime-text-3/ --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\"
 ```
 
 
@@ -53,7 +55,7 @@ git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git $SUBL
 ___
 ## Debugging
 
-Use on the console:
+Use on the console: (View -> Show Console)
 ```
 sublime.log_input(True); sublime.log_commands(True); sublime.log_result_regex(True)
 ```
@@ -73,12 +75,8 @@ See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) file for more inform
 
 ___
 ## TODO
-Remove all settings from the user files, and added them to the default settings well documented.
 
-
-1. Go to: `Preferences -> Pacakge Settings -> Gist -> Settings - Default`
-  Copy its contents and go to: `Preferences -> Pacakge Settings -> Gist -> Settings - User`
-  Then read the instructions on `// Your GitHub API token`
+See its main post at the AlliedModders' Forum: [Versioned Sublime Text Settings](https://forums.alliedmods.net/showthread.php?p=2454292#post2454292)
 
 
 
