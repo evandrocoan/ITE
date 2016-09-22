@@ -78,6 +78,7 @@
 	"tree_animation_enabled": false,
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": false,
+	"update_check": false,
 	"use_tab_stops": false,
 	"wantVerticalScrollBar": false,
 	"word_wrap": true
