@@ -58,7 +58,7 @@ fi
 
 
 # If the $fileNameToUpdate is not being committed right now, do nothing.
-if [[ $currentGitFiles == *"$fileNameToUpdate"* ]]
+if true # [[ $currentGitFiles == *"$fileNameToUpdate"* ]]
 then
     # To prints a error message when it does not find the version number on the file.
     #
