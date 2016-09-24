@@ -1,0 +1,167 @@
+[anchor]Top[/anchor][SIZE="7"][B]Versioned Sublime Text Settings[/B][/SIZE]
+
+
+
+[SIZE="6"][COLOR="blue"][B]Contents' Table[/B][/COLOR][/SIZE]
+
+
+[LIST=1]
+[*][goanchor=Introduction]Introduction[/goanchor]
+[*][goanchor=TODO]TODO[/goanchor]
+[*][goanchor=Build]Its build system[/goanchor]
+[*][goanchor=Project]Project management[/goanchor]
+[*][goanchor=Symbols]Symbols Navigating Pawn[/goanchor]
+[*][goanchor=Selections]Multi-Selections[/goanchor]
+[*][goanchor=Navigating]Side Bar Navigating[/goanchor]
+[*][goanchor=Finally]Finally[/goanchor]
+[*][goanchor=Coming]It is coming![/goanchor]
+[*][goanchor=Changelog]Changelog[/goanchor]
+[*][goanchor=LatestRelease]Downloads[/goanchor]
+[/LIST]
+
+
+[anchor]Introduction[/anchor][SIZE="6"][B]Introduction[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
+
+Related topics:
+[LIST=1]
+[*][URL="https://www.sublimetext.com/"]Why Sublime Text?[/URL]
+[*][URL="https://coderwall.com/p/k-bxtq/versioning-your-sublime-text-configuration"]Versioning your Sublime Text configuration[/URL]
+[*][URL="http://stackoverflow.com/questions/16464410/what-how-to-version-control-for-text-editor-sublime-text-settings-on-github"]What & how to version control for text editor (Sublime Text) settings on Github[/URL]
+[*][URL="https://opensourcehacker.com/2013/05/09/exporting-and-sharing-sublime-text-configuration/"]Exporting and sharing Sublime Text configuration[/URL]
+[/LIST]
+
+Eclipse, Netbeans, the JetBrains IDE's and VisualStudio are very good IDE for their major languages. Offer awesome tools and etc. The problem is, they are good only for the major, so if you want to/need to program on several ones, you will need to setup several different editor if they exist, i.e., there are specific ones for them as Java for Eclipse, C++ for Visual Studio and etc. There are packages to provide some support for other languages on these big IDEs, however they do not offer as much power as their native language ones. So, the proposal is to take on `Advanced Text Editor` which may be easily extended and use it for several/any languages you want to/need to program on. That is what is going to be tried within `Sublime Text`. I am developing `Sublime Text` Settings by versionning control using git. If you just started, you could install my settings at [URL="https://github.com/evandrocoan/SublimeTextStudio#installation"] https://github.com/evandrocoan/SublimeTextStudio#installation[/URL].
+
+
+
+[anchor]TODO[/anchor][SIZE="6"][B]TODO[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
+
+For now they need some fixes as:
+[LIST=1]
+[*]Remove all settings from the user files, and added them to the default settings well documented.
+[*]Go to: `Preferences -> Pacakge Settings -> Gist -> Settings - Default`
+Copy its contents and go to: `Preferences -> Pacakge Settings -> Gist -> Settings - User`
+Then read the instructions on `// Your GitHub API token`
+[*]I never got that [URL="https://github.com/spadgos/sublime-jsdocs"]DocBlockr[/URL] package working. I need to get into it to know why and what is happening.
+[*]I also do not like mime `ctrl+d` shortcut selecting not the whole word some times. I need to see what is going exactly.
+[*]To improve/complete the `Notepad++` syntax theme I am developing. I get to like the `Notepad++` highlight, so when I first got on `Sublime Text` I start writing one.
+[*]To find all shortcut conflicts within `Sublime Text`. I think there are, as the `User` shortcut files is big.
+[*]Here you may find the [URL="https://github.com/evandrocoan/SublimeTextStudio/blob/master/User/Package%20Control.sublime-settings"]installed packages/plugins[/URL] and search for what they are doing.
+[*]To let other people use my settings, I need to provide a guide to they know what they can or cannot do currently. But for shorthand now you may press `ctrl+shift+p` and start typing things you like:
+
+[IMG]http://i.imgur.com/gjD9v50.gif[/IMG]
+[/LIST]
+
+I just started using `Sublime Text`, until now is almost two months gathering plugins/packages, settings things up. I came to `Sublime Text` due its speed and flexibility. At the beginning, I was just programming on C++, Java SE, then Eclipse, Netbeans, the JetBrains IDE's and VisualStudio were very good to go/use. However, I started programming on more, and more languages each day, then on a midlife crisis point, because I need something fast and powerful to all languages, not just C++/Java. The point is, setting up several IDE's for each language is a nightmare. But finding one `Editor`, and only one `Editor` and setting it up to work with every language I came across it is the best thing to do because, code is code. Does not matter if it is AmxxPawn, SourcePawn, C++, Java, Prolog, HTML, LaTeX, CSS, etc. You will always get used to some set of tools as:
+[LIST=1]
+[*]Multi-cursors
+[*]Line duplication
+[*]Sticky search highlight
+[*]Syntax coloring
+[*]Autocompletion
+[*]Snippet insertion
+[*]Shortcuts
+[*]Build errors highlight
+[*]Symbol navigation
+[*]etc.
+[/LIST]
+The need to use and configure several IDE's to do these simple tasks is not worth, because most of them, are not handy to updates/upgrades and clean installs, or even to apply versioning into your settings to use them across several computers. Summarizing, I got tired of setting up several `Editors/Integrated Development Environments` across the years. So, I started using `Notepad++` for a long time. But long after I got tired from its project management, then I started looking out for other as Atom and Komodo. But none of them was good enough as `Sublime Text`. Now for some tasks I still using `Notepad++` because `Sublime Text` just cannot handle them as its `not handy search` box:
+
+[B]`Sublime Text`'s one[/B]:
+
+[img]http://i.imgur.com/nnnlLpH.png[/img]
+
+
+My screen is very large, and that search `Sublime Text` thing on the page's bottom does not help. Is needed something to move around as wanted to, like the `Notepad++` search box. May be can written a C++ program to run/be a Search Box like the `Notepad++`'s one. But for now I am sticking within the others boring things to be fixed as the `DocBlockr` package.
+
+[B]`Notepad++`'s one[/B]:
+
+[IMG]http://i.imgur.com/noS59Kl.png[/IMG]
+
+
+
+[anchor]Build[/anchor][SIZE="6"][B]Its build system[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
+
+It is pretty handy. This below is a project file where `"path": "."` is the current folder where the file `ProjectName.sublime-project` is. It is used to specify which are the project files to be used for compiling and will show up on the `Sublime Text`'s side bar. The `"build_systems":` is one of the [URL="http://docs.sublimetext.info/en/latest/reference/build_systems.html"]builders[/URL] to use when building this project. The `file_regex` is the [URL="https://regex101.com/r/kW1fX9/1"]expression[/URL] which catch the build errors and allow you to double click it and go to the line where it happened. On this project, the file `compile_and_install.bat` is the one used to compile and install, so everything needed to be performed is written on the `windows batch` language. It could be also [URL="http://docs.sublimetext.info/en/latest/reference/build_systems/configuration.html#build-system-variables"]anything else[/URL], as `Shell Scrip`.
+[pawn]
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "F:\\SteamCMD\\steamapps\\common\\Half-Life\\czero\\addons\\amxmodx"
+		}
+	],
+    "build_systems":
+    [
+        {
+            "working_dir": "$project_path/scripting",
+            // "selector": "source.AmxxPawn, source.AMXX", // comment this to build from everywhere
+            
+            "file_regex": "(^[a-zA-Z._-]+)\\(([0-9]+)\\) : (error.*)",
+            "name": "Build Main file",
+            "cmd": ["compile_and_install.bat", "1"],
+            
+            "target": "ansi_color_build",
+            "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+        }
+    ]
+}
+[/pawn]
+[SPOILER][IMG]http://i.imgur.com/f5d6Rxc.gif[/IMG][/SPOILER]
+
+
+[anchor]Project[/anchor][SIZE="6"][B]Project management[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
+
+There is also something wonderful I would like to talk about. It is the `Sublime Text` project management. On this animated gif, I am switching from one project to the other. `Sublime Text` saves everything ([URL="https://www.sublimetext.com/blog/articles/sublime-text-2-build-2126"]Hot Exit[/URL]), yours current selections, opened files on side bar, whether they are expanded or not, etc. This same behiaor applies when you close `Sublime Text` text. Even if your changes are not saved, they are restored as they were, on the next `Sublime Text` start.
+[SPOILER][IMG]http://i.imgur.com/XODcIYG.gif[/IMG][/SPOILER]
+
+
+[anchor]Symbols[/anchor][SIZE="6"][B]Symbols Navigating Pawn[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
+
+By typing `ctrl+r` you may jump between symbols/functions defined on your text. Using the `@` or the `#` to choose symbols.
+[SPOILER][IMG]http://i.imgur.com/ojGY2i6.gif[/IMG][/SPOILER]
+
+
+[anchor]Selections[/anchor][SIZE="6"][B]Multi-Selections[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
+
+Another good shortcut is `alt+left_arrow` or `alt+right_arrow` to jump between the last/next cursor position. And using `shift+alt+up_arrow` and `shift+alt+down_arrow` you may create multiple cursors posions on the screen. Most shortcuts are defined on the [URL="https://github.com/evandrocoan/SublimeTextStudio/blob/master/User/Default%20(Windows).sublime-keymap"]Default (Windows/Linux).sublime-keymap[/URL] file at the `User` folder.
+[SPOILER][IMG]http://i.imgur.com/eutKjNy.gif[/IMG][/SPOILER]
+
+
+[anchor]Navigating[/anchor][SIZE="6"][B]Side Bar Navigating[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
+
+By typing `ctrl+0` you may navigate between files on the side bar, if enabled.
+[SPOILER][IMG]http://i.imgur.com/pcWdSDI.gif[/IMG][/SPOILER]
+
+
+[anchor]Finally[/anchor][B][SIZE="6"]Finally[/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
+
+What I hate most on eclipse and other IDE's was on every new release I got to manually reinstall all my plugins. But with `Sublime Text` I can apply a versioning system as git on them. So everywhere I go, I just need to go to my GitHub webpage, copy the two commands and wait some minutes while all my settings and plugins are installed by `Sublime Text`. Talking about that, this is full video installing the settings, if you wanna install them:[URL="https://vid.me/ODYj"] https://vid.me/ODYj[/URL]
+
+
+
+[anchor]Coming[/anchor][B][SIZE="6"]It is coming![/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
+
+I am doing this development and it seens pretty good to me. But there is this symbol jump bug I [URL="https://github.com/SublimeTextIssues/Core/issues/1375"]reported here[/URL] and some other little things. But they are developing it and fixing bugs, so I expect for the next versions it to became the most powerful Pawn IDE ever. Also the same time you write pawn, you can jump for the AMX Mod X implementation and develop it at the same time.
+
+[IMG]https://cloud.githubusercontent.com/assets/5332158/18613731/cce9c036-7d56-11e6-8add-4747dbd6fb7a.gif[/IMG]
+
+
+
+[anchor]Changelog[/anchor][B][SIZE="6"]Changelog[/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
+
+[B]2016-09-24 | v1.0.0-3[/B]
+[LIST=1]
+[*]Created/implemented the auto-versioning system.
+[/LIST]
+
+
+[anchor]LatestRelease[/anchor][B][SIZE="6"]Downloads[/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
+
+[URL="https://github.com/evandrocoan/SublimeTextStudio#installation"] https://github.com/evandrocoan/SublimeTextStudio#installation[/URL]
+
+[SIZE="1"]____________________________________________________________________________________________________________[/SIZE]
+
