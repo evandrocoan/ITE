@@ -75,13 +75,13 @@ then
     
     # This creates the flag file '$updateFlagFilePath' to indicate that 'post-checkout' and
     # 'post-commit' hooks must to update the version number. It only updates whether the current
-    # branch the develop and the file being changed is "$fileNameToUpdate".
-    if [[ $currentBranch == "develop" ]]
+    # branch the master and the file being changed is "$fileNameToUpdate".
+    if [[ $currentBranch == "master" ]]
     then
         echo "true" > $updateFlagFilePath
         echo "Successfully created the flag file '$updateFlagFilePath'"
     else
-        echo "The '$fileNameToUpdate' file is not being updated, because we are not on the 'develop' branch."
+        echo "The '$fileNameToUpdate' file is not being updated, because we are not on the 'master' branch."
     fi
 else
     echo "The '$fileNameToUpdate' file is not being committed right now."

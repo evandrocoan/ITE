@@ -25,13 +25,13 @@ GIT_DIR_="$(git rev-parse --git-dir)"
 updateVersionScript=$GIT_DIR_/../.githooks/__post-git-hook.sh
 
 currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
-commitsBehindDevelop=$(git rev-list --count $currentBranch..develop)
+commitsBehindDevelop=$(git rev-list --count $currentBranch..master)
 
 
-# Alert the user when his checkout branch is behind the develop branch.
+# Alert the user when his checkout branch is behind the master branch.
 if [ $commitsBehindDevelop -gt 0 ]
 then
-    echo "ATTENTION: Your branch '$currentBranch' is $commitsBehindDevelop commits behind develop"
+    echo "ATTENTION: Your branch '$currentBranch' is $commitsBehindDevelop commits behind master"
     # exit 1
 fi
 
