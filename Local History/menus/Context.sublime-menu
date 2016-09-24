@@ -14,6 +14,30 @@
             },
             { "command": "google_spell_check" },
             { "caption": "-" },
+            
+            {
+                "caption": "Color Helper",
+                "children":
+                [
+                    {
+                        "caption": "Color Info",
+                        "command": "color_helper",
+                        "args": { "mode": "info" }
+                    },
+                    {
+                        "caption": "Color Palettes",
+                        "command": "color_helper",
+                        "args": {"mode": "palette"}
+                    },
+                    {
+                        "caption": "Color Picker",
+                        "command": "color_helper",
+                        "args": { "mode": "color_picker" }
+                    }
+                ]
+            },
+            { "caption": "-"},
+            
             { "caption": "Local History Browse", "command": "history_browse" },
             { "caption": "Local History Open", "command": "history_open" },
             { "caption": "Local History Compare", "command": "history_compare" },
