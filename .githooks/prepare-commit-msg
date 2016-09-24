@@ -1,0 +1,94 @@
+#!/bin/sh
+#
+# An example hook script to prepare the commit log message.
+# Called by "git commit" with the name of the file that has the
+# commit message, followed by the description of the commit
+# message's source.  The hook's purpose is to edit the commit
+# message file.  If the hook fails with a non-zero status,
+# the commit is aborted.
+#
+# To enable this hook, rename this file to "prepare-commit-msg".
+#
+# The prepare-commit-msg hook is run before the commit message
+# editor is fired up but after the default message is created.
+# It lets you edit the default message before the commit author
+# sees it. This hook takes a few parameters:
+# $1 - the path to the file that holds the commit message so far, (as .git/MERGE_MSG)
+# $2 - the type of commit, (as message or merge)
+# $3 - the commit SHA-1 if this is an amended commit.
+# echo "1 = $1, 2 = $2, 3 = $3"
+
+
+
+echo "Running the prepare-commmit-message hook..."
+
+
+GIT_DIR_="$(git rev-parse --git-dir)"
+githooksConfig=$(cat $GIT_DIR_/../.githooks/githooksConfig.txt)
+
+# $versionFilePath example: .githooks/GALILEO_SMA_VERSION.txt
+versionFilePath=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 1)
+
+# $filePathToUpdate example: scripting/galileo.sma
+filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
+
+# $fileNameToUpdate example: galileo.sma
+fileNameToUpdate=$(echo $githooksConfig | cut -d',' -f 3)
+
+# $updateFlagFilePath example: isToUpdateTheGalileoFile.txt
+updateFlagFilePath=$GIT_DIR_/$(echo $githooksConfig | cut -d',' -f 4)
+
+currentGitFiles=$(git diff --name-only --cached)
+currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
+
+currentVersion=$(cat $versionFilePath)
+
+
+# When the file "$updateFlagFilePath" exits, we must not to recreate it, as we just did
+# that. This happens because the file "$updateFlagFilePath" is created to indicate that
+# the version number already updated and doing it again would create an infinite loop.
+# Because this is a recursive shell script, hence this file is recalled later and it
+# must to be stopped right here.
+if [ -f $updateFlagFilePath ]
+then
+    echo "Removing old prepare-commmit-message configuration file '$updateFlagFilePath'..."
+    rm $updateFlagFilePath
+    exit 0
+fi
+
+
+# If the $fileNameToUpdate is not being committed right now, do nothing.
+if [[ $currentGitFiles == *"$fileNameToUpdate"* ]]
+then
+    # To prints a error message when it does not find the version number on the file.
+    #
+    # 'F' affects how PATTERN is interpreted (fixed string instead of a regex).
+    # 'q' shhhhh... minimal printing.
+    #
+    if ! grep -Fq "v$currentVersion" "$filePathToUpdate"
+    then
+        echo "Error! Could not find v$currentVersion and update the file '$filePathToUpdate'."
+        echo "The current version number on this file must be v$currentVersion."
+        echo "Or fix the file '$versionFilePath' to the correct value."
+        exit 1
+    fi
+    
+    # This creates the flag file '$updateFlagFilePath' to indicate that 'post-checkout' and
+    # 'post-commit' hooks must to update the version number. It only updates whether the current
+    # branch the develop and the file being changed is "$fileNameToUpdate".
+    if [[ $currentBranch == "develop" ]]
+    then
+        echo "true" > $updateFlagFilePath
+        echo "Successfully created the flag file '$updateFlagFilePath'"
+    else
+        echo "The '$fileNameToUpdate' file is not being updated, because we are not on the 'develop' branch."
+    fi
+else
+    echo "The '$fileNameToUpdate' file is not being committed right now."
+fi
+
+
+# Exits the program using a successful exit status code.
+exit 0
+
+

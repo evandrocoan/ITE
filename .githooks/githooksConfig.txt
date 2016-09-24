@@ -1,0 +1,17 @@
+.githooks/SUBLIME_STUDIO_VERSION.txt,README.MD,README.MD,isToUpdateTheStudioFile.txt,
+
+This is the 'updateVersion.sh' configuration file.
+It is important do not include any spaces on the above configuration line or remove the last comma.
+
+The above line define the files where:
+1) The file path where the current version number will be stored. Example: githooks/GALILEO_VERSION.txt
+2) The file path which will be updated using the current version file. Example: scripting/galileo.sma
+3) The file name which will be updated using the current version file. Example: galileo.sma
+4) The file name which will be used as flag to run the version update. Example: isToUpdateTheGalileoFile.txt
+
+Note: Both files must be using the same version number when the 'updateVersion.sh' program ran.
+
+#
+# This version number must be synced with "githooks/PROGRAM_NAME_VERSION.txt" for manual edition.
+# To update them automatically, use: ./.githooks/updateVersion.sh [major | minor | patch | build]
+#
