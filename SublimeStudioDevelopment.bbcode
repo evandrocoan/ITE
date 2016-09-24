@@ -85,15 +85,15 @@ My screen is very large, and that search `Sublime Text` thing on the page's bott
 It is pretty handy. This below is a project file where `"path": "."` is the current folder where the file `ProjectName.sublime-project` is. It is used to specify which are the project files to be used for compiling and will show up on the `Sublime Text`'s side bar. The `"build_systems":` is one of the [URL="http://docs.sublimetext.info/en/latest/reference/build_systems.html"]builders[/URL] to use when building this project. The `file_regex` is the [URL="https://regex101.com/r/kW1fX9/1"]expression[/URL] which catch the build errors and allow you to double click it and go to the line where it happened. On this project, the file `compile_and_install.bat` is the one used to compile and install, so everything needed to be performed is written on the `windows batch` language. It could be also [URL="http://docs.sublimetext.info/en/latest/reference/build_systems/configuration.html#build-system-variables"]anything else[/URL], as `Shell Scrip`.
 [pawn]
 {
-	"folders":
-	[
-		{
-			"path": "."
-		},
-		{
-			"path": "F:\\SteamCMD\\steamapps\\common\\Half-Life\\czero\\addons\\amxmodx"
-		}
-	],
+    "folders":
+    [
+        {
+            "path": "."
+        },
+        {
+            "path": "F:\\SteamCMD\\steamapps\\common\\Half-Life\\czero\\addons\\amxmodx"
+        }
+    ],
     "build_systems":
     [
         {
@@ -146,22 +146,38 @@ What I hate most on eclipse and other IDE's was on every new release I got to ma
 [anchor]Coming[/anchor][B][SIZE="6"]It is coming![/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
 
 I am doing this development and it seens pretty good to me. But there is this symbol jump bug I [URL="https://github.com/SublimeTextIssues/Core/issues/1375"]reported here[/URL] and some other little things. But they are developing it and fixing bugs, so I expect for the next versions it to became the most powerful Pawn IDE ever. Also the same time you write pawn, you can jump for the AMX Mod X implementation and develop it at the same time.
-
-[IMG]https://cloud.githubusercontent.com/assets/5332158/18613731/cce9c036-7d56-11e6-8add-4747dbd6fb7a.gif[/IMG]
-
+[SPOILER][IMG]https://cloud.githubusercontent.com/assets/5332158/18613731/cce9c036-7d56-11e6-8add-4747dbd6fb7a.gif[/IMG][/SPOILER]
 
 
 [anchor]Changelog[/anchor][B][SIZE="6"]Changelog[/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
 
+[SPOILER]
 [B]2016-09-24 | v1.0.0-3[/B]
 [LIST=1]
 [*]Created/implemented the auto-versioning system.
+[*]Added new packaged for the theme editing:
+[IMG]https://forum.sublimetext.com/uploads/default/original/3X/f/8/f899578509f6bded366101140945fda237c9466d.gif[/IMG]
 [/LIST]
+[/SPOILER]
 
 
-[anchor]LatestRelease[/anchor][B][SIZE="6"]Downloads[/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
+[anchor]LatestRelease[/anchor][B][SIZE="6"]Download[/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
 
+Follow this link get the installation steps. This setup is available for both Windows, Linux users and it is untested for Mac OS:
 [URL="https://github.com/evandrocoan/SublimeTextStudio#installation"] https://github.com/evandrocoan/SublimeTextStudio#installation[/URL]
 
+[SIZE="1"]You will need to be able to use command line interface within the `git` command available.
+If you do know how to use them, see the video tutorial provided there on the installation link just
+above. See these links to learn how to setup a command line tool within git on Linux and Windows:
+[LIST=1]
+[*][SIZE="1"][URL="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"]Getting Started - Installing Git[/URL][/SIZE]
+[*][SIZE="1"][URL="http://www.computerhope.com/issues/chusedos.htm"]How to use the Window command line (DOS)[/URL][/SIZE]
+[*][SIZE="1"][URL="http://www.digitalcitizen.life/command-prompt-how-use-basic-commands"]Command Prompt - How to use the simple, basic commands[/URL][/SIZE]
+[*][SIZE="1"][URL="http://www.howtogeek.com/howto/windows-vista/stupid-geek-tricks-open-an-explorer-window-from-the-command-prompts-current-directory/"]Stupid Geek Tricks: Open an Explorer Window from the Command Prompt’s Current Directory[/URL][/SIZE]
+[/LIST]
+[/SIZE]
+
 [SIZE="1"]____________________________________________________________________________________________________________[/SIZE]
+
+
 
