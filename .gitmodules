@@ -25,3 +25,6 @@
 [submodule "Boxy Theme"]
 	path = Boxy Theme
 	url = https://github.com/evandrocoan/st-boxy
+[submodule "Theme - Soda"]
+	path = Theme - Soda
+	url = https://github.com/evandrocoan/soda-theme
