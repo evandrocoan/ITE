@@ -1,4 +1,8 @@
 {
+	"auto_upgrade_ignore":
+	[
+		"Package Control"
+	],
 	"bootstrapped": true,
 	"in_process_packages":
 	[
