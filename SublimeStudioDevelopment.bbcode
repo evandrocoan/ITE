@@ -7,16 +7,16 @@
 
 [LIST=1]
 [*][goanchor=Introduction]Introduction[/goanchor]
+[*][goanchor=Basic][b]Special Notes[/b][/goanchor]
 [*][goanchor=TODO]TODO[/goanchor]
 [*][goanchor=Build]Its build system[/goanchor]
 [*][goanchor=Project]Project management[/goanchor]
 [*][goanchor=Symbols]Symbols Navigating Pawn[/goanchor]
 [*][goanchor=Selections]Multi-Selections[/goanchor]
 [*][goanchor=Navigating]Side Bar Navigating[/goanchor]
-[*][goanchor=Finally]Finally[/goanchor]
 [*][goanchor=Coming]It is coming![/goanchor]
 [*][goanchor=Changelog]Changelog[/goanchor]
-[*][goanchor=LatestRelease]Downloads[/goanchor]
+[*][goanchor=LatestRelease][b]Download[/b][/goanchor]
 [/LIST]
 
 
@@ -32,6 +32,13 @@ Related topics:
 
 Eclipse, Netbeans, the JetBrains IDE's and VisualStudio are very good IDE for their major languages. Offer awesome tools and etc. The problem is, they are good only for the major, so if you want to/need to program on several ones, you will need to setup several different editor if they exist, i.e., there are specific ones for them as Java for Eclipse, C++ for Visual Studio and etc. There are packages to provide some support for other languages on these big IDEs, however they do not offer as much power as their native language ones. So, the proposal is to take on `Advanced Text Editor` which may be easily extended and use it for several/any languages you want to/need to program on. That is what is going to be tried within `Sublime Text`. I am developing `Sublime Text` Settings by versionning control using git. If you just started, you could install my settings at [URL="https://github.com/evandrocoan/SublimeTextStudio#installation"] https://github.com/evandrocoan/SublimeTextStudio#installation[/URL].
 
+
+
+[anchor]Basic[/anchor][SIZE="6"][B]Special Notes[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
+[LIST=1]
+[*]Created/implemented the auto-versioning system, to see your current version, to go `Preferences -> Browse Packages...` and open the file named `README.MD`.
+[*]Be awere about the `[URL="https://github.com/xdrop/Hungry-Backspace"]Hungry Backspace[/URL]`, for normal backspace behavior, use `shift+backspace`.
+[/LIST]
 
 
 [anchor]TODO[/anchor][SIZE="6"][B]TODO[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
@@ -128,20 +135,15 @@ By typing `ctrl+r` you may jump between symbols/functions defined on your text. 
 [anchor]Selections[/anchor][SIZE="6"][B]Multi-Selections[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
 
 Another good shortcut is `alt+left_arrow` or `alt+right_arrow` to jump between the last/next cursor position. And using `shift+alt+up_arrow` and `shift+alt+down_arrow` you may create multiple cursors posions on the screen. Most shortcuts are defined on the [URL="https://github.com/evandrocoan/SublimeTextStudio/blob/master/User/Default%20(Windows).sublime-keymap"]Default (Windows/Linux).sublime-keymap[/URL] file at the `User` folder.
-[SPOILER][IMG]http://i.imgur.com/eutKjNy.gif[/IMG][/SPOILER]
+[SPOILER][LIST=1]
+[*][IMG]http://i.imgur.com/XnkuWfp.gif[/IMG]
+[*][IMG]http://i.imgur.com/eutKjNy.gif[/IMG][/LIST][/SPOILER]
 
 
 [anchor]Navigating[/anchor][SIZE="6"][B]Side Bar Navigating[/B][/SIZE] [goanchor=Top]Go to top[/goanchor]
 
 By typing `ctrl+0` you may navigate between files on the side bar, if enabled.
 [SPOILER][IMG]http://i.imgur.com/pcWdSDI.gif[/IMG][/SPOILER]
-
-
-[anchor]Finally[/anchor][B][SIZE="6"]Finally[/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
-
-What I hate most on eclipse and other IDE's was on every new release I got to manually reinstall all my plugins. But with `Sublime Text` I can apply a versioning system as git on them. So everywhere I go, I just need to go to my GitHub webpage, copy the two commands and wait some minutes while all my settings and plugins are installed by `Sublime Text`. Talking about that, this is full video installing the settings, if you wanna install them:[URL="https://vid.me/ODYj"] https://vid.me/ODYj[/URL]
-
-
 
 
 [anchor]Coming[/anchor][B][SIZE="6"]It is coming![/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
@@ -155,8 +157,9 @@ I am doing this development and it seens pretty good to me. But there is this sy
 [SPOILER]
 [B]2016-09-24 | v1.0.0-3[/B]
 [LIST=1]
-[*]Created/implemented the auto-versioning system.
-[*]Added new packaged for the theme editing:
+[*]Created/implemented the auto-versioning system, to see your current version, to go `Preferences -> Browse Packages...` and open the file named `README.MD`.
+[*]Be awere about the `[URL="https://github.com/xdrop/Hungry-Backspace"]Hungry Backspace[/URL]`, for normal backspace behavior, use `shift+backspace`.
+[*]Added new packaged for the theme editing. Configure your colors on `Packages/SublimeNotepadPlusPlusTheme/DefaultStylersTheme.tmTheme`:
 [IMG]https://forum.sublimetext.com/uploads/default/original/3X/f/8/f899578509f6bded366101140945fda237c9466d.gif[/IMG]
 [/LIST]
 [/SPOILER]
@@ -164,7 +167,7 @@ I am doing this development and it seens pretty good to me. But there is this sy
 
 [anchor]LatestRelease[/anchor][B][SIZE="6"]Download[/SIZE][/B] [goanchor=Top]Go to top[/goanchor]
 
-Follow this link get the installation steps. This setup is available for both Windows, Linux and it is untested for Mac OS:
+With `Sublime Text` I can apply a versioning system as git on them. So everywhere I go, I just need to go to my GitHub webpage, copy the two commands and wait some minutes while all my settings and plugins are installed by `Sublime Text`. Follow this link bellow to get the installation steps. There is also a full video installing the settings. This setup is available for both Windows, Linux and it is untested for Mac OS:
 [URL="https://github.com/evandrocoan/SublimeTextStudio#installation"] https://github.com/evandrocoan/SublimeTextStudio#installation[/URL]
 
 [SIZE="1"]You will need to be able to use command line interface within the `git` command available.

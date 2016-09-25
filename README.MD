@@ -8,7 +8,7 @@ These are my sublime settings/packages used to program on:
 4. Pawn
 
 
-Its current version is: v1.0.0-7
+Its current version is: v1.0.0-9
 
 
 
@@ -22,12 +22,17 @@ ___
 mv -v ~/.config/sublime-text-3/ ~/.config/sublime-text-3_Old/
 ```
 
-3) While keeping your Sublime Text closed, clone this repository using this command:
+3) While keeping your Sublime Text closed, clone this repository using this command: (Linux Only)
 ```
 git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.config/sublime-text-3/Packages
 ```
 
  * The packages will be automatically installed on the first `Sublime Text` run after the repository clone.
+
+ * If you are a Windows user, just figure out where are your settings folders. (the folder `Sublime Text 3\` below contain all your current settings)
+```
+~/.config/sublime-text-3/ --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\"
+```
 
 4) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
 
@@ -42,17 +47,10 @@ If you are using the portable version (Linux/Windows/Mac), delete/rename the fol
 ```
 rename $SUBLIME_ROOT_FOLDER/Data/ $SUBLIME_ROOT_FOLDER/Data_Old/
 ```
-And clone it with:
+And clone it with: (remenber to replace the `\` with `/`, example, `D:\Sublime\Data` to `D:/Sublime/Data`)
 ```
-git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git $SUBLIME_ROOT_FOLDER/Data/Packages
+git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git "SUBLIME_ROOT_FOLDER/Data/Packages"
 ```
-
-1. If you are a Windows user, just figure out where are your settings folders. (the folder `Sublime Text 3\` below contain all your current settings)
-
-```
-~/.config/sublime-text-3/ --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\"
-```
-
 
 
 ___
