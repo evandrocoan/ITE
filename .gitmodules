@@ -28,3 +28,6 @@
 [submodule "Toolbar"]
 	path = Toolbar
 	url = https://github.com/evandrocoan/SublimeTextToolBar
+[submodule "SyncedSideBar"]
+	path = SyncedSideBar
+	url = https://github.com/evandrocoan/SyncedSideBar
