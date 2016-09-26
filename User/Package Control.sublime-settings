@@ -1,7 +1,15 @@
 {
 	"auto_upgrade_ignore":
 	[
-		"Package Control"
+		"Amxx Pawn",
+		"ANSIescape",
+		"BBCode",
+		"Boxy Theme",
+		"Notepad++ Theme",
+		"Package Control",
+		"SideBarEnhancements",
+		"Theme - Soda",
+		"Theme - SoDaReloaded"
 	],
 	"bootstrapped": true,
 	"in_process_packages":
