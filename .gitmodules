@@ -1,9 +1,6 @@
 [submodule "SublimeNotepadPlusPlusTheme"]
 	path = SublimeNotepadPlusPlusTheme
 	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
-[submodule "SublimeAmxxPawn"]
-	path = SublimeAmxxPawn
-	url = https://github.com/evandrocoan/SublimeAmxxPawn
 [submodule "SublimeTextToolBar"]
 	path = SublimeTextToolBar
 	url = https://github.com/evandrocoan/SublimeTextToolBar
@@ -28,3 +25,6 @@
 [submodule "Theme - Soda"]
 	path = Theme - Soda
 	url = https://github.com/evandrocoan/soda-theme
+[submodule "Amxx Pawn"]
+	path = Amxx Pawn
+	url = https://github.com/evandrocoan/SublimeAmxxPawn
