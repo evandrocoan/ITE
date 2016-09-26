@@ -7,11 +7,5 @@
         {
             "path": "."
         },
-        {
-            "path": "..\\Installed Packages"
-        },
-        {
-            "path": "..\\..\\Packages"
-        }
     ]
 }
