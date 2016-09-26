@@ -15,9 +15,9 @@ Its current version is: v1.0.0-10
 ___
 ## Installation
 
-1) Open the Sublime Text, after install it from [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
+1) Install `Sublime Text` from [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
 
-2) Close your Sublime Text and delete/rename the folder below: (the folder `sublime-text-3/` below contain all your current settings)
+2) Close your Sublime Text and delete/rename the folder below, if it exists: (the folder `sublime-text-3/` below contain all your current settings)
 ```
 mv -v ~/.config/sublime-text-3/ ~/.config/sublime-text-3_Old/
 ```
@@ -29,9 +29,10 @@ git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.co
 
  * The packages will be automatically installed on the first `Sublime Text` run after the repository clone.
 
- * If you are a Windows user, just figure out where are your settings folders. (the folder `Sublime Text 3\` below contain all your current settings)
+ * If you are a Windows/Mac user, just figure out where are your settings folders. (the folder `Sublime Text 3\` below contain all your current settings)
 ```
 ~/.config/sublime-text-3/ --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\"
+~/.config/sublime-text-3/ --> "~/Library/Application Support/Sublime Text 3"
 ```
 
 4) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
@@ -43,7 +44,7 @@ git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.co
 ___
 ## Notes
 
-If you are using the portable version (Linux/Windows/Mac), delete/rename the folder `Data/`: (the folder `Data/` below contain all your current settings)
+If you are using the portable version (Linux/Windows/Mac), delete/rename the folder `Data/`, if it exists: (the folder `Data/` below contain all your current settings)
 ```
 rename $SUBLIME_ROOT_FOLDER/Data/ $SUBLIME_ROOT_FOLDER/Data_Old/
 ```
