@@ -1,6 +1,7 @@
 {
 	"auto_upgrade_ignore":
 	[
+		"amxmodx",
 		"Amxx Pawn",
 		"ANSIescape",
 		"BBCode",
