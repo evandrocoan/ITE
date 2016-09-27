@@ -13,6 +13,13 @@ Its current version is: v1.0.1-10
 
 
 ___
+## Descriptions
+
+See its main post at the AlliedModders' Forum: [Versioned Sublime Text Settings](https://forums.alliedmods.net/showthread.php?p=2454292#post2454292)
+
+
+
+___
 ## Installation
 
 1) Install `Sublime Text` from [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
@@ -72,14 +79,6 @@ ___
 ## Licence
 All files in this repository are released under GNU General Public License v3.0, unless stated otherwise.
 See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) file for more information.
-
-
-
-___
-## TODO
-
-See its main post at the AlliedModders' Forum: [Versioned Sublime Text Settings](https://forums.alliedmods.net/showthread.php?p=2454292#post2454292)
-
 
 
 
