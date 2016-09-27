@@ -18,6 +18,8 @@
 /backrefs/*
 /ssl-linux/*
 
+# Added new dependency ignore rule
+*/linux32-p3/*
 
 
 
