@@ -36,7 +36,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-        "amxmodx",
+		"amxmodx",
 		"ApplySyntax",
 		"BracketHighlighter",
 		"Color Highlighter",
