@@ -18,7 +18,9 @@
 /backrefs/*
 /ssl-linux/*
 
-# Added new dependency ignore rule
+# Added new dependency ignore rule.
+# It was not working on linux with git 2.9.3 as just /Pyv8/*, or /Pyv8/linux32-p3/*.
+# But on windows with git 2.10, just /Pyv8/* is working to ignore the /Pyv8/win32-p3/ folder.
 */linux32-p3/*
 
 
