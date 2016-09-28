@@ -4,12 +4,9 @@ When submitting a feature or enhancement request:
 2. Provide any other necessary or useful information regarding your issue, such as (code) examples or related links.
 
 
-
-
 When submitting a bug report, please follow the following template:
 
 ---
-
 
 
 ### Summary
@@ -17,11 +14,9 @@ When submitting a bug report, please follow the following template:
 ...
 
 
-
 ### Expected behavior
 
 ...
-
 
 
 ### Actual behavior
@@ -29,13 +24,11 @@ When submitting a bug report, please follow the following template:
 ...
 
 
-
 ### Steps to reproduce
 
 1. First step
 2. Second step
 3. Third step
-
 
 
 ### Environment
@@ -47,6 +40,3 @@ When submitting a bug report, please follow the following template:
 
 * Sublime Text:
   * Build 3...
-
-
-
