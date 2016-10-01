@@ -24,15 +24,19 @@ echo "Running the post-checkout hook..."
 GIT_DIR_="$(git rev-parse --git-dir)"
 updateVersionScript=$GIT_DIR_/../.githooks/__post-git-hook.sh
 
-currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
-commitsBehindDevelop=$(git rev-list --count $currentBranch..master)
+# $targetBranch example: develop, use . to operate all branches
+targetBranch=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 3)
 
-
-# Alert the user when his checkout branch is behind the master branch.
-if [ $commitsBehindDevelop -gt 0 ]
+if [[ $targetBranch != "." ]]
 then
-    echo "ATTENTION: Your branch '$currentBranch' is $commitsBehindDevelop commits behind master"
-    # exit 1
+    currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
+    commitsBehindDevelop=$(git rev-list --count $currentBranch..$targetBranch)
+
+    # Alert the user when his checkout branch is behind the $targetBranch branch.
+    if [ $commitsBehindDevelop -gt 0 ]
+    then
+        echo "ATTENTION: Your branch '$currentBranch' is $commitsBehindDevelop commits behind $targetBranch"
+    fi
 fi
 
 # Run the version update script.

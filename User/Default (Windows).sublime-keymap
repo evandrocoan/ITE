@@ -307,7 +307,7 @@
     { "keys": ["f4"], "command": "next_result" },
     { "keys": ["shift+f4"], "command": "prev_result" },
 
-    { "keys": ["f6"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
+    { "keys": ["f6"], "command": "copy_scope_to_clipboard" },
     { "keys": ["ctrl+f6"], "command": "next_misspelling" },
     { "keys": ["ctrl+shift+f6"], "command": "prev_misspelling" },
 

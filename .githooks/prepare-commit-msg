@@ -32,11 +32,17 @@ versionFilePath=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 1)
 # $filePathToUpdate example: scripting/galileo.sma
 filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
 
+# $targetBranch example: develop, use . to operate all branches
+targetBranch=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 3)
+
+
 # $fileNameToUpdate example: galileo.sma
-fileNameToUpdate=$(echo $githooksConfig | cut -d',' -f 3)
+# Remove the '/app/blabla/' from the $filePathToUpdate argument name - https://regex101.com/r/rR0oM2/1
+fileNameToUpdate=$(echo $filePathToUpdate | sed -r "s/((.+\/)+)//")
 
 # $updateFlagFilePath example: isToUpdateTheGalileoFile.txt
-updateFlagFilePath=$GIT_DIR_/$(echo $githooksConfig | cut -d',' -f 4)
+sulfixName="FlagFile.txt"
+updateFlagFilePath="$GIT_DIR_/$fileNameToUpdate$sulfixName"
 
 currentGitFiles=$(git diff --name-only --cached)
 currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
@@ -75,13 +81,13 @@ then
     
     # This creates the flag file '$updateFlagFilePath' to indicate that 'post-checkout' and
     # 'post-commit' hooks must to update the version number. It only updates whether the current
-    # branch the master and the file being changed is "$fileNameToUpdate".
-    if [[ $currentBranch == "develop" ]]
+    # branch is $targetBranch and the file being changed is "$fileNameToUpdate".
+    if [[ $currentBranch == $targetBranch ]]
     then
         echo "true" > $updateFlagFilePath
         echo "Successfully created the flag file '$updateFlagFilePath'"
     else
-        echo "The '$fileNameToUpdate' file is not being updated, because we are not on the 'master' branch."
+        echo "The '$fileNameToUpdate' file is not being updated, because we are not on the '$targetBranch' branch."
     fi
 else
     echo "The '$fileNameToUpdate' file is not being committed right now."
