@@ -9,8 +9,16 @@
 GIT_DIR_="$(git rev-parse --git-dir)"
 githooksConfig=$(cat $GIT_DIR_/../.githooks/githooksConfig.txt)
 
+# $filePathToUpdate example: scripting/galileo.sma
+filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
+
+# $fileNameToUpdate example: galileo.sma
+# Remove the '/app/blabla/' from the $filePathToUpdate argument name - https://regex101.com/r/rR0oM2/1
+fileNameToUpdate=$(echo $filePathToUpdate | sed -r "s/((.+\/)+)//")
+
 # $updateFlagFilePath example: isToUpdateTheGalileoFile.txt
-updateFlagFilePath=$GIT_DIR_/$(echo $githooksConfig | cut -d',' -f 4)
+sulfixName="FlagFile.txt"
+updateFlagFilePath="$GIT_DIR_/$fileNameToUpdate$sulfixName"
 
 currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
 updateVersionProgram=$GIT_DIR_/../.githooks/updateVersion.sh

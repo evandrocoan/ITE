@@ -33,10 +33,12 @@ versionFilePath=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 1)
 filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
 
 # $fileNameToUpdate example: galileo.sma
-fileNameToUpdate=$(echo $githooksConfig | cut -d',' -f 3)
+# Remove the '/app/blabla/' from the $filePathToUpdate argument name - https://regex101.com/r/rR0oM2/1
+fileNameToUpdate=$(echo $filePathToUpdate | sed -r "s/((.+\/)+)//")
 
 # $updateFlagFilePath example: isToUpdateTheGalileoFile.txt
-updateFlagFilePath=$GIT_DIR_/$(echo $githooksConfig | cut -d',' -f 4)
+sulfixName="FlagFile.txt"
+updateFlagFilePath="$GIT_DIR_/$fileNameToUpdate$sulfixName"
 
 currentGitFiles=$(git diff --name-only --cached)
 currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
