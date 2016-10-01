@@ -12,6 +12,9 @@ githooksConfig=$(cat $GIT_DIR_/../.githooks/githooksConfig.txt)
 # $filePathToUpdate example: scripting/galileo.sma
 filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
 
+# $targetBranch example: develop, use . to operate all branches
+targetBranch=$(echo $githooksConfig | cut -d',' -f 3)
+
 # $fileNameToUpdate example: galileo.sma
 # Remove the '/app/blabla/' from the $filePathToUpdate argument name - https://regex101.com/r/rR0oM2/1
 fileNameToUpdate=$(echo $filePathToUpdate | sed -r "s/((.+\/)+)//")
@@ -34,13 +37,13 @@ cleanUpdateFlagFile()
 }
 
 
-# Updates and changes the files if the flag file exits, if and only if we are on the 'develop'
+# Updates and changes the files if the flag file exits, if and only if we are on the '$targetBranch'
 # branch.
 # '-C HEAD' do not prompt for a commit message, use the HEAD as commit message.
 # '--no-verify' do not call the pre-commit hook to avoid infinity loop.
 if [ -f $updateFlagFilePath ]
 then
-    if [[ $currentBranch == "develop" ]]
+    if [[ $currentBranch == $targetBranch || $targetBranch == "." ]]
     then
         if sh $updateVersionProgram build
         then
@@ -53,7 +56,7 @@ then
         echo "Amending commits..."
         git commit --amend -C HEAD --no-verify
     else
-        echo "It is not time to amend, as we are not on the 'develop' branch."
+        echo "It is not time to amend, as we are not on the '$targetBranch' branch."
     fi
 else
     echo "It is not time to amend, as the file '$updateFlagFilePath' does not exist."
