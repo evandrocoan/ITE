@@ -14,10 +14,15 @@
 #
 #
 # Change log:
-# 
+#
+# v2.0.0
+# Added installer script `install_githooks.sh`.
+# Removed reduntant configurations from `githooksConfig.txt`.
+# Added a new setting to choose which branch is the target branch for auto versioning.
+#
 # v1.1.2
 # Added error message when the 'sed' operation fails.
-# 
+#
 # v1.1.1
 # Placed this file within the repository sub-folder "./.githooks".
 #

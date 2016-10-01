@@ -3,7 +3,8 @@ Git Hooks
 
 This folder contains the git hooks used the by this project. 
 To install them, just copy the files "post-checkout", "post-commit"
-and "prepare-commit-msg" to "$THIS_REPOSITORY_DIR/.git/hooks/".
+and "prepare-commit-msg" to "$THIS_REPOSITORY_DIR/.git/hooks/", 
+or run the installer `install_githooks.sh`.
 
 
 Open the file ".githooks/githooksConfig.txt" to configure the files to be
