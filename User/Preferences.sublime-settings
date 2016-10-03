@@ -34,7 +34,6 @@
 	"font_face_3": "Inconsolata",
 	"font_size": 14,
 	"gutter": true,
-	"highlightLine": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
