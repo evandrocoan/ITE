@@ -90,8 +90,8 @@
     { "keys": ["f11"], "command": "toggle_full_screen" },
     { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
 
-    { "keys": ["backspace"], "command": "hungry_backspace" },
-    { "keys": ["shift+backspace"], "command": "left_delete" },
+    { "keys": ["backspace"], "command": "left_delete" },
+    { "keys": ["shift+backspace"], "command": "hungry_backspace" },
     { "keys": ["delete"], "command": "right_delete" },
 
 
@@ -129,8 +129,8 @@
     { "keys": ["alt+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
     { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
 
-    { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
 
     { "keys": ["pageup"], "command": "move", "args": {"by": "pages", "forward": false} },
     { "keys": ["pagedown"], "command": "move", "args": {"by": "pages", "forward": true} },
@@ -158,6 +158,41 @@
 
     { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
     { "keys": ["ctrl+alt+shift+tab"], "command": "prev_view_in_stack" },
+
+    // Key bindings for toggling wrap in find / replace panels.
+    { "keys": ["alt+p"], "command": "toggle_wrap", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Key bindings for toggling in selection in find / replace panels.
+    { "keys": ["alt+s"], "command": "toggle_in_selection", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Key bindings for toggling highlight matches in find / replace panels.
+    { "keys": ["alt+h"], "command": "toggle_highlight", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Key bindings for toggling show context in find / replace in files panel.
+    { "keys": ["alt+t"], "command": "toggle_show_context", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Key bindings for toggling use buffer in find / replace in files panel.
+    { "keys": ["alt+b"], "command": "toggle_use_buffer", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
 
     { "keys": ["ctrl+a"], "command": "select_all" },
     { "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
