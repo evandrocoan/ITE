@@ -6,7 +6,6 @@
 	"animation_enabled": false,
 	"autoIndent": true,
 	"auto_complete": true,
-	"index_files": true,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 50,
 	"auto_complete_with_fields": true,
@@ -39,17 +38,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"amxmodx",
-		"ApplySyntax",
-		"BracketHighlighter",
-		"Color Highlighter",
-		"DictionaryAutoComplete",
-		"SublimeCodeIntel",
-		"Vintage",
-		"WordHighlight",
 		"AdvancedNewFile",
 		"Alignment",
 		"All Autocomplete",
+		"amxmodx",
 		"ApplySyntax",
 		"Auto Refresh",
 		"AutoFileName",
@@ -110,6 +102,7 @@
 		"SyncedSideBar",
 		"Terminal",
 		"Trimmer",
+		"Vintage",
 		"Whitespace",
 		"WordHighlight"
 	],
@@ -119,6 +112,7 @@
 		"draw_active"
 	],
 	"indent_to_bracket": true,
+	"index_files": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"mark_dirty_file_char": "*",

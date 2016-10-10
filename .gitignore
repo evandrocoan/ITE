@@ -17,6 +17,7 @@
 /bz2/*
 /backrefs/*
 /ssl-linux/*
+/BetterFindBuffer/*
 
 # Added new dependency ignore rule.
 # It was not working on linux with git 2.9.3 as just /Pyv8/*, or /Pyv8/linux32-p3/*.
