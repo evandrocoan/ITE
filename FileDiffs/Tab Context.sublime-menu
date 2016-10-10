@@ -1,6 +1,3 @@
 [
-   { "caption": "-" },
-   { "caption": "Compare with... Git Style Diff", "command": "file_diff_tab" },
-   { "caption": "Compare with... Git Style Diff Menu", "command": "file_diff_menu" },
-   { "caption": "Compare with... Synced Scrolling Diff", "command": "sbs_compare" },
+
 ]
