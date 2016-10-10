@@ -53,7 +53,6 @@
 		"Clickable URLs",
 		"Color Highlighter",
 		"ColorHelper",
-		"Column Select",
 		"Compare Side-By-Side",
 		"Copy Filepath With Line Numbers",
 		"CopyWithLineNumbersReloaded",
@@ -76,7 +75,6 @@
 		"Google Spell Check",
 		"Highlight Build Errors",
 		"HighlightWords",
-		"Hungry Backspace",
 		"Invert Selection",
 		"Line Endings Unify",
 		"Local History",
@@ -101,7 +99,6 @@
 		"SublimeCodeIntel",
 		"SyncedSideBar",
 		"Terminal",
-		"Trimmer",
 		"Vintage",
 		"Whitespace",
 		"WordHighlight"
