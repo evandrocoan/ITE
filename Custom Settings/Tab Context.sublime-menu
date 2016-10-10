@@ -5,6 +5,7 @@
     { "caption": "-" },
     { "command": "new_file", "caption": "New File" },
     { "command": "prompt_open_file", "caption": "Open File" },
+    { "command": "clone_file", "caption": "Clone This View" },
     { "caption": "-" },
     {
         "caption": "Compare With...",
