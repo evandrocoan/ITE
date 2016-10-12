@@ -1,6 +1,7 @@
 {
 	"added_words":
 	[
+		"matlab"
 	],
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
@@ -41,7 +42,6 @@
 		"AdvancedNewFile",
 		"Alignment",
 		"All Autocomplete",
-		"amxmodx",
 		"ApplySyntax",
 		"Auto Refresh",
 		"AutoFileName",
@@ -55,7 +55,6 @@
 		"ColorHelper",
 		"Compare Side-By-Side",
 		"Copy Filepath With Line Numbers",
-		"CopyWithLineNumbersReloaded",
 		"Delete Current File",
 		"DictionaryAutoComplete",
 		"DistractionFreeWindow",
@@ -92,7 +91,6 @@
 		"Preferences Editor",
 		"Project Specific Syntax Settings",
 		"Qt Completions for C++",
-		"ScopeAlways",
 		"ScopeHunter",
 		"StickySearch",
 		"sublime-text-2-buildview",
