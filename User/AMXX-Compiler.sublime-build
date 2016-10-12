@@ -1,0 +1,13 @@
+{
+	"cmd":
+	[
+		"D:\\User\\DataStore\\GamesDataStore\\Conter-Strike1.6\\Outros\\Addons\\Multi-Mod\\Amx Mod X\\CompilerDefault\\amxxpc.exe",
+		"-d2",
+		"-iD:\\User\\DataStore\\GamesDataStore\\Conter-Strike1.6\\Outros\\Addons\\Multi-Mod\\Amx Mod X\\CompilerDefault\\include/",
+		"-oD:\\User\\DataStore\\GamesDataStore\\Conter-Strike1.6\\Outros\\Addons\\Multi-Mod\\Amx Mod X\\CompilerDefault\\plugins/${file_base_name}.amxx",
+		"${file}"
+	],
+	"selector": "source.sma",
+	"syntax": "AMXX-Console.sublime-syntax",
+	"working_dir": "${file_path}"
+}

@@ -8,7 +8,7 @@ These are my sublime settings/packages used to program on:
 4. Pawn
 
 
-Its current version is: v1.0.1-32
+Its current version is: v1.0.1-34
 
 
 
