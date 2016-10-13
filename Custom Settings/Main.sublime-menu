@@ -1,0 +1,61 @@
+[
+    {
+        "caption": "File",
+        "mnemonic": "F",
+        "id": "file",
+        "children":
+        [
+            {
+                "caption": "Open Recent More",
+                "mnemonic": "R",
+                "children":
+                [
+                    { "command": "open_recent_file", "args": {"index": 8 } },
+                    { "command": "open_recent_file", "args": {"index": 9 } },
+                    { "command": "open_recent_file", "args": {"index": 10 } },
+                    { "command": "open_recent_file", "args": {"index": 11 } },
+                    { "command": "open_recent_file", "args": {"index": 12 } },
+                    { "command": "open_recent_file", "args": {"index": 13 } },
+                    { "command": "open_recent_file", "args": {"index": 14 } },
+                    { "command": "open_recent_file", "args": {"index": 15 } },
+                    { "command": "open_recent_file", "args": {"index": 16 } },
+                    { "caption": "-" },
+                    { "command": "open_recent_folder", "args": {"index": 8 } },
+                    { "command": "open_recent_folder", "args": {"index": 9 } },
+                    { "command": "open_recent_folder", "args": {"index": 10 } },
+                    { "command": "open_recent_folder", "args": {"index": 11 } },
+                    { "command": "open_recent_folder", "args": {"index": 12 } },
+                    { "command": "open_recent_folder", "args": {"index": 13 } },
+                    { "command": "open_recent_folder", "args": {"index": 14 } },
+                    { "command": "open_recent_folder", "args": {"index": 15 } },
+                    { "command": "open_recent_folder", "args": {"index": 16 } },
+                    { "caption": "-" }
+                ]
+            }
+        ]
+    },
+    {
+        "caption": "Project",
+        "id": "project",
+        "mnemonic": "P",
+        "children":
+        [
+            {
+                "caption": "Open Recent",
+                "children":
+                [
+                    { "caption": "-" },
+                    { "command": "open_recent_project_or_workspace", "args": {"index": 8 } },
+                    { "command": "open_recent_project_or_workspace", "args": {"index": 9 } },
+                    { "command": "open_recent_project_or_workspace", "args": {"index": 10 } },
+                    { "command": "open_recent_project_or_workspace", "args": {"index": 11 } },
+                    { "command": "open_recent_project_or_workspace", "args": {"index": 12 } },
+                    { "command": "open_recent_project_or_workspace", "args": {"index": 13 } },
+                    { "command": "open_recent_project_or_workspace", "args": {"index": 14 } },
+                    { "command": "open_recent_project_or_workspace", "args": {"index": 15 } },
+                    { "caption": "-" },
+                ]
+            },
+        ]
+    },
+]
