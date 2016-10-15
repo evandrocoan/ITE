@@ -1,0 +1,284 @@
+{
+  "clear_output": false,
+  "cli": {
+    "firebird": "isql",
+    "mysql": "mysql",
+    "oracle": "sqlplus",
+    "pgsql": "psql",
+    "sqlite": "sqlite3",
+    "sqsh": "sqsh",
+    "vertica": "vsql"
+  },
+  "cli_options": {
+    "firebird": {
+      "args": "-u \"{username}\" -p \"{password}\" \"{host}/{port}:{database}\"",
+      "before": [],
+      "options": [],
+      "queries": {
+        "desc": {
+          "format": "|%s|",
+          "options": [],
+          "query": "select '|' || rdb$relation_name || '|' from rdb$relations where rdb$view_blr is null and (rdb$system_flag is null or rdb$system_flag = 0);"
+        },
+        "desc table": {
+          "format": "|%s|",
+          "options": [],
+          "query": "show table \"%s\";"
+        },
+        "show records": {
+          "format": "|%s|",
+          "options": [],
+          "query": "select first 100 * from \"%s\";"
+        }
+      }
+    },
+    "mysql": {
+      "args": "-h{host} -P{port} -u\"{username}\" -p\"{password}\" -D\"{database}\"",
+      "before": [],
+      "options": [
+        "-f",
+        "--table"
+      ],
+      "queries": {
+        "columns": {
+          "format": "|%s|",
+          "options": [
+            "-f",
+            "--table"
+          ],
+          "query": "SELECT table_name, column_name FROM information_schema.columns WHERE table_schema = DATABASE();"
+        },
+        "desc": {
+          "format": "|%s|",
+          "options": [
+            "-f",
+            "--table",
+            "--skip-column-names"
+          ],
+          "query": "show tables"
+        },
+        "desc table": {
+          "format": "|%s|",
+          "options": [
+            "-f",
+            "--table"
+          ],
+          "query": "desc `%s`"
+        },
+        "show records": {
+          "format": "|%s|",
+          "options": [
+            "-f",
+            "--table"
+          ],
+          "query": "select * from `{0}` limit {1}"
+        }
+      }
+    },
+    "oracle": {
+      "args": "{username}/{password}@\"(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST={host})(PORT={port})))(CONNECT_DATA=(SERVICE_NAME={service})))\"",
+      "before": [
+        "SET AUTO           OFF",
+        "SET COLSEP         '|'",
+        "SET FEED           ON",
+        "SET FEEDBACK       ON",
+        "SET HEADING        ON",
+        "SET LINESIZE       32767",
+        "SET LONG           100",
+        "SET NULL           @",
+        "SET PAGESIZE       0 EMBEDDED ON",
+        "SET SERVEROUTPUT   ON",
+        "SET SQLBLANKLINES  ON",
+        "SET SQLPROMPT      ''",
+        "SET TAB            OFF",
+        "SET TI             ON",
+        "SET TIMI           OFF",
+        "SET TRIMSPOOL      OFF",
+        "SET UND            '-'",
+        "SET VERIFY         OFF ",
+        "SET WRAP           OFF"
+      ],
+      "options": [
+        "-S"
+      ],
+      "queries": {
+        "desc": {
+          "format": "|%s|",
+          "options": [
+            "-S"
+          ],
+          "query": "select CONCAT(CONCAT('| ', table_name), ' |') as tables from user_tables;"
+        },
+        "desc table": {
+          "format": "|%s|",
+          "options": [
+            "-S"
+          ],
+          "query": "desc %s;"
+        },
+        "show records": {
+          "format": "|%s|",
+          "options": [
+            "-S"
+          ],
+          "query": "select * from {0} WHERE ROWNUM <= {1};"
+        }
+      }
+    },
+    "pgsql": {
+      "args": "-h {host} -p {port} -U {username} -d {database}",
+      "before": [],
+      "options": [],
+      "queries": {
+        "columns": {
+          "format": "|%s|",
+          "options": [
+            "-t",
+            "--no-psqlrc"
+          ],
+          "query": "SELECT DISTINCT '|' || table_name || '.' || column_name || '|' FROM information_schema.columns WHERE table_schema = CURRENT_SCHEMA() GROUP BY table_name, column_name;"
+        },
+        "desc": {
+          "format": "|%s|",
+          "options": [
+            "-t",
+            "--no-psqlrc"
+          ],
+          "query": "SELECT  '|' || CASE WHEN n.nspname = current_schema() THEN quote_ident(c.relname) ELSE quote_ident(n.nspname)||'.'||quote_ident(c.relname) END ||'|' AS tblname FROM pg_catalog.pg_class AS c INNER JOIN pg_catalog.pg_namespace AS n ON n.oid = c.relnamespace WHERE relkind = 'r' AND n.nspname NOT IN ('pg_catalog', 'pg_toast', 'information_schema') ORDER BY n.nspname = current_schema() DESC, pg_catalog.pg_table_is_visible(c.oid) DESC, n.nspname, c.relname"
+        },
+        "desc function": {
+          "format": "|%s|",
+          "options": [],
+          "query": "\\sf %s"
+        },
+        "desc table": {
+          "format": "|%s|",
+          "options": [],
+          "query": "\\d+ %s"
+        },
+        "functions": {
+          "format": "|%s|",
+          "options": [
+            "-t",
+            "--no-psqlrc"
+          ],
+          "query": "SELECT '|' || CASE WHEN n.nspname = current_schema() THEN quote_ident(f.proname) ELSE quote_ident(n.nspname)||'.'||quote_ident(f.proname) END || '(' || pg_get_function_identity_arguments(f.oid) || ')' || '|' AS funname FROM pg_catalog.pg_proc AS f INNER JOIN pg_catalog.pg_namespace AS n ON n.oid = f.pronamespace WHERE proisagg = false AND n.nspname NOT IN ('pg_catalog', 'information_schema')"
+        },
+        "show records": {
+          "format": "|%s|",
+          "options": [],
+          "query": "select * from {0} limit {1}"
+        }
+      }
+    },
+    "sqlite": {
+      "args": "\"{database}\"",
+      "before": [
+        ".headers on"
+      ],
+      "options": [
+        "-column",
+        "-noheader"
+      ],
+      "queries": {
+        "desc": {
+          "format": "|%s|",
+          "options": [],
+          "query": ".headers off\nSELECT '|' || name || '|' FROM sqlite_master WHERE type='table';"
+        },
+        "desc table": {
+          "format": "%s",
+          "options": [
+            "-column"
+          ],
+          "query": ".schema \"%s\""
+        },
+        "show records": {
+          "format": "|%s|",
+          "options": [
+            "-column"
+          ],
+          "query": "select * from \"{0}\" limit {1};"
+        }
+      }
+    },
+    "sqsh": {
+      "args": "-S {host}:{port} -U\"{username}\" -P\"{password}\" -D{database}",
+      "before": [
+        "\\set semicolon_cmd=\"\\go -mpretty -l\""
+      ],
+      "options": [],
+      "queries": {
+        "desc": {
+          "before": [
+            "\\set semicolon_cmd=\"\\go -mpretty -l -h -f\""
+          ],
+          "format": "|%s|",
+          "options": [],
+          "query": "select table_name from information_schema.tables order by 1;"
+        },
+        "desc table": {
+          "before": [
+            "\\set semicolon_cmd=\"\\go -mpretty -l -h -f\""
+          ],
+          "format": "|%s|",
+          "options": [],
+          "query": "exec sp_columns \"%s\";"
+        },
+        "show records": {
+          "before": [
+            "\\set semicolon_cmd=\"\\go -mpretty -l -h -f\""
+          ],
+          "format": "|%s|",
+          "options": [],
+          "query": "select top {1} * from \"{0}\";"
+        }
+      }
+    },
+    "vertica": {
+      "args": "-h {host} -p {port} -U \"{username}\" -w \"{password}\" -d \"{database}\"",
+      "before": [],
+      "options": [],
+      "queries": {
+        "desc": {
+          "format": "|%s|",
+          "options": [
+            "-t"
+          ],
+          "query": "\\dt"
+        },
+        "desc table": {
+          "format": "|%s|",
+          "options": [],
+          "query": "\\d %s"
+        },
+        "show records": {
+          "format": "|%s|",
+          "options": [],
+          "query": "select * from {0} limit {1}"
+        }
+      }
+    }
+  },
+  "debug": true,
+  "format": {
+    "identifier_case": null,
+    "indent_tabs": false,
+    "indent_width": 4,
+    "keyword_case": "upper",
+    "reindent": false,
+    "strip_comments": false
+  },
+  "history_size": 100,
+  "selectors": [
+    "source.sql"
+  ],
+  "show_records": {
+    "limit": 50
+  },
+  "show_result_on_window": false,
+  "thread_timeout": 5000,
+  "unescape_quotes": [
+    "php"
+  ]
+}
