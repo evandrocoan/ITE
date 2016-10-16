@@ -8,7 +8,7 @@ These are my sublime settings/packages used to program on:
 4. Pawn
 
 
-Its current version is: v1.0.1-42
+Its current version is: v1.0.1-44
 
 
 
@@ -77,8 +77,14 @@ sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(
 
 ___
 ## Licence
+
 All files in this repository are released under GNU General Public License v3.0, unless stated otherwise.
-See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.en.html) file for more information.
+See:
+
+1. The [LICENSE](LICENSE.TXT) file.
+1. And the website [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+For more information.
 
 
 
