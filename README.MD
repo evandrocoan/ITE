@@ -8,7 +8,7 @@ These are my sublime settings/packages used to program on:
 4. Pawn
 
 
-Its current version is: v1.0.1-41
+Its current version is: v1.0.1-42
 
 
 
@@ -36,7 +36,7 @@ git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.co
 
  * The packages will be automatically installed on the first `Sublime Text` run after the repository clone.
 
- * If you are a Windows/Mac user, just figure out where are your settings folders. (the folder `Sublime Text 3\` below contain all your current settings)
+ * If you are a Windows/Mac user, just figure out where are your settings folders: (the folder `Sublime Text 3\` below contain all your current settings)
 ```
 ~/.config/sublime-text-3/ --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\"
 ~/.config/sublime-text-3/ --> "~/Library/Application Support/Sublime Text 3"
