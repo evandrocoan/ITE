@@ -6,16 +6,6 @@
     { "keys": ["ctrl+k", "ctrl+h"], "command": "highlight_words" },
     { "keys": ["ctrl+k", "ctrl+i"], "command": "unhighlight_words" },
 
-
-    { "keys": ["enter"], "command": "jsdocs",
-    "context": [
-      { "key": "setting.auto_indent",   "operator": "equal",          "operand": true,                        "match_all": true },
-      { "key": "selection_empty",       "operator": "equal",          "operand": true,                        "match_all": true },
-      { "key": "auto_complete_visible", "operator": "equal",          "operand": false,                       "match_all": true },
-      { "key": "preceding_text",        "operator": "regex_contains", "operand": "^\\s*(\\/\\*|###)[*!]\\s*$", "match_all": true }
-    ]
-    },
-    
     { "keys": ["enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line in Braces.sublime-macro"}, "context":
         [
             { "key": "setting.auto_indent", "operator": "equal", "operand": true },
@@ -52,7 +42,6 @@
         ]
     },
 
-    { "keys": ["enter"], "command": "insert", "args": {"characters": "\n"} },
     { "keys": ["shift+enter"], "command": "insert", "args": {"characters": "\n"} },
 
     { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
@@ -90,9 +79,6 @@
     { "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
     { "keys": ["f11"], "command": "toggle_full_screen" },
     { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
-
-    { "keys": ["backspace"], "command": "hungry_backspace" },
-    { "keys": ["shift+backspace"], "command": "left_delete" },
     { "keys": ["delete"], "command": "right_delete" },
 
 
@@ -130,8 +116,8 @@
     { "keys": ["alt+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
     { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
 
-    { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
 
     { "keys": ["pageup"], "command": "move", "args": {"by": "pages", "forward": false} },
     { "keys": ["pagedown"], "command": "move", "args": {"by": "pages", "forward": true} },
@@ -159,6 +145,41 @@
 
     { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
     { "keys": ["ctrl+alt+shift+tab"], "command": "prev_view_in_stack" },
+
+    // Key bindings for toggling wrap in find / replace panels.
+    { "keys": ["alt+p"], "command": "toggle_wrap", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Key bindings for toggling in selection in find / replace panels.
+    { "keys": ["alt+s"], "command": "toggle_in_selection", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Key bindings for toggling highlight matches in find / replace panels.
+    { "keys": ["alt+h"], "command": "toggle_highlight", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Key bindings for toggling show context in find / replace in files panel.
+    { "keys": ["alt+t"], "command": "toggle_show_context", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // Key bindings for toggling use buffer in find / replace in files panel.
+    { "keys": ["alt+b"], "command": "toggle_use_buffer", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
 
     { "keys": ["ctrl+a"], "command": "select_all" },
     { "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
@@ -288,7 +309,7 @@
     { "keys": ["f12"], "command": "goto_definition" },
     { "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
     { "keys": ["alt+keypad_minus"], "command": "jump_back" },
-    { "keys": ["alt+shift+keypad_minus"], "command": "jump_forward" },
+    { "keys": ["alt+keypad_plus"], "command": "jump_forward" },
     { "keys": ["alt+-"], "command": "jump_back" },
     { "keys": ["alt+shift+-"], "command": "jump_forward" },
 
@@ -308,7 +329,6 @@
     { "keys": ["f4"], "command": "next_result" },
     { "keys": ["shift+f4"], "command": "prev_result" },
 
-    { "keys": ["f6"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
     { "keys": ["ctrl+f6"], "command": "next_misspelling" },
     { "keys": ["ctrl+shift+f6"], "command": "prev_misspelling" },
 
@@ -346,10 +366,9 @@
         ]
     },
 
-    { "keys": ["ctrl+f7"], "command": "build" },
-
-    { "keys": ["f7"], "command": "show_panel", "args": {"panel": "output.exec"} },
-    { "keys": ["f7"], "command": "build", "context":
+    { "keys": ["f7"], "command": "build" },
+    { "keys": ["f8"], "command": "show_panel", "args": {"panel": "output.exec"} },
+    { "keys": ["f8"], "command": "build", "context":
         [
           { "key": "panel", "operand": "output.exec" }
         ]

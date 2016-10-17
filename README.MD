@@ -9,7 +9,7 @@ These are my sublime settings/packages used to program on:
 5. SQL
 
 
-Its current version is: v1.0.1-56
+Its current version is: v1.0.1-57
 
 
 
