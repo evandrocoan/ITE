@@ -1,7 +1,8 @@
 # FuzzyFileNav Configurations 
 
-This folder has the purpose to disable the default FuzzyFileNav package Context Menus.
-As they were moved into the Custom Settings package.
+This folder has the purpose to disable the default Sublime Text Tab Context Menu.
+As they were moved into the Custom Settings package. And remove the `Reveal in Side Bar` option,
+from the Default Sublime Text Context Menu.
 
 Its idea comes from:
 
