@@ -6,9 +6,10 @@ These are my sublime settings/packages used to program on:
 2. Octave/Matlab
 3. C/C++
 4. Pawn
+5. SQL
 
 
-Its current version is: v1.0.1-53
+Its current version is: v1.0.1-55
 
 
 

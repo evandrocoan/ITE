@@ -5,6 +5,7 @@
     { "caption": "-" },
     { "command": "new_file", "caption": "New File" },
     { "command": "prompt_open_file", "caption": "Open File" },
+    { "command": "copy_path", "caption": "Copy File Path" },
     { "command": "clone_file", "caption": "Clone This View" },
     { "caption": "-" },
     {
@@ -19,7 +20,7 @@
     },
     { "command": "destroy_pane", "args": {"direction": "self"}, "caption": "Destroy Current Pane" },
     {
-        "caption": "Other Panel Operation",
+        "caption": "More Panel Operations",
         "children":
         [
             { "caption": "-" },
