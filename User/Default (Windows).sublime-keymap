@@ -361,15 +361,6 @@
     { "keys": ["ctrl+j"], "command": "join_lines" },
     { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
 
-    { "keys": [" "], "command": "upper_case_previous_item_and_insert_space",
-        "context":
-        [
-            { "key": "selector", "operator": "equal", "operand": "source.sql", "match_all": true },
-            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "scope_before_cursor", "operator": "equal", "operand": "keyword", "match_all": true },
-        ]
-    },
-
     { "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 
     { "keys": ["ctrl+space"], "command": "auto_complete" },
