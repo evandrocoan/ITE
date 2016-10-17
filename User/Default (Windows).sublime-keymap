@@ -6,16 +6,6 @@
     { "keys": ["ctrl+k", "ctrl+h"], "command": "highlight_words" },
     { "keys": ["ctrl+k", "ctrl+i"], "command": "unhighlight_words" },
 
-
-    { "keys": ["enter"], "command": "jsdocs",
-    "context": [
-      { "key": "setting.auto_indent",   "operator": "equal",          "operand": true,                        "match_all": true },
-      { "key": "selection_empty",       "operator": "equal",          "operand": true,                        "match_all": true },
-      { "key": "auto_complete_visible", "operator": "equal",          "operand": false,                       "match_all": true },
-      { "key": "preceding_text",        "operator": "regex_contains", "operand": "^\\s*(\\/\\*|###)[*!]\\s*$", "match_all": true }
-    ]
-    },
-    
     { "keys": ["enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line in Braces.sublime-macro"}, "context":
         [
             { "key": "setting.auto_indent", "operator": "equal", "operand": true },
@@ -89,9 +79,6 @@
     { "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
     { "keys": ["f11"], "command": "toggle_full_screen" },
     { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
-
-    { "keys": ["backspace"], "command": "left_delete" },
-    { "keys": ["shift+backspace"], "command": "hungry_backspace" },
     { "keys": ["delete"], "command": "right_delete" },
 
 
