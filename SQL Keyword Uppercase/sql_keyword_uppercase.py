@@ -37,7 +37,7 @@ class UpperCasePreviousItemAndInsertSpaceCommand( sublime_plugin.TextCommand ):
                 scope = self.view.scope_name( sel.end() - 1 )
                 begin = sel.end() - 1
 
-                while self.view.scope_name( begin ) == scope:
+                while self.view.scope_name( begin ) == scope and begin > 0:
 
                     begin -= 1
 
