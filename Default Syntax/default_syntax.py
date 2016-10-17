@@ -13,16 +13,6 @@ class DefaultSyntaxCommand(sublime_plugin.EventListener):
 
 
 
-class GetScopeAlwaysTextCommand( sublime_plugin.TextCommand ):
-
-	def run( self, edit ):
-
-		# status = self.view.get_status( "scope_always" )
-		status = sublime.active_window().active_view().get_status( "scope_always" )
-		print( status )
-
-
-
 class ForceRewriteSublimeSettingsCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
