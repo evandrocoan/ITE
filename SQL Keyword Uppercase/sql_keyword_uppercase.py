@@ -1,5 +1,11 @@
 """
+Automatically set all SQL keywords to upper case after the space keystroke.
 Originally created by `kingkeith` on `https://forum.sublimetext.com/t/automatically-set-sql-keywords-to-upper-case/23760`.
+
+Change log:
+
+1.1 - Added multiple scopes support for the SQL's `support` scope on the `sublime.keymap` file.
+1.0 - Initial release by `kingkeith`.
 """
 
 import sublime
@@ -16,7 +22,7 @@ class UpperCasePreviousItemAndInsertSpaceCommand( sublime_plugin.TextCommand ):
         [
             { "key": "selector", "operator": "equal", "operand": "source.sql", "match_all": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "scope_before_cursor", "operator": "equal", "operand": "keyword", "match_all": true },
+            { "key": "scope_before_cursor", "operator": "equal", "operand": ["keyword", "support"], "match_all": true },
         ]
     },
 
@@ -32,13 +38,16 @@ class UpperCasePreviousItemAndInsertSpaceCommand( sublime_plugin.TextCommand ):
         for sel in selections:
 
             if sel.end() > 0:
+                if self.view.substr( sel.end() - 1 ) == '(':
+                    offset = 2
+                else:
+                    offset = 1
 
-                #prev_item = self.view.extract_scope(sel.end() - 1)
-                scope = self.view.scope_name( sel.end() - 1 )
-                begin = sel.end() - 1
+                #prev_item = self.view.extract_scope( sel.end() - offset )
+                scope = self.view.scope_name( sel.end() - offset )
+                begin = sel.end() - offset
 
                 while self.view.scope_name( begin ) == scope and begin > 0:
-
                     begin -= 1
 
                 prev_item = sublime.Region( begin, sel.end() )
@@ -62,27 +71,35 @@ class ScopeBeforeCursorEventListener( sublime_plugin.EventListener ):
     def on_query_context( self, view, key, operator, operand, match_all ):
 
         if key != 'scope_before_cursor':
-
             return None
 
         if operator not in ( sublime.OP_EQUAL, sublime.OP_NOT_EQUAL ):
-
             return None
 
         match = False
 
         for sel in view.sel():
+            #print( max( 0, sel.end() - 1 ) )
 
-            match = view.match_selector( max(0, sel.end() - 1), operand )
+            if view.substr( sel.end() - 1 ) == '(':
+                offset = 2
+            else:
+                offset = 1
+
+            for op in operand:
+                match = view.match_selector( max( 0, sel.end() - offset ), op )
+                #print( 'On 1º match: ', match )
+                
+                if match:
+                    break
 
             if operator == sublime.OP_NOT_EQUAL:
-
                 match = not match
 
             if match != match_all:
-
                 break
 
+        #print( 'match: ', match )
         return match
 
 

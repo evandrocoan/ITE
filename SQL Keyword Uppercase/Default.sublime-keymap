@@ -4,7 +4,7 @@
         [
             { "key": "selector", "operator": "equal", "operand": "source.sql", "match_all": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            { "key": "scope_before_cursor", "operator": "equal", "operand": "keyword", "match_all": true },
+            { "key": "scope_before_cursor", "operator": "equal", "operand": ["keyword", "support"], "match_all": true },
         ]
     },
 ]
