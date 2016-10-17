@@ -13,14 +13,6 @@ class DefaultSyntaxCommand(sublime_plugin.EventListener):
 
 
 
-class ForceRewriteSublimeSettingsCommand(sublime_plugin.TextCommand):
-
-    def run(self, edit):
-
-        sublime.save_settings('Preferences.sublime-settings')
-
-
-
 isNotSyncedSideBarEnabled = True
 
 class SyncedSideBarRevealInSideBarCommand(sublime_plugin.TextCommand):
