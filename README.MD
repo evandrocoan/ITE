@@ -1,6 +1,7 @@
 # Sublime Text Studio
 
-These are my sublime settings/packages used to program on:
+An incredible set of settings/packages/shortcuts for Sublime Text 3. Currently it is optimized
+to program on:
 
 1. Java
 2. Octave/Matlab
@@ -9,7 +10,7 @@ These are my sublime settings/packages used to program on:
 5. SQL
 
 
-Its current version is: v1.0.1-59
+Its current version is: v1.0.1-60
 
 
 
