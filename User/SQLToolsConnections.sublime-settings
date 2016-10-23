@@ -1,14 +1,14 @@
 {
     "connections": 
     {
-        "Postgres Aula 20": 
+        "Postgres Aula 22": 
         {
             "type"    : "pgsql",
             "host"    : "127.0.0.1",
             "port"    :  5432,
             "username": "postgres",
             "password": "admin",
-            "database": "aula20",
+            "database": "aula22",
             "encoding": "utf-8"
         }
     },
