@@ -2,7 +2,7 @@
     "working_dir": "$file_path",
     "selector": "source.matlab, source.octave",
     
-    "cmd": ["sh","$packages/BuildSystem/Octave.sh","$file_name"],
+    "cmd": ["sh","$packages/Octave/Octave.sh","$file_name"],
     
     "target": "ansi_color_build",
     "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
