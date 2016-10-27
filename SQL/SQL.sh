@@ -6,5 +6,5 @@
 # Example: $1="F:/SteamCMD/steamapps/common/Half-Life/czero/addons/my_plugin.sma" and $2="my_plugin"
 # "C:\Program Files (x86)\PostgreSQL\9.6\bin\psql.exe" --host "localhost" --port 5432 --username "postgres" -d "aula20"
 #
-PGPASSWORD=admin;psql --host "localhost" --port 5432 --username "postgres" -d "aula23" < $1
+PGPASSWORD=admin;psql --host "localhost" --port 5432 --username "postgres" -d "aula24" < $1
 
