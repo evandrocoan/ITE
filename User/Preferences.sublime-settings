@@ -41,7 +41,6 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
-		"All Autocomplete",
 		"ApplySyntax",
 		"Auto Refresh",
 		"AutoFileName",
@@ -78,7 +77,6 @@
 		"Local History",
 		"Markdown Preview",
 		"MarkdownEditing",
-		"MarkdownLight",
 		"Matlab Completions",
 		"MatlabFilenameAutoComplete",
 		"MaxPane",
