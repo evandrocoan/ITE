@@ -260,7 +260,7 @@
       }
     }
   },
-  "debug": true,
+  "debug": false,
   "format": {
     "identifier_case": null,
     "indent_tabs": false,
