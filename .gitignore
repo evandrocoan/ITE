@@ -21,6 +21,7 @@
 /SQLTools/*
 /Anaconda/*
 /SublimeREPL/*
+/Syntax Highlighting for Sass/*
 
 # Added new dependency ignore rule.
 # It was not working on linux with git 2.9.3 as just /Pyv8/*, or /Pyv8/linux32-p3/*.
