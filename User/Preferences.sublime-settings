@@ -31,7 +31,6 @@
 	"fade_fold_buttons": true,
 	"font_face": "Consolas",
 	"font_face_1": "Monospace",
-	"margin": 0,
 	"font_face_2": "Menlo Regular",
 	"font_face_3": "Inconsolata",
 	"font_size": 14,
@@ -42,6 +41,7 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
+		"Anaconda",
 		"ApplySyntax",
 		"Auto Refresh",
 		"AutoFileName",
@@ -100,6 +100,7 @@
 	"index_files": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"margin": 0,
 	"mark_dirty_file_char": "*",
 	"new_file_syntax": "Packages/C++/C++.tmLanguage",
 	"preview_on_click": false,
