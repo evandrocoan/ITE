@@ -65,8 +65,12 @@
         } 
     },
     
-    { "keys": ["ctrl+f10"], "command": "distraction_free_window" },
-    { "keys": ["ctrl+f11"], "command": "max_pane" },
+    { "keys": ["ctrl+f11"], "command": "distraction_free_window" },
+    { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
+    
+    { "keys": ["f10"], "command": "max_pane" },
+    { "keys": ["f11"], "command": "toggle_full_screen" },
+    
     { "keys": ["ctrl+k","ctrl+right"], "command": "shift_pane" },
     { "keys": ["ctrl+k","ctrl+left"], "command": "unshift_pane" },
     
@@ -77,10 +81,7 @@
     { "keys": ["ctrl+w"], "command": "close" },
 
     { "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
-    { "keys": ["f11"], "command": "toggle_full_screen" },
-    { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
     { "keys": ["delete"], "command": "right_delete" },
-
 
     { "keys": ["ctrl+z"], "command": "undo" },
     { "keys": ["ctrl+y"], "command": "redo" },
