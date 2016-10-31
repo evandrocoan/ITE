@@ -8,9 +8,12 @@
 		"Boxy Theme",
 		"Notepad++ Theme",
 		"Package Control",
+		"Side-by-Side Settings",
 		"SideBarEnhancements",
+		"SyncedSideBar",
 		"Theme - Soda",
-		"Theme - SoDaReloaded"
+		"Theme - SoDaReloaded",
+		"Toolbar"
 	],
 	"bootstrapped": true,
 	"debug": true,
@@ -85,7 +88,6 @@
 		"RecentActiveFiles",
 		"ScopeAlways",
 		"ScopeHunter",
-		"Side-by-Side Settings",
 		"SQLExec",
 		"SQLTools",
 		"StickySearch",
