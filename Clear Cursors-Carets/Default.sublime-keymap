@@ -14,4 +14,10 @@
             { "key": "num_selections", "operator": "not_equal", "operand": 1 },
         ]
     },
+    {
+        "keys": ["escape"], "command": "clear_selection_first", "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false },
+        ]
+    },
 ]

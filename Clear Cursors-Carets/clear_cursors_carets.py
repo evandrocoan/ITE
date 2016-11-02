@@ -31,3 +31,13 @@ class SingleSelectionFirstCommand(sublime_plugin.TextCommand):
         self.view.show(first)
 
 
+
+class ClearSelectionFirstCommand(sublime_plugin.TextCommand):
+
+    def run(self, edit):
+
+        # print( 'Calling Clear Selection...' )
+        self.view.run_command( "move", { "by": "characters", "forward": False } )
+
+
+
