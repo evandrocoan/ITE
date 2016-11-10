@@ -10,7 +10,7 @@ to program on:
 5. SQL
 
 
-Its current version is: v1.0.1-106
+Its current version is: v1.0.1-107
 
 
 
