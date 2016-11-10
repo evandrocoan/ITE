@@ -1,0 +1,17 @@
+[
+    { "caption": "-" },
+
+    { "command": "reopen_last_file", "caption": "Reopen Last Tab" },
+    { "caption": "-" },
+    { "command": "tabs_extra_view_wrapper", "args": {"group": -1, "index": -1, "command": "save"}, "caption": "Save" },
+    { "command": "tabs_extra_view_wrapper", "args": {"group": -1, "index": -1, "command": "prompt_save_as"}, "caption": "Save As…" },
+    { "command": "save_all", "caption": "Save All" },
+    { "caption": "-" },
+    { "command": "tabs_extra_delete", "args": {"group": -1, "index": -1}, "caption": "Delete File" },
+    { "caption": "-" },
+    { "command": "tabs_extra_rename", "args": {"group": -1, "index": -1}, "caption": "Rename…" },
+    { "command": "tabs_extra_move", "args": {"group": -1, "index": -1}, "caption": "Move…" },
+    { "command": "tabs_extra_duplicate", "args": {"group": -1, "index": -1}, "caption": "Duplicate…" },
+    { "caption": "-" },
+    { "command": "tabs_extra_revert", "args": {"group": -1, "index": -1, "command": "revert"}, "caption": "Revert File" }
+]

@@ -1,11 +1,63 @@
 [
     { "command": "close_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close" },
-    { "command": "close_others_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Other Tabs" },
-    { "command": "close_to_right_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Tabs to the Right" },
+    {
+        "caption": "Close Options...",
+        "children":
+        [
+            { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "all" }, "caption": "Close All Tabs" },
+            { "command": "close_others_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Other Tabs" },
+            { "command": "close_to_right_by_index", "args": { "group": -1, "index": -1 }, "caption": "Close Tabs to the Right" },
+            { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "left" }, "caption": "Close Tabs to the Left" },
+            {
+                "caption": "Close Tabs(s) - Skip Unsaved",
+                "children":
+                [
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "single", "close_unsaved": false }, "caption": "Close" },
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "other", "close_unsaved": false }, "caption": "Close Other Tabs" },
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "right", "close_unsaved": false }, "caption": "Close Tabs to the Right" },
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "left", "close_unsaved": false }, "caption": "Close Tabs to the Left" },
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "all", "close_unsaved": false }, "caption": "Close All Tabs" }
+                ]
+            },
+            {
+                "caption": "Close Tabs(s) - Dismiss Unsaved",
+                "children":
+                [
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "single", "unsaved_prompt": false }, "caption": "Close" },
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "other", "unsaved_prompt": false }, "caption": "Close Other Tabs" },
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "right", "unsaved_prompt": false }, "caption": "Close Tabs to the Right" },
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "left", "unsaved_prompt": false }, "caption": "Close Tabs to the Left" },
+                    { "command": "tabs_extra_close", "args": { "group": -1, "index": -1, "close_type": "all", "unsaved_prompt": false }, "caption": "Close All Tabs" }
+                ]
+            },
+        ]
+    },
+    {
+        "caption": "Sort Tabs By…",
+        "children":
+        [
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.name", "reverse": false}, "caption": "Name" },
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.path", "reverse": false}, "caption": "Path" },
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.modified", "reverse": false}, "caption": "Modified" },
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.created", "reverse": false}, "caption": "Created" },
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.type", "reverse": false}, "caption": "Extension" },
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.size", "reverse": false}, "caption": "Size" },
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.activated", "reverse": false}, "caption": "Last Activated" },
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.syntax", "reverse": false}, "caption": "Syntax" },
+            { "command": "tabs_extra_sort", "args": {"group": -1, "sort_by": "TabsExtra.sort.reverse", "reverse": false}, "caption": "Reverse Order" }
+        ]
+    },
     { "caption": "-" },
     { "command": "new_file", "caption": "New File" },
     { "command": "prompt_open_file", "caption": "Open File" },
-    { "command": "copy_path", "caption": "Copy File Path" },
+    {
+        "caption": "Copy File Path",
+        "children":
+        [
+            { "command": "tabs_extra_file_path", "args": {"group": -1, "index": -1, "path_type": "path"}, "caption": "Full Path" },
+            { "command": "tabs_extra_file_path", "args": {"group": -1, "index": -1, "path_type": "name"}, "caption": "File Name" }
+        ]
+    },
     { "command": "clone_file", "caption": "Clone This View" },
     { "caption": "-" },
     {
@@ -42,5 +94,4 @@
             { "caption": "-"},
         ]
     },
-    { "caption": "-"},
 ]
