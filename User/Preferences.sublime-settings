@@ -1,7 +1,8 @@
 {
 	"added_words":
 	[
-		"matlab"
+		"matlab",
+		"Pade"
 	],
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
@@ -12,6 +13,23 @@
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"auto_match_enabled": false,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"octave-workspace"
+	],
 	"bold_folder_labels": true,
 	"buildview_scroll": "last",
 	"buildview_silence_modified_warning": true,
@@ -73,6 +91,7 @@
 		"Invert Selection",
 		"Line Endings Unify",
 		"Local History",
+		"LockTab",
 		"MarkdownEditing",
 		"Matlab Completions",
 		"MatlabFilenameAutoComplete",

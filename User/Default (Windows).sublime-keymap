@@ -58,22 +58,22 @@
     { "keys": ["ctrl+shift+w"], "command": "close_window" },
     { "keys": ["ctrl+o"], "command": "prompt_open_file" },
     { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
-    
-    { "keys": ["alt+o"], "command": "switch_file", "args": 
+
+    { "keys": ["alt+o"], "command": "switch_file", "args":
         {
             "extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]
-        } 
+        }
     },
-    
+
     { "keys": ["ctrl+f11"], "command": "distraction_free_window" },
     { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
-    
+
     { "keys": ["f10"], "command": "max_pane" },
     { "keys": ["f11"], "command": "toggle_full_screen" },
-    
+
     { "keys": ["ctrl+k","ctrl+right"], "command": "shift_pane" },
     { "keys": ["ctrl+k","ctrl+left"], "command": "unshift_pane" },
-    
+
     { "keys": ["ctrl+n"], "command": "new_file" },
     { "keys": ["ctrl+s"], "command": "save" },
     { "keys": ["ctrl+shift+s"], "command": "prompt_save_as" },
