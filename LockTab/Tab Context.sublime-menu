@@ -1,7 +1,0 @@
-[
-   { "caption": "-" },
-   { "caption": "Lock Tab", "command": "lock_tab" },
-   { "caption": "UnLock Tab", "command": "unlock_tab" },
-   { "caption": "Toggle Tab Lock", "command": "toggle_tab_lock" },
-   { "caption": "-" }
-]
