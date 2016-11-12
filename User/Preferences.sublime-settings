@@ -126,7 +126,7 @@
 	],
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
-	"show_encoding": false,
+	"show_encoding": true,
 	"show_full_file_path": true,
 	"show_full_path": false,
 	"show_line_endings": true,
