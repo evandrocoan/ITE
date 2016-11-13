@@ -10,6 +10,7 @@
 	"auto_complete": true,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 50,
+	"auto_complete_selector": "",
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"auto_match_enabled": false,
