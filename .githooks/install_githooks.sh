@@ -6,6 +6,12 @@ if [ -d $githooksPath ]
 then
     printf "Installing the githooks...\n\n"
 
+    # Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`, i.e., the current folder name.
+    AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo "${PWD##*/}")
+
+    # Write specify the githooks' root folder
+    echo "$AUTO_VERSIONING_ROOT_FOLDER_NAME" > $githooksPath/gitHooksRoot.txt
+
     cp -v post-checkout $githooksPath
     cp -v post-commit $githooksPath
     cp -v prepare-commit-msg $githooksPath

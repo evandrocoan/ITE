@@ -6,14 +6,18 @@
 # indicated at "filePathToUpdate" and "versionFilePath". The versions at these two files must to be
 # synchronized for a correct version update.
 #
-# You can also update the version manually, but you must to update both files: "./.githooks/VERSION.txt"
-# and "./scripting/galileo.sma" using the same version number.
+# You can also update the version manually, but you must to update both files:
+# "$AUTO_VERSIONING_ROOT_FOLDER_NAME/VERSION.txt" and "./project_folder/project_file.txt" using
+# the same version number.
 #
 # Program usage: updateVersion [major | minor | patch | build]
 # Example: ./updateVersion build
 #
 #
 # Change log:
+#
+# v2.1.0
+# Allowed free folder renaming for the auto-versioning root folder.
 #
 # v2.0.0
 # Added installer script `install_githooks.sh`.
@@ -24,7 +28,7 @@
 # Added error message when the 'sed' operation fails.
 #
 # v1.1.1
-# Placed this file within the repository sub-folder "./.githooks".
+# Placed this file within the repository sub-folder "./$AUTO_VERSIONING_ROOT_FOLDER_NAME".
 #
 # v1.1
 #  Implemented build incrementing number.
@@ -38,15 +42,20 @@
 
 
 
-GIT_DIR_="$(git rev-parse --git-dir)"
-githooksConfig=$(cat $GIT_DIR_/../.githooks/githooksConfig.txt)
+# Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`, i.e., the current folder name.
+AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo "${PWD##*/}")
 
-# $versionFilePath example: .githooks/GALILEO_SMA_VERSION.txt
+# Read the configurations file.
+GIT_DIR_="$(git rev-parse --git-dir)"
+githooksConfig=$(cat $GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
+
+# $versionFilePath example: $AUTO_VERSIONING_ROOT_FOLDER_NAME/GALILEO_SMA_VERSION.txt
 versionFilePath=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 1)
 
 # $filePathToUpdate example: scripting/galileo.sma
 filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
 
+# Get the current version from the dedicated versioning file.
 currentVersion=$(cat $versionFilePath)
 originalVersion=$currentVersion
 

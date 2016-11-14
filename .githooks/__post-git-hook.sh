@@ -6,8 +6,12 @@
 
 
 
+# Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`, i.e., the current folder name.
+AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo "${PWD##*/}")
+
+# Read the configurations file.
 GIT_DIR_="$(git rev-parse --git-dir)"
-githooksConfig=$(cat $GIT_DIR_/../.githooks/githooksConfig.txt)
+githooksConfig=$(cat $GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
 
 # $filePathToUpdate example: scripting/galileo.sma
 filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
@@ -24,7 +28,7 @@ sulfixName="FlagFile.txt"
 updateFlagFilePath="$GIT_DIR_/$fileNameToUpdate$sulfixName"
 
 currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
-updateVersionProgram=$GIT_DIR_/../.githooks/updateVersion.sh
+updateVersionProgram=$GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/updateVersion.sh
 
 
 cleanUpdateFlagFile()

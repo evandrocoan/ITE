@@ -12,12 +12,26 @@ used and updated when the program "./.githooks/updateVersion.sh" to run.
 
 Program usage: 
 ```
-./.githooks/updateVersion [major | minor | patch | build]
+./updateVersion.sh [major | minor | patch | build]
 ```
 Example:
 
-1. `./.githooks/updateVersion` to show help.
-1. `./.githooks/updateVersion build` to increment the build number.
+1. `./updateVersion` to show help.
+1. `./updateVersion build` to increment the build number.
+
+
+### Installing
+
+To install this automated versioning script, you need to:
+
+1. Fork this repository on yours git repository main's root folder.
+1. Run the script `updateVersion.sh` and read the instructions.
+
+For automated versioning when committing:
+
+1. Run the `git hooks` installer script `install_githooks.sh`.
+1. Re-run the installer `install_githooks.sh` every time you rename the folder where repository
+is forked into.
 
 
 

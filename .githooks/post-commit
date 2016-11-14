@@ -12,8 +12,14 @@
 printf "Running the post-commit hook...\n"
 
 
+# Get the project's `.git` folder.
 GIT_DIR_="$(git rev-parse --git-dir)"
-updateVersionScript=$GIT_DIR_/../.githooks/__post-git-hook.sh
+
+# Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`
+AUTO_VERSIONING_ROOT_FOLDER_NAME=$(cat $GIT_DIR_/hooks/gitHooksRoot.txt)
+
+# Read the configurations file.
+updateVersionScript=$GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/__post-git-hook.sh
 
 
 # Run the version update script.

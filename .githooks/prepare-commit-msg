@@ -20,13 +20,18 @@
 
 
 
-printf "Running the prepare-commmit-message hook...\n"
+printf "Running the prepare-commmit-msg hook...\n"
 
-
+# Get the project's `.git` folder.
 GIT_DIR_="$(git rev-parse --git-dir)"
-githooksConfig=$(cat $GIT_DIR_/../.githooks/githooksConfig.txt)
 
-# $versionFilePath example: .githooks/GALILEO_SMA_VERSION.txt
+# Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`
+AUTO_VERSIONING_ROOT_FOLDER_NAME=$(cat $GIT_DIR_/hooks/gitHooksRoot.txt)
+
+# Read the configurations file.
+githooksConfig=$(cat $GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
+
+# $versionFilePath example: $AUTO_VERSIONING_ROOT_FOLDER_NAME/GALILEO_SMA_VERSION.txt
 versionFilePath=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 1)
 
 # $filePathToUpdate example: scripting/galileo.sma
