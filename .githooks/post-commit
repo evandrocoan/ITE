@@ -10,7 +10,7 @@
 
 
 # This script is run straight from the project's git root folder, as the current working directory.
-printf "Running the post-commit hook...\n"
+# printf "Running the post-commit hook...\n"
 
 
 # Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
@@ -27,7 +27,8 @@ updateVersionScript=$GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/__post-git-ho
 # Run the version update script.
 if sh $updateVersionScript
 then
-    printf "The post-commit hook successfully ran '$updateVersionScript'.\n"
+    # printf "The post-commit hook successfully ran '$updateVersionScript'.\n"
+    :
 else
     printf "Could not run the update program '$updateVersionScript' properly!\n"
     exit 1

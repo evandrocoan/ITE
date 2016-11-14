@@ -21,7 +21,7 @@
 
 
 # This script is run straight from the project's git root folder, as the current working directory.
-printf "Running the prepare-commmit-msg hook...\n"
+# printf "Running the prepare-commmit-msg hook...\n"
 
 
 # Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
@@ -66,7 +66,7 @@ currentVersion=$(cat $versionFilePath)
 # must to be stopped right here.
 if [ -f $updateFlagFilePath ]
 then
-    printf "Removing old prepare-commmit-message flag file '$updateFlagFilePath'...\n"
+    # printf "Removing old prepare-commmit-msg flag file '$updateFlagFilePath'...\n"
     rm $updateFlagFilePath
     exit 0
 fi
@@ -94,9 +94,10 @@ then
     if [[ $currentBranch == $targetBranch || $targetBranch == "." ]]
     then
         echo "true" > $updateFlagFilePath
-        printf "Successfully created the flag file '$updateFlagFilePath'\n"
+        # printf "Successfully created the flag file '$updateFlagFilePath'\n"
     else
-        printf "The '$fileNameToUpdate' file is not being updated, because we are not on the '$targetBranch' branch.\n"
+        # printf "The '$fileNameToUpdate' file is not being updated, because we are not on the '$targetBranch' branch.\n"
+        :
     fi
 else
     printf "The '$fileNameToUpdate' file is not being committed right now.\n"

@@ -18,10 +18,12 @@
 
 
 
-printf "Running the post-checkout hook...\n"
+# This script is run straight from the project's git root folder, as the current working directory.
+# printf "Running the post-checkout hook...\n"
 
 
-# Get the project's `.git` folder.
+# Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
+# the current working directory is already the project's git root path or the `.git` folder itself.
 GIT_DIR_="$(git rev-parse --git-dir)"
 
 # Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`
@@ -48,7 +50,8 @@ fi
 # Run the version update script.
 if sh $updateVersionScript
 then
-    printf "The post-checkout hook successfully ran '$updateVersionScript'.\n"
+    # printf "The post-checkout hook successfully ran '$updateVersionScript'.\n"
+    :
 else
     printf "Could not run the update program '$updateVersionScript' properly!\n"
     exit 1

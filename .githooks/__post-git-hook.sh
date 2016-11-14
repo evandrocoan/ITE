@@ -7,7 +7,7 @@
 
 
 # This script is run straight from the project's git root folder, as the current working directory.
-printf "Running the __post-git-hook.sh script...\n"
+# printf "Running the __post-git-hook.sh script...\n"
 
 
 # Reliable way for a bash script to get the full path to itself?
@@ -20,8 +20,11 @@ popd > /dev/null
 # https://regex101.com/r/rR0oM2/1
 AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo $SCRIPTPATH | sed -r "s/((.+\/)+)//")
 
-# Read the configurations file.
+# Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
+# the current working directory is already the project's git root path or the `.git` folder itself.
 GIT_DIR_="$(git rev-parse --git-dir)"
+
+# Read the configurations file.
 githooksConfig=$(cat $GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
 
 # $filePathToUpdate example: scripting/galileo.sma
@@ -38,7 +41,10 @@ fileNameToUpdate=$(echo $filePathToUpdate | sed -r "s/((.+\/)+)//")
 sulfixName="FlagFile.txt"
 updateFlagFilePath="$GIT_DIR_/$fileNameToUpdate$sulfixName"
 
+# The the current active branch name.
 currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
+
+# Creates the path to the `updateVersion.sh` script.
 updateVersionProgram=$GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/updateVersion.sh
 
 
@@ -69,13 +75,14 @@ then
 
         # '-C HEAD' do not prompt for a commit message, use the HEAD as commit message.
         # '--no-verify' do not call the pre-commit hook to avoid infinity loop.
-        printf "Amending commits...\n"
+        # printf "Amending commits...\n"
         git commit --amend -C HEAD --no-verify
     else
         printf "It is not time to amend, as we are not on the '$targetBranch' branch.\n"
     fi
 else
-    printf "It is not time to amend, as the file '$updateFlagFilePath' does not exist.\n"
+    # printf "It is not time to amend, as the file '$updateFlagFilePath' does not exist.\n"
+    :
 fi
 
 

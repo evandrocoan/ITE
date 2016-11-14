@@ -43,7 +43,7 @@
 
 
 # This script is run straight from the project's git root folder, as the current working directory.
-printf "Running the updateVersion.sh script...\n"
+# printf "Running the updateVersion.sh script...\n"
 
 
 # Reliable way for a bash script to get the full path to itself?
@@ -56,8 +56,11 @@ popd > /dev/null
 # https://regex101.com/r/rR0oM2/1
 AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo $SCRIPTPATH | sed -r "s/((.+\/)+)//")
 
-# Read the configurations file.
+# Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
+# the current working directory is already the project's git root path or the `.git` folder itself.
 GIT_DIR_="$(git rev-parse --git-dir)"
+
+# Read the configurations file.
 githooksConfig=$(cat $GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
 
 # $versionFilePath example: $AUTO_VERSIONING_ROOT_FOLDER_NAME/GALILEO_SMA_VERSION.txt
@@ -161,7 +164,7 @@ fi
 
 
 # To add the recent updated files to the commit
-printf "Staging '$versionFilePath' and '$filePathToUpdate'...\n"
+# printf "Staging '$versionFilePath' and '$filePathToUpdate'...\n"
 git add $versionFilePath
 git add $filePathToUpdate
 
