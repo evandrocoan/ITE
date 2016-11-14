@@ -31,10 +31,10 @@ then
     #
     # Returns:
     # ../../../amxmodx
-    pathToSubmodule=$(python -c "import os.path; print os.path.relpath('$submoduleProjectRoot', '$gitRootPath')")
+    # pathToSubmodule=$(python -c "import os.path; print os.path.relpath('$submoduleProjectRoot', '$gitRootPath')")
 
     # Get the `AUTO_VERSIONING_ROOT_FOLDER_PATH`, i.e., the folder to the auto-versioning scripts.
-    AUTO_VERSIONING_ROOT_FOLDER_PATH="$pathToSubmodule/$installerDirectoryName"
+    AUTO_VERSIONING_ROOT_FOLDER_PATH="$installerDirectoryName"
 
     # Write specify the githooks' root folder
     echo "$AUTO_VERSIONING_ROOT_FOLDER_PATH" > $gitHooksPath/gitHooksRoot.txt

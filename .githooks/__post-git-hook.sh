@@ -6,8 +6,19 @@
 
 
 
-# Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`, i.e., the current folder name.
-AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo "${PWD##*/}")
+# This script is run straight from the project's git root folder, as the current working directory.
+printf "Running the __post-git-hook.sh script...\n"
+
+
+# Reliable way for a bash script to get the full path to itself?
+# http://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself
+pushd `dirname $0` > /dev/null
+SCRIPTPATH=`pwd`
+popd > /dev/null
+
+# Remove the '/app/blabla/' from the $SCRIPTPATH variable.
+# https://regex101.com/r/rR0oM2/1
+AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo $SCRIPTPATH | sed -r "s/((.+\/)+)//")
 
 # Read the configurations file.
 GIT_DIR_="$(git rev-parse --git-dir)"

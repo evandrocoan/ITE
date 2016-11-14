@@ -20,9 +20,12 @@
 
 
 
+# This script is run straight from the project's git root folder, as the current working directory.
 printf "Running the prepare-commmit-msg hook...\n"
 
-# Get the project's `.git` folder.
+
+# Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
+# the current working directory is already the project's git root path or the `.git` folder itself.
 GIT_DIR_="$(git rev-parse --git-dir)"
 
 # Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`
