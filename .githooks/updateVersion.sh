@@ -4,7 +4,7 @@
 #
 # This file must be ran from the main repository folder. It updates the software version number
 # indicated at "filePathToUpdate" and "versionFilePath". The versions at these two files must to be
-# synchronized for a correct version update. 
+# synchronized for a correct version update.
 #
 # You can also update the version manually, but you must to update both files: "./.githooks/VERSION.txt"
 # and "./scripting/galileo.sma" using the same version number.
@@ -54,7 +54,7 @@ component=$1
 
 
 # 'cut' Print selected parts of lines from each FILE to standard output
-# 
+#
 # '-d' use another delimiter instead of TAB for field delimiter.
 # '-f' select only these fields.
 #
@@ -77,23 +77,35 @@ case "$component" in
         minor=0
         patch=0
         ;;
-        
+
     minor )
         minor=$(expr $minor + 1)
         patch=0
         ;;
-        
+
     patch )
         patch=$(expr $patch + 1)
         ;;
-        
+
     build )
         build=$(expr $build + 1)
         ;;
-        
+
     * )
         echo "Error - argument must be 'major', 'minor', 'patch' or 'build'"
         echo "Usage: updateVersion [major | minor | patch | build]"
+        echo ""
+        echo "Semantic Versioning 2.0.0"
+        echo ""
+        echo "Given a version number MAJOR.MINOR.PATCH, increment the:"
+        echo ""
+        echo "MAJOR version when you make incompatible API changes,"
+        echo "MINOR version when you add functionality in a backwards-compatible manner, and"
+        echo "PATCH version when you make backwards-compatible bug fixes."
+        echo "Additional labels for pre-release and build metadata are available as extensions to"
+        echo "the MAJOR.MINOR.PATCH format."
+        echo ""
+
         exit 1
         ;;
 esac
@@ -119,7 +131,7 @@ fi
 if sed -i -- "s/v$originalVersion/v$currentVersion/g" $filePathToUpdate
 then
     echo "Replacing the version v$originalVersion -> v$currentVersion in '$filePathToUpdate'"
-    
+
     # Replace the file with the $versionFilePath with the $currentVersion.
     echo $currentVersion > $versionFilePath
 else
