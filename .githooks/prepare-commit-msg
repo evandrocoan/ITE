@@ -16,11 +16,11 @@
 # $1 - the path to the file that holds the commit message so far, (as .git/MERGE_MSG)
 # $2 - the type of commit, (as message or merge)
 # $3 - the commit SHA-1 if this is an amended commit.
-# echo "1 = $1, 2 = $2, 3 = $3"
+# printf "1 = $1, 2 = $2, 3 = $3\n"
 
 
 
-echo "Running the prepare-commmit-message hook..."
+printf "Running the prepare-commmit-message hook...\n"
 
 
 GIT_DIR_="$(git rev-parse --git-dir)"
@@ -57,7 +57,7 @@ currentVersion=$(cat $versionFilePath)
 # must to be stopped right here.
 if [ -f $updateFlagFilePath ]
 then
-    echo "Removing old prepare-commmit-message configuration file '$updateFlagFilePath'..."
+    printf "Removing old prepare-commmit-message configuration file '$updateFlagFilePath'...\n"
     rm $updateFlagFilePath
     exit 0
 fi
@@ -73,24 +73,24 @@ then
     #
     if ! grep -Fq "v$currentVersion" "$filePathToUpdate"
     then
-        echo "Error! Could not find v$currentVersion and update the file '$filePathToUpdate'."
-        echo "The current version number on this file must be v$currentVersion."
-        echo "Or fix the file '$versionFilePath' to the correct value."
+        printf "Error! Could not find v$currentVersion and update the file '$filePathToUpdate'.\n"
+        printf "The current version number on this file must be v$currentVersion.\n"
+        printf "Or fix the file '$versionFilePath' to the correct value.\n"
         exit 1
     fi
-    
+
     # This creates the flag file '$updateFlagFilePath' to indicate that 'post-checkout' and
     # 'post-commit' hooks must to update the version number. It only updates whether the current
     # branch is $targetBranch and the file being changed is "$fileNameToUpdate".
     if [[ $currentBranch == $targetBranch ]]
     then
         echo "true" > $updateFlagFilePath
-        echo "Successfully created the flag file '$updateFlagFilePath'"
+        printf "Successfully created the flag file '$updateFlagFilePath'\n"
     else
-        echo "The '$fileNameToUpdate' file is not being updated, because we are not on the '$targetBranch' branch."
+        printf "The '$fileNameToUpdate' file is not being updated, because we are not on the '$targetBranch' branch.\n"
     fi
 else
-    echo "The '$fileNameToUpdate' file is not being committed right now."
+    printf "The '$fileNameToUpdate' file is not being committed right now.\n"
 fi
 
 

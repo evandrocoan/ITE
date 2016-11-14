@@ -31,7 +31,7 @@ cleanUpdateFlagFile()
 {
     if [ -f $updateFlagFilePath ]
     then
-        echo "Removing old post-commit or checkout configuration file '$updateFlagFilePath'..."
+        printf "Removing old post-commit or checkout configuration file '$updateFlagFilePath'...\n"
         rm $updateFlagFilePath
     fi
 }
@@ -47,19 +47,19 @@ then
     then
         if sh $updateVersionProgram build
         then
-            echo "Successfully ran '$updateVersionProgram'."
+            printf "Successfully ran '$updateVersionProgram'.\n"
         else
-            echo "Could not run the update program '$updateVersionProgram' properly!"
+            printf "Could not run the update program '$updateVersionProgram' properly!\n"
             cleanUpdateFlagFile
             exit 1
         fi
-        echo "Amending commits..."
+        printf "Amending commits...\n"
         git commit --amend -C HEAD --no-verify
     else
-        echo "It is not time to amend, as we are not on the '$targetBranch' branch."
+        printf "It is not time to amend, as we are not on the '$targetBranch' branch.\n"
     fi
 else
-    echo "It is not time to amend, as the file '$updateFlagFilePath' does not exist."
+    printf "It is not time to amend, as the file '$updateFlagFilePath' does not exist.\n"
 fi
 
 

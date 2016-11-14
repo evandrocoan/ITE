@@ -9,7 +9,7 @@
 
 
 
-echo "Running the post-commit hook..."
+printf "Running the post-commit hook...\n"
 
 
 GIT_DIR_="$(git rev-parse --git-dir)"
@@ -19,9 +19,9 @@ updateVersionScript=$GIT_DIR_/../.githooks/__post-git-hook.sh
 # Run the version update script.
 if sh $updateVersionScript
 then
-    echo "The post-commit hook successfully ran '$updateVersionScript'."
+    printf "The post-commit hook successfully ran '$updateVersionScript'.\n"
 else
-    echo "Could not run the update program '$updateVersionScript' properly!"
+    printf "Could not run the update program '$updateVersionScript' properly!\n"
     exit 1
 fi
 

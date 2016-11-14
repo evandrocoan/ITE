@@ -66,7 +66,7 @@ build=$(echo $currentVersion | cut -d'-' -f 2)
 
 if [ -z "${major}" ] || [ -z "${minor}" ] || [ -z "${patch}" ] || [ -z "${build}" ]
 then
-    echo "VAR <$major>.<$minor>.<$patch>-<$build> is bad set or set to the empty string"
+    printf "VAR <$major>.<$minor>.<$patch>-<$build> is bad set or set to the empty string\n"
     exit 1
 fi
 
@@ -92,19 +92,19 @@ case "$component" in
         ;;
 
     * )
-        echo "Error - argument must be 'major', 'minor', 'patch' or 'build'"
-        echo "Usage: updateVersion [major | minor | patch | build]"
-        echo ""
-        echo "Semantic Versioning 2.0.0"
-        echo ""
-        echo "Given a version number MAJOR.MINOR.PATCH, increment the:"
-        echo ""
-        echo "MAJOR version when you make incompatible API changes,"
-        echo "MINOR version when you add functionality in a backwards-compatible manner, and"
-        echo "PATCH version when you make backwards-compatible bug fixes."
-        echo "Additional labels for pre-release and build metadata are available as extensions to"
-        echo "the MAJOR.MINOR.PATCH format."
-        echo ""
+        printf "Error - argument must be 'major', 'minor', 'patch' or 'build'\n"
+        printf "Usage: updateVersion [major | minor | patch | build]\n"
+        printf "\n"
+        printf "Semantic Versioning 2.0.0\n"
+        printf "\n"
+        printf "Given a version number MAJOR.MINOR.PATCH, increment the:\n"
+        printf "\n"
+        printf "MAJOR version when you make incompatible API changes,\n"
+        printf "MINOR version when you add functionality in a backwards-compatible manner, and\n"
+        printf "PATCH version when you make backwards-compatible bug fixes.\n"
+        printf "Additional labels for pre-release and build metadata are available as extensions to\n"
+        printf "the MAJOR.MINOR.PATCH format.\n"
+        printf "\n"
 
         exit 1
         ;;
@@ -121,27 +121,27 @@ currentVersion=$major.$minor.$patch-$build
 #
 if ! grep -Fq "v$originalVersion" "$filePathToUpdate"
 then
-    echo "Error! Could not find v$originalVersion and update the file '$filePathToUpdate'."
-    echo "The current version number on this file must be v$originalVersion!"
-    echo "Or fix the file '$versionFilePath' to the correct value."
+    printf "Error! Could not find v$originalVersion and update the file '$filePathToUpdate'.\n"
+    printf "The current version number on this file must be v$originalVersion!\n"
+    printf "Or fix the file '$versionFilePath' to the correct value.\n"
     exit 1
 fi
 
 
 if sed -i -- "s/v$originalVersion/v$currentVersion/g" $filePathToUpdate
 then
-    echo "Replacing the version v$originalVersion -> v$currentVersion in '$filePathToUpdate'"
+    printf "Replacing the version v$originalVersion -> v$currentVersion in '$filePathToUpdate'\n"
 
     # Replace the file with the $versionFilePath with the $currentVersion.
     echo $currentVersion > $versionFilePath
 else
-    echo "ERROR! Could not replace the version v$originalVersion -> v$currentVersion in '$filePathToUpdate'"
+    printf "ERROR! Could not replace the version v$originalVersion -> v$currentVersion in '$filePathToUpdate'\n"
     exit 1
 fi
 
 
 # To add the recent updated files to the commit
-echo "Staging '$versionFilePath' and '$filePathToUpdate'..."
+printf "Staging '$versionFilePath' and '$filePathToUpdate'...\n"
 git add $versionFilePath
 git add $filePathToUpdate
 

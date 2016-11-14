@@ -8,17 +8,17 @@
 # To enable this hook, rename this file to "post-checkout".
 #
 # This hook is invoked when a git-checkout is run after having updated
-# the worktree. The hook is given three parameters: 
+# the worktree. The hook is given three parameters:
 # $1 - the ref of the previous HEAD,
 # $2 - the ref of the new HEAD (which may or may not have changed),
-# $3 - flag indicating whether the checkout was a branch checkout 
+# $3 - flag indicating whether the checkout was a branch checkout
 #      (changing branches, flag=1) or a file checkout (retrieving
 #      a file from the index, flag=0). This hook cannot affect the outcome
 #      of git-checkout.
 
 
 
-echo "Running the post-checkout hook..."
+printf "Running the post-checkout hook...\n"
 
 
 GIT_DIR_="$(git rev-parse --git-dir)"
@@ -35,16 +35,16 @@ then
     # Alert the user when his checkout branch is behind the $targetBranch branch.
     if [ $commitsBehindDevelop -gt 0 ]
     then
-        echo "ATTENTION: Your branch '$currentBranch' is $commitsBehindDevelop commits behind $targetBranch"
+        printf "ATTENTION: Your branch '$currentBranch' is $commitsBehindDevelop commits behind $targetBranch\n"
     fi
 fi
 
 # Run the version update script.
 if sh $updateVersionScript
 then
-    echo "The post-checkout hook successfully ran '$updateVersionScript'."
+    printf "The post-checkout hook successfully ran '$updateVersionScript'.\n"
 else
-    echo "Could not run the update program '$updateVersionScript' properly!"
+    printf "Could not run the update program '$updateVersionScript' properly!\n"
     exit 1
 fi
 

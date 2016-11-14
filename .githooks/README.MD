@@ -20,11 +20,6 @@ Example:
 1. `./.githooks/updateVersion build` to increment the build number.
 
 
-Note: The program "./.githooks/updateVersion.sh" must to be run from
-the main repository folder "$THIS_REPOSITORY_DIR". See its documentation
-reading its file ".githooks/updateVersion.sh".
-
-
 
 #### Semantic Versioning 2.0.0
 
