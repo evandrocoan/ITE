@@ -19,8 +19,8 @@ filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
 # $targetBranch example: develop, use . to operate all branches
 targetBranch=$(echo $githooksConfig | cut -d',' -f 3)
 
-# $fileNameToUpdate example: galileo.sma
-# Remove the '/app/blabla/' from the $filePathToUpdate argument name - https://regex101.com/r/rR0oM2/1
+# Remove the '/app/blabla/' from the $filePathToUpdate argument name. Example: galileo.sma
+# https://regex101.com/r/rR0oM2/1
 fileNameToUpdate=$(echo $filePathToUpdate | sed -r "s/((.+\/)+)//")
 
 # $updateFlagFilePath example: isToUpdateTheGalileoFile.txt

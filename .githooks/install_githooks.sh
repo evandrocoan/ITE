@@ -1,30 +1,52 @@
 #!/usr/bin/env bash
 
-githooksPath="../.git/hooks/"
 
-if [ -d $githooksPath ]
+# Whether we are dealing with a git-submodule or not, this get the correct git file path for the
+# project root folder if run on it directory, or for the sub-module folder if run on its directory.
+gitRootPath="$(git rev-parse --git-dir)"
+gitHooksPath="$gitRootPath/hooks"
+
+
+
+if [ -d $gitHooksPath ]
 then
     printf "Installing the githooks...\n\n"
 
-    # Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`, i.e., the current folder name.
-    AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo "${PWD##*/}")
+    # Reliable way for a bash script to get the full path to itself?
+    # http://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself
+    pushd `dirname $0` > /dev/null
+    SCRIPTPATH=`pwd`
+    popd > /dev/null
+
+    # Remove the '/app/blabla/' from the $SCRIPTPATH variable.
+    # https://regex101.com/r/rR0oM2/1
+    installerDirectoryName=$(echo $SCRIPTPATH | sed -r "s/((.+\/)+)//")
+
+    # Get the submodule (if any) root's directory
+    submoduleProjectRoot=$(git rev-parse --show-toplevel)
+
+    # Given:
+    # D:/User/Dropbox/Applications/SoftwareVersioning/SublimeText/Data/Packages/.git/modules/amxmodx (gitRootPath)
+    # D:/User/Dropbox/Applications/SoftwareVersioning/SublimeText/Data/Packages/amxmodx (submoduleProjectRoot)
+    #
+    # Returns:
+    # ../../../amxmodx
+    pathToSubmodule=$(python -c "import os.path; print os.path.relpath('$submoduleProjectRoot', '$gitRootPath')")
+
+    # Get the `AUTO_VERSIONING_ROOT_FOLDER_PATH`, i.e., the folder to the auto-versioning scripts.
+    AUTO_VERSIONING_ROOT_FOLDER_PATH="$pathToSubmodule/$installerDirectoryName"
 
     # Write specify the githooks' root folder
-    echo "$AUTO_VERSIONING_ROOT_FOLDER_NAME" > $githooksPath/gitHooksRoot.txt
+    echo "$AUTO_VERSIONING_ROOT_FOLDER_PATH" > $gitHooksPath/gitHooksRoot.txt
 
-    cp -v post-checkout $githooksPath
-    cp -v post-commit $githooksPath
-    cp -v prepare-commit-msg $githooksPath
+    cp -v post-checkout $gitHooksPath
+    cp -v post-commit $gitHooksPath
+    cp -v prepare-commit-msg $gitHooksPath
 
     printf "\nThe githooks are successfully installed!\n"
 else
     printf "Error! Could not to install the githooks.\n"
-    printf "The folder \`$githooksPath\` is missing. Are you using this as a sub-module?\n\n"
-    printf "If so, then to install the files manually coping and pasting the following files:\n"
-    printf "\`post-checkout\`\n"
-    printf "\`post-commit\`\n"
-    printf "\`prepare-commit-msg\`\n\n"
-    printf "To the folder: ./git/modules/\$THIS_MODULE_NAME\n\n"
+    printf "The folder \`$gitHooksPath\` folder is missing.\n\n"
 fi
 
 
