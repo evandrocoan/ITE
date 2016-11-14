@@ -58,7 +58,7 @@ currentVersion=$(cat $versionFilePath)
 # must to be stopped right here.
 if [ -f $updateFlagFilePath ]
 then
-    printf "Removing old prepare-commmit-message configuration file '$updateFlagFilePath'...\n"
+    printf "Removing old prepare-commmit-message flag file '$updateFlagFilePath'...\n"
     rm $updateFlagFilePath
     exit 0
 fi
@@ -83,7 +83,7 @@ then
     # This creates the flag file '$updateFlagFilePath' to indicate that 'post-checkout' and
     # 'post-commit' hooks must to update the version number. It only updates whether the current
     # branch is $targetBranch and the file being changed is "$fileNameToUpdate".
-    if [[ $currentBranch == $targetBranch ]]
+    if [[ $currentBranch == $targetBranch || $targetBranch == "." ]]
     then
         echo "true" > $updateFlagFilePath
         printf "Successfully created the flag file '$updateFlagFilePath'\n"
