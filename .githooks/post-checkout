@@ -25,7 +25,7 @@ GIT_DIR_="$(git rev-parse --git-dir)"
 updateVersionScript=$GIT_DIR_/../.githooks/__post-git-hook.sh
 
 # $targetBranch example: develop, use . to operate all branches
-targetBranch=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 3)
+targetBranch=$(echo $githooksConfig | cut -d',' -f 3)
 
 if [[ $targetBranch != "." ]]
 then

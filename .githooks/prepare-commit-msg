@@ -33,7 +33,7 @@ versionFilePath=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 1)
 filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
 
 # $targetBranch example: develop, use . to operate all branches
-targetBranch=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 3)
+targetBranch=$(echo $githooksConfig | cut -d',' -f 3)
 
 
 # $fileNameToUpdate example: galileo.sma
@@ -47,12 +47,13 @@ updateFlagFilePath="$GIT_DIR_/$fileNameToUpdate$sulfixName"
 currentGitFiles=$(git diff --name-only --cached)
 currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
 
+# Get the version number from the dedicated version file.
 currentVersion=$(cat $versionFilePath)
 
 
 # When the file "$updateFlagFilePath" exits, we must not to recreate it, as we just did
 # that. This happens because the file "$updateFlagFilePath" is created to indicate that
-# the version number already updated and doing it again would create an infinite loop.
+# the version number is already updated and doing it again would create an infinite loop.
 # Because this is a recursive shell script, hence this file is recalled later and it
 # must to be stopped right here.
 if [ -f $updateFlagFilePath ]
