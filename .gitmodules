@@ -37,3 +37,6 @@
 [submodule "Side-by-Side Settings"]
 	path = Side-by-Side Settings
 	url = https://github.com/evandrocoan/sxs-settings
+[submodule "Markdown to BB Code Converter"]
+	path = Markdown to BB Code Converter
+	url = https://github.com/evandrocoan/SublimeTextMarkdowToBBCode
