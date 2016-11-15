@@ -13,22 +13,22 @@
 # Reliable way for a bash script to get the full path to itself?
 # http://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself
 pushd `dirname $0` > /dev/null
-SCRIPTPATH=`pwd`
+SCRIPT_FOLDER_PATH=`pwd`
 popd > /dev/null
 
-# Remove the '/app/blabla/' from the $SCRIPTPATH variable.
-# https://regex101.com/r/rR0oM2/1
-AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo $SCRIPTPATH | sed -r "s/((.+\/)+)//")
-
-# Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
+# Get the project's `.git` folder. It will return the absolute path to the `.git` folder, unless
 # the current working directory is already the project's git root path or the `.git` folder itself.
 GIT_DIR_="$(git rev-parse --git-dir)"
 
-# Read the configurations file.
-githooksConfig=$(cat $GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
+# Get the submodule (if any) or the main's repository root directory
+PROJECT_ROOT_DIRECTORY=$(git rev-parse --show-toplevel)
 
-# $filePathToUpdate example: scripting/galileo.sma
-filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
+
+# Read the configurations file.
+githooksConfig=$(cat $SCRIPT_FOLDER_PATH/githooksConfig.txt)
+
+# $filePathToUpdate example: $PROJECT_ROOT_DIRECTORY/scripting/galileo.sma
+filePathToUpdate=$PROJECT_ROOT_DIRECTORY/$(echo $githooksConfig | cut -d',' -f 2)
 
 # $targetBranch example: develop, use . to operate all branches
 targetBranch=$(echo $githooksConfig | cut -d',' -f 3)
@@ -37,7 +37,7 @@ targetBranch=$(echo $githooksConfig | cut -d',' -f 3)
 # https://regex101.com/r/rR0oM2/1
 fileNameToUpdate=$(echo $filePathToUpdate | sed -r "s/((.+\/)+)//")
 
-# $updateFlagFilePath example: isToUpdateTheGalileoFile.txt
+# $updateFlagFilePath example: Galileo.txtFlagFile.txt
 sulfixName="FlagFile.txt"
 updateFlagFilePath="$GIT_DIR_/$fileNameToUpdate$sulfixName"
 
@@ -45,7 +45,7 @@ updateFlagFilePath="$GIT_DIR_/$fileNameToUpdate$sulfixName"
 currentBranch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD)
 
 # Creates the path to the `updateVersion.sh` script.
-updateVersionProgram=$GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/updateVersion.sh
+updateVersionProgram=$SCRIPT_FOLDER_PATH/updateVersion.sh
 
 
 cleanUpdateFlagFile()

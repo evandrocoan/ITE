@@ -22,7 +22,7 @@ then
     # https://regex101.com/r/rR0oM2/1
     installerDirectoryName=$(echo $SCRIPT_FOLDER_PATH | sed -r "s/((.+\/)+)//")
 
-    # Get the submodule (if any) root's directory
+    # Get the submodule (if any) or the main's repository root directory
     submoduleProjectRoot=$(git rev-parse --show-toplevel)
 
     # Given:

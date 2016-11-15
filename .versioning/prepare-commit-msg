@@ -24,21 +24,24 @@
 # printf "Running the prepare-commmit-msg hook...\n"
 
 
-# Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
+# Get the project's `.git` folder. It will return the absolute path to the `.git` folder, unless
 # the current working directory is already the project's git root path or the `.git` folder itself.
 GIT_DIR_="$(git rev-parse --git-dir)"
+
+# Get the submodule (if any) or the main's repository root directory.
+PROJECT_ROOT_DIRECTORY=$(git rev-parse --show-toplevel)
 
 # Get the `AUTO_VERSIONING_ROOT_FOLDER_NAME`
 AUTO_VERSIONING_ROOT_FOLDER_NAME=$(cat $GIT_DIR_/hooks/gitHooksRoot.txt)
 
-# Read the configurations file.
-githooksConfig=$(cat $GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
+# Read the configurations file. Example $PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt.
+githooksConfig=$(cat $PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
 
-# $versionFilePath example: $AUTO_VERSIONING_ROOT_FOLDER_NAME/GALILEO_SMA_VERSION.txt
-versionFilePath=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 1)
+# $versionFilePath example: $PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/GALILEO_SMA_VERSION.txt
+versionFilePath=$PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/$(echo $githooksConfig | cut -d',' -f 1)
 
-# $filePathToUpdate example: scripting/galileo.sma
-filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
+# $filePathToUpdate example: $PROJECT_ROOT_DIRECTORY/scripting/galileo.sma
+filePathToUpdate=$PROJECT_ROOT_DIRECTORY/$(echo $githooksConfig | cut -d',' -f 2)
 
 # $targetBranch example: develop, use . to operate all branches
 targetBranch=$(echo $githooksConfig | cut -d',' -f 3)

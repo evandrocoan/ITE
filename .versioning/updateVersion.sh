@@ -49,25 +49,21 @@
 # Reliable way for a bash script to get the full path to itself?
 # http://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself
 pushd `dirname $0` > /dev/null
-SCRIPTPATH=`pwd`
+SCRIP_FOLDER_PATH=`pwd`
 popd > /dev/null
 
-# Remove the '/app/blabla/' from the $SCRIPTPATH variable.
-# https://regex101.com/r/rR0oM2/1
-AUTO_VERSIONING_ROOT_FOLDER_NAME=$(echo $SCRIPTPATH | sed -r "s/((.+\/)+)//")
+# Get the submodule (if any) or the main's repository root directory
+PROJECT_ROOT_DIRECTORY=$(git rev-parse --show-toplevel)
 
-# Get the project's `.git` folder. It will return the abolute path to the `.git` folder, unless
-# the current working directory is already the project's git root path or the `.git` folder itself.
-GIT_DIR_="$(git rev-parse --git-dir)"
 
 # Read the configurations file.
-githooksConfig=$(cat $GIT_DIR_/../$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
+githooksConfig=$(cat $SCRIP_FOLDER_PATH/githooksConfig.txt)
 
-# $versionFilePath example: $AUTO_VERSIONING_ROOT_FOLDER_NAME/GALILEO_SMA_VERSION.txt
-versionFilePath=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 1)
+# $versionFilePath example: $SCRIP_FOLDER_PATH/GALILEO_SMA_VERSION.txt
+versionFilePath=$SCRIP_FOLDER_PATH/$(echo $githooksConfig | cut -d',' -f 1)
 
-# $filePathToUpdate example: scripting/galileo.sma
-filePathToUpdate=$GIT_DIR_/../$(echo $githooksConfig | cut -d',' -f 2)
+# $filePathToUpdate example: $PROJECT_ROOT_DIRECTORY/scripting/galileo.sma
+filePathToUpdate=$PROJECT_ROOT_DIRECTORY/$(echo $githooksConfig | cut -d',' -f 2)
 
 # Get the current version from the dedicated versioning file.
 currentVersion=$(cat $versionFilePath)
