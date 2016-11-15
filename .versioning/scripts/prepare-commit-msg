@@ -35,16 +35,16 @@ PROJECT_ROOT_DIRECTORY=$(git rev-parse --show-toplevel)
 AUTO_VERSIONING_ROOT_FOLDER_NAME=$(cat $GIT_DIR_/hooks/gitHooksRoot.txt)
 
 # Read the configurations file. Example $PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt.
-githooksConfig=$(cat $PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/githooksConfig.txt)
+gitHooksConfigPath=$(cat $PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/../githooksConfig.txt)
 
 # $versionFilePath example: $PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/GALILEO_SMA_VERSION.txt
-versionFilePath=$PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/$(echo $githooksConfig | cut -d',' -f 1)
+versionFilePath=$PROJECT_ROOT_DIRECTORY/$AUTO_VERSIONING_ROOT_FOLDER_NAME/../$(echo $gitHooksConfigPath | cut -d',' -f 1)
 
 # $filePathToUpdate example: $PROJECT_ROOT_DIRECTORY/scripting/galileo.sma
-filePathToUpdate=$PROJECT_ROOT_DIRECTORY/$(echo $githooksConfig | cut -d',' -f 2)
+filePathToUpdate=$PROJECT_ROOT_DIRECTORY/$(echo $gitHooksConfigPath | cut -d',' -f 2)
 
 # $targetBranch example: develop, use . to operate all branches
-targetBranch=$(echo $githooksConfig | cut -d',' -f 3)
+targetBranch=$(echo $gitHooksConfigPath | cut -d',' -f 3)
 
 
 # $fileNameToUpdate example: galileo.sma

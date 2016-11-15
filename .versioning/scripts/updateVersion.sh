@@ -57,13 +57,13 @@ PROJECT_ROOT_DIRECTORY=$(git rev-parse --show-toplevel)
 
 
 # Read the configurations file.
-githooksConfig=$(cat $SCRIP_FOLDER_PATH/githooksConfig.txt)
+gitHooksConfigPath=$(cat $SCRIP_FOLDER_PATH/../githooksConfig.txt)
 
 # $versionFilePath example: $SCRIP_FOLDER_PATH/GALILEO_SMA_VERSION.txt
-versionFilePath=$SCRIP_FOLDER_PATH/$(echo $githooksConfig | cut -d',' -f 1)
+versionFilePath=$SCRIP_FOLDER_PATH/../$(echo $gitHooksConfigPath | cut -d',' -f 1)
 
 # $filePathToUpdate example: $PROJECT_ROOT_DIRECTORY/scripting/galileo.sma
-filePathToUpdate=$PROJECT_ROOT_DIRECTORY/$(echo $githooksConfig | cut -d',' -f 2)
+filePathToUpdate=$PROJECT_ROOT_DIRECTORY/$(echo $gitHooksConfigPath | cut -d',' -f 2)
 
 # Get the current version from the dedicated versioning file.
 currentVersion=$(cat $versionFilePath)
