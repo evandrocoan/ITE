@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: Plain Text
+file_extensions:
+  - txt
+scope: rich.text.plain
+contexts:
+  main:
+    - match: '=+\s*(\w.*)'
+      scope: meta.function.rich.text.plain
+      captures:
+        1: entity.name.function.rich.text.plain
