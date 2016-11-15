@@ -15,12 +15,12 @@ then
     # Reliable way for a bash script to get the full path to itself?
     # http://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself
     pushd `dirname $0` > /dev/null
-    SCRIPTPATH=`pwd`
+    SCRIPT_FOLDER_PATH=`pwd`
     popd > /dev/null
 
-    # Remove the '/app/blabla/' from the $SCRIPTPATH variable.
+    # Remove the '/app/blabla/' from the $SCRIPT_FOLDER_PATH variable.
     # https://regex101.com/r/rR0oM2/1
-    installerDirectoryName=$(echo $SCRIPTPATH | sed -r "s/((.+\/)+)//")
+    installerDirectoryName=$(echo $SCRIPT_FOLDER_PATH | sed -r "s/((.+\/)+)//")
 
     # Get the submodule (if any) root's directory
     submoduleProjectRoot=$(git rev-parse --show-toplevel)
@@ -39,9 +39,9 @@ then
     # Write specify the githooks' root folder
     echo "$AUTO_VERSIONING_ROOT_FOLDER_PATH" > $gitHooksPath/gitHooksRoot.txt
 
-    cp -v post-checkout $gitHooksPath
-    cp -v post-commit $gitHooksPath
-    cp -v prepare-commit-msg $gitHooksPath
+    cp -v "$SCRIPT_FOLDER_PATH/post-checkout" $gitHooksPath
+    cp -v "$SCRIPT_FOLDER_PATH/post-commit" $gitHooksPath
+    cp -v "$SCRIPT_FOLDER_PATH/prepare-commit-msg" $gitHooksPath
 
     printf "\nThe githooks are successfully installed!\n"
 else

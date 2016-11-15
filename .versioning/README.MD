@@ -6,8 +6,8 @@ and "prepare-commit-msg" to "$THIS_REPOSITORY_DIR/.git/hooks/",
 or run the installer `install_githooks.sh`.
 
 
-Open the file ".githooks/githooksConfig.txt" to configure the files to be
-used and updated when the program "./.githooks/updateVersion.sh" to run.
+Open the file "githooksConfig.txt" to configure the files to be
+used and updated when the program "./updateVersion.sh" to run.
 
 
 Program usage: 

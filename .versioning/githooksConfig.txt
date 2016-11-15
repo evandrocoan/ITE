@@ -1,10 +1,10 @@
-.githooks/SUBLIME_STUDIO_VERSION.txt,README.MD,develop,
+SUBLIME_STUDIO_VERSION.txt,README.MD,develop,
 
 This is the 'updateVersion.sh' configuration file.
 It is important do not include any spaces on the above configuration line or remove the last comma.
 
 The above line define the files where:
-1) The file path where the current version number will be stored. Example: githooks/GALILEO_VERSION.txt
+1) The file path where the current version number will be stored. Example: GALILEO_VERSION.txt
 2) The file path which will be updated using the current version file. Example: scripting/galileo.sma
 3) The target branch to operate/apply the versioning. Use . to work with any branch. Example: develop
 
