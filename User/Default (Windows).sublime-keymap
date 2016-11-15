@@ -77,6 +77,7 @@
     { "keys": ["ctrl+n"], "command": "new_file" },
     { "keys": ["ctrl+s"], "command": "save" },
     { "keys": ["ctrl+shift+s"], "command": "prompt_save_as" },
+    { "keys": ["ctrl+alt+s"], "command": "save_all" },
     { "keys": ["ctrl+f4"], "command": "close_file" },
     { "keys": ["ctrl+w"], "command": "close" },
 
@@ -94,8 +95,8 @@
     { "keys": ["shift+insert"], "command": "paste" },
     { "keys": ["ctrl+x"], "command": "cut" },
     { "keys": ["ctrl+c"], "command": "copy" },
-    { "keys": ["ctrl+v"], "command": "paste" },
-    { "keys": ["ctrl+shift+v"], "command": "paste_and_indent" },
+    { "keys": ["ctrl+shift+v"], "command": "paste" },
+    { "keys": ["ctrl+v"], "command": "paste_and_indent" },
     { "keys": ["ctrl+k", "ctrl+v"], "command": "paste_from_history" },
 
     { "keys": ["left"], "command": "move", "args": {"by": "characters", "forward": false} },
