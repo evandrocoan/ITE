@@ -36,19 +36,38 @@ then
     # Get the `AUTO_VERSIONING_ROOT_FOLDER_PATH`, i.e., the folder to the auto-versioning scripts.
     AUTO_VERSIONING_ROOT_FOLDER_PATH="$AUTO_VERSIONING_ROOT_FOLDER_NAME"
 
-    # Write specify the githooks' root folder
-    echo "$AUTO_VERSIONING_ROOT_FOLDER_PATH/scripts" > $gitHooksPath/gitHooksRoot.txt
+    # Set the scripts file prefix
+    scripts_folder_prefix="scripts"
 
-    cp -v "$SCRIPT_FOLDER_PATH/scripts/post-checkout" $gitHooksPath
-    cp -v "$SCRIPT_FOLDER_PATH/scripts/post-commit" $gitHooksPath
-    cp -v "$SCRIPT_FOLDER_PATH/scripts/prepare-commit-msg" $gitHooksPath
+    # Write specify the githooks' root folder
+    echo "$AUTO_VERSIONING_ROOT_FOLDER_PATH/$scripts_folder_prefix" > $gitHooksPath/gitHooksRoot.txt
+
+
+    # Declare an array variable
+    # You can access them using echo "${arr[0]}", "${arr[1]}"
+    declare -a git_hooks_file_list=( "post-checkout" "post-commit" "prepare-commit-msg" )
+
+    # Now loop through the above array
+    for current_file in "${git_hooks_file_list[@]}"
+    do
+        if ! cp -v "$SCRIPT_FOLDER_PATH/$scripts_folder_prefix/$current_file" $gitHooksPath
+        then
+            printf "\nERROR when installing \`$current_file\` file from:\n"
+            printf "\`$SCRIPT_FOLDER_PATH/$scripts_folder_prefix\` to \`$gitHooksPath\`.\n"
+            exit 1
+        fi
+    done
 
     printf "\nThe githooks are successfully installed!\n"
 else
     printf "Error! Could not to install the githooks.\n"
     printf "The folder \`$gitHooksPath\` folder is missing.\n\n"
+    exit 1
 fi
 
+
+# Exits the program using a successful exit status code.
+exit 0
 
 
 
