@@ -1,7 +1,7 @@
 %YAML 1.2
 ---
 # http://www.sublimetext.com/docs/3/syntax.html
-name: Plain Text
+name: Rich Plain Text
 file_extensions:
   - txt
 scope: rich.text.plain
