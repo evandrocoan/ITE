@@ -49,6 +49,10 @@
 	"draw_white_space_3": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": true,
+	"file_exclude_patterns":
+	[
+		"octave-workspace"
+	],
 	"font_face": "Consolas",
 	"font_face_1": "Monospace",
 	"font_face_2": "Menlo Regular",
