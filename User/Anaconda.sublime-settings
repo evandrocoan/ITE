@@ -312,7 +312,7 @@
     "use_pylint": false,
 
     // Set this to false to turn pep8 checking off completely
-    "pep8": true,
+    "pep8": false,
 
     /*
         If setted, the given file will be used as configuration for pep8
@@ -611,5 +611,5 @@
 
         NOTE: Ignore errors is dangerous do it under your own responsibility
      */
-    "swallow_startup_errors": false
+    "swallow_startup_errors": true
 }
