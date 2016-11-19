@@ -2,6 +2,21 @@
     // Debug logging
     "debug_enable": false,
 
+    "default_scope" : "brackethighlighter.default",
+    "quote_scope"   : "brackethighlighter.quote",
+    "curly_scope"   : "brackethighlighter.curly",
+    "round_scope"   : "brackethighlighter.round",
+    "square_scope"  : "brackethighlighter.square",
+    "angle_scope"   : "brackethighlighter.angle",
+    "tag_scope"     : "brackethighlighter.tag",
+
+    "quote_style" : "underline",
+    "curly_style" : "underline",
+    "round_style" : "underline",
+    "square_style": "underline",
+    "angle_style" : "underline",
+    "tag_style"   : "underline",
+
     // Try to ensure dependencies are up to date.
     // If it is not desirable to have this done (like developing) on a specific dependency,
     // or some other reason, set this to False.
@@ -40,7 +55,7 @@
     // that are shown when brackets are vertically off screen.
     // Specified line count is split to context before and after the target line.
     // So a value of 4 would give you two lines of context before and two lines after.
-    "popup_line_context": 2,
+    "popup_line_context": 6,
 
 
     // Experimental: Use 'popup_bracket_emphasis' to customize the popup's bracket emphasis color
@@ -74,7 +89,7 @@
     // High visibility style and color for high visibility mode
     // (solid|outline|underline)
     // ST3 has additional options of (thin_underline|squiggly|stippled)
-    "high_visibility_style": "outline",
+    "high_visibility_style": "underline",
 
     // (scope|__default__|__bracket__)
     "high_visibility_color": "__bracket__",
@@ -102,7 +117,7 @@
     "ignore_block_mode_in_plugin": true,
 
     // Character threshold to search
-    "search_threshold": 5000,
+    "search_threshold": 50000,
 
     // Ignore threshold
     "ignore_threshold": false,
@@ -612,7 +627,7 @@
             // BH1's original default color for reference
             // "color": "entity.name.class",
             "color": "brackethighlighter.default",
-            "style": "underline"
+            "style": "thin_underline"
         },
 
         // This particular style is used to highlight
@@ -621,53 +636,53 @@
         "unmatched": {
             "icon": "question",
             // "color": "brackethighlighter.unmatched",
-            "style": "outline"
+            "style": "thin_underline"
         },
         // User defined region styles
         "curly": {
-            "icon": "curly_bracket"
+            "icon": "curly_bracket",
             // "color": "brackethighlighter.curly",
-            // "style": "underline"
+            "style": "thin_underline"
         },
         "round": {
-            "icon": "round_bracket"
+            "icon": "round_bracket",
             // "color": "brackethighlighter.round",
-            // "style": "underline"
+            "style": "thin_underline"
         },
         "square": {
-            "icon": "square_bracket"
+            "icon": "square_bracket",
             // "color": "brackethighlighter.square",
-            // "style": "underline"
+            "style": "thin_underline"
         },
         "angle": {
-            "icon": "angle_bracket"
+            "icon": "angle_bracket",
             // "color": "brackethighlighter.angle",
-            // "style": "underline"
+            "style": "thin_underline"
         },
         "tag": {
-            "icon": "tag"
+            "icon": "tag",
             // "color": "brackethighlighter.tag",
-            // "style": "underline"
+            "style": "thin_underline"
         },
         "c_define": {
-            "icon": "hash"
+            "icon": "hash",
             // "color": "brackethighlighter.c_define",
-            // "style": "underline"
+            "style": "thin_underline"
         },
         "single_quote": {
-            "icon": "single_quote"
+            "icon": "single_quote",
             // "color": "brackethighlighter.quote",
-            // "style": "underline"
+            "style": "thin_underline"
         },
         "double_quote": {
-            "icon": "double_quote"
+            "icon": "double_quote",
             // "color": "brackethighlighter.quote",
-            // "style": "underline"
+            "style": "thin_underline"
         },
         "regex": {
-            "icon": "regex"
+            "icon": "regex",
             // "color": "brackethighlighter.quote",
-            // "style": "underline"
+            "style": "thin_underline"
         }
     }
 }
