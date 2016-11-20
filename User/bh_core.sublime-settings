@@ -117,7 +117,7 @@
     "ignore_block_mode_in_plugin": true,
 
     // Character threshold to search
-    "search_threshold": 5000,
+    "search_threshold": 1000,
 
     // Ignore threshold
     "ignore_threshold": false,
