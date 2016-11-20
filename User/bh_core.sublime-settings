@@ -117,7 +117,7 @@
     "ignore_block_mode_in_plugin": true,
 
     // Character threshold to search
-    "search_threshold": 50000,
+    "search_threshold": 5000,
 
     // Ignore threshold
     "ignore_threshold": false,
@@ -126,7 +126,7 @@
     "bracket_string_escape_mode": "string",
 
     // Set max number of multi-select brackets that will be searched automatically
-    "auto_selection_threshold" : 10,
+    "auto_selection_threshold" : 1,
 
     // Enable this to completely kill highlighting if "auto_selection_threshold"
     // is exceeded.  Default is to highlight up to the "auto_selection_threshold".
