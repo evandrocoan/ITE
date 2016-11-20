@@ -86,7 +86,7 @@
 	"match_brackets_content": true,
 	"match_brackets_square": true,
 	"match_selection": true,
-	"match_tags": true,
+	"match_tags": false,
 	"new_file_syntax": "Packages/C++/C++.tmLanguage",
 	"preview_on_click": false,
 	"rulers":

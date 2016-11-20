@@ -623,6 +623,11 @@
         // a style does not define a color, it will
         // use the color from the "default" style.
         "default": {
+            // Icon to show in gutter. Available options are: angle,
+            // round, curly, square, tag, star, dot, bookmark, question,
+            // quote, double_quote, single_quote, single_quote_offset,
+            // double_quote_offset, none.
+
             "icon": "dot",
             // BH1's original default color for reference
             // "color": "entity.name.class",

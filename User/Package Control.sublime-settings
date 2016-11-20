@@ -16,7 +16,7 @@
 		"Toolbar"
 	],
 	"bootstrapped": true,
-	"debug": true,
+	"debug": false,
 	"in_process_packages":
 	[
 	],
