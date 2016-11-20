@@ -1,0 +1,15 @@
+[
+    {
+        "keys": ["alt+z"],
+        "command": "goto_last_edit_enhanced",
+    },
+
+    {
+        "keys": ["alt+shift+z"],
+        "command": "goto_last_edit_enhanced",
+        "args":
+        {
+            "backward": true
+        },
+    },
+]

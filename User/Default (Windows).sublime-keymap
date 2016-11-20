@@ -697,7 +697,6 @@
 
     { "keys": ["ctrl+equals"], "command": "increase_font_size" },
     { "keys": ["ctrl+shift+equals"], "command": "decrease_font_size" },
-    { "keys": ["ctrl+shift+keypad_plus"], "command": "decrease_font_size" },
 
     { "keys": ["alt+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" } },
 
