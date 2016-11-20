@@ -59,6 +59,7 @@
 		"File History",
 		"File Rename",
 		"FileDiffs",
+		"FileManager",
 		"Find++",
 		"FindKeyConflicts",
 		"FuzzyFileNav",
@@ -116,5 +117,9 @@
 		"Whitespace",
 		"WordHighlight",
 		"zz File Icons"
+	],
+	"repositories":
+	[
+		"https://github.com/math2001/FileManager"
 	]
 }
