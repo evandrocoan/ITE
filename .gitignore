@@ -5,7 +5,6 @@
 *.merged-ca-bundle
 
 /Terminal/*
-/SublimeCodeIntel/*
 /Pyyaml/*
 /pyyaml/*
 /Pyv8/*

@@ -43,3 +43,6 @@
 [submodule "Object Beautifier"]
 	path = Object Beautifier
 	url = https://github.com/evandrocoan/ObjectBeautifier
+[submodule "SublimeCodeIntel"]
+	path = SublimeCodeIntel
+	url = https://github.com/evandrocoan/SublimeCodeIntel
