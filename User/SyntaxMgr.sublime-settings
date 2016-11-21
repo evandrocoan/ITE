@@ -1,0 +1,67 @@
+{
+    "syntaxmgr_settings":
+    [
+        // // platforms, can be osx, windows or linux
+        // {
+        //     "platforms": ["linux"],
+        //     "settings":
+        //     {
+        //         "font_size" : 14
+        //     }
+        // },
+        // {
+        //     // apply this setting when first line matches
+        //     // be careful that it is not a list but a string
+        //     "first_line_match": "#!/.*?/sh",
+        //     "settings":
+        //     {
+        //         // the syntax can be identified by running
+        //         //
+        //         //     view.settings().get("syntax")
+        //         //
+        //         // at sublime console (ctrl + ` )
+        //         //
+        //         "syntax" : "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+        //     }
+        // },
+        // {
+        //     // the scope of the document can be obtained by pressing
+        //     // cmd+alt+p (mac) or ctrl+alt+shift+p (linux / windows)
+
+        //     // for c and python files
+        //     "scopes": ["source.c", "source.python"],
+        //     "settings":
+        //     {
+        //         "trim_trailing_white_space_on_save_scope" : true,
+        //         "auto_match_enabled" : true
+        //     }
+        // },
+        // {
+        //     // all text files
+        //     "scopes": ["text"],
+        //     "settings":
+        //     {
+        //         "spell_check": true,
+        //         "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme"
+        //     }
+        // },
+        // {
+        //     // use latex syntex for these extensions
+        //     // make sure the syntax is applied first and then the settings
+        //     "extensions": ["ltx", "latex", "l"],
+        //     "settings":
+        //     {
+        //         "syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+        //     }
+        // },
+        // {
+        //     // for all text files, excluding latex files
+        //     "scopes": ["text"],
+        //     "scopes_excluded": ["text.tex"],
+        //     "settings":
+        //     {
+        //         "spell_check": false
+        //     }
+        // }
+    ]
+}
