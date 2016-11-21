@@ -2,6 +2,8 @@
     // Debug logging
     "debug_enable": false,
 
+    // Scope? (Defined in theme files.)
+    // Examples: (keyword|string|number)
     "default_scope" : "brackethighlighter.default",
     "quote_scope"   : "brackethighlighter.quote",
     "curly_scope"   : "brackethighlighter.curly",
@@ -10,6 +12,8 @@
     "angle_scope"   : "brackethighlighter.angle",
     "tag_scope"     : "brackethighlighter.tag",
 
+    // Outline? (solid|outline|underline|none)
+    // https://github.com/facelessuser/BracketHighlighter/issues/21
     "quote_style" : "underline",
     "curly_style" : "underline",
     "round_style" : "underline",
@@ -627,10 +631,10 @@
             // round, curly, square, tag, star, dot, bookmark, question,
             // quote, double_quote, single_quote, single_quote_offset,
             // double_quote_offset, none.
-
-            "icon": "dot",
+            //
             // BH1's original default color for reference
             // "color": "entity.name.class",
+            "icon": "dot",
             "color": "brackethighlighter.default",
             "style": "thin_underline"
         },
@@ -640,54 +644,54 @@
         // style.
         "unmatched": {
             "icon": "question",
-            // "color": "brackethighlighter.unmatched",
+            "color": "brackethighlighter.unmatched",
             "style": "thin_underline"
         },
         // User defined region styles
         "curly": {
             "icon": "curly_bracket",
             // "color": "brackethighlighter.curly",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         },
         "round": {
             "icon": "round_bracket",
             // "color": "brackethighlighter.round",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         },
         "square": {
             "icon": "square_bracket",
             // "color": "brackethighlighter.square",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         },
         "angle": {
             "icon": "angle_bracket",
             // "color": "brackethighlighter.angle",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         },
         "tag": {
             "icon": "tag",
             // "color": "brackethighlighter.tag",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         },
         "c_define": {
             "icon": "hash",
             // "color": "brackethighlighter.c_define",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         },
         "single_quote": {
             "icon": "single_quote",
             // "color": "brackethighlighter.quote",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         },
         "double_quote": {
             "icon": "double_quote",
             // "color": "brackethighlighter.quote",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         },
         "regex": {
             "icon": "regex",
             // "color": "brackethighlighter.quote",
-            "style": "thin_underline"
+            // "style": "thin_underline"
         }
     }
 }
