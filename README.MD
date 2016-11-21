@@ -10,7 +10,7 @@ to program on:
 5. SQL
 
 
-Its current version is: v1.0.1-174
+Its current version is: v1.0.1-175
 
 
 
@@ -24,12 +24,18 @@ See its main post at the AlliedModders' Forum: [Versioned Sublime Text Settings]
 ___
 ## Installation
 
+![](http://i.imgur.com/UIevtzm.gif)
+
+
 1) Install `Sublime Text` from [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
 
-2) Close your Sublime Text and delete/rename the folder below, if it exists: (the folder `sublime-text-3/` below contain all your current settings)
+
+2) Close your Sublime Text and delete/rename the folder below, if it exists: 
 ```
 mv -v ~/.config/sublime-text-3/ ~/.config/sublime-text-3_Old/
 ```
+ * The folder `sublime-text-3/` above contain all your current settings
+
 
 3) While keeping your Sublime Text closed, clone this repository using this command: (Linux Only)
 ```
@@ -37,21 +43,26 @@ git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.co
 ```
 
  * The packages will be automatically installed on the first `Sublime Text` run after the repository clone.
-
- * If you are a Windows/Mac user, just figure out where are your settings folders: (the folder `Sublime Text 3\` below contain all your current settings)
+ * If you are a Windows/Mac user, just figure out where are your settings folders: 
 ```
 ~/.config/sublime-text-3/ --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\"
 ~/.config/sublime-text-3/ --> "~/Library/Application Support/Sublime Text 3"
 ```
 
+
 4) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
 
+
 5) You can open the Console on View -> Console (Ctrl+`) to view the download progress.
+ * It is not clear enough? See the video tutorial [URL="https://vid.me/ODYj"]How to the Install Sublime Studio[/URL].
 
 
 
 ___
 ## Notes
+
+![](http://i.imgur.com/gjD9v50.gif)
+
 
 If you are using the portable version (Linux/Windows/Mac), delete/rename the folder `Data/`, if it exists: (the folder `Data/` below contain all your current settings)
 ```
@@ -61,6 +72,7 @@ And clone it with: (remenber to replace the `\` with `/`, example, `D:\Sublime\D
 ```
 git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git "SUBLIME_ROOT_FOLDER/Data/Packages"
 ```
+
 
 
 ___
