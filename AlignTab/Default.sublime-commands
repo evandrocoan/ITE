@@ -1,0 +1,46 @@
+[
+    {
+        "caption": "Align Tab: By Regex",
+        "command": "align_tab"
+    },
+    {
+        "caption": "Align Tab: Toogle Table Mode",
+        "command": "align_tab",
+        "args": {"mode" : true}
+    },
+    {
+        "caption": "Align Tab: Toogle Live Preview Mode",
+        "command": "align_tab",
+        "args": {"live_preview" : true}
+    },
+    {
+    "caption": "Align Tab: By First Equal =",
+    "command": "align_tab",
+     "args": {"user_input" : "=/f"}
+    },
+    {
+    "caption" : "Align Tab: By First Colon :",
+    "command" : "align_tab",
+    "args"    : {"user_input" : ":/f"}
+    },
+    {
+    "caption": "Align Tab: By Fat Arrow =>",
+    "command": "align_tab",
+     "args": {"user_input" : "=>"}
+    },
+    {
+    "caption" : "Align Tab: By Ampersands &",
+    "command" : "align_tab",
+    "args"    : {"user_input" : "&"}
+    },
+    {
+    "caption" : "Align Tab: By Vertical Bars |",
+    "command" : "align_tab",
+    "args"    : {"user_input" : "\\|"}
+    },
+    {
+    "caption" : "Align Tab: By Spaces",
+    "command" : "align_tab",
+    "args"    : {"user_input" : "\\s*/l1l0"}
+    }
+]
