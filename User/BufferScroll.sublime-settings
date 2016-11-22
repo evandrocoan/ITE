@@ -10,19 +10,19 @@
 	{
 		"use_animations": false
 	},
-	"remember_color_scheme": false,
+	"remember_color_scheme": true,
 	"remember_settings_list":
 	[
 		"spell_check"
 	],
-	"remember_syntax": false,
+	"remember_syntax": true,
 	"restore_scroll": true,
 	"synch_bookmarks": false,
 	"synch_folds": false,
 	"synch_marks": false,
 	"synch_scroll": false,
 	"typewriter_scrolling": false,
-	"typewriter_scrolling_follow_cursor_movement": true,
+	"typewriter_scrolling_follow_cursor_movement": false,
 	"typewriter_scrolling_shift": "0",
 	"use_animations": false,
 	"version": 7
