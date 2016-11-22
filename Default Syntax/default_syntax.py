@@ -5,11 +5,12 @@ import sublime
 import sublime_plugin
 
 
-class DefaultSyntaxCommand(sublime_plugin.EventListener):
+class DefaultSyntaxCommand( sublime_plugin.EventListener ):
 
-	def on_new(self, view):
+    def on_new( self, view ):
 
-		view.set_syntax_file("Packages/C++/C++.tmLanguage")
+        view.set_syntax_file( "Packages/C++/C++.tmLanguage" )
+
 
 
 

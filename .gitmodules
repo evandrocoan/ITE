@@ -46,3 +46,6 @@
 [submodule "SublimeCodeIntel"]
 	path = SublimeCodeIntel
 	url = https://github.com/evandrocoan/SublimeCodeIntel
+[submodule "BufferScroll"]
+	path = BufferScroll
+	url = https://github.com/evandrocoan/BufferScroll
