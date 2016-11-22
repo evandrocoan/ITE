@@ -93,7 +93,7 @@
 	[
 		100
 	],
-	"scroll_past_end": true,
+	"scroll_past_end": false,
 	"shift_tab_unindent": true,
 	"show_encoding": true,
 	"show_full_file_path": true,
