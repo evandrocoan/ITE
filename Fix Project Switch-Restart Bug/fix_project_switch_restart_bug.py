@@ -7,13 +7,18 @@ import sublime_plugin
 
 def plugin_loaded():
 
-    views = sublime.active_window().views()
+    views   = None
+    windows = sublime.windows()
 
-    for view in views:
+    for window in windows:
 
-        # print( "( plugin_loaded ) Callling on_activated, view id {0}".format( view.id() ) )
-        view.run_command( "move", {"by": "lines", "forward": False} )
-        view.run_command( "move", {"by": "lines", "forward": True} )
+        views = window.views()
+
+        for view in views:
+
+            print( "( plugin_loaded ) Callling on_activated, view id {0}".format( view.id() ) )
+            view.run_command( "move", {"by": "lines", "forward": False} )
+            view.run_command( "move", {"by": "lines", "forward": True} )
 
 
 class OnLoadedViewCommand( sublime_plugin.EventListener ):
