@@ -13,6 +13,8 @@
                 [
                 ]
             },
+            { "caption": "-" },
+            { "caption": "Edit Settings...", "command": "edit_selected_preferences" },
             { "caption": "Force re-write Sublime Settings", "command": "force_rewrite_sublime_settings" },
             { "caption": "Force re-load Sublime Color Scheme", "command": "force_reload_sublime_color_scheme" },
         ]
