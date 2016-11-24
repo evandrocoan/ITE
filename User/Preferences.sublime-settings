@@ -67,6 +67,8 @@
 		"ApplySyntax",
 		"ColorHelper",
 		"DictionaryAutoComplete",
+		"FileManager",
+		"SublimeCodeIntel",
 		"Vintage",
 		"WordHighlight"
 	],
