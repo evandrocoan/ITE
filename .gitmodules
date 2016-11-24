@@ -49,3 +49,6 @@
 [submodule "BufferScroll"]
 	path = BufferScroll
 	url = https://github.com/evandrocoan/BufferScroll
+[submodule "Preferences Editor"]
+	path = Preferences Editor
+	url = https://github.com/evandrocoan/SublimePreferencesEditor
