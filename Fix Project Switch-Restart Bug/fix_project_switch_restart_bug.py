@@ -5,21 +5,30 @@ import sublime
 import sublime_plugin
 
 
+lastOnLoadViewCallTime = 0
+
+
+
 def plugin_loaded():
 
     # print( "( fix_project_switch_restart_bug.py )" )
 
-    views   = None
-    windows = sublime.windows()
+    views         = None
+    windows       = sublime.windows()
+    currentViewId = 0
 
     for window in windows:
 
-        views = window.views()
+        views         = window.views()
+        currentViewId = window.active_view().id()
 
         for view in views:
 
             # print( "( fix_project_switch_restart_bug.py ) View id {0}, buffer id {1}".format( view.id(), view.buffer_id() ) )
-            restore_view( view )
+
+            if currentViewId != view.id():
+
+                restore_view( view )
 
 
 
@@ -34,8 +43,6 @@ def restore_view( view ):
     view.show_at_center( view.sel()[0].begin() )
 
 
-
-lastOnLoadViewCallTime = 0
 
 def are_we_on_the_project_switch_process():
     """
