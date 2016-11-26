@@ -1,0 +1,10 @@
+[
+  {
+    "caption": "Clear Cursors-Carets: End Selection",
+    "command": "single_selection_first"
+  },
+  {
+    "caption": "Clear Cursors-Carets: Start Selection",
+    "command": "single_selection_last"
+  },
+]
