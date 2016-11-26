@@ -52,3 +52,6 @@
 [submodule "Preferences Editor"]
 	path = Preferences Editor
 	url = https://github.com/evandrocoan/SublimePreferencesEditor
+[submodule "SublimeREPL"]
+	path = SublimeREPL
+	url = https://github.com/evandrocoan/SublimeREPL
