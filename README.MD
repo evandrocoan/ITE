@@ -10,7 +10,7 @@ to program on:
 5. SQL
 
 
-Its current version is: v1.0.1-196
+Its current version is: v1.0.1-197
 
 
 
@@ -54,7 +54,7 @@ git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.co
 
 
 5) You can open the Console on View -> Console (Ctrl+`) to view the download progress.
- * It is not clear enough? See the video tutorial [https://vid.me/ODYj](How to the Install Sublime Studio).
+ * It is not clear enough? See the video tutorial [How to the Install Sublime Studio](https://vid.me/ODYj).
 
 
 
