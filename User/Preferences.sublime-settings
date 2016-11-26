@@ -68,6 +68,7 @@
 		"ColorHelper",
 		"DictionaryAutoComplete",
 		"FileManager",
+		"Git",
 		"SublimeCodeIntel",
 		"Vintage",
 		"WordHighlight"
