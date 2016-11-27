@@ -76,8 +76,8 @@
 
     { "keys": ["ctrl+n"], "command": "new_file" },
     { "keys": ["ctrl+s"], "command": "save" },
-    { "keys": ["ctrl+shift+s"], "command": "prompt_save_as" },
-    { "keys": ["ctrl+alt+s"], "command": "save_all" },
+    { "keys": ["ctrl+alt+s"], "command": "prompt_save_as" },
+    { "keys": ["ctrl+shift+s"], "command": "save_all" },
     { "keys": ["ctrl+f4"], "command": "close_file" },
     { "keys": ["ctrl+w"], "command": "close" },
 
