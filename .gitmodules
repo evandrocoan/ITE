@@ -55,3 +55,6 @@
 [submodule "SublimeREPL"]
 	path = SublimeREPL
 	url = https://github.com/evandrocoan/SublimeREPL
+[submodule ".versioning"]
+	path = .versioning
+	url = https://github.com/evandrocoan/.versioning
