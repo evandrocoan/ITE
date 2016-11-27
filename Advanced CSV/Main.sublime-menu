@@ -1,0 +1,112 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "id": "packages",
+                "caption": "Packages",
+                "children":
+                [
+                    {
+                        "caption": "CSV",
+                        "mnemonic": "C",
+                        "id": "csv",
+                        "children":
+                        [
+                            {
+                                "command": "csv_sort_by_col_asc",
+                                "caption": "Sort by column (Ascending)"
+                            },
+                            {
+                                "command": "csv_sort_by_col_desc",
+                                "caption": "Sort by column (Descending)"
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "command": "csv_insert_col",
+                                "caption": "Insert column"
+                            },
+                            {
+                                "command": "csv_delete_col",
+                                "caption": "Delete column"
+                            },
+                            {
+                                "command": "csv_select_col",
+                                "caption": "Select column"
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "command": "csv_format_expand",
+                                "caption": "Justify columns"
+                            },
+                            {
+                                "command": "csv_format_compact",
+                                "caption": "Compact columns"
+                            },
+                            {
+                                "command": "csv_delete_trailing_cols",
+                                "caption": "Delete empty trailing columns"
+                            },
+                            {
+                                "command": "csv_set_delimiter",
+                                "caption": "Set delimiter"
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "command": "csv_evaluate",
+                                "caption": "Evaluate cells"
+                            },
+                            {
+                                "command": "csv_format",
+                                "caption": "Format using template"
+                            }
+
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Advanced CSV",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings – Default",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/Advanced CSV/AdvancedCSV.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/User/AdvancedCSV.sublime-settings"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
