@@ -75,24 +75,24 @@
       { "key": "following_text",                     "operator": "regex_contains", "operand": "^\\s*$",        "match_all": true }
     ]
   },
-  // extend line comments (// and #)
-  { "keys": ["enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*((?:#|%|\\/\\/[\\/!]?)\\s*).*/$1/}"},
+  // extend line comments (//, #, %, --) with enter
+  { "keys": ["enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*((?:\\/\\/[\\/!]?|#|%|--)\\s*).*/$1/}"},
     "context": [
       { "key": "setting.auto_indent",                "operator": "equal",          "operand": true,              "match_all": true },
       { "key": "setting.jsdocs_extend_double_slash", "operator": "equal",          "operand": true,              "match_all": true },
       { "key": "selector",                           "operator": "equal",          "operand": "comment.line",    "match_all": true },
       { "key": "auto_complete_visible",              "operator": "equal",          "operand": false,             "match_all": true },
-      { "key": "preceding_text",                     "operator": "regex_contains", "operand": "^\\s*(\\/\\/[\\/!]?|#|%)", "match_all": true }
+      { "key": "preceding_text",                     "operator": "regex_contains", "operand": "^\\s*(\\/\\/[\\/!]?|#|%|--)", "match_all": true }
     ]
   },
-  // extend line comments (// #) with keypad enter
-  { "keys": ["keypad_enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*((?:#|\\/\\/[\\/!]?)\\s*).*$/$1/}"},
+  // extend line comments (//, #, %, --) with keypad enter
+  { "keys": ["keypad_enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*((?:\\/\\/[\\/!]?|#|%|--)\\s*).*$/$1/}"},
     "context": [
       { "key": "setting.auto_indent",                "operator": "equal",          "operand": true,           "match_all": true },
       { "key": "setting.jsdocs_extend_double_slash", "operator": "equal",          "operand": true,           "match_all": true },
       { "key": "selector",                           "operator": "equal",          "operand": "comment.line", "match_all": true },
       { "key": "auto_complete_visible",              "operator": "equal",          "operand": false,          "match_all": true },
-      { "key": "preceding_text",                     "operator": "regex_contains", "operand": "^\\s*\\/\\/[\\/!]?",  "match_all": true }
+      { "key": "preceding_text",                     "operator": "regex_contains", "operand": "^\\s*\\/\\/[\\/!]?|#|%|--",  "match_all": true }
     ]
   },
   // close a block comment (/*  */)
