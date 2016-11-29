@@ -76,8 +76,8 @@
 
     { "keys": ["ctrl+n"], "command": "new_file" },
     { "keys": ["ctrl+s"], "command": "save" },
-    { "keys": ["ctrl+shift+s"], "command": "prompt_save_as" },
-    { "keys": ["ctrl+alt+s"], "command": "save_all" },
+    { "keys": ["ctrl+alt+s"], "command": "prompt_save_as" },
+    { "keys": ["ctrl+shift+s"], "command": "save_all" },
     { "keys": ["ctrl+f4"], "command": "close_file" },
     { "keys": ["ctrl+w"], "command": "close" },
 
@@ -216,7 +216,11 @@
         ]
     },
 
-    { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
+    { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true}, "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": false }
+        ]
+    },
     { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
         "context":
         [
@@ -241,6 +245,31 @@
     { "keys": ["tab"], "command": "indent", "context":
         [
             { "key": "text", "operator": "regex_contains", "operand": "\n" }
+        ]
+    },
+
+    // Structure of a Context
+    //
+    // key
+    // Name of the context whose value you want to query.
+    //
+    // operator
+    // Type of test to perform against key‘s value. Defaults to equal.
+    //
+    // operand
+    // The result returned by key is tested against this value.
+    //
+    // match_all
+    // Requires the test to succeed for all selections. Defaults to false.
+    //
+    // http://docs.sublimetext.info/en/latest/reference/key_bindings.html#structure-of-a-context
+    // http://docs.sublimetext.info/en/latest/reference/key_bindings.html#context-operands
+    // http://docs.sublimetext.info/en/latest/reference/key_bindings.html#context-operators
+    // http://docs.sublimetext.info/en/latest/reference/key_bindings.html#command-mode
+    //
+    { "keys": ["tab"], "command": "indent", "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
         ]
     },
     { "keys": ["tab"], "command": "next_field", "context":
@@ -697,7 +726,6 @@
 
     { "keys": ["ctrl+equals"], "command": "increase_font_size" },
     { "keys": ["ctrl+shift+equals"], "command": "decrease_font_size" },
-    { "keys": ["ctrl+shift+keypad_plus"], "command": "decrease_font_size" },
 
     { "keys": ["alt+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" } },
 
