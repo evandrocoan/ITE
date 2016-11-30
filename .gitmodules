@@ -10,9 +10,6 @@
 [submodule "Package Control"]
 	path = Package Control
 	url = https://github.com/evandrocoan/package_control
-[submodule "Theme - Soda"]
-	path = Theme - Soda
-	url = https://github.com/evandrocoan/soda-theme
 [submodule "Amxx Pawn"]
 	path = Amxx Pawn
 	url = https://github.com/evandrocoan/SublimeAmxxPawn
