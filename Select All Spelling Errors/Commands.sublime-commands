@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "Select All Spelling Errors",
+    "command": "select_all_spelling_errors"
+  },
+]
