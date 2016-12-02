@@ -17,7 +17,17 @@
 		"SyncedSideBar",
 		"Theme - Soda",
 		"Theme - SoDaReloaded",
-		"Toolbar"
+		"Toolbar",
+		"Markdown to BB Code Converter",
+		"Clear Cursors-Carets",
+		"Clipboard Scope Copy",
+		"Default Syntax",
+		"Fix Project Switch-Restart Bug",
+		"Fixed Selections Clear",
+		"Force Rewrite Sublime Settings",
+		"Select All Spelling Errors",
+		"SQL Keyword Uppercase",
+		"View Settings Freely"
 	],
 	"bootstrapped": true,
 	"debug": false,
