@@ -4,6 +4,6 @@
     "working_dir": "$file_path",
     "selector": "source.java, source.jar", 
     
-    "target": "ansi_color_build",
+    //"target": "ansi_color_build",
     "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
 }

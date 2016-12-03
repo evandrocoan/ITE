@@ -4,6 +4,6 @@
     
     "cmd": ["sh","$packages/Octave/Octave.sh","$file_name"],
     
-    "target": "ansi_color_build",
+    // "target": "ansi_color_build",
     "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
 }
