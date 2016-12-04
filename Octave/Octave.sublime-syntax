@@ -9,11 +9,11 @@ contexts:
     - match: ''
       push: Packages/Matlab/Matlab.sublime-syntax
       with_prototype:
-        - match: '[#%]{\s*\n'
+        - match: '^\s*[#%]{\s*\n'
           scope: comment.line.octave
           push:
             - meta_scope: comment.line.octave
-            - match: '[#%]}\s*\n'
+            - match: '^\s*[#%]}\s*\n'
               scope: comment.line.octave
               pop: true
         - match: '#.*\n'
