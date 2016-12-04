@@ -196,7 +196,11 @@
 		"SyncedSideBar",
 		"Theme - Soda",
 		"Theme - SoDaReloaded",
-		"Toolbar"
+		"Toolbar",
+		"CSS",
+		"Diff",
+		"HTML",
+		"0_package_control_loader",
 	],
 	"indent_guide_options":
 	[
