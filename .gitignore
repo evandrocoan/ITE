@@ -4,6 +4,14 @@
 # Start ignoring things
 *.merged-ca-bundle
 
+# Hard Symlinks from the github.com/sublimehq/Packages
+#
+
+# mklink /J D:\User\Dropbox\Applications\SoftwareVersioning\SublimeText\Data\Packages\Matlab\ D:\User\Dropbox\Applications\SoftwareVersioning\Forks\SublimePackagesFork\Matlab
+/Matlab/*
+
+
+# Ignored unpacked packages
 /Terminal/*
 /Pyyaml/*
 /pyyaml/*
