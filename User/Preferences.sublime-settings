@@ -113,7 +113,7 @@
 	"soda_classic_tabs": true,
 	"sort": true,
 	"spell_check": true,
-	"spelling_selector": "markup.raw, source string.quoted - punctuation - meta.preprocessor.include - meta.structure.dictionary.value, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag)",
+	"spelling_selector": "markup.raw, source string.quoted - punctuation - meta.preprocessor.include - meta.structure.dictionary.value, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag), source doccomment.block",
 	"tab_completion": false,
 	"tab_size": 4,
 	"theme": "Soda Light 3.sublime-theme",
