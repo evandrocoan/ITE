@@ -5,31 +5,87 @@ import sublime
 import sublime_plugin
 
 
-lastOnLoadViewCallTime = 0
+isCurrentlySwitching = False
+
+
+def fix_all_views_scroll():
+
+    global isCurrentlySwitching
+
+    if not isCurrentlySwitching:
+
+        isCurrentlySwitching = True
+        __windows            = sublime.windows()
+
+        windows      = []
+        activeViews  = []
+        windowsViews = []
+
+        for window in __windows:
+
+            windows.append( window )
+            activeViews.append( window.active_view() )
+            windowsViews.append( window.views() )
+
+        def revealWindow():
+
+            global isCurrentlySwitching
+
+            if( len( windowsViews ) > 0 ):
+
+                if( len( windowsViews[-1] ) > 0 ):
+
+                    revealView( windows[-1], windowsViews[-1].pop() )
+                    sublime.set_timeout( revealWindow, 25 );
+
+                else:
+
+                    # Restore the original active view.
+                    activeView   = activeViews.pop()
+                    activeWindow = windows.pop()
+
+                    # Allow new switching fixes.
+                    isCurrentlySwitching = False
+
+                    windowsViews.pop()
+                    revealView( activeWindow, activeView )
+
+        sublime.set_timeout( revealWindow, 50 )
 
 
 
-def plugin_loaded():
-
-    # print( "( fix_project_switch_restart_bug.py )" )
+def fix_all_views_scroll2():
 
     views         = None
     windows       = sublime.windows()
-    currentViewId = 0
+    # currentViewId = 0
 
     for window in windows:
 
         views         = window.views()
-        currentViewId = window.active_view().id()
+        # currentViewId = window.active_view().id()
 
         for view in views:
 
-            # print( "( fix_project_switch_restart_bug.py ) View id {0}, buffer id {1}".format( view.id(), view.buffer_id() ) )
+            # print( "( fix_all_views_scroll2 ) View id {0}, buffer id {1}".format( view.id(), view.buffer_id() ) )
 
-            if currentViewId != view.id():
+            # if currentViewId != view.id():
 
-                restore_view( view )
+            restore_view( view )
 
+
+def revealView( window, view ):
+
+    window.focus_view( view )
+    restore_view( view )
+
+
+def plugin_loaded():
+
+    # print( "( plugin_loaded ) fix_project_switch_restart_bug.py" )
+
+    sublime.set_timeout( fix_all_views_scroll, 1000 )
+    sublime.set_timeout( fix_all_views_scroll2, 5000 )
 
 
 def restore_view( view ):
@@ -40,6 +96,8 @@ def restore_view( view ):
     # for selection in view.sel(): print( "( fix_project_switch_restart_bug.py ) Iterating view.sel()[i].begin() {0}".format( selection ) )
 
     # print( "( fix_project_switch_restart_bug.py ) Setting show_at_center to view id {0}".format( view.id() ) )
+    # view.run_command( "move", {"by": "lines", "forward": False} )
+    # view.run_command( "move", {"by": "lines", "forward": True} )
     view.show_at_center( view.sel()[0].begin() )
 
 
