@@ -1,0 +1,4 @@
+[
+    { "caption": "Extended Tab Switcher: Mode Window", "command": "extended_switcher", "args": {"list_mode": "window"} },
+    { "caption": "Extended Tab Switcher: Mode Active Group", "command": "extended_switcher", "args": {"list_mode": "active_group"} },
+]

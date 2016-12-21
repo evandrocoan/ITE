@@ -1,0 +1,14 @@
+{
+    // sort the files
+    "sort": false,
+
+    // Don't list current file?
+    "skip_current_file" : false,
+
+    // As a visual helper, you can add a string to mark dirty files.
+    // Also handy for filterig dirty files, if you type this string while the list is visible:
+    "mark_dirty_file_char" : "*",
+
+    //show full path with the filename
+    "show_full_file_path": true
+}
