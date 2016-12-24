@@ -413,8 +413,13 @@
 
     { "keys": ["ctrl+t"], "command": "transpose" },
 
-    { "keys": ["f9"], "command": "sort_lines", "args": {"case_sensitive": false} },
-    { "keys": ["ctrl+f9"], "command": "sort_lines", "args": {"case_sensitive": true} },
+    { "keys": ["f8"], "command": "move_text_left" },
+    { "keys": ["f9"], "command": "move_text_right" },
+    { "keys": ["ctrl+f8"], "command": "move_text_up" },
+    { "keys": ["ctrl+f9"], "command": "move_text_down" },
+
+    // { "keys": ["f9"], "command": "sort_lines", "args": {"case_sensitive": false} },
+    // { "keys": ["ctrl+f9"], "command": "sort_lines", "args": {"case_sensitive": true} },
 
     // Auto-pair quotes
     { "keys": ["\""], "command": "insert_snippet", "args": {"contents": "\"$0\""}, "context":
