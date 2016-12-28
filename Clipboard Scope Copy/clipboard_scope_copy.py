@@ -9,7 +9,6 @@ class CopyScopeToClipboardCommand(sublime_plugin.TextCommand):
 
         syntax_name = self.view.scope_name(self.view.sel()[0].begin())
         print(syntax_name)
-        self.view.set_status("Scope",syntax_name)
         sublime.set_clipboard(syntax_name)
 
 
