@@ -34,6 +34,7 @@ contexts:
   main:
     - include: comment
     - include: numbers
+    - include: keywords
     - include: variables
 
   ########################################################
@@ -98,14 +99,43 @@ contexts:
 
   # Variables
   variables:
-    - match: '\s*({{words_pawn}}).*'
+    - match: '^\s*({{words_pawn}})'
       captures:
         1: variable.definition.Config
 
   ########################################################
 
 
+  # "PAWN Keywords"
 
+  keywords:
 
+    - match: (\-|\+|\*|\/|%|&|\||\^|<<|>>)?=
+      scope: keyword.operator.assignment.Config
 
+    - match: (==|!=|<=|>=|<>|<|>)
+      scope: keyword.operator.comparison.Config
+
+    - match: (\-\-|\+\+)
+      scope: keyword.operator.increment-decrement.Config
+
+    - match: (\?|:)
+      scope: keyword.operator.ternary.Config
+
+    - match: (\-|\+|\*|\/|%)
+      scope: keyword.operator.arithmetic.Config
+
+    - match: (!|&&|\|\|)
+      scope: keyword.operator.logical.Config
+
+    - match: (~|&|\||\^|<<|>>)
+      scope: keyword.operator.bitwise.Config
+
+    - match: (\,)
+      scope: keyword.other.Config
+
+    - match: '\(|\)|\[|\]'
+      scope: keyword.brackets.Config
+
+  ########################################################
 
