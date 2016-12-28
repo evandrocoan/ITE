@@ -113,15 +113,23 @@
     { "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
     { "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
 
-    // Too unuseful commands, binded to `jump_back` and `jump_forward` commands.
+    // Too unuseful commands, binded to `jump_back`, `jump_forward` and move words `move_text_left` commands.
     //
     // { "keys": ["alt+left"],        "command": "move", "args": {"by": "subwords", "forward": false} },
     // { "keys": ["alt+right"],       "command": "move", "args": {"by": "subword_ends", "forward": true} },
-    { "keys": ["alt+shift+left"],  "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
-    { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+    // { "keys": ["alt+shift+left"],  "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+    // { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
 
-    { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+    // Sublime Column Select, https://github.com/ehuss/Sublime-Column-Select
+    { "keys": ["alt+up"], "command": "column_select", "args": {"by": "lines", "forward": false}},
+    { "keys": ["alt+down"], "command": "column_select", "args": {"by": "lines", "forward": true}},
+    { "keys": ["shift+alt+pageup"], "command": "column_select", "args": {"by": "pages", "forward": false}},
+    { "keys": ["shift+alt+pagedown"], "command": "column_select", "args": {"by": "pages", "forward": true}},
+    { "keys": ["shift+alt+home"], "command": "column_select", "args": {"by": "all", "forward": false}},
+    { "keys": ["shift+alt+end"], "command": "column_select", "args": {"by": "all", "forward": true}},
 
     { "keys": ["pageup"], "command": "move", "args": {"by": "pages", "forward": false} },
     { "keys": ["pagedown"], "command": "move", "args": {"by": "pages", "forward": true} },
@@ -413,8 +421,8 @@
 
     { "keys": ["ctrl+t"], "command": "transpose" },
 
-    { "keys": ["f8"], "command": "move_text_left" },
-    { "keys": ["f9"], "command": "move_text_right" },
+    { "keys": ["alt+shift+left"], "command": "move_text_left" },
+    { "keys": ["alt+shift+right"], "command": "move_text_right" },
     { "keys": ["ctrl+f8"], "command": "move_text_up" },
     { "keys": ["ctrl+f9"], "command": "move_text_down" },
 
@@ -778,14 +786,6 @@
     { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
          "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
     },
-
-    // Sublime Column Select, https://github.com/ehuss/Sublime-Column-Select
-    { "keys": ["shift+alt+up"], "command": "column_select", "args": {"by": "lines", "forward": false}},
-    { "keys": ["shift+alt+down"], "command": "column_select", "args": {"by": "lines", "forward": true}},
-    { "keys": ["shift+alt+pageup"], "command": "column_select", "args": {"by": "pages", "forward": false}},
-    { "keys": ["shift+alt+pagedown"], "command": "column_select", "args": {"by": "pages", "forward": true}},
-    { "keys": ["shift+alt+home"], "command": "column_select", "args": {"by": "all", "forward": false}},
-    { "keys": ["shift+alt+end"], "command": "column_select", "args": {"by": "all", "forward": true}},
 
     // Replace panel key bindings
     { "keys": ["enter"], "command": "find_next", "context":
