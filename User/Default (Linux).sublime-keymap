@@ -146,6 +146,12 @@
     { "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
 
 
+    // { "keys": ["f9"], "command": "sort_lines", "args": {"case_sensitive": false} },
+    // { "keys": ["ctrl+f9"], "command": "sort_lines", "args": {"case_sensitive": true} },
+
+    { "keys": ["f9"], "command": "scroll_width", "args": {"amount": 30 } },
+    { "keys": ["alt+f9"], "command": "scroll_width", "args": {"amount": -30 } },
+
     { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
     { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
 
@@ -425,9 +431,6 @@
     { "keys": ["alt+shift+right"], "command": "move_text_right" },
     { "keys": ["ctrl+f8"], "command": "move_text_up" },
     { "keys": ["ctrl+f9"], "command": "move_text_down" },
-
-    // { "keys": ["f9"], "command": "sort_lines", "args": {"case_sensitive": false} },
-    // { "keys": ["ctrl+f9"], "command": "sort_lines", "args": {"case_sensitive": true} },
 
     // Auto-pair quotes
     { "keys": ["\""], "command": "insert_snippet", "args": {"contents": "\"$0\""}, "context":
