@@ -164,5 +164,84 @@ class OnLoadedViewCommand( sublime_plugin.EventListener ):
 
 
 
+isCurrentlySwitchingSwitch = False
+
+def fix_all_views_scrollSwitch():
+
+    global isCurrentlySwitchingSwitch
+
+    if not isCurrentlySwitchingSwitch:
+
+        isCurrentlySwitchingSwitch = True
+        __window                   = sublime.active_window()
+
+        windowsViews  = []
+        activeViews   = []
+        activeWindows = []
+
+        activeWindows.append( __window )
+        activeViews.append( __window.active_view() )
+        windowsViews.append( __window.views() )
+
+        def revealWindow():
+
+            global isCurrentlySwitchingSwitch
+
+            if( len( windowsViews ) > 0 ):
+
+                if( len( windowsViews[-1] ) > 0 ):
+
+                    revealView( activeWindows[-1], windowsViews[-1].pop() )
+                    sublime.set_timeout( revealWindow, 25 );
+
+                else:
+
+                    # Restore the original active view.
+                    activeView   = activeViews.pop()
+                    activeWindow = activeWindows.pop()
+
+                    # Allow new switching fixes.
+                    isCurrentlySwitchingSwitch = False
+
+                    windowsViews.pop()
+                    revealView( activeWindow, activeView )
+
+        sublime.set_timeout( revealWindow, 50 )
+
+
+
+def fix_all_views_scrollSwitch2():
+
+    views         = None
+    windows       = sublime.windows()
+    # currentViewId = 0
+
+    views         = sublime.active_window().views()
+    # currentViewId = window.active_view().id()
+
+    for view in views:
+
+        # print( "( fix_all_views_scroll2 ) View id {0}, buffer id {1}".format( view.id(), view.buffer_id() ) )
+
+        # if currentViewId != view.id():
+
+        restore_view( view )
+
+
+
+class SampleListener( sublime_plugin.EventListener ):
+
+    def on_window_command( self, window, command, args ):
+
+        # print( "About to execute " + command )
+
+        if command == "open_recent_project_or_workspace":
+
+            # print( "On " + command )
+            sublime.set_timeout( fix_all_views_scrollSwitch, 2000 )
+            sublime.set_timeout( fix_all_views_scrollSwitch2, 5000 )
+
+
+
 
 
