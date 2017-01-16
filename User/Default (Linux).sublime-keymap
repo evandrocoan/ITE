@@ -120,8 +120,13 @@
     // { "keys": ["alt+shift+left"],  "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
     // { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
 
-    { "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["alt+shift+left"] , "command": "move_text_left" },
+    { "keys": ["alt+shift+right"], "command": "move_text_right" },
+    { "keys": ["alt+shift+up"]   , "command": "move_text_up" },
+    { "keys": ["alt+shift+down"] , "command": "move_text_down" },
+
+    { "keys": ["ctrl+f9"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+f8"], "command": "select_lines", "args": {"forward": true} },
 
     // Sublime Column Select, https://github.com/ehuss/Sublime-Column-Select
     { "keys": ["alt+up"], "command": "column_select", "args": {"by": "lines", "forward": false}},
@@ -427,10 +432,6 @@
 
     { "keys": ["ctrl+t"], "command": "transpose" },
 
-    { "keys": ["alt+shift+left"], "command": "move_text_left" },
-    { "keys": ["alt+shift+right"], "command": "move_text_right" },
-    { "keys": ["ctrl+f8"], "command": "move_text_up" },
-    { "keys": ["ctrl+f9"], "command": "move_text_down" },
 
     // Auto-pair quotes
     { "keys": ["\""], "command": "insert_snippet", "args": {"contents": "\"$0\""}, "context":
