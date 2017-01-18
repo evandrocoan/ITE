@@ -355,12 +355,16 @@
     { "keys": ["f12"], "command": "goto_definition" },
     { "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
 
+
     { "keys": ["alt+keypad_minus"], "command": "jump_back" },
     { "keys": ["alt+keypad_plus"], "command": "jump_forward" },
+
     { "keys": ["alt+-"], "command": "jump_back" },
     { "keys": ["alt+shift+-"], "command": "jump_forward" },
+
     { "keys": ["alt+left"], "command": "jump_back" },
     { "keys": ["alt+right"], "command": "jump_forward" },
+
 
     { "keys": ["ctrl+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
     { "keys": ["ctrl+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
@@ -419,7 +423,7 @@
     { "keys": ["f8"], "command": "show_panel", "args": {"panel": "output.exec"} },
     { "keys": ["f8"], "command": "build", "context":
         [
-          { "key": "panel", "operand": "output.exec" }
+            { "key": "panel", "operand": "output.exec" }
         ]
     },
 
