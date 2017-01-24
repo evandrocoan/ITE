@@ -49,3 +49,6 @@
 [submodule ".versioning"]
 	path = .versioning
 	url = https://github.com/evandrocoan/.versioning
+[submodule "PowerCursors"]
+	path = PowerCursors
+	url = https://github.com/evandrocoan/PowerCursors
