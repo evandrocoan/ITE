@@ -128,6 +128,7 @@
     { "keys": ["ctrl+f9"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["ctrl+f8"], "command": "select_lines", "args": {"forward": true} },
 
+
     // Sublime Column Select, https://github.com/ehuss/Sublime-Column-Select
     { "keys": ["alt+up"], "command": "column_select", "args": {"by": "lines", "forward": false}},
     { "keys": ["alt+down"], "command": "column_select", "args": {"by": "lines", "forward": true}},
@@ -135,6 +136,32 @@
     { "keys": ["shift+alt+pagedown"], "command": "column_select", "args": {"by": "pages", "forward": true}},
     { "keys": ["shift+alt+home"], "command": "column_select", "args": {"by": "all", "forward": false}},
     { "keys": ["shift+alt+end"], "command": "column_select", "args": {"by": "all", "forward": true}},
+
+
+    // Moved to the Custom Settings package:
+    // https://forum.sublimetext.com/t/how-to-do-the-jump-back-command-from-find-panel/25610
+    //
+    // { "keys": ["alt+left"], "command": "jump_back" },
+    // { "keys": ["alt+right"], "command": "jump_forward" },
+
+    { "keys": ["alt+left"], "command": "my_jump_back" },
+    { "keys": ["alt+right"], "command": "my_jump_forward" },
+
+
+    // Add/remove/select of multiple cursors more convenient with keyboard, https://github.com/evandrocoan/PowerCursors
+    { "keys": ["alt+="]           , "command": "power_cursor_add" },
+    { "keys": ["alt++"]           , "command": "power_cursor_add" },
+    { "keys": ["alt+keypad_plus"] , "command": "power_cursor_add" },
+
+    { "keys": ["alt+-"]           , "command": "power_cursor_remove", "context": [ { "key": "in_cursor_transition" } ] },
+    { "keys": ["alt+keypad_minus"], "command": "power_cursor_remove", "context": [ { "key": "in_cursor_transition" } ] },
+
+    { "keys": ["alt+["] , "command": "power_cursor_select"  , "args": { "forward": false } },
+    { "keys": ["alt+]"] , "command": "power_cursor_select"  , "args": { "forward": true } },
+
+    { "keys": ["alt+a"] , "command": "power_cursor_activate", "context": [ { "key": "in_cursor_transition" } ] },
+    { "keys": ["escape"], "command": "power_cursor_exit"    , "context": [ { "key": "in_cursor_transition" } ] },
+
 
     { "keys": ["pageup"], "command": "move", "args": {"by": "pages", "forward": false} },
     { "keys": ["pagedown"], "command": "move", "args": {"by": "pages", "forward": true} },
@@ -354,22 +381,6 @@
     { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
     { "keys": ["f12"], "command": "goto_definition" },
     { "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
-
-
-    { "keys": ["alt+keypad_minus"], "command": "jump_back" },
-    { "keys": ["alt+keypad_plus"], "command": "jump_forward" },
-
-    { "keys": ["alt+-"], "command": "jump_back" },
-    { "keys": ["alt+shift+-"], "command": "jump_forward" },
-
-    // Moved to the Custom Settings package:
-    // https://forum.sublimetext.com/t/how-to-do-the-jump-back-command-from-find-panel/25610
-    //
-    // { "keys": ["alt+left"], "command": "jump_back" },
-    // { "keys": ["alt+right"], "command": "jump_forward" },
-
-    { "keys": ["alt+left"], "command": "my_jump_back" },
-    { "keys": ["alt+right"], "command": "my_jump_forward" },
 
 
     { "keys": ["ctrl+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
