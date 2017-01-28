@@ -146,9 +146,11 @@
 
 
     // Disable default Sublime Text dangerous commands
-    { "keys": ["ctrl+alt+w"], "command": "disable_close_all_command" },
+    { "keys": ["ctrl+alt+w"] },
+    { "keys": ["ctrl+shift+w"] },
 
-    { "keys": ["ctrl+shift+w"], "command": "disable_close_window_command" },
+    // { "keys": ["ctrl+alt+w"], "command": "close_all" },
+    // { "keys": ["ctrl+shift+w"], "command": "close_window" },
     { "keys": ["ctrl+shift+n"], "command": "new_window" },
 
 
