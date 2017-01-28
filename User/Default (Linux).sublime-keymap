@@ -128,6 +128,14 @@
     { "keys": ["ctrl+f8"], "command": "select_lines", "args": {"forward": true} },
 
 
+    // Allow cursor cycling after enter on the `Power Cursors: Next Cursor` mode.
+    // https://forum.sublimetext.com/t/multi-cursor-sequential-insertion-package/25772
+    {
+        "keys": ["enter"], "command": "power_cursor_select", "args": { "forward": true },
+                "context": [ { "key": "in_cursor_transition" } ]
+    },
+
+
     // Sublime Column Select, https://github.com/ehuss/Sublime-Column-Select
     { "keys": ["alt+up"], "command": "column_select", "args": {"by": "lines", "forward": false}},
     { "keys": ["alt+down"], "command": "column_select", "args": {"by": "lines", "forward": true}},
