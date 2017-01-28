@@ -54,8 +54,7 @@
     },
 
     { "keys": ["ctrl+alt+c"], "command": "ansi_color_build", "args": {"kill": true} },
-    { "keys": ["ctrl+shift+n"], "command": "new_window" },
-    { "keys": ["ctrl+shift+w"], "command": "close_window" },
+
     { "keys": ["ctrl+o"], "command": "prompt_open_file" },
     { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
 
@@ -136,6 +135,13 @@
     { "keys": ["shift+alt+pagedown"], "command": "column_select", "args": {"by": "pages", "forward": true}},
     { "keys": ["shift+alt+home"], "command": "column_select", "args": {"by": "all", "forward": false}},
     { "keys": ["shift+alt+end"], "command": "column_select", "args": {"by": "all", "forward": true}},
+
+
+    // Disable default Sublime Text dangerous commands
+    { "keys": ["ctrl+alt+w"], "command": "disable_close_all_command" },
+
+    { "keys": ["ctrl+shift+w"], "command": "disable_close_window_command" },
+    { "keys": ["ctrl+shift+n"], "command": "new_window" },
 
 
     // Moved to the Custom Settings package:
