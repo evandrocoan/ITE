@@ -98,7 +98,13 @@ def restore_view( view ):
     # print( "( fix_project_switch_restart_bug.py ) Setting show_at_center to view id {0}".format( view.id() ) )
     # view.run_command( "move", {"by": "lines", "forward": False} )
     # view.run_command( "move", {"by": "lines", "forward": True} )
-    view.show_at_center( view.sel()[0].begin() )
+    try:
+
+        view.show_at_center( view.sel()[0].begin() )
+
+    except Exception:
+
+        pass
 
 
 
