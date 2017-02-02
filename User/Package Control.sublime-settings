@@ -37,6 +37,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Add Folder To Project",
 		"AdvancedNewFile",
 		"Alignment",
@@ -136,8 +137,7 @@
 		"Theme - Soda",
 		"Trimmer",
 		"Whitespace",
-		"WordHighlight",
-		"zz File Icons"
+		"WordHighlight"
 	],
 	"repositories":
 	[
