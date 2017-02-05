@@ -22,9 +22,6 @@
 [submodule "SyncedSideBar"]
 	path = SyncedSideBar
 	url = https://github.com/evandrocoan/SyncedSideBar
-[submodule "amxmodx"]
-	path = amxmodx
-	url = https://github.com/evandrocoan/SublimeAMXX_Editor
 [submodule "Side-by-Side Settings"]
 	path = Side-by-Side Settings
 	url = https://github.com/evandrocoan/sxs-settings
