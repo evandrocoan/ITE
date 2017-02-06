@@ -46,3 +46,6 @@
 [submodule "PowerCursors"]
 	path = PowerCursors
 	url = https://github.com/evandrocoan/PowerCursors
+[submodule "amxmodx"]
+	path = amxmodx
+	url = https://github.com/evandrocoan/SublimeAMXX_Editor
