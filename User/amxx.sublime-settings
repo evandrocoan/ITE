@@ -2,6 +2,9 @@
     // Path to includes folder, the files here will be used for auto-completion.
     "include_directory": "F:\\SteamCMD\\steamapps\\common\\Half-Life\\czero\\addons\\amxmodx\\scripting\\include",
 
+    // ( true / false ) Enable the parameters addition when autocompleting.
+    "add_function_parameters": true,
+
     // ( true / false ) Enable IntelTip PopUp
     "enable_inteltip": false,
 
@@ -15,5 +18,5 @@
     "color_scheme": "dark",
 
     // ( 0.5 ~ 5.0 ) Delay before regenerating auto-completion snippets
-    "live_refresh_delay": 60.0
+    "live_refresh_delay": 5.0
 }
