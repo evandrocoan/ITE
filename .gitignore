@@ -38,5 +38,5 @@
 # But on windows with git 2.10, just /Pyv8/* is working to ignore the /Pyv8/win32-p3/ folder.
 */linux32-p3/*
 
-
-
+/Simple IDE Packages
+/ObjectBeautifier
