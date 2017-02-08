@@ -11,8 +11,11 @@
     // ( true / false ) Enable Auto-Increment Build/Version
     "enable_buildversion": false,
 
-    // ( 0 ~ 3 ) Enable editor debug messages
-    "debug_level": 0,
+    // Enable editor debug messages, see the file `amxmodx/AMXXEditor.py` for all debugging levels.
+    //
+    // 0 - Disabled debugging.
+    // 1 - Errors messages.
+    "debug_level": 1,
 
     // ( color name ) Set color scheme ( dark / twlight / atomic / white / npp )
     "color_scheme": "dark",

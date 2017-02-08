@@ -9,7 +9,8 @@ class DefaultSyntaxCommand( sublime_plugin.EventListener ):
 
     def on_new( self, view ):
 
-        view.set_syntax_file( "Packages/C++/C++.tmLanguage" )
+        settings = sublime.load_settings("Preferences.sublime-settings")
+        view.set_syntax_file( settings.get('new_file_syntax') )
 
 
 
