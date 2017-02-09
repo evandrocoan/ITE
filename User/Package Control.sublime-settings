@@ -1,6 +1,7 @@
 {
 	"auto_upgrade_ignore":
 	[
+		"All Autocomplete",
 		"amxmodx",
 		"Amxx Pawn",
 		"ANSIescape",
@@ -42,7 +43,6 @@
 		"AdvancedNewFile",
 		"Alignment",
 		"AlignTab",
-		"All Autocomplete",
 		"Anaconda",
 		"ApplySyntax",
 		"Auto Refresh",

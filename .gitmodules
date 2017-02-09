@@ -49,3 +49,6 @@
 [submodule "amxmodx"]
 	path = amxmodx
 	url = https://github.com/evandrocoan/SublimeAMXX_Editor
+[submodule "All Autocomplete"]
+	path = All Autocomplete
+	url = https://github.com/evandrocoan/SublimeAllAutocomplete
