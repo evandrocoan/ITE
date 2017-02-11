@@ -34,8 +34,8 @@ def plugin_loaded():
 
         isIgnored = False
         isIgnored = False
-        
-        ignoredPackages   = userSettings.get( "ignored_packages" )
+
+        ignoredPackages   = is_package_enabled( userSettings, "SyncedSideBar" )
         installedPackages = packageControlSettings.get( "installed_packages" )
 
         if( ignoredPackages != None ):
@@ -103,6 +103,30 @@ def plugin_loaded():
 
     #print( userSettings.get( "ignored_packages" ) )
     #print( packageControlSettings.get( "installed_packages" ) )
+
+
+
+def is_package_enabled( userSettings, package_name ):
+
+    print_debug( 1, "is_package_enabled = " + sublime.packages_path()
+            + "/All Autocomplete/ is dir? " \
+            + str( os.path.isdir( sublime.packages_path() + "/" + package_name ) ))
+
+    print_debug( 1, "is_package_enabled = " + sublime.installed_packages_path()
+            + "/All Autocomplete.sublime-package is file? " \
+            + str( os.path.isfile( sublime.installed_packages_path() + "/" + package_name + ".sublime-package" ) ))
+
+    ignoredPackages = userSettings.get('ignored_packages')
+
+    if ignoredPackages is not None:
+
+        return ( os.path.isdir( sublime.packages_path() + "/" + package_name ) \
+                or os.path.isfile( sublime.installed_packages_path() + "/" + package_name + ".sublime-package" ) ) \
+                and not package_name in ignoredPackages
+
+    return os.path.isdir( sublime.packages_path() + "/" + package_name ) \
+            or os.path.isfile( sublime.installed_packages_path() + "/" + package_name + ".sublime-package" )
+
 
 
 
