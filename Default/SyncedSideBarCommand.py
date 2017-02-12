@@ -1,22 +1,21 @@
 
+import os
 import sublime
 import sublime_plugin
+
 
 
 isNotSyncedSideBarEnabled = True
 
 class SyncedSideBarRevealInSideBarCommand(sublime_plugin.TextCommand):
 
-    global isNotSyncedSideBarEnabled
-
     def run(self, edit):
 
         self.view.window().run_command ("reveal_in_side_bar")
 
-
     def is_visible(self):
 
-        #print( 'isNotSyncedSideBarEnabled: ' + str( isNotSyncedSideBarEnabled ) )
+        # print( 'isNotSyncedSideBarEnabled: ' + str( isNotSyncedSideBarEnabled ) )
         return isNotSyncedSideBarEnabled
 
 
@@ -25,96 +24,68 @@ def plugin_loaded():
 
     global isNotSyncedSideBarEnabled
 
-    userSettings           = sublime.load_settings('SyncedSideBar.sublime-settings')
-    packageControlSettings = sublime.load_settings('Package Control.sublime-settings')
+    userSettings    = sublime.load_settings('Preferences.sublime-settings')
+    packageSettings = sublime.load_settings('SyncedSideBar.sublime-settings')
 
     def updateIsSyncedSideBarEnabled():
 
-        #print('    updateIsSyncedSideBarEnabled!!!!')
+        # print('    updateIsSyncedSideBarEnabled!!!!')
+        updateGlobalData( packageSettings, is_package_enabled( userSettings, "SyncedSideBar" ) )
 
-        isIgnored = False
-        isIgnored = False
-
-        ignoredPackages   = is_package_enabled( userSettings, "SyncedSideBar" )
-        installedPackages = packageControlSettings.get( "installed_packages" )
-
-        if( ignoredPackages != None ):
-
-            isIgnored = any( "SyncedSideBar" in package for package in ignoredPackages )
-
-        if( installedPackages != None ):
-
-            isInstalled = any( "SyncedSideBar" in package for package in installedPackages )
-
-        updateGlobalData( isIgnored, isInstalled )
-
-        #print( 'isIgnored: ' + str( isIgnored ) )
-        #print( 'isInstalled: ' + str( isInstalled ) )
-
-
-    def updateGlobalData( isIgnored, isInstalled ):
+    def updateGlobalData( packageSettings, isEnabled ):
 
         global isNotSyncedSideBarEnabled
 
-        if isIgnored:
+        if isEnabled:
 
-            isNotSyncedSideBarEnabled = True
+            isEnabled = packageSettings.get( "reveal-on-activate" )
+            isNotSyncedSideBarEnabled = not isEnabled
 
         else:
 
-            if isInstalled:
+            isNotSyncedSideBarEnabled = True
 
-                isEnabled = userSettings.get( "reveal-on-activate" )
-                isNotSyncedSideBarEnabled = not isEnabled
-
-            else:
-
-                isNotSyncedSideBarEnabled = True
-
-        #print( 'isNotSyncedSideBarEnabled: ' + str( isNotSyncedSideBarEnabled ) )
+        # print( 'isNotSyncedSideBarEnabled: ' + str( isNotSyncedSideBarEnabled ) )
 
 
     def read_pref_async():
 
-        #print('READ_PREF_ASYNC!!!!')
+        # print('READ_PREF_ASYNC!!!!')
         updateIsSyncedSideBarEnabled()
 
+    def read_user_preferences():
 
-    def read_pref_package():
-
-        #print('READ_PREF_PACKAGE!!!!')
-        packageControlSettings = sublime.load_settings('Package Control.sublime-settings')
+        # print('READ_package_PREFERENCES!!!!')
+        userSettings = sublime.load_settings('Preferences.sublime-settings')
         updateIsSyncedSideBarEnabled()
 
+    def read_package_preferences():
 
-    def read_pref_preferences():
-
-        #print('READ_PREF_PREFERENCES!!!!')
-        userSettings = sublime.load_settings('SyncedSideBar.sublime-settings')
+        # print('READ_package_PREFERENCES!!!!')
+        packageSettings = sublime.load_settings('SyncedSideBar.sublime-settings')
         updateIsSyncedSideBarEnabled()
-
 
     # read initial setting, after all packages being loaded
     sublime.set_timeout_async( read_pref_async, 10000 )
 
     # listen for changes
-    userSettings.add_on_change( "SyncedSideBar", read_pref_preferences )
-    packageControlSettings.add_on_change( "Package Control", read_pref_package )
+    packageSettings.add_on_change( "Preferences", read_user_preferences )
+    packageSettings.add_on_change( "SyncedSideBar", read_package_preferences )
 
-    #print( userSettings.get( "ignored_packages" ) )
-    #print( packageControlSettings.get( "installed_packages" ) )
+    # print( packageSettings.get( "reveal-on-activate" ) )
+    # print( userSettings.get( "ignored_packages" ) )
 
 
 
 def is_package_enabled( userSettings, package_name ):
 
-    print_debug( 1, "is_package_enabled = " + sublime.packages_path()
-            + "/All Autocomplete/ is dir? " \
-            + str( os.path.isdir( sublime.packages_path() + "/" + package_name ) ))
+    # print( "is_package_enabled = " + sublime.packages_path()
+    #         + "/All Autocomplete/ is dir? " \
+    #         + str( os.path.isdir( sublime.packages_path() + "/" + package_name ) ) )
 
-    print_debug( 1, "is_package_enabled = " + sublime.installed_packages_path()
-            + "/All Autocomplete.sublime-package is file? " \
-            + str( os.path.isfile( sublime.installed_packages_path() + "/" + package_name + ".sublime-package" ) ))
+    # print( "is_package_enabled = " + sublime.installed_packages_path()
+    #         + "/All Autocomplete.sublime-package is file? " \
+    #         + str( os.path.isfile( sublime.installed_packages_path() + "/" + package_name + ".sublime-package" ) ) )
 
     ignoredPackages = userSettings.get('ignored_packages')
 
