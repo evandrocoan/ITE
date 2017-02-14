@@ -13,7 +13,7 @@
 
     // ( true / false ) Enable auto completing functions and global variables from the current file.
     // If you change this setting, you need to restart Sublime Text before it can take effect.
-    "function_autocomplete": true,
+    "function_autocomplete": false,
 
     // ( true / false ) Enable auto completing words from the current file.
     "word_autocomplete": true,
