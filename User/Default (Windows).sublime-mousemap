@@ -133,8 +133,15 @@
     { "button": "scroll_up", "modifiers": ["button2"], "command": "prev_view" },
 
     // Change font size with ctrl+scroll wheel
-    { "button": "scroll_down", "modifiers": ["ctrl"], "command": "decrease_font_size" },
-    { "button": "scroll_up", "modifiers": ["ctrl"], "command": "increase_font_size" },
+    // { "button": "scroll_down", "modifiers": ["ctrl"], "command": "decrease_font_size" },
+    // { "button": "scroll_up", "modifiers": ["ctrl"], "command": "increase_font_size" },
+
+    // Needs the package Horizontal Scroll
+    { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+    { "button": "scroll_up", "modifiers": ["ctrl"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+
+    { "button": "scroll_down", "modifiers": ["shift"], "command": "scroll_width", "args": {"amount": 30 } },
+    { "button": "scroll_up", "modifiers": ["shift"], "command":  "scroll_width", "args": {"amount": -30 } },
 
     { "button": "button2", "modifiers": [], "command": "context_menu" }
 ]
