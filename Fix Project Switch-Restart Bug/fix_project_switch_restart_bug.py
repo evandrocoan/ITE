@@ -6,6 +6,7 @@ import sublime_plugin
 
 
 isCurrentlySwitching = False
+last_focused_goto_definition = False
 
 
 def fix_all_views_scroll():
@@ -113,15 +114,28 @@ def are_we_on_the_project_switch_process():
         Call `plugin_loaded()` only one time, after the project switch process is finished.
 
         Restrictions:
-        1. We cannot call `plugin_loaded()` if this function is called only one time.
-        2. If this function is called consequently 2 times with less than 0.1 seconds, then we
-           must to return True.
-           Basically, on each call
+            1. We cannot call `plugin_loaded()` if this function is called only one time.
+            2. If this function is called consequently 2 times with less than 0.1 seconds, then we
+               must to return True.
     """
 
-    # set task to call plugin_loaded() after 2 seconds, if this task currently does not exists.
+    # If we are on the seconds of listening period after the command `prompt_select_workspace`
+    # being run, we know we probably switching projects. Therefore, schedules the project fix.
+    if last_focused_goto_definition:
+
+        global last_focused_goto_definition
+        last_focused_goto_definition = False
+
+        run_delayed_fix()
 
     return False
+
+
+
+def run_delayed_fix():
+
+    sublime.set_timeout( fix_all_views_scrollSwitch, 2000 )
+    sublime.set_timeout( fix_all_views_scrollSwitch2, 5000 )
 
 
 
@@ -235,6 +249,12 @@ def fix_all_views_scrollSwitch2():
 
 
 
+def unlockTheScrollRestoring():
+
+    global last_focused_goto_definition
+    last_focused_goto_definition = False
+
+
 class SampleListener( sublime_plugin.EventListener ):
 
     def on_window_command( self, window, command, args ):
@@ -244,8 +264,14 @@ class SampleListener( sublime_plugin.EventListener ):
         if command == "open_recent_project_or_workspace":
 
             # print( "On " + command )
-            sublime.set_timeout( fix_all_views_scrollSwitch, 2000 )
-            sublime.set_timeout( fix_all_views_scrollSwitch2, 5000 )
+            run_delayed_fix()
+
+        elif command == "prompt_select_workspace":
+
+            global last_focused_goto_definition
+            last_focused_goto_definition = True
+
+            sublime.set_timeout( unlockTheScrollRestoring, 10000 )
 
 
 
