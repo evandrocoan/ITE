@@ -49,9 +49,13 @@ def fix_all_views_scroll():
                     isCurrentlySwitching = False
 
                     windowsViews.pop()
+
+                    while activeView.is_loading():
+                        sleep(0.1)
+
                     revealView( activeWindow, activeView )
 
-        sublime.set_timeout( revealWindow, 50 )
+        sublime.set_timeout( revealWindow, 100 )
 
 
 
@@ -71,6 +75,9 @@ def fix_all_views_scroll2():
             # print( "( fix_all_views_scroll2 ) View id {0}, buffer id {1}".format( view.id(), view.buffer_id() ) )
 
             # if currentViewId != view.id():
+
+            while activeView.is_loading():
+                sleep(0.1)
 
             restore_view( view )
 
@@ -100,7 +107,6 @@ def restore_view( view ):
     # view.run_command( "move", {"by": "lines", "forward": False} )
     # view.run_command( "move", {"by": "lines", "forward": True} )
     try:
-
         view.show_at_center( view.sel()[0].begin() )
 
     except Exception:
