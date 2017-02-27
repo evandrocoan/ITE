@@ -10,7 +10,7 @@ to program on:
 5. SQL
 
 
-Its current version is: v1.0.1-319
+Its current version is: v1.0.1-320
 
 
 
@@ -37,7 +37,7 @@ mv -v ~/.config/sublime-text-3/ ~/.config/sublime-text-3_Old/
  * The folder `sublime-text-3/` above contain all your current settings
 
 
-3) While keeping your Sublime Text closed, clone this repository using this command: (Linux Only)
+3) While keeping your Sublime Text closed, clone this repository using this command:
 ```
 git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.config/sublime-text-3/Packages
 ```
