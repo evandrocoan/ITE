@@ -1,0 +1,15 @@
+{
+    "selector": "source.c, source.c++",
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+
+    "working_dir": "${file_path}",
+    "cmd": ["g++", "-std=c++1y", "${file}", "-o", "${file_path}/${file_base_name}"],
+
+    "variants":
+    [
+        {
+           "name": "Run",
+           "cmd":["bash", "-c", "g++ -std=c++1y '${file}' -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'"]
+        },
+    ],
+}
