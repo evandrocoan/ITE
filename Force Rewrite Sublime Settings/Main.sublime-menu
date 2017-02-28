@@ -15,8 +15,9 @@
             },
             { "caption": "-" },
             { "caption": "Edit Settings...", "command": "edit_selected_preferences" },
-            { "caption": "Force re-write Sublime Settings", "command": "force_rewrite_sublime_settings" },
-            { "caption": "Force re-load Sublime Color Scheme", "command": "force_reload_sublime_color_scheme" },
+            { "caption": "Force Re-Write Sublime Settings", "command": "force_rewrite_sublime_settings" },
+            { "caption": "Force Re-Load Sublime Color Scheme", "command": "force_reload_sublime_color_scheme" },
+            { "caption": "Force Restoring Views Scrolling", "command": "force_restoring_views_scrolling" },
         ]
     },
 ]

@@ -9,6 +9,16 @@ isCurrentlySwitching = False
 last_focused_goto_definition = False
 
 
+
+class ForceRestoringViewsScrollingCommand( sublime_plugin.TextCommand ):
+
+    def run( self, edit ):
+
+        fix_all_views_scroll()
+        sublime.set_timeout( fix_all_views_scroll2, 2000 )
+
+
+
 def fix_all_views_scroll():
 
     global isCurrentlySwitching
