@@ -10,32 +10,53 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#f8f8f8</string>
+        <string>#FFFFFF</string>
 
-        <key>foreground</key>
-        <string>#444444</string>
-
+        <key>guide</key>
+        <string>#8c8c8c</string>
+        <key>stackGuide</key>
+        <string>#8c8c8c</string>
+        <key>activeGuide</key>
+        <string>#FF0000</string>
         <key>caret</key>
-        <string>#FF750F</string>
+        <string>#000000</string>
+        <key>foreground</key>
+        <string>#000000</string>
+        <key>tagsForeground</key>
+        <string>#75D975</string>
+        <key>findHighlight</key>
+        <string>#75D975</string>
+
+        <key>popupCss</key>
+        <string><![CDATA[ html { background-color: #B9B9B9; }]]></string>
 
         <key>invisibles</key>
-        <string>#44444466</string>
+        <string>#B3B3B3</string>
 
         <key>lineHighlight</key>
-        <string>#00000022</string>
+        <string>#D1D1FFBB</string>
 
         <key>selection</key>
-        <string>#FFDE25</string>
+        <string>#B9B9B9</string>
 
+        <key>gutter</key>
+        <string>#F0F0F0</string>
         <key>selectionBorder</key>
-        <string>#FFDE25</string>
-
-        <key>selectionForeground</key>
-        <string>#444444</string>
-
-        <key>findHighlightForeground</key>
-        <string>#000000</string>
-
+        <string>#555555</string>
+        <key>shadow</key>
+        <string>#1d1f21</string>
+        <key>shadowWidth</key>
+        <string>42</string>
+        <key>bracketsOptions</key>
+        <string>underline</string>
+        <key>misspelling</key>
+        <string>#FF0000</string>
+        <key>bracketsForeground</key>
+        <string>#FF0000</string>
+        <key>bracketContentsOptions</key>
+        <string>underline</string>
+        <key>bracketContentsForeground</key>
+        <string>#FF0000</string>
       </dict>
     </dict>
 
@@ -151,7 +172,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#f8f8f8</string>
+        <string>#F0F0F0</string>
         <key>background</key>
         <string>#4078c0</string>
         <key>fontStyle</key>
