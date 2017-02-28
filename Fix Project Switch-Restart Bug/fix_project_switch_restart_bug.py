@@ -52,18 +52,18 @@ def fix_all_views_scroll():
                 else:
 
                     # Restore the original active view.
-                    activeView   = activeViews.pop()
-                    activeWindow = windows.pop()
+                    view   = activeViews.pop()
+                    window = windows.pop()
 
                     # Allow new switching fixes.
                     isCurrentlySwitching = False
 
                     windowsViews.pop()
 
-                    while activeView.is_loading():
+                    while view.is_loading():
                         sleep(0.1)
 
-                    revealView( activeWindow, activeView )
+                    revealView( window, view )
 
         sublime.set_timeout( revealWindow, 100 )
 
@@ -86,7 +86,7 @@ def fix_all_views_scroll2():
 
             # if currentViewId != view.id():
 
-            while activeView.is_loading():
+            while view.is_loading():
                 sleep(0.1)
 
             restore_view( view )
@@ -135,13 +135,14 @@ def are_we_on_the_project_switch_process():
                must to return True.
     """
 
+    # Fix SyntaxWarning: name 'last_focused_goto_definition' is used prior to global declaration
+    global last_focused_goto_definition
+
     # If we are on the seconds of listening period after the command `prompt_select_workspace`
     # being run, we know we probably switching projects. Therefore, schedules the project fix.
     if last_focused_goto_definition:
 
-        global last_focused_goto_definition
         last_focused_goto_definition = False
-
         run_delayed_fix()
 
     return False
@@ -233,14 +234,14 @@ def fix_all_views_scrollSwitch():
                 else:
 
                     # Restore the original active view.
-                    activeView   = activeViews.pop()
-                    activeWindow = activeWindows.pop()
+                    view   = activeViews.pop()
+                    window = activeWindows.pop()
 
                     # Allow new switching fixes.
                     isCurrentlySwitchingSwitch = False
 
                     windowsViews.pop()
-                    revealView( activeWindow, activeView )
+                    revealView( window, view )
 
         sublime.set_timeout( revealWindow, 50 )
 

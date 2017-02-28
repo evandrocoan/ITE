@@ -25,7 +25,7 @@ class ForceReloadSublimeColorScheme( sublime_plugin.TextCommand ):
 
             for view in views:
 
-                print( self.view.window().active_view().settings().get("color_scheme") )
+                print( "\"" + "%-32s" % str( view.name() ) + "\": " + self.view.window().active_view().settings().get("color_scheme") )
                 view.settings().erase("color_scheme")
 
 
