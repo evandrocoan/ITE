@@ -21,15 +21,16 @@ scope: source.c++
 contexts:
   main:
 
-    - match: '/\*\*'
-      scope: punctuation.definition.comment.c++
-      push:
-        - meta_scope: doccomment.block.c++
-        - match: '\*/'
-          scope: punctuation.definition.comment.c++
-          pop: true
+    - match: ''
+      push: Packages/C++/C++.sublime-syntax
+      with_prototype:
 
-    # Include/add the default Sublime Text syntax, on the top of this matching
-    # my scopes defined above, before the default C++.sublime-syntax ones.
-    - include: Packages/C++/C++.sublime-syntax
+      - match: '/\*\*'
+        scope: punctuation.definition.comment.c++
+        push:
+          - meta_scope: doccomment.block.c++
+          - match: '\*/'
+            scope: punctuation.definition.comment.c++
+            pop: true
+
 
