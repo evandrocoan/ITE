@@ -136,7 +136,8 @@
 		"Theme - Soda",
 		"Trimmer",
 		"Whitespace",
-		"WordHighlight"
+		"WordHighlight",
+		"x86 and x86_64 Assembly"
 	],
 	"repositories":
 	[
