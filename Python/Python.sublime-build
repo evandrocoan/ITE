@@ -1,9 +1,0 @@
-{
-    "working_dir": "$file_path",
-    "cmd": ["sh","$packages/Python/Python.sh","$file", "$file_name"],
-
-    // "target": "ansi_color_build",
-    "syntax": "Packages/ANSIescape/ANSI.tmLanguage",
-
-    "selector": "source.python",
-}
