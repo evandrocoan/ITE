@@ -113,7 +113,7 @@
     { "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
 
     // Disable the Hungry Backspace package key bind flipping the hungry and default backspace actions
-    { "keys": ["ctrl+."] },
+    // { "keys": ["ctrl+."] },
 
     // Too unuseful commands, binded to `jump_back`, `jump_forward` and move words `move_text_left` commands.
     //
