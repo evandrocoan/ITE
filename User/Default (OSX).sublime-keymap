@@ -1,5 +1,5 @@
 [
-	// I do not know MAC OS keys.
+    // I do not know MAC OS keys.
     //
     // So if you want to use it, open the `Default (Linux).sublime-keymap` to see the available keys.
     // Also you may need to find all `**.sublime-keymap` files on the project and check whether the
