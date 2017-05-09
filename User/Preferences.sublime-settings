@@ -4,7 +4,10 @@
 		"matlab",
 		"Pade",
 		"multiline",
-		"representation"
+		"representation",
+		"corretude",
+		"tediantes",
+		"proprõe"
 	],
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
@@ -13,6 +16,17 @@
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 0,
 	"auto_complete_selector": "",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"auto_match_enabled": false,
