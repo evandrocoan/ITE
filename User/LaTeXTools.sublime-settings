@@ -205,7 +205,7 @@
 		// "texpath" : "C:\\texlive\\2011\\bin\\win32;$PATH",
 		"texpath" : "",
 		// TeX distro: "miktex" or "texlive"
-		"distro" : "miktex",
+		"distro" : "texlive",
 		// Command to invoke Sumatra. If blank, "SumatraPDF.exe" is used (it has to be on your PATH)
 		"sumatra": "",
 		// Command to invoke Sublime Text. Used if the keep_focus toggle is true.
@@ -281,7 +281,7 @@
 	// if you do so, however, note that the path will be interpreted
 	// relative to the location of your project file
 
-	"aux_directory": "",
+	"aux_directory": "<<cache>>",
 
 	// OPTION: "output_directory"
 	// Specifies the output directory
@@ -317,7 +317,7 @@
 	// if you do so, however, note that the path will be interpreted
 	// relative to the location of your project file
 
-	"output_directory": "",
+	"output_directory": "<<cache>>",
 
 	// OPTION: "jobname"
 	// Specifies the jobname to use when building the document
@@ -331,7 +331,7 @@
 	// the main tex file; this  only applies if an output directory is
 	// set via a setting or a `%!TEX` directive
 
-	"copy_output_on_build": true,
+	"copy_output_on_build": false,
 
 // ------------------------------------------------------------------
 // Build engine settings
@@ -396,6 +396,8 @@
 		// (built-ins): true shows the log of each command in the output panel
 		"display_log" : false,
 
+		// "options" : ["--shell-escape"],
+
 		// Platform-specific settings:
 		"osx" : {
 			// See README or third-party documentation
@@ -427,7 +429,7 @@
 	// "no_warnings" (only hide the panel if no warnings occur)
 	// "no_badboxes" (only hide the panel if no badbox messages occur when badboxes are enabled) and
 	// "never" (default, never hide the build panel)
-	"hide_build_panel": "never",
+	"hide_build_panel": "no_badboxes",
 
 	// OPTION: "display_bad_boxes"
 	// controls whether or not to display any bad boxes in the build output
@@ -443,7 +445,7 @@
 	// "errors" (only show errors, which breaks the compilation)
 	// "warnings" (default, show errors and warnings)
 	// "badboxes" (show errors, warnings, and badboxes)
-	"show_error_phantoms": "warnings",
+	"show_error_phantoms": "badboxes",
 
 	// number of seconds to display the "build succeeded" or "build failed"
 	// message
