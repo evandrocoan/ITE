@@ -52,3 +52,6 @@
 [submodule "All Autocomplete"]
 	path = All Autocomplete
 	url = https://github.com/evandrocoan/SublimeAllAutocomplete
+[submodule "Indent and braces"]
+	path = Indent and braces
+	url = https://github.com/evandrocoan/sublime_indent_and_braces
