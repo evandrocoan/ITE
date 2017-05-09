@@ -1,0 +1,3 @@
+[
+	{ "keys": ["super+alt+q"], "command": "wrap_line_enhancement" }
+]
