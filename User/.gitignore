@@ -23,3 +23,5 @@
 *.crt
 
 
+*.javatar-packages
+/Javatar.sublime-settings
