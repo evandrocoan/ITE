@@ -2,7 +2,7 @@
 
 import sublime, sublime_plugin
 
-class WrapLineEnhancementCommand(sublime_plugin.TextCommand):
+class WrapLinesEnhancementCommand(sublime_plugin.TextCommand):
     """
     Wrap without loosing cursor position
     https://github.com/ehuss/Sublime-Wrap-Plus/issues/19
