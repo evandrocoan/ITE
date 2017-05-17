@@ -31,6 +31,8 @@
                 "command": "copy_reference"
             },
             { "caption": "-"},
+            { "caption": "Mark selection for comparison", "command": "sbs_mark_sel" },
+            { "caption": "Compare selection", "command": "sbs_compare", "args": { "compare_selections": true } },
             { "caption": "Copy syntax setting to clipboard", "command": "project_specific_syntax_to_clipboard" },
             { "caption": "-" },
             { "command": "export_html_panel", "caption": "Export HTML" },
@@ -46,10 +48,7 @@
             { "command": "show_annotation_comment", "caption": "Show Annotation Comment" },
         ]
     },
-    
-    { "caption": "-" },
-    { "caption": "Mark selection for comparison", "command": "sbs_mark_sel" },
-    { "caption": "Compare selection", "command": "sbs_compare", "args": { "compare_selections": true } },
+
     {
         "caption": "Local History",
         "children":
@@ -62,7 +61,7 @@
             },
             { "command": "google_spell_check" },
             { "caption": "-" },
-            
+
             {
                 "caption": "Color Helper",
                 "children":
@@ -85,7 +84,7 @@
                 ]
             },
             { "caption": "-"},
-            
+
             { "caption": "Local History Browse", "command": "history_browse" },
             { "caption": "Local History Open", "command": "history_open" },
             { "caption": "Local History Compare", "command": "history_compare" },
