@@ -55,3 +55,6 @@
 [submodule "Indent and braces"]
 	path = Indent and braces
 	url = https://github.com/evandrocoan/sublime_indent_and_braces
+[submodule "AutoFileName"]
+	path = AutoFileName
+	url = https://github.com/evandrocoan/AutoFileName
