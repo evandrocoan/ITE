@@ -9,13 +9,14 @@
 		"tediantes",
 		"proprõe"
 	],
+	"afn_use_keybinding": true,
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
 	"autoIndent": true,
 	"auto_complete": true,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 0,
-	"auto_complete_selector": "",
+	"auto_complete_selector": "source, text",
 	"auto_complete_triggers":
 	[
 		{
