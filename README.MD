@@ -15,7 +15,7 @@ to program on:
 1. LaTeX
 
 
-Its current version is: v1.0.1-375
+Its current version is: v1.0.1-377
 
 
 

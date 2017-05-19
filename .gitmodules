@@ -58,3 +58,6 @@
 [submodule "AutoFileName"]
 	path = AutoFileName
 	url = https://github.com/evandrocoan/AutoFileName
+[submodule "MarkdownLight"]
+	path = MarkdownLight
+	url = https://github.com/evandrocoan/MarkdownLight
