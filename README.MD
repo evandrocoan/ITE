@@ -4,13 +4,18 @@ An incredible set of settings/packages/shortcuts for Sublime Text 3. Currently i
 to program on:
 
 1. Java
-2. Octave/Matlab
-3. C/C++
-4. Pawn
-5. SQL
+1. C/C++
+1. Octave/Matlab
+1. Pawn
+1. SQL
+1. Markdown
+1. BBCode
+1. Shell Script
+1. Windows Batch
+1. LaTeX
 
 
-Its current version is: v1.0.1-374
+Its current version is: v1.0.1-375
 
 
 
