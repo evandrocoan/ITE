@@ -2,7 +2,7 @@
 
 import sublime
 import sublime_plugin
-
+import os
 
 
 class MyJumpBackCommand(sublime_plugin.TextCommand):
@@ -23,6 +23,18 @@ class MyJumpForwardCommand(sublime_plugin.TextCommand):
         view = sublime.active_window().active_view()
         view.run_command("jump_forward")
 
+
+
+#
+# Disables Anaconda `Context.sublime-menu`.
+#
+def plugin_loaded():
+
+    try:
+        os.rename( "../Anaconda/Context.sublime-menu", "../Anaconda/Context.sublime-menu.old" )
+
+    except:
+        pass
 
 
 
