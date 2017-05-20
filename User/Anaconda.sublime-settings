@@ -94,7 +94,7 @@
 
             "python_interpreter": "tcp://my_remote.machine.com:19360"
     */
-    "python_interpreter": "python",
+    "python_interpreter": "D:\\User\\Documents\\Python27\\python.exe",
 
     /*
         Disable anaconda completion
@@ -116,8 +116,8 @@
         If complete_all_parameters is true, it will add all the possible
         parameters, if it's false, it will add only required parameters
     */
-    "complete_parameters": false,
-    "complete_all_parameters": false,
+    "complete_parameters": true,
+    "complete_all_parameters": true,
 
     /*
         If you set the following option as true, anaconda will display the
@@ -526,7 +526,7 @@
             https://github.com/SublimeText/Issues/issues/127
 
     */
-    "anaconda_debug": false,
+    "anaconda_debug": true,
 
     /*
         Anaconda test runner related configuration.
