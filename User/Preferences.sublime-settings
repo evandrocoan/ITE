@@ -1,4 +1,5 @@
 {
+	"GitGutter": true,
 	"added_words":
 	[
 		"matlab",
@@ -76,7 +77,7 @@
 	"ignored_packages":
 	[
 		"AdvancedNewFile",
-		"Anaconda",
+		"All Autocomplete",
 		"ApplySyntax",
 		"Boxy Theme",
 		"BracketHighlighter",
@@ -152,7 +153,7 @@
 	],
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
-	"show_definitions": false,
+	"show_definitions": true,
 	"show_encoding": true,
 	"show_full_file_path": true,
 	"show_full_path": false,

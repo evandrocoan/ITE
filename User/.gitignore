@@ -25,3 +25,4 @@
 
 *.javatar-packages
 /Javatar.sublime-settings
+/OverrideAudit.status
