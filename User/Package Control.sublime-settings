@@ -85,6 +85,8 @@
 		"Find++",
 		"FindKeyConflicts",
 		"FuzzyFileNav",
+		"FuzzyFilePath",
+		"Generic Config",
 		"Gist",
 		"Git",
 		"GitGutter",
