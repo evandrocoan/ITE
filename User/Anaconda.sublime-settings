@@ -94,7 +94,7 @@
 
             "python_interpreter": "tcp://my_remote.machine.com:19360"
     */
-    "python_interpreter": "D:\\User\\Documents\\Python27\\python.exe",
+    "python_interpreter": "python",
 
     /*
         Disable anaconda completion

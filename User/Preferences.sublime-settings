@@ -11,6 +11,11 @@
 		"proprõe"
 	],
 	"afn_use_keybinding": true,
+	"afn_valid_scopes":
+	[
+		"text",
+		"source"
+	],
 	"always_show_minimap_viewport": true,
 	"animation_enabled": false,
 	"autoIndent": true,
@@ -77,7 +82,8 @@
 	"ignored_packages":
 	[
 		"AdvancedNewFile",
-		"All Autocomplete",
+		"amxmodx",
+		"Anaconda",
 		"ApplySyntax",
 		"Boxy Theme",
 		"BracketHighlighter",
