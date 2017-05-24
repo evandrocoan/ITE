@@ -38,6 +38,10 @@
 	],
 	"bootstrapped": true,
 	"debug": false,
+	"ignore_vcs_packagess":
+	[
+		"PowerCursors"
+	],
 	"in_process_packages":
 	[
 	],
