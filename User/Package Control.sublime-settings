@@ -15,6 +15,7 @@
 		"MarkdownLight",
 		"Notepad++ Theme",
 		"Package Control",
+		"PowerCursors",
 		"Preferences Editor",
 		"Side-by-Side Settings",
 		"SideBarEnhancements",
@@ -38,9 +39,8 @@
 	],
 	"bootstrapped": true,
 	"debug": false,
-	"ignore_vcs_packagess":
+	"ignore_vcs_packages":
 	[
-		"PowerCursors"
 	],
 	"in_process_packages":
 	[
