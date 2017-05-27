@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[\\$1{$TM_SELECTED_TEXT}$0]]></content>
+  <description>Embrace Text</description>
+  <scope>text</scope>
+  <tabTrigger>url</tabTrigger>
+</snippet>
