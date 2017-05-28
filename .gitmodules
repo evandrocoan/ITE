@@ -61,3 +61,6 @@
 [submodule "MarkdownLight"]
 	path = MarkdownLight
 	url = https://github.com/evandrocoan/MarkdownLight
+[submodule "PackageDev"]
+	path = PackageDev
+	url = https://github.com/evandrocoan/PackageDev
