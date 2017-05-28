@@ -1,0 +1,77 @@
+// Place your settings in the file "Packages/User/OverrideAudit.sublime-settings",
+// which overrides the settings in here.
+{
+    // Some OverrideAudit commands generate output to a view. When this option
+    // is enabled, the command will reuse the view it created the last time it
+    // was run (if it is still available) instead of creating a new one each
+    // time.
+    "reuse_views": true,
+
+    // When "reuse_views" is enabled, this controls if the view that is being
+    // reused should be cleared before the new output is generated. When this is
+    // turned off, the new content is appended to the view instead.
+    "clear_existing": true,
+
+    // A list of packages whose overrides should be ignored when it comes to
+    // displaying them.
+    "ignore_overrides_in": [],
+
+    // What to do when an override diff indicates that the override is identical
+    // to the underlying file. Possible values for this setting are "ignore" to
+    // do nothing, "diff" to open a view and indicate that there are no changes
+    // or "open" to open the override as a regular file, allowing you to view or
+    // modify it.
+    //
+    // This setting only applies to the Diff Single Override option; when
+    // performing a diff via a context menu, OverrideAudit acts as if this
+    // is set to "diff".
+    "diff_unchanged": "diff",
+
+    // The number of lines of context to show before and after each different
+    // in the diff view.
+    "diff_context_lines": 3,
+
+    // Normally when a diff is performed and two files compare as equal, the
+    // diff result contains only text to tell you this. This option controls
+    // whether, in this situation, a diff header should be applied to the result
+    // of the diff even when the diff is empty.
+    "diff_empty_hdr": false,
+
+    // When set to true, switching from an edit of an override to a diff of it
+    // will make sure that any unsaved changes are saved to disk before the
+    // diff is created or refreshed.
+    //
+    // This option will not save a file that no longer exists on disk but still
+    // has a buffer open.
+    "save_on_diff": false,
+
+    // Should the user be asked to confirm before OverrideAudit deletes any
+    // files?
+    "confirm_deletion": true,
+
+    // Should the user be asked to confirm before OverrideAudit freshens one or
+    // more overrides?
+    "confirm_freshen": true,
+
+    // Control what is considered to be a binary file for the purposes of
+    // skipping attempts to calculate diff information. Any override file which
+    // matches an item in this list will be considered binary and reported as
+    // such in diff views.
+    //
+    // This setting is purposefully named identically to the Sublime Text
+    // setting, which OverrideAudit will automatically use if this setting does
+    // not exist here inside the OverrideAudit specific settings.
+    //
+    // For that reason, the setting is commented out by default.
+    // "binary_file_patterns": ["*.png"],
+
+    // When enabled, OverrideAudit will perform a check to see if there are any
+    // expired overrides after a package is removed from the ignored_packages
+    // setting in Preferences.sublime-settings.
+    //
+    // This happens when PackageControl works with packages, allowing you to
+    // detect if recent package changes might have caused an override to expire.
+    //
+    // The report will only be displayed if any expired overrides are found.
+    "report_on_unignore": false
+}
