@@ -39,9 +39,7 @@
 	],
 	"bootstrapped": true,
 	"debug": false,
-	"ignore_vcs_packages":
-	[
-	],
+	"ignore_vcs_packages": true,
 	"in_process_packages":
 	[
 	],
@@ -63,6 +61,7 @@
 		"C++ Starting Kit",
 		"Case Conversion",
 		"ChangeQuotes",
+		"ChannelRepositoryTools",
 		"Clickable URLs",
 		"Color Highlighter",
 		"ColorHelper",
