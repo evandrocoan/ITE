@@ -1,5 +1,7 @@
 {
 	"GitGutter": true,
+	"WrapPlus.break_long_words": false,
+	"WrapPlus.break_on_hyphens": false,
 	"added_words":
 	[
 		"matlab",
