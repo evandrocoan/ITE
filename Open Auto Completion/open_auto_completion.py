@@ -9,15 +9,18 @@ class OpenAutoCompletionCommand(sublime_plugin.TextCommand):
     """
         How to autocomplete inside a word?
         https://forum.sublimetext.com/t/how-to-autocomplete-inside-a-word/28646
+
+        Run command on space
+        https://forum.sublimetext.com/t/run-command-on-space/28198
     """
 
-    def run(self, edit, **kargs):
+    def run(self, edit, character):
         # print( "kargs: ", str( kargs ) )
 
         view = self.view
-        view.run_command("insert", {"characters": kargs["keystroke"]})
+        view.run_command("insert", {"characters": character})
 
         window = view.window()
-        # window.run_command("auto_complete")
+        window.run_command("auto_complete", {'disable_auto_insert': True, 'next_completion_if_showing': False})
 
 
