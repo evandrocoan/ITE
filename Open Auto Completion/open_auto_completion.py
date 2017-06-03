@@ -12,6 +12,9 @@ class OpenAutoCompletionCommand(sublime_plugin.TextCommand):
 
         Run command on space
         https://forum.sublimetext.com/t/run-command-on-space/28198
+
+        Is it possible to detect if panels are visible AND have focus?
+        https://forum.sublimetext.com/t/solved-is-it-possible-to-detect-if-panels-are-visible-and-have-focus/18507
     """
 
     def run(self, edit, **kargs):
@@ -20,7 +23,8 @@ class OpenAutoCompletionCommand(sublime_plugin.TextCommand):
         view = self.view
         view.run_command("insert", {"characters": kargs["keystroke"]})
 
-        window = view.window()
-        window.run_command("auto_complete", {'disable_auto_insert': True, 'next_completion_if_showing': False})
+        if not view.settings().get('is_widget'):
+            window = view.window()
+            window.run_command("auto_complete", {'disable_auto_insert': True, 'next_completion_if_showing': False})
 
 
