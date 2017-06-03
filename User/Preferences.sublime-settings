@@ -163,6 +163,7 @@
 	"shift_tab_unindent": true,
 	"show_definitions": true,
 	"show_encoding": true,
+	"show_errors_inline": false,
 	"show_full_file_path": true,
 	"show_full_path": false,
 	"show_line_endings": true,
