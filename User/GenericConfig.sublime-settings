@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		".inputrc"
+		".inputrc",
+		"Doxyfile"
 	]
 }
