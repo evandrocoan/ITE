@@ -13,9 +13,11 @@ to program on:
 1. Shell Script
 1. Windows Batch
 1. LaTeX
+1. CSS
+1. Javascript
 
 
-Its current version is: v1.0.1-424
+Its current version is: v1.0.1-425
 
 
 
