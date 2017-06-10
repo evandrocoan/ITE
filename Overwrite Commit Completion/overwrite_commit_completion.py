@@ -9,6 +9,9 @@ class OverwriteCommitCompletionCommand(sublime_plugin.TextCommand):
     """
         Complete whole word
         https://forum.sublimetext.com/t/complete-whole-word/26375
+
+        It is possible to pass an array to a command without **kargs?
+        https://forum.sublimetext.com/t/it-is-possible-to-pass-an-array-to-a-command-without-kargs/28969
     """
 
     def run(self, edit):
@@ -19,9 +22,19 @@ class OverwriteCommitCompletionCommand(sublime_plugin.TextCommand):
         for selection in view.sel():
             old_selections.append( selection.end() )
 
-        selection_index = 0
-        completion_offset = 0
         window.run_command( "commit_completion" )
+        window.run_command( "overwrite_commit_completion_assistant", { "args" : old_selections } )
+
+class OverwriteCommitCompletionAssistantCommand( sublime_plugin.TextCommand ):
+
+    def run( self, edit, **kargs ):
+        """
+            Since Sublime Text build ~3134, we need to wait until Sublime Text insert the completion.
+        """
+        old_selections    = kargs["args"]
+        view              = self.view
+        selection_index   = 0
+        completion_offset = 0
 
         for selection in view.sel():
             completion_end_point   = selection.end()
@@ -30,6 +43,7 @@ class OverwriteCommitCompletionCommand(sublime_plugin.TextCommand):
             part_completed_region  = sublime.Region( old_selections[ selection_index ] + completion_offset, completion_end_point )
 
             # print( "selection:           " + str( selection ) )
+            # print( "selection_word:      " + str( view.substr( selection ) ) )
             # print( "inserted_word:       " + view.substr( sublime.Region( view.word( completion_end_point ).begin(), completion_end_point ) ) )
             # print( "full_completed_word: " + view.substr( view.word( completion_end_point ) ) )
             # print( "duplicated_word:     " + duplicated_word )
@@ -42,7 +56,7 @@ class OverwriteCommitCompletionCommand(sublime_plugin.TextCommand):
             if duplicated_word.isalnum() \
                     and duplicated_word in view.substr( part_completed_region ):
 
-                # print( "Erasing duplication: " + duplicated_word )
+                print( "Erasing duplication: " + duplicated_word )
                 view.erase( edit, duplicated_word_region )
 
                 # When the completion is inserted we need to save the completion_offset to be able
@@ -53,9 +67,14 @@ class OverwriteCommitCompletionCommand(sublime_plugin.TextCommand):
             selection_index += 1
 
 
+
 """ OverwriteCommitCompletionCommand
 
 OverwriteCommitCompletionCommand
 OverwriteCommitCompletionCommand
+
+tooMuchLeft
+tooMuchLeft
+tooMuchLeft
 
 """
