@@ -23,15 +23,18 @@ class OverwriteCommitCompletionCommand(sublime_plugin.TextCommand):
             old_selections.append( selection.end() )
 
         window.run_command( "commit_completion" )
-        window.run_command( "overwrite_commit_completion_assistant", { "args" : old_selections } )
+        window.run_command( "overwrite_commit_completion_assistant", { "old_selections" : old_selections } )
 
 class OverwriteCommitCompletionAssistantCommand( sublime_plugin.TextCommand ):
+    """
+        Save the edit when running a Sublime Text 3 plugin
+        https://stackoverflow.com/questions/20466014/save-the-edit-when-running-a-sublime-text-3-plugin
+    """
 
-    def run( self, edit, **kargs ):
+    def run( self, edit, old_selections ):
         """
             Since Sublime Text build ~3134, we need to wait until Sublime Text insert the completion.
         """
-        old_selections    = kargs["args"]
         view              = self.view
         selection_index   = 0
         completion_offset = 0
@@ -56,7 +59,7 @@ class OverwriteCommitCompletionAssistantCommand( sublime_plugin.TextCommand ):
             if duplicated_word.isalnum() \
                     and duplicated_word in view.substr( part_completed_region ):
 
-                print( "Erasing duplication: " + duplicated_word )
+                # print( "Erasing duplication: " + duplicated_word )
                 view.erase( edit, duplicated_word_region )
 
                 # When the completion is inserted we need to save the completion_offset to be able
