@@ -64,3 +64,6 @@
 [submodule "Notepad++ Color Scheme"]
 	path = Notepad++ Color Scheme
 	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
+[submodule "LaTeXTools"]
+	path = LaTeXTools
+	url = https://github.com/evandrocoan/LaTeXTools
