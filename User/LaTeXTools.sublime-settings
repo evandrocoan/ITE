@@ -520,7 +520,7 @@
 	// image types you use in latex
 	// these types will be used for autocompletion and
 	// opening of included images, when no extension is written
-	"image_types": ["png", "pdf", "jpg", "jpeg", "eps"],
+	"image_types": ["png", "pdf", "jpg", "jpeg", "eps", "gif", "bmp"],
 
 // ------------------------------------------------------------------
 // Bibliographic references
