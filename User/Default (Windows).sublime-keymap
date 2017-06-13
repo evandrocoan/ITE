@@ -367,7 +367,9 @@
 
     { "keys": ["insert"], "command": "toggle_overwrite" },
 
-    { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+    // Disabled as the LaTeXTools package overrides it for its own `C-l, C-...` bindings
+    // { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+
     { "keys": ["ctrl+d"], "command": "find_under_expand" },
     { "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
     { "keys": ["ctrl+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
