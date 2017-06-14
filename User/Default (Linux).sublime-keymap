@@ -46,12 +46,7 @@
 
     { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
     { "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
-    { "keys": ["enter"], "command": "commit_completion", "context":
-        [
-            { "key": "auto_complete_visible" },
-            { "key": "setting.auto_complete_commit_on_tab", "operand": false }
-        ]
-    },
+
 
     { "keys": ["ctrl+alt+c"], "command": "ansi_color_build", "args": {"kill": true} },
 
@@ -155,14 +150,14 @@
     { "keys": ["ctrl+shift+n"], "command": "new_window" },
 
 
-    // Moved to the Custom Settings package:
+    // How to do the jump_back command from find panel?
     // https://forum.sublimetext.com/t/how-to-do-the-jump-back-command-from-find-panel/25610
     //
     // { "keys": ["alt+left"], "command": "jump_back" },
     // { "keys": ["alt+right"], "command": "jump_forward" },
 
-    { "keys": ["alt+left"], "command": "my_jump_back" },
-    { "keys": ["alt+right"], "command": "my_jump_forward" },
+    { "keys": ["ctrl+shift+keypad_minus"], "command": "my_jump_back" },
+    { "keys": ["ctrl+shift+keypad_plus"], "command": "my_jump_forward" },
 
 
     // Add/remove/select of multiple cursors more convenient with keyboard, https://github.com/evandrocoan/PowerCursors
@@ -342,14 +337,9 @@
             { "key": "has_next_field", "operator": "equal", "operand": true }
         ]
     },
-    { "keys": ["tab"], "command": "commit_completion", "context":
-        [
-            { "key": "auto_complete_visible" },
-            { "key": "setting.auto_complete_commit_on_tab" }
-        ]
-    },
 
     { "keys": ["shift+tab"], "command": "insert", "args": {"characters": "\t"} },
+
     { "keys": ["shift+tab"], "command": "unindent", "context":
         [
             { "key": "setting.shift_tab_unindent", "operator": "equal", "operand": true }
@@ -371,12 +361,15 @@
         ]
     },
 
+
     { "keys": ["ctrl+]"], "command": "indent" },
     { "keys": ["ctrl+["], "command": "unindent" },
 
     { "keys": ["insert"], "command": "toggle_overwrite" },
 
-    { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+    // Disabled as the LaTeXTools package overrides it for its own `C-l, C-...` bindings
+    // { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+
     { "keys": ["ctrl+d"], "command": "find_under_expand" },
     { "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
     { "keys": ["ctrl+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
@@ -436,7 +429,7 @@
 
     { "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 
-    { "keys": ["ctrl+space"], "command": "auto_complete" },
+    { "keys": ["ctrl+space"], "command": "auto_complete", "args": {"disable_auto_insert": true, "next_completion_if_showing": false} },
     { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
         [
             { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
@@ -455,21 +448,29 @@
 
     { "keys": ["f7"], "command": "build" },
     { "keys": ["f8"], "command": "show_panel", "args": {"panel": "output.exec"} },
-    { "keys": ["f8"], "command": "build", "context":
+
+    // { "keys": ["ctrl+f7"], "command": "cancel_build" },
+    // { "keys": ["ctrl+f7"], "command": "exec", "args": {"kill": true} },
+
+    { "keys": ["f8"], "command": "cancel_build", "context":
         [
             { "key": "panel", "operand": "output.exec" }
         ]
     },
+    // { "keys": ["f8"], "command": "build", "context":
+    //     [
+    //         { "key": "panel", "operand": "output.exec" }
+    //     ]
+    // },
 
     { "keys": ["ctrl+b"], "command": "build", "context":
         [ { "key": "build_fake", "operator":"equal", "operand":true } ]
     },
-    { "keys": ["ctrl+break"], "command": "exec", "args": {"kill": true} },
-    { "keys": ["ctrl+shift+c"], "command": "ansi_color_build", "args": {"kill": true} },
     { "keys": ["ctrl+shift+b"], "command": "build", "args": {"select": true} },
+    { "keys": ["ctrl+shift+c"], "command": "ansi_color_build", "args": {"kill": true} },
+
 
     { "keys": ["ctrl+t"], "command": "transpose" },
-
 
     // Auto-pair quotes
     { "keys": ["\""], "command": "insert_snippet", "args": {"contents": "\"$0\""}, "context":
@@ -766,7 +767,6 @@
     // This default command is replaced the package `Sublime Wrap Plus` with the command `wrap_lines_plus`
     // See the page https://github.com/ehuss/Sublime-Wrap-Plus#configuring for settings
     // { "keys": ["alt+q"], "command": "wrap_lines" },
-    { "keys": ["alt+q"], "command": "wrap_lines_plus" },
 
 
     { "keys": ["ctrl+k", "ctrl+u"], "command": "upper_case" },
