@@ -11,8 +11,8 @@
     "smart_paste_image_snippet": [
         "\\begin{figure}[H]",
         "\\centering",
-        "\\includegraphics[$2]{<<image_name>>}",
-        "\\caption{<<image_name>>$1}",
+        "\\includegraphics[scale=1.0$2]{<<image_name>>}",
+        "\\caption{<<image_name>>$TM_SELECTED_TEXT$1}",
         "\\label{fig:<<image_name>>${1/([0-9a-zA-Z_])|([^0-9a-zA-Z_]+)/\\L\\1(?2:_:)/g}}",
         "\\end{figure}",
     ],
