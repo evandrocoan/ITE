@@ -150,14 +150,14 @@
     { "keys": ["ctrl+shift+n"], "command": "new_window" },
 
 
-    // Moved to the Custom Settings package:
+    // How to do the jump_back command from find panel?
     // https://forum.sublimetext.com/t/how-to-do-the-jump-back-command-from-find-panel/25610
     //
     // { "keys": ["alt+left"], "command": "jump_back" },
     // { "keys": ["alt+right"], "command": "jump_forward" },
 
-    { "keys": ["alt+left"], "command": "my_jump_back" },
-    { "keys": ["alt+right"], "command": "my_jump_forward" },
+    { "keys": ["ctrl+shift+keypad_minus"], "command": "my_jump_back" },
+    { "keys": ["ctrl+shift+keypad_plus"], "command": "my_jump_forward" },
 
 
     // Add/remove/select of multiple cursors more convenient with keyboard, https://github.com/evandrocoan/PowerCursors

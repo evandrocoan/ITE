@@ -1,11 +1,11 @@
 [
     {
-        "keys": ["ctrl+shift+keypad_minus"],
+        "keys": ["alt+right"],
         "command": "goto_last_edit_enhanced",
     },
 
     {
-        "keys": ["ctrl+shift+keypad_plus"],
+        "keys": ["alt+left"],
         "command": "goto_last_edit_enhanced",
         "args":
         {
