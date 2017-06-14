@@ -1,0 +1,6 @@
+[
+    {
+        "button": "button2", "count": 1, "modifiers": ["ctrl"],
+        "command": "goto_last_edit_enhanced", "args": { "backward": true },
+    },
+]
