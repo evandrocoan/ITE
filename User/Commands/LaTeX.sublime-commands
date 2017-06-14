@@ -9,7 +9,7 @@
 		"args": {
 		    "commands": [
 		        ["insert_snippet", {"contents": "\\begin{figure}\n\\centering\n\\includegraphics[scale=1.0]{$TM_SELECTED_TEXT$1}\n\\caption{$1}\n\\label{fig:$1}\n\\end{figure}"}],
-		        ["latex_fill_all", {"completion_type": "input", "force": true, "single_selection" : true} ]
+		        ["latex_fill_all", {"completion_type": "input", "force": true, "single_selection" : 0} ]
 		    ]
 		},
 	},
