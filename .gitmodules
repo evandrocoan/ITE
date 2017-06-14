@@ -67,3 +67,6 @@
 [submodule "LaTeXTools"]
 	path = LaTeXTools
 	url = https://github.com/evandrocoan/LaTeXTools
+[submodule "FuzzyFilePath"]
+	path = FuzzyFilePath
+	url = https://github.com/evandrocoan/FuzzyFilePath
