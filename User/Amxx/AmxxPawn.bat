@@ -61,7 +61,7 @@ for /F "tokens=1-4 delims=:.," %%a in ("%time%") do (
 rem %1 is the first shell argument and %2 is the second shell argument passed by AmxxPawn.sublime-build
 rem Usually they should be the plugin's file full path and the plugin's file name without extension.
 rem
-rem Example: %1="F:\SteamCMD\steamapps\common\Half-Life\czero\addons\my_plugin.sma"
+rem Example: %1=F:\SteamCMD\steamapps\common\Half-Life\czero\addons\my_plugin.sma
 set PLUGIN_SOURCE_CODE_FILE_PATH="%1"
 
 rem %4 is the path of the folder where the plugin source code is.
@@ -173,7 +173,7 @@ echo Took %hh%:%mm%:%ss%,%cc% seconds to run this script.
 
 rem Pause the script for result reading, when it is run without any command line parameters.
 echo.
-if "%1"=="" pause
+if %PLUGIN_SOURCE_CODE_FILE_PATH%=="" pause
 
 
 
