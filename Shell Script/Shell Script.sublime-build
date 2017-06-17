@@ -1,0 +1,7 @@
+
+{
+    "cmd": ["sh", "$file"],
+    "selector": "source.shell",
+
+    "quiet": true,
+}
