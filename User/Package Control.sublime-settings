@@ -12,7 +12,6 @@
 		"Select All Spelling Errors",
 		"SQL Keyword Uppercase",
 		"View Settings Freely",
-		"Shell Script",
 	],
 	"bootstrapped": true,
 	"debug": false,
@@ -44,6 +43,7 @@
 		"C++ Snippets",
 		"C++ Starting Kit",
 		"Case Conversion",
+		"Shell Script",
 		"Chain of Command",
 		"ChangeQuotes",
 		"ChannelRepositoryTools",
@@ -179,6 +179,7 @@
 		"https://github.com/evandrocoan/SublimeREPL",
 		"https://github.com/evandrocoan/SyncedSideBar",
 		"https://github.com/evandrocoan/SublimeTextToolBar",
-		"https://github.com/evandrocoan/SublimeTextMarkdowToBBCode"
+		"https://github.com/evandrocoan/SublimeTextMarkdowToBBCode",
+		"https://github.com/evandrocoan/SublimeShellScript",
 	]
 }

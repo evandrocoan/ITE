@@ -73,3 +73,6 @@
 [submodule "GotoLastEditEnhanced"]
 	path = GotoLastEditEnhanced
 	url = https://github.com/evandrocoan/sublime-goto-last-edit-enhanced
+[submodule "Shell Script"]
+	path = Shell Script
+	url = https://github.com/evandrocoan/SublimeShellScript.git
