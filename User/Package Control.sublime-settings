@@ -65,6 +65,7 @@
 		"Find++",
 		"FindKeyConflicts",
 		"Fix Project Switch Restart Bug",
+		"Fix Selection After Indent",
 		"Fixed Selections Clear",
 		"Force Rewrite Sublime Settings",
 		"FuzzyFileNav",
@@ -191,6 +192,7 @@
 		"https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug",
 		"https://github.com/evandrocoan/SublimeDefaultSyntax",
 		"https://github.com/evandrocoan/SublimeClipboardScopeCopy",
-		"https://github.com/evandrocoan/ClearCursorsCarets"
+		"https://github.com/evandrocoan/ClearCursorsCarets",
+		"https://github.com/evandrocoan/SublimeFixSelectionAfterIndent"
 	]
 }

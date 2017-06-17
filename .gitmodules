@@ -109,3 +109,6 @@
 [submodule "Clear Cursors Carets"]
 	path = Clear Cursors Carets
 	url = https://github.com/evandrocoan/ClearCursorsCarets
+[submodule "Fix Selection After Indent"]
+	path = Fix Selection After Indent
+	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
