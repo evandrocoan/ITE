@@ -11,7 +11,6 @@
 		"Overwrite Commit Completion",
 		"Select All Spelling Errors",
 		"SQL Keyword Uppercase",
-		"View Settings Freely",
 	],
 	"bootstrapped": true,
 	"debug": false,
@@ -60,6 +59,7 @@
 		"DictionaryAutoComplete",
 		"DistractionFreeWindow",
 		"DocBlockr",
+		"View Settings Freely",
 		"Dotfiles Syntax Highlighting",
 		"DuplicateSelections",
 		"Edit Preferences",
@@ -181,5 +181,6 @@
 		"https://github.com/evandrocoan/SublimeTextToolBar",
 		"https://github.com/evandrocoan/SublimeTextMarkdowToBBCode",
 		"https://github.com/evandrocoan/SublimeShellScript",
+		"https://github.com/evandrocoan/SublimeViewSettingsFreely",
 	]
 }

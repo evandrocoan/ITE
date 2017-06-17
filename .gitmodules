@@ -76,3 +76,6 @@
 [submodule "Shell Script"]
 	path = Shell Script
 	url = https://github.com/evandrocoan/SublimeShellScript.git
+[submodule "View Settings Freely"]
+	path = View Settings Freely
+	url = https://github.com/evandrocoan/SublimeViewSettingsFreely
