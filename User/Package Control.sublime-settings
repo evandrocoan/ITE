@@ -4,7 +4,6 @@
 		"Clear Cursors-Carets",
 		"Clipboard Scope Copy",
 		"Default Syntax",
-		"Fix Project Switch-Restart Bug",
 	],
 	"bootstrapped": true,
 	"debug": false,
@@ -14,6 +13,7 @@
 	],
 	"installed_packages":
 	[
+		"Fix Project Switch Restart Bug",
 		"Fixed Selections Clear",
 		"Force Rewrite Sublime Settings",
 		"Open Auto Completion",
@@ -188,5 +188,6 @@
 		"https://github.com/evandrocoan/SublimeOpenAutoCompletion",
 		"https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings",
 		"https://github.com/evandrocoan/SublimeFixedSelectionsClear",
+		"https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug",
 	]
 }

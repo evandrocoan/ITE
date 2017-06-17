@@ -97,3 +97,6 @@
 [submodule "Fixed Selections Clear"]
 	path = Fixed Selections Clear
 	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear
+[submodule "Fix Project Switch Restart Bug"]
+	path = Fix Project Switch Restart Bug
+	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
