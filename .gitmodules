@@ -106,3 +106,6 @@
 [submodule "Clipboard Scope Copy"]
 	path = Clipboard Scope Copy
 	url = https://github.com/evandrocoan/SublimeClipboardScopeCopy
+[submodule "Clear Cursors Carets"]
+	path = Clear Cursors Carets
+	url = https://github.com/evandrocoan/ClearCursorsCarets

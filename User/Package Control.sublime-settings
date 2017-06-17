@@ -1,7 +1,6 @@
 {
 	"auto_upgrade_ignore":
 	[
-		"Clear Cursors-Carets",
 	],
 	"bootstrapped": true,
 	"debug": false,
@@ -11,6 +10,7 @@
 	],
 	"installed_packages":
 	[
+		"Clear Cursors Carets",
 		"Clipboard Scope Copy",
 		"Default Syntax",
 		"Fix Project Switch Restart Bug",
@@ -191,5 +191,6 @@
 		"https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug",
 		"https://github.com/evandrocoan/SublimeDefaultSyntax",
 		"https://github.com/evandrocoan/SublimeClipboardScopeCopy",
+		"https://github.com/evandrocoan/ClearCursorsCarets",
 	]
 }
