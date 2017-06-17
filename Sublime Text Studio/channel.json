@@ -1,0 +1,111 @@
+{
+	"schema_version": "3.0.0",
+	"packages_cache":
+	{
+		"https://packagecontrol.io/repository.json":
+		[
+			{
+				"readme": "https://raw.githubusercontent.com/evandrocoan/SublimeAMXX_Editor/master/README.MD",
+				"labels":
+				[
+					"autocompletion",
+					"auto-complete",
+					"amxmodx",
+					"amx mod x",
+					"amxx",
+					"pawn",
+					"build system"
+				],
+				"name": "amxmodx",
+				"issues": "https://github.com/evandrocoan/SublimeAMXX_Editor/issues",
+				"previous_names": [],
+				"donate": null,
+				"homepage": "https://github.com/evandrocoan/SublimeAMXX_Editor",
+				"buy": null,
+				"description": "Auto-complete and Build System for Amx Mod X on Sublime Text",
+				"authors":
+				[
+					"evandrocoan"
+				],
+				"releases":
+				[
+					{
+						"platforms":
+						[
+							"*"
+						],
+						"url": "https://codeload.github.com/evandrocoan/SublimeAMXX_Editor/zip/1.1.4",
+						"version": "1.1.4",
+						"sublime_text": ">=3114",
+						"date": "2017-06-15 20:20:48"
+					}
+				]
+			},
+			{
+				"readme": "https://raw.githubusercontent.com/evandrocoan/SublimeAmxxPawn/master/README.md",
+				"labels":
+				[
+					"language syntax",
+					"amxmodx",
+					"amx mod x"
+				],
+				"name": "Amxx Pawn",
+				"issues": "https://github.com/evandrocoan/SublimeAmxxPawn/issues",
+				"previous_names": [],
+				"donate": null,
+				"homepage": "https://github.com/evandrocoan/SublimeAmxxPawn",
+				"buy": null,
+				"description": "Amx Mod X self-contained syntax definition and build for Sublime Text",
+				"authors":
+				[
+					"evandrocoan"
+				],
+				"releases":
+				[
+					{
+						"platforms":
+						[
+							"*"
+						],
+						"url": "https://codeload.github.com/evandrocoan/SublimeAmxxPawn/zip/1.0.3",
+						"version": "1.0.3",
+						"sublime_text": ">=3114",
+						"date": "2017-06-08 18:16:58"
+					}
+				]
+			},
+			{
+				"readme": "https://raw.githubusercontent.com/evandrocoan/SublimeNotepadPlusPlusTheme/master/README.md",
+				"labels":
+				[
+					"color scheme",
+					"notepad++"
+				],
+				"name": "Notepad++ Color Scheme",
+				"issues": "https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme/issues",
+				"previous_names": [],
+				"donate": null,
+				"homepage": "https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme",
+				"buy": null,
+				"description": "Sublime Notepad++ Theme",
+				"authors":
+				[
+					"evandrocoan"
+				],
+				"releases":
+				[
+					{
+						"platforms":
+						[
+							"*"
+						],
+						"url": "https://codeload.github.com/evandrocoan/SublimeNotepadPlusPlusTheme/zip/1.1.1",
+						"version": "1.1.1",
+						"sublime_text": ">=3114",
+						"date": "2017-06-15 18:51:35"
+					}
+				]
+			}
+		]
+	}
+}

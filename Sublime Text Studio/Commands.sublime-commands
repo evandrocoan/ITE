@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "Sublime Text Studio: Generate Channel File",
+    "command": "sublime_text_studio_generate_channel_file"
+  },
+]
