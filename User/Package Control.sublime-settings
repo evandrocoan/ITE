@@ -10,7 +10,6 @@
 		"Open Auto Completion",
 		"Overwrite Commit Completion",
 		"Select All Spelling Errors",
-		"SQL Keyword Uppercase",
 	],
 	"bootstrapped": true,
 	"debug": false,
@@ -23,6 +22,7 @@
 		"A File Icon",
 		"Add Folder To Project",
 		"AdvancedNewFile",
+		"SQL Keyword Uppercase",
 		"Alignment",
 		"AlignTab",
 		"All Autocomplete",
@@ -182,5 +182,6 @@
 		"https://github.com/evandrocoan/SublimeTextMarkdowToBBCode",
 		"https://github.com/evandrocoan/SublimeShellScript",
 		"https://github.com/evandrocoan/SublimeViewSettingsFreely",
+		"https://github.com/evandrocoan/SublimeSQLKeywordUppercase",
 	]
 }

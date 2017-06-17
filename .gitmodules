@@ -79,3 +79,6 @@
 [submodule "View Settings Freely"]
 	path = View Settings Freely
 	url = https://github.com/evandrocoan/SublimeViewSettingsFreely
+[submodule "SQL Keyword Uppercase"]
+	path = SQL Keyword Uppercase
+	url = https://github.com/evandrocoan/SublimeSQLKeywordUppercase.git
