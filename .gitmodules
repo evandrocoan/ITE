@@ -88,3 +88,6 @@
 [submodule "Overwrite Commit Completion"]
 	path = Overwrite Commit Completion
 	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
+[submodule "Open Auto Completion"]
+	path = Open Auto Completion
+	url = https://github.com/evandrocoan/SublimeOpenAutoCompletion
