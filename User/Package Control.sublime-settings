@@ -148,6 +148,7 @@
 		"TOML",
 		"Toolbar",
 		"Trimmer",
+		"Unpacked Packages Override",
 		"View Settings Freely",
 		"Whitespace",
 		"WordHighlight",
@@ -193,6 +194,7 @@
 		"https://github.com/evandrocoan/SublimeDefaultSyntax",
 		"https://github.com/evandrocoan/SublimeClipboardScopeCopy",
 		"https://github.com/evandrocoan/ClearCursorsCarets",
+		"https://github.com/evandrocoan/SublimeUnpackedPackagesOverride",
 		"https://github.com/evandrocoan/SublimeFixSelectionAfterIndent"
 	]
 }
