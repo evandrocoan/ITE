@@ -9,7 +9,6 @@
 		"Force Rewrite Sublime Settings",
 		"Open Auto Completion",
 		"Overwrite Commit Completion",
-		"Select All Spelling Errors",
 	],
 	"bootstrapped": true,
 	"debug": false,
@@ -30,6 +29,7 @@
 		"Amxx Pawn",
 		"Anaconda",
 		"ANSIescape",
+		"Select All Spelling Errors",
 		"ApplySyntax",
 		"Auto Refresh",
 		"AutoFileName",
@@ -183,5 +183,6 @@
 		"https://github.com/evandrocoan/SublimeShellScript",
 		"https://github.com/evandrocoan/SublimeViewSettingsFreely",
 		"https://github.com/evandrocoan/SublimeSQLKeywordUppercase",
+		"https://github.com/evandrocoan/SublimeSelectAllSpellingErrors",
 	]
 }

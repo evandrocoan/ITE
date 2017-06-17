@@ -82,3 +82,6 @@
 [submodule "SQL Keyword Uppercase"]
 	path = SQL Keyword Uppercase
 	url = https://github.com/evandrocoan/SublimeSQLKeywordUppercase.git
+[submodule "Select All Spelling Errors"]
+	path = Select All Spelling Errors
+	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
