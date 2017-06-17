@@ -8,7 +8,6 @@
 		"Fixed Selections Clear",
 		"Force Rewrite Sublime Settings",
 		"Open Auto Completion",
-		"Overwrite Commit Completion",
 	],
 	"bootstrapped": true,
 	"debug": false,
@@ -18,6 +17,7 @@
 	],
 	"installed_packages":
 	[
+		"Overwrite Commit Completion",
 		"A File Icon",
 		"Add Folder To Project",
 		"AdvancedNewFile",
@@ -184,5 +184,6 @@
 		"https://github.com/evandrocoan/SublimeViewSettingsFreely",
 		"https://github.com/evandrocoan/SublimeSQLKeywordUppercase",
 		"https://github.com/evandrocoan/SublimeSelectAllSpellingErrors",
+		"https://github.com/evandrocoan/SublimeOverwriteCommitCompletion",
 	]
 }

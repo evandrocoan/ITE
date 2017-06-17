@@ -85,3 +85,6 @@
 [submodule "Select All Spelling Errors"]
 	path = Select All Spelling Errors
 	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
+[submodule "Overwrite Commit Completion"]
+	path = Overwrite Commit Completion
+	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
