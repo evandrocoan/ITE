@@ -91,3 +91,9 @@
 [submodule "Open Auto Completion"]
 	path = Open Auto Completion
 	url = https://github.com/evandrocoan/SublimeOpenAutoCompletion
+[submodule "Force Rewrite Sublime Settings"]
+	path = Force Rewrite Sublime Settings
+	url = https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings
+[submodule "Fixed Selections Clear"]
+	path = Fixed Selections Clear
+	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear

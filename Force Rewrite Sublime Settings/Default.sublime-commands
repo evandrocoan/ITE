@@ -1,3 +1,0 @@
-[
-	{ "caption": "Force re-write sublime settings", "command": "force_rewrite_sublime_settings" },
-]
