@@ -88,6 +88,7 @@
 	"ignored_packages":
 	[
 		"AdvancedNewFile",
+		"All Autocomplete",
 		"Anaconda",
 		"ApplySyntax",
 		"Boxy Theme",
