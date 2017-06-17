@@ -100,3 +100,6 @@
 [submodule "Fix Project Switch Restart Bug"]
 	path = Fix Project Switch Restart Bug
 	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
+[submodule "Default Syntax"]
+	path = Default Syntax
+	url = https://github.com/evandrocoan/SublimeDefaultSyntax

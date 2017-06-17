@@ -3,7 +3,6 @@
 	[
 		"Clear Cursors-Carets",
 		"Clipboard Scope Copy",
-		"Default Syntax",
 	],
 	"bootstrapped": true,
 	"debug": false,
@@ -13,6 +12,7 @@
 	],
 	"installed_packages":
 	[
+		"Default Syntax",
 		"Fix Project Switch Restart Bug",
 		"Fixed Selections Clear",
 		"Force Rewrite Sublime Settings",
@@ -189,5 +189,6 @@
 		"https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings",
 		"https://github.com/evandrocoan/SublimeFixedSelectionsClear",
 		"https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug",
+		"https://github.com/evandrocoan/SublimeDefaultSyntax",
 	]
 }
