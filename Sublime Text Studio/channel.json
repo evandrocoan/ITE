@@ -34,7 +34,7 @@
 						[
 							"*"
 						],
-						"url": "https://codeload.github.com/evandrocoan/SublimeAMXX_Editor/zip/1.1.4",
+						"url": "https://codeload.github.com/evandrocoan/SublimeAMXX_Editor/zip/master",
 						"version": "1.1.4",
 						"sublime_text": ">=3114",
 						"date": "2017-06-15 20:20:48"
@@ -67,7 +67,7 @@
 						[
 							"*"
 						],
-						"url": "https://codeload.github.com/evandrocoan/SublimeAmxxPawn/zip/1.0.3",
+						"url": "https://codeload.github.com/evandrocoan/SublimeAmxxPawn/zip/master",
 						"version": "1.0.3",
 						"sublime_text": ">=3114",
 						"date": "2017-06-08 18:16:58"
@@ -99,7 +99,7 @@
 						[
 							"*"
 						],
-						"url": "https://codeload.github.com/evandrocoan/SublimeNotepadPlusPlusTheme/zip/1.1.1",
+						"url": "https://codeload.github.com/evandrocoan/SublimeNotepadPlusPlusTheme/zip/master",
 						"version": "1.1.1",
 						"sublime_text": ">=3114",
 						"date": "2017-06-15 18:51:35"
