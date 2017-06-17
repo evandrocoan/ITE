@@ -103,3 +103,6 @@
 [submodule "Default Syntax"]
 	path = Default Syntax
 	url = https://github.com/evandrocoan/SublimeDefaultSyntax
+[submodule "Clipboard Scope Copy"]
+	path = Clipboard Scope Copy
+	url = https://github.com/evandrocoan/SublimeClipboardScopeCopy
