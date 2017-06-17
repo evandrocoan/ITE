@@ -1,9 +1,24 @@
 {
+	"auto_upgrade_frequency": 0,
 	"auto_upgrade_ignore":
 	[
 	],
 	"bootstrapped": true,
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json"
+	],
 	"debug": false,
+	"dirs_to_ignore":
+	[
+	],
+	"enable_tests": true,
+	"files_to_ignore":
+	[
+		"*.pyc",
+		"*.sublime-workspace",
+		"*.tmTheme.cache"
+	],
 	"ignore_vcs_packages": false,
 	"in_process_packages":
 	[
@@ -157,44 +172,6 @@
 	],
 	"repositories":
 	[
-		"https://github.com/math2001/FileManager",
-		"https://github.com/evandrocoan/SublimeAllAutocomplete",
-		"https://github.com/evandrocoan/SublimeAMXX_Editor",
-		"https://github.com/evandrocoan/SublimeAmxxPawn",
-		"https://github.com/evandrocoan/SublimeANSI",
-		"https://github.com/evandrocoan/AutoFileName",
-		"https://github.com/evandrocoan/BBCode",
-		"https://github.com/evandrocoan/BufferScroll",
-		"https://github.com/evandrocoan/FuzzyFilePath",
-		"https://github.com/evandrocoan/sublime_indent_and_braces",
-		"https://github.com/evandrocoan/sublime-goto-last-edit-enhanced",
-		"https://github.com/evandrocoan/LaTeXTools",
-		"https://github.com/evandrocoan/MarkdownLight",
-		"https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme",
-		"https://github.com/evandrocoan/package_control",
-		"https://github.com/evandrocoan/PackageDev",
-		"https://github.com/evandrocoan/PowerCursors",
-		"https://github.com/evandrocoan/SublimePreferencesEditor",
-		"https://github.com/evandrocoan/sxs-settings",
-		"https://github.com/evandrocoan/SideBarEnhancements",
-		"https://github.com/evandrocoan/SublimeCodeIntel",
-		"https://github.com/evandrocoan/SublimeREPL",
-		"https://github.com/evandrocoan/SyncedSideBar",
-		"https://github.com/evandrocoan/SublimeTextToolBar",
-		"https://github.com/evandrocoan/SublimeTextMarkdowToBBCode",
-		"https://github.com/evandrocoan/SublimeShellScript",
-		"https://github.com/evandrocoan/SublimeViewSettingsFreely",
-		"https://github.com/evandrocoan/SublimeSQLKeywordUppercase",
-		"https://github.com/evandrocoan/SublimeSelectAllSpellingErrors",
-		"https://github.com/evandrocoan/SublimeOverwriteCommitCompletion",
-		"https://github.com/evandrocoan/SublimeOpenAutoCompletion",
-		"https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings",
-		"https://github.com/evandrocoan/SublimeFixedSelectionsClear",
-		"https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug",
-		"https://github.com/evandrocoan/SublimeDefaultSyntax",
-		"https://github.com/evandrocoan/SublimeClipboardScopeCopy",
-		"https://github.com/evandrocoan/ClearCursorsCarets",
-		"https://github.com/evandrocoan/SublimeUnpackedPackagesOverride",
-		"https://github.com/evandrocoan/SublimeFixSelectionAfterIndent"
+		"https://github.com/math2001/FileManager"
 	]
 }
