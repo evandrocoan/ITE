@@ -25,16 +25,3 @@ class MyJumpForwardCommand(sublime_plugin.TextCommand):
 
 
 
-#
-# Disables Anaconda `Context.sublime-menu`.
-#
-def plugin_loaded():
-
-    try:
-        os.rename( "../Anaconda/Context.sublime-menu", "../Anaconda/Context.sublime-menu.old" )
-
-    except:
-        pass
-
-
-
