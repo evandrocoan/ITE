@@ -112,6 +112,6 @@
 [submodule "Fix Selection After Indent"]
 	path = Fix Selection After Indent
 	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
-[submodule "Unpacked Packages Override"]
-	path = Unpacked Packages Override
+[submodule "Override Unpacked Packages"]
+	path = Override Unpacked Packages
 	url = https://github.com/evandrocoan/SublimeUnpackedPackagesOverride
