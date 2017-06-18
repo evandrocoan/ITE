@@ -115,3 +115,6 @@
 [submodule "Override Unpacked Packages"]
 	path = Override Unpacked Packages
 	url = https://github.com/evandrocoan/SublimeUnpackedPackagesOverride
+[submodule "Sublime Text Studio"]
+	path = Sublime Text Studio
+	url = https://github.com/evandrocoan/SublimeTextStudioChannel
