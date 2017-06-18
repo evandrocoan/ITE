@@ -121,3 +121,6 @@
 [submodule "Active View Jump Back"]
 	path = Active View Jump Back
 	url = https://github.com/evandrocoan/SublimeActiveViewJumpBack
+[submodule "Wrap Plus"]
+	path = Wrap Plus
+	url = https://github.com/evandrocoan/Sublime-Wrap-Plus
