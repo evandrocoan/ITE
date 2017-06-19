@@ -1,3 +1,5 @@
+mkdir Packages2
+
 mv Packages{,2}/"ANSIescape"
 mv Packages{,2}/"Active View Jump Back"
 mv Packages{,2}/"Add Folder To Project"
@@ -48,7 +50,6 @@ mv Packages{,2}/"Override Unpacked Packages"
 mv Packages{,2}/"Overwrite Commit Completion"
 mv Packages{,2}/"Package Control"
 mv Packages{,2}/"PackageDev"
-mv Packages{,2}/"Packages"
 mv Packages{,2}/"PowerCursors"
 mv Packages{,2}/"Preferences Editor"
 mv Packages{,2}/"Project Specific Syntax Settings"
