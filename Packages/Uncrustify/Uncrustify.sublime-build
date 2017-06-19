@@ -1,9 +1,0 @@
-{
-    "working_dir": "$file_path",
-    "cmd": ["sh", "$packages/Uncrustify/Uncrustify.sh", "$file"],
-
-    // "target": "ansi_color_build",
-    "syntax": "Packages/ANSIescape/ANSI.tmLanguage",
-
-    "selector": "source",
-}
