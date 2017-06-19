@@ -59,7 +59,7 @@ git submodule add -- https://github.com/evandrocoan/SublimeSelectAllSpellingErro
 git submodule add -- https://github.com/evandrocoan/SublimeShellScript                 "Packages/Shell Script"
 git submodule add -- https://github.com/evandrocoan/sxs-settings                       "Packages/Side-by-Side Settings"
 git submodule add -- https://github.com/evandrocoan/SideBarEnhancements                "Packages/SideBarEnhancements"
-git submodule add -- https://github.com/evandrocoan/SublimeTextStudio                  "Packages/Sublime Text Studio"
+git submodule add -- https://github.com/evandrocoan/SublimeTextStudioChannel           "Packages/Sublime Text Studio"
 git submodule add -- https://github.com/evandrocoan/SublimeCodeIntel                   "Packages/SublimeCodeIntel"
 git submodule add -- https://github.com/evandrocoan/SublimeREPL                        "Packages/SublimeREPL"
 git submodule add -- https://github.com/evandrocoan/SyncedSideBar                      "Packages/SyncedSideBar"
