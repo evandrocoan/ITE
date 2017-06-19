@@ -186,7 +186,7 @@
 	url = https://github.com/evandrocoan/SideBarEnhancements
 [submodule "Packages/Sublime Text Studio"]
 	path = Packages/Sublime Text Studio
-	url = https://github.com/evandrocoan/SublimeTextStudio
+	url = https://github.com/evandrocoan/SublimeTextStudioChannel
 [submodule "Packages/SublimeCodeIntel"]
 	path = Packages/SublimeCodeIntel
 	url = https://github.com/evandrocoan/SublimeCodeIntel
