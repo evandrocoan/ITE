@@ -66,7 +66,7 @@
 	"copyOnMouseSelect": false,
 	"default_line_ending": "CRLF",
 	"detect_slow_plugins": true,
-	"dictionary": "Packages/MultiLingual Dictionary/EN_PT.dic",
+	"dictionary": "Packages/User/MultiLingual Dictionary/EN_PT.dic",
 	"dictionary_original": "Packages/Language - English/en_US.dic",
 	"drag_text": false,
 	"drawWhiteSpace": "none",
