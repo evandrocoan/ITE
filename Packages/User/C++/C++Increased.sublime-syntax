@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+name: C++Increased
+comment: Cool
+file_extensions:
+  - cpp
+  - cc
+  - cp
+  - cxx
+  - c++
+  - C
+  - h
+  - hh
+  - hpp
+  - hxx
+  - h++
+  - inl
+  - ipp
+first_line_match: '-\*- C\+\+ -\*-'
+scope: source.c++
+contexts:
+  main:
+
+    - match: ''
+      push: Packages/C++/C++.sublime-syntax
+      with_prototype:
+
+      - match: '/\*\*'
+        scope: punctuation.definition.comment.c++
+        push:
+          - meta_scope: doccomment.block.c++
+          - match: '\*/'
+            scope: punctuation.definition.comment.c++
+            pop: true
+
+
