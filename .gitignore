@@ -1,20 +1,21 @@
 
 
 
+# Start ignoring things
+*.merged-ca-bundle
 
-Packages/.git
-Packages/.git/*
-Packages/.git/**
+/KEEPME
+/Index/
+/Cache/
+/Installed Packages/
+/Local/
+/Settings/
 
-/Packages/.git
-/Packages/.git/
-/Packages/.git/*
-/Packages/.git/**
-
+/Packages/Default
 /Packages/LICENSE
 /Packages/README.md
-/Packages/Default
 
+/Packages/.git/
 /Packages/ActionScript/
 /Packages/AppleScript/
 /Packages/ASP/
@@ -61,180 +62,40 @@ Packages/.git/**
 /Packages/YAML/
 
 
-#
-# Files and folders from the sublimehq/Packages
-#
-# "D:\User\Downloads\SublimeTextStudio\Packages\Lisp"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Lua"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Makefile"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Markdown"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Matlab"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Objective-C"
-# "D:\User\Downloads\SublimeTextStudio\Packages\OCaml"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Pascal"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Perl"
-# "D:\User\Downloads\SublimeTextStudio\Packages\PHP"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Python"
-# "D:\User\Downloads\SublimeTextStudio\Packages\R"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Rails"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Regular Expressions"
-# "D:\User\Downloads\SublimeTextStudio\Packages\RestructuredText"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Ruby"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Rust"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Scala"
-# "D:\User\Downloads\SublimeTextStudio\Packages\ShellScript"
-# "D:\User\Downloads\SublimeTextStudio\Packages\SQL"
-# "D:\User\Downloads\SublimeTextStudio\Packages\TCL"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Text"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Textile"
-# "D:\User\Downloads\SublimeTextStudio\Packages\XML"
-# "D:\User\Downloads\SublimeTextStudio\Packages\YAML"
-# "D:\User\Downloads\SublimeTextStudio\Packages\LICENSE"
-# "D:\User\Downloads\SublimeTextStudio\Packages\README.md"
-# "D:\User\Downloads\SublimeTextStudio\Packages\.git"
-# "D:\User\Downloads\SublimeTextStudio\Packages\ActionScript"
-# "D:\User\Downloads\SublimeTextStudio\Packages\AppleScript"
-# "D:\User\Downloads\SublimeTextStudio\Packages\ASP"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Batch File"
-# "D:\User\Downloads\SublimeTextStudio\Packages\C#"
-# "D:\User\Downloads\SublimeTextStudio\Packages\C++"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Clojure"
-# "D:\User\Downloads\SublimeTextStudio\Packages\CSS"
-# "D:\User\Downloads\SublimeTextStudio\Packages\D"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Diff"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Erlang"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Go"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Graphviz"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Groovy"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Haskell"
-# "D:\User\Downloads\SublimeTextStudio\Packages\HTML"
-# "D:\User\Downloads\SublimeTextStudio\Packages\Java"
-# "D:\User\Downloads\SublimeTextStudio\Packages\JavaScript"
-# "D:\User\Downloads\SublimeTextStudio\Packages\LaTeX"
+# Ignored unpacked packages
+/Packages/Terminal/*
+/Packages/Pyyaml/*
+/Packages/pyyaml/*
+/Packages/Pyv8/*
+/Packages/python-markdown/*
+/Packages/python-jinja2/*
+/Packages/pygments/*
+/Packages/mdpopups/*
+/Packages/markupsafe/*
+/Packages/bz2/*
+/Packages/backrefs/*
+/Packages/ssl-linux/*
+/Packages/BetterFindBuffer/*
+/Packages/SQLTools/*
+/Packages/Anaconda/*
+/Packages/Syntax Highlighting for Sass/*
+/Packages/zzz A File Icon zzz/*
+/Packages/Random Everything/*
+/Packages/ConvertToUTF8/*
+/Packages/Sublime Tutor/*
+
+/Packages/regex/*
+/Packages/package_setting_context/*
+/Packages/Jedi - Python autocompletion/*
 
 
-#
-# Files removed and added on the migration to `Packages/` folder
-#
-# D:\User\Downloads\SublimeTextStudio\Packages\Add Folder To Project\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Add Folder To Project\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Add Folder To Project\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Advanced CSV\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Advanced CSV\Main.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Advanced CSV\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\AdvancedNewFile\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\AdvancedNewFile\Default.sublime-commands
-# D:\User\Downloads\SublimeTextStudio\Packages\AdvancedNewFile\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\AlignTab\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\AlignTab\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\AlignTab\Default.sublime-commands
-# D:\User\Downloads\SublimeTextStudio\Packages\AlignTab\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Better CoffeeScript\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Better CoffeeScript\Menu\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Better CoffeeScript\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\C++\C++11.sublime-build
-# D:\User\Downloads\SublimeTextStudio\Packages\C++\C++Increased.sublime-syntax
-# D:\User\Downloads\SublimeTextStudio\Packages\C++\Indentation Rules - Increased.tmPreferences
-# D:\User\Downloads\SublimeTextStudio\Packages\C++\Symbol List - Unit Tests.tmPreferences
-# D:\User\Downloads\SublimeTextStudio\Packages\Color Highlighter\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Color Highlighter\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Color Highlighter\Default.sublime-commands
-# D:\User\Downloads\SublimeTextStudio\Packages\Color Highlighter\Main.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Color Highlighter\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\ColorHelper\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\ColorHelper\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Compare Side-By-Side\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Compare Side-By-Side\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Compare Side-By-Side\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Compare Side-By-Side\Tab Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Copy Filepath With Line Numbers\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Copy Filepath With Line Numbers\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Copy Filepath With Line Numbers\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\CopyWithLineNumbersReloaded\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\CopyWithLineNumbersReloaded\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\CopyWithLineNumbersReloaded\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Default\.gitignore
-# D:\User\Downloads\SublimeTextStudio\Packages\Default\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Default\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Default\Tab Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Diff\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Diff\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\DocBlockr\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\DocBlockr\Default.sublime-keymap
-# D:\User\Downloads\SublimeTextStudio\Packages\ExportHtml\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\ExportHtml\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\ExportHtml\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\ExtendedTabSwitcher\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\ExtendedTabSwitcher\Default.sublime-commands
-# D:\User\Downloads\SublimeTextStudio\Packages\ExtendedTabSwitcher\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\FileDiffs\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\FileDiffs\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\FileDiffs\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\FileDiffs\Tab Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\FileManager\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\FileManager\FileManager.sublime-commands
-# D:\User\Downloads\SublimeTextStudio\Packages\FileManager\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\FileManager\Side Bar.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\FuzzyFileNav\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\FuzzyFileNav\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\FuzzyFileNav\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Gist\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Gist\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Gist\Main.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Gist\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Google Spell Check\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Google Spell Check\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Google Spell Check\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Highlight Build Errors\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Highlight Build Errors\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Highlight Build Errors\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Hungry Backspace\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Hungry Backspace\Default (Linux).sublime-keymap
-# D:\User\Downloads\SublimeTextStudio\Packages\Hungry Backspace\Default (OSX).sublime-keymap
-# D:\User\Downloads\SublimeTextStudio\Packages\Hungry Backspace\Default (Windows).sublime-keymap
-# D:\User\Downloads\SublimeTextStudio\Packages\Hungry Backspace\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Invert Selection\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Invert Selection\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Java\Java.sh
-# D:\User\Downloads\SublimeTextStudio\Packages\Java\Java.sublime-build
-# D:\User\Downloads\SublimeTextStudio\Packages\LaTeXing\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\LaTeXing\Default (Windows).sublime-keymap
-# D:\User\Downloads\SublimeTextStudio\Packages\LaTeXing\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Local History\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Local History\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Local History\menus\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\MultiLingual Dictionary\EN_PT.aff
-# D:\User\Downloads\SublimeTextStudio\Packages\MultiLingual Dictionary\EN_PT.dic
-# D:\User\Downloads\SublimeTextStudio\Packages\MultiLingual Dictionary\EN_PT.txt
-# D:\User\Downloads\SublimeTextStudio\Packages\Octave\Miscellaneous.tmPreferences
-# D:\User\Downloads\SublimeTextStudio\Packages\Octave\Octave.sh
-# D:\User\Downloads\SublimeTextStudio\Packages\Octave\Octave.sublime-build
-# D:\User\Downloads\SublimeTextStudio\Packages\Octave\Octave.sublime-syntax
-# D:\User\Downloads\SublimeTextStudio\Packages\Origami\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Origami\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Origami\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Project Specific Syntax Settings\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Project Specific Syntax Settings\Context.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Project Specific Syntax Settings\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Python\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Python\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Rich Plain Text\Rich Plain Text.sublime-syntax
-# D:\User\Downloads\SublimeTextStudio\Packages\Rich Plain Text\Rich Plain Text.tmPreferences
-# D:\User\Downloads\SublimeTextStudio\Packages\SQL\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\SQL\SQL.sh
-# D:\User\Downloads\SublimeTextStudio\Packages\SQL\SQL.sublime-build
-# D:\User\Downloads\SublimeTextStudio\Packages\SyntaxManager\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\SyntaxManager\Main.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\SyntaxManager\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Text Pastry\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Text Pastry\Main.sublime-menu
-# D:\User\Downloads\SublimeTextStudio\Packages\Text Pastry\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Trimmer\.sublime-package-override
-# D:\User\Downloads\SublimeTextStudio\Packages\Trimmer\Default (Linux).sublime-keymap
-# D:\User\Downloads\SublimeTextStudio\Packages\Trimmer\Default (OSX).sublime-keymap
-# D:\User\Downloads\SublimeTextStudio\Packages\Trimmer\Default (Windows).sublime-keymap
-# D:\User\Downloads\SublimeTextStudio\Packages\Trimmer\README.MD
-# D:\User\Downloads\SublimeTextStudio\Packages\Uncrustify\Uncrustify.sh
-# D:\User\Downloads\SublimeTextStudio\Packages\Uncrustify\Uncrustify.sublime-build
+# Added new dependency ignore rule.
+# It was not working on linux with git 2.9.3 as just /Pyv8/*, or /Pyv8/linux32-p3/*.
+# But on windows with git 2.10, just /Pyv8/* is working to ignore the /Pyv8/win32-p3/ folder.
+*/linux32-p3/*
+
+/(Soft) Simple IDE Packages.lnk
+/Simple IDE Packages
+/ObjectBeautifier
 
 

@@ -1,0 +1,178 @@
+
+#
+# Files and folders from the sublimehq/Packages
+#
+# "Packages/Lisp"
+# "Packages/Lua"
+# "Packages/Makefile"
+# "Packages/Markdown"
+# "Packages/Matlab"
+# "Packages/Objective-C"
+# "Packages/OCaml"
+# "Packages/Pascal"
+# "Packages/Perl"
+# "Packages/PHP"
+# "Packages/Python"
+# "Packages/R"
+# "Packages/Rails"
+# "Packages/Regular Expressions"
+# "Packages/RestructuredText"
+# "Packages/Ruby"
+# "Packages/Rust"
+# "Packages/Scala"
+# "Packages/ShellScript"
+# "Packages/SQL"
+# "Packages/TCL"
+# "Packages/Text"
+# "Packages/Textile"
+# "Packages/XML"
+# "Packages/YAML"
+# "Packages/LICENSE"
+# "Packages/README.md"
+# "Packages/.git"
+# "Packages/ActionScript"
+# "Packages/AppleScript"
+# "Packages/ASP"
+# "Packages/Batch File"
+# "Packages/C#"
+# "Packages/C++"
+# "Packages/Clojure"
+# "Packages/CSS"
+# "Packages/D"
+# "Packages/Diff"
+# "Packages/Erlang"
+# "Packages/Go"
+# "Packages/Graphviz"
+# "Packages/Groovy"
+# "Packages/Haskell"
+# "Packages/HTML"
+# "Packages/Java"
+# "Packages/JavaScript"
+# "Packages/LaTeX"
+
+
+#
+# Files removed and added on the migration to `Packages/` folder
+#
+# Packages/Add Folder To Project/.sublime-package-override
+# Packages/Add Folder To Project/Context.sublime-menu
+# Packages/Add Folder To Project/README.MD
+# Packages/Advanced CSV/.sublime-package-override
+# Packages/Advanced CSV/Main.sublime-menu
+# Packages/Advanced CSV/README.MD
+# Packages/AdvancedNewFile/.sublime-package-override
+# Packages/AdvancedNewFile/Default.sublime-commands
+# Packages/AdvancedNewFile/README.MD
+# Packages/AlignTab/.sublime-package-override
+# Packages/AlignTab/Context.sublime-menu
+# Packages/AlignTab/Default.sublime-commands
+# Packages/AlignTab/README.MD
+# Packages/Better CoffeeScript/.sublime-package-override
+# Packages/Better CoffeeScript/Menu/Context.sublime-menu
+# Packages/Better CoffeeScript/README.MD
+# Packages/C++/C++11.sublime-build
+# Packages/C++/C++Increased.sublime-syntax
+# Packages/C++/Indentation Rules - Increased.tmPreferences
+# Packages/C++/Symbol List - Unit Tests.tmPreferences
+# Packages/Color Highlighter/.sublime-package-override
+# Packages/Color Highlighter/Context.sublime-menu
+# Packages/Color Highlighter/Default.sublime-commands
+# Packages/Color Highlighter/Main.sublime-menu
+# Packages/Color Highlighter/README.MD
+# Packages/ColorHelper/.sublime-package-override
+# Packages/ColorHelper/Context.sublime-menu
+# Packages/Compare Side-By-Side/.sublime-package-override
+# Packages/Compare Side-By-Side/Context.sublime-menu
+# Packages/Compare Side-By-Side/README.MD
+# Packages/Compare Side-By-Side/Tab Context.sublime-menu
+# Packages/Copy Filepath With Line Numbers/.sublime-package-override
+# Packages/Copy Filepath With Line Numbers/Context.sublime-menu
+# Packages/Copy Filepath With Line Numbers/README.MD
+# Packages/CopyWithLineNumbersReloaded/.sublime-package-override
+# Packages/CopyWithLineNumbersReloaded/Context.sublime-menu
+# Packages/CopyWithLineNumbersReloaded/README.MD
+# Packages/Default/.gitignore
+# Packages/Default/Context.sublime-menu
+# Packages/Default/README.MD
+# Packages/Default/Tab Context.sublime-menu
+# Packages/Diff/.sublime-package-override
+# Packages/Diff/README.MD
+# Packages/DocBlockr/.sublime-package-override
+# Packages/DocBlockr/Default.sublime-keymap
+# Packages/ExportHtml/.sublime-package-override
+# Packages/ExportHtml/Context.sublime-menu
+# Packages/ExportHtml/README.MD
+# Packages/ExtendedTabSwitcher/.sublime-package-override
+# Packages/ExtendedTabSwitcher/Default.sublime-commands
+# Packages/ExtendedTabSwitcher/README.MD
+# Packages/FileDiffs/.sublime-package-override
+# Packages/FileDiffs/Context.sublime-menu
+# Packages/FileDiffs/README.MD
+# Packages/FileDiffs/Tab Context.sublime-menu
+# Packages/FileManager/.sublime-package-override
+# Packages/FileManager/FileManager.sublime-commands
+# Packages/FileManager/README.MD
+# Packages/FileManager/Side Bar.sublime-menu
+# Packages/FuzzyFileNav/.sublime-package-override
+# Packages/FuzzyFileNav/Context.sublime-menu
+# Packages/FuzzyFileNav/README.MD
+# Packages/Gist/.sublime-package-override
+# Packages/Gist/Context.sublime-menu
+# Packages/Gist/Main.sublime-menu
+# Packages/Gist/README.MD
+# Packages/Google Spell Check/.sublime-package-override
+# Packages/Google Spell Check/Context.sublime-menu
+# Packages/Google Spell Check/README.MD
+# Packages/Highlight Build Errors/.sublime-package-override
+# Packages/Highlight Build Errors/Context.sublime-menu
+# Packages/Highlight Build Errors/README.MD
+# Packages/Hungry Backspace/.sublime-package-override
+# Packages/Hungry Backspace/Default (Linux).sublime-keymap
+# Packages/Hungry Backspace/Default (OSX).sublime-keymap
+# Packages/Hungry Backspace/Default (Windows).sublime-keymap
+# Packages/Hungry Backspace/README.MD
+# Packages/Invert Selection/.sublime-package-override
+# Packages/Invert Selection/Context.sublime-menu
+# Packages/Java/Java.sh
+# Packages/Java/Java.sublime-build
+# Packages/LaTeXing/.sublime-package-override
+# Packages/LaTeXing/Default (Windows).sublime-keymap
+# Packages/LaTeXing/README.MD
+# Packages/Local History/.sublime-package-override
+# Packages/Local History/README.MD
+# Packages/Local History/menus/Context.sublime-menu
+# Packages/MultiLingual Dictionary/EN_PT.aff
+# Packages/MultiLingual Dictionary/EN_PT.dic
+# Packages/MultiLingual Dictionary/EN_PT.txt
+# Packages/Octave/Miscellaneous.tmPreferences
+# Packages/Octave/Octave.sh
+# Packages/Octave/Octave.sublime-build
+# Packages/Octave/Octave.sublime-syntax
+# Packages/Origami/.sublime-package-override
+# Packages/Origami/Context.sublime-menu
+# Packages/Origami/README.MD
+# Packages/Project Specific Syntax Settings/.sublime-package-override
+# Packages/Project Specific Syntax Settings/Context.sublime-menu
+# Packages/Project Specific Syntax Settings/README.MD
+# Packages/Python/.sublime-package-override
+# Packages/Python/README.MD
+# Packages/Rich Plain Text/Rich Plain Text.sublime-syntax
+# Packages/Rich Plain Text/Rich Plain Text.tmPreferences
+# Packages/SQL/.sublime-package-override
+# Packages/SQL/SQL.sh
+# Packages/SQL/SQL.sublime-build
+# Packages/SyntaxManager/.sublime-package-override
+# Packages/SyntaxManager/Main.sublime-menu
+# Packages/SyntaxManager/README.MD
+# Packages/Text Pastry/.sublime-package-override
+# Packages/Text Pastry/Main.sublime-menu
+# Packages/Text Pastry/README.MD
+# Packages/Trimmer/.sublime-package-override
+# Packages/Trimmer/Default (Linux).sublime-keymap
+# Packages/Trimmer/Default (OSX).sublime-keymap
+# Packages/Trimmer/Default (Windows).sublime-keymap
+# Packages/Trimmer/README.MD
+# Packages/Uncrustify/Uncrustify.sh
+# Packages/Uncrustify/Uncrustify.sublime-build
+
+
