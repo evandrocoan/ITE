@@ -19,7 +19,7 @@
 		"*.sublime-workspace",
 		"*.tmTheme.cache"
 	],
-	"ignore_vcs_packages": false,
+	"ignore_vcs_packages": true,
 	"in_process_packages":
 	[
 	],
@@ -114,7 +114,6 @@
 		"Markdown to BB Code Converter",
 		"MarkdownLight",
 		"Matlab Completions",
-		"Override Unpacked Packages",
 		"MatlabFilenameAutoComplete",
 		"MaxPane",
 		"MoveText",
@@ -125,6 +124,7 @@
 		"Number King",
 		"Open Auto Completion",
 		"Origami",
+		"Override Unpacked Packages",
 		"OverrideAudit",
 		"Overwrite Commit Completion",
 		"Package Control",
