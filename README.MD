@@ -34,10 +34,30 @@ ___
 ![](http://i.imgur.com/UIevtzm.gif)
 
 
-1) Install `Sublime Text` from [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
+Install `Sublime Text` from [https://www.sublimetext.com/](https://www.sublimetext.com/)
 
 
-2) Close your Sublime Text and delete/rename the folder below, if it exists: 
+### Linux
+
+1. Open the folder ...
+1. Run these commands:
+```
+git clone https://github.com/evandrocoan/Packages
+git clone -- recursive https://github.com/evandrocoan/SublimeTextStudio
+
+shopt -s dotglob
+mv ./SublimeTextStudio/Packages/* ./Packages
+mv ./SublimeTextStudio/* .
+
+printf "Success!\n"
+```
+
+
+
+
+
+
+2) Close your Sublime Text and delete/rename the folder below, if it exists:
 ```
 mv -v ~/.config/sublime-text-3/ ~/.config/sublime-text-3_Old/
 ```
@@ -50,7 +70,7 @@ git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.co
 ```
 
  * The packages will be automatically installed on the first `Sublime Text` run after the repository clone.
- * If you are a Windows/Mac user, just figure out where are your settings folders: 
+ * If you are a Windows/Mac user, just figure out where are your settings folders:
 ```
 ~/.config/sublime-text-3/ --> "C:\Users\YOUR_USER_NAME\AppData\Roaming\Sublime Text 3\"
 ~/.config/sublime-text-3/ --> "~/Library/Application Support/Sublime Text 3"
