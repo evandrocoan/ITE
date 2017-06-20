@@ -20,51 +20,98 @@ to program on:
 Its current version is: v1.0.1-481
 
 
-
-___
-## Descriptions
+#### Descriptions
 
 See its main post at the AlliedModders' Forum: [Versioned Sublime Text Settings](https://forums.alliedmods.net/showthread.php?p=2454292#post2454292)
+
 
 
 
 ___
 ## Installation
 
+
+### For Linux/Max OS
+
+Requirements for `Linux` systems are:
+
+1. An Unix shell terminal/command line available
+1. Install `git` (https://git-scm.com/)
+1. Install `rsync` (http://rsync.samba.org/)
+1. Install `Sublime Text` (https://www.sublimetext.com/)
+
+```
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get install rsync
+sudo apt-get install sublime-text
+printf "Success\!\n"
+```
+
+
+#### Steps
+
+1. Open `Sublime Text`, and to go the menu: `Preferences -> Browse Packages...`.
+It should open your `Sublie Text` **Packages** folder.
 ![](http://i.imgur.com/UIevtzm.gif)
-
-
-Install `Sublime Text` from [https://www.sublimetext.com/](https://www.sublimetext.com/)
-
-
-### Linux
-
-1. Open the folder ...
-1. Run these commands:
+1. Then open `a shell command line` on this folder.
+1. Now close `Sublime Text` and run these commands:
 ```
+# This is the folder where all your `Sublime Text` settings/data is on
+sublime_text_folder=sublime-text-3
+
+# Backup your settings and files, assuming the current folder is `Packages`
+cd ../..
+mv ./$sublime_text_folder/ ./'$sublime_text_folder'_backup/
+mkdir ./$sublime_text_folder
+cd ./$sublime_text_folder
+
+# Download the required files
 git clone https://github.com/evandrocoan/Packages
-git clone -- recursive https://github.com/evandrocoan/SublimeTextStudio
+git clone --recursive https://github.com/evandrocoan/SublimeTextStudio
 
+# Configure the environment
+mkdir -p ./Packages
 shopt -s dotglob
+
+# To install the files
 mv ./SublimeTextStudio/Packages/* ./Packages
-mv ./SublimeTextStudio/* .
+rsync -a ./SublimeTextStudio/ ./
+rm -r -f ./SublimeTextStudio
 
-printf "Success!\n"
+# Success
+printf "Success\!\n"
 ```
 
+After finish running all these commands, open `Sublime Text` and wait until the `Packages Control`
+install all the packages:
+
+* It should some minutes until install all new packages, after that restart your `Sublime Text`.
+* You can open the Console on View -> Console (Ctrl+`) to view the download progress.
+
+
+
+### Windows
+
+Requirements for `Linux` systems are:
+
+1. Install an Unix shell terminal
+1. Install `rsync` from http://rsync.samba.org/
+1. Install `Sublime Text` from https://www.sublimetext.com/
+
+#### Steps
 
 
 
 
-
-2) Close your Sublime Text and delete/rename the folder below, if it exists:
+2) Close your `Sublime Text` and delete/rename the folder below, if it exists:
 ```
-mv -v ~/.config/sublime-text-3/ ~/.config/sublime-text-3_Old/
+
 ```
  * The folder `sublime-text-3/` above contain all your current settings
 
 
-3) While keeping your Sublime Text closed, clone this repository using this command:
+3) While keeping your `Sublime Text` closed, clone this repository using this command:
 ```
 git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.config/sublime-text-3/Packages
 ```
@@ -77,7 +124,7 @@ git clone --recursive https://github.com/evandrocoan/SublimeTextStudio.git ~/.co
 ```
 
 
-4) Open your Sublime Text and wait several minutes until it install all new packages and restart your Sublime Text.
+4) Open your `Sublime Text` and wait several minutes until it install all new packages and restart your `Sublime Text`.
 
 
 5) You can open the Console on View -> Console (Ctrl+`) to view the download progress.
