@@ -1,3 +1,6 @@
+
+# Move some packages from `Packages` to `Packages2`
+cd ..
 mkdir Packages2
 
 mv Packages{,2}/"ANSIescape"

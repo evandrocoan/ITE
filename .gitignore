@@ -4,18 +4,22 @@
 # Start ignoring things
 *.merged-ca-bundle
 
-/KEEPME
-/Index/
+/.sublime/
+/Backup/
 /Cache/
-/Installed Packages/
+/Index/
+/KEEPME
 /Local/
 /Settings/
-/Backup/
-/.sublime/
+/Installed Packages/
 
-/Packages/Default
+
+#
+# Files and folders from the sublimehq/Packages
+#
 /Packages/LICENSE
 /Packages/README.md
+/Packages/Default
 
 /Packages/.git/
 /Packages/ActionScript/
@@ -64,7 +68,9 @@
 /Packages/YAML/
 
 
+#
 # Ignored unpacked packages
+#
 /Packages/Terminal/*
 /Packages/Pyyaml/*
 /Packages/pyyaml/*
