@@ -28,6 +28,20 @@ See its main post at the AlliedModders' Forum: [Versioned Sublime Text Settings]
 
 
 ___
+# Installation
+
+If you are using the portable version (Linux/Windows/Mac), rename/delete the folder `Data/`,
+if it exists: (the folder `Data/` contain all your current settings).
+
+You can also open the command line on your Sublime Text folder using one of the following:
+```
+cd "%APPDATA%\Sublime Text 3\Packages"             # On Windows
+cd ~/Library/Application\ Support/Sublime\ Text\ 3 # On Mac OS
+cd ~/.config/sublime-text-3                        # On Linux
+```
+
+
+
 ## Installation for Linux/Max OS
 
 Requirements for `Linux` systems are:
@@ -37,7 +51,7 @@ Requirements for `Linux` systems are:
 1. Install `rsync` (http://rsync.samba.org/)
 1. Install `Sublime Text` (https://www.sublimetext.com/)
 
-```
+```shell
 sudo apt-get update
 sudo apt-get install git
 sudo apt-get install rsync
@@ -53,7 +67,7 @@ printf "Success\!\n"
 ![](http://i.imgur.com/VA4zC7F.gif)
 1. Then open `a shell command line` on this folder.
 1. Now close `Sublime Text` and run these commands:
-```
+```shell
 # This is the folder where all your `Sublime Text` settings/data is on.
 #
 # * If you are running the portable version of `Sublime Text`, replace `sublime-text-3` by `Data`
@@ -115,7 +129,7 @@ Requirements for `Windows` systems are:
 1. Run the command line `cmd /open`
 1. Now close the Windows Explorer opened on the Packages folder.
 1. And also close `Sublime Text` and run these commands bellow:
-```
+```batch
 :: This is the folder where all your `Sublime Text` settings/data is on.
 :: * If you are running the portable version of `Sublime Text`, replace `Sublime Text 3` by `Data`
 ::
