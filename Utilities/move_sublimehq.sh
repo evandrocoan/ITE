@@ -1,5 +1,6 @@
 
 # Move the Sublimehq packages from `Packages` to `SublimehqPackages`
+# https://stackoverflow.com/questions/44680746/how-to-use-old-newname-inside-a-shell-script-variable
 cd ..
 mkdir SublimehqPackages
 
@@ -50,3 +51,5 @@ mv {,Sublimehq}"Packages/HTML"
 mv {,Sublimehq}"Packages/Java"
 mv {,Sublimehq}"Packages/JavaScript"
 mv {,Sublimehq}"Packages/LaTeX"
+
+printf "Success\\!\n"

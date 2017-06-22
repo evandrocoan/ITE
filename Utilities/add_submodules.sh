@@ -1,3 +1,4 @@
+
 git submodule add -- https://github.com/evandrocoan/SublimeActiveViewJumpBack          "Packages/Active View Jump Back"
 git submodule add -- https://github.com/evandrocoan/SublimeANSI                        "Packages/ANSIescape"
 git submodule add -- https://github.com/evandrocoan/AddFolderToProject-SublimePlugin   "Packages/Add Folder To Project"
@@ -70,3 +71,5 @@ git submodule add -- https://github.com/evandrocoan/Trimmer                     
 git submodule add -- https://github.com/evandrocoan/SublimeUncrustify                  "Packages/Uncrustify"
 git submodule add -- https://github.com/evandrocoan/SublimeViewSettingsFreely          "Packages/View Settings Freely"
 git submodule add -- https://github.com/evandrocoan/Sublime-Wrap-Plus                  "Packages/Wrap Plus"
+
+printf "Success\\!\n"

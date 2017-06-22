@@ -1,5 +1,6 @@
 
 # Move some packages from `Packages` to `Packages2`
+# https://stackoverflow.com/questions/44680746/how-to-use-old-newname-inside-a-shell-script-variable
 cd ..
 mkdir Packages2
 
@@ -74,3 +75,5 @@ mv Packages{,2}/"Uncrustify"
 mv Packages{,2}/"View Settings Freely"
 mv Packages{,2}/"Wrap Plus"
 mv Packages{,2}/"amxmodx"
+
+printf "Success\\!\n"
