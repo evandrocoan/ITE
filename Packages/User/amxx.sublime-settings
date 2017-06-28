@@ -6,7 +6,7 @@
     "add_function_parameters": true,
 
     // ( true / false ) Enable IntelTip PopUp
-    "enable_inteltip": false,
+    "enable_inteltip": true,
 
     // ( true / false ) Enable Auto-Increment Build/Version
     "enable_buildversion": false,
