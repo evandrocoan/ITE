@@ -30,8 +30,9 @@ See its main post at the AlliedModders' Forum: [Versioned Sublime Text Settings]
 ___
 # Installation
 
-If you are using the portable version (Linux/Windows/Mac), rename/delete the folder `Data/`,
-if it exists: (the folder `Data/` contain all your current settings).
+If you are using the portable version (Linux/Windows/Mac), rename/delete the folder `Data/` if it exists: 
+
+* The folder `Data/` contain all your **current settings**.
 
 You can also open the command line on your Sublime Text folder using one of the following:
 ```
