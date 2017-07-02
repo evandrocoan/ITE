@@ -60,12 +60,13 @@ sudo apt-get install sublime-text
 printf "Success\!\n"
 ```
 
+![](http://i.imgur.com/VA4zC7F.gif)
+
 
 #### Steps
 
 1. Open `Sublime Text`
 1. Go to the menu: `Preferences -> Browse Packages...`. It should open your `Sublie Text` **Packages** folder:
-![](http://i.imgur.com/VA4zC7F.gif)
 1. Then open `a shell command line` on this folder.
 1. Now close `Sublime Text` and run these commands:
 ```shell
@@ -119,13 +120,13 @@ Requirements for `Windows` systems are:
 1. Install `git` (https://git-scm.com/)
 1. Install `Sublime Text` (https://www.sublimetext.com/)
 
+![](http://i.imgur.com/iYwE4IO.gif)
 
 
 #### Steps
 
 1. Open `Sublime Text`
 1. Go to the menu: `Preferences -> Browse Packages...`. It should open your `Sublie Text` **Packages** folder:
-![](http://i.imgur.com/iYwE4IO.gif)
 1. Then open `a command line` on this folder.
 1. Run the command line `cmd /open`
 1. Now close the Windows Explorer opened on the Packages folder.
