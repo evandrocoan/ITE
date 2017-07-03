@@ -3,6 +3,7 @@
 
 # Start ignoring things
 *.merged-ca-bundle
+*.sublime-workspace
 
 /.sublime/
 /Backup/
@@ -106,5 +107,4 @@
 /(Soft) Simple IDE Packages.lnk
 /Simple IDE Packages
 /ObjectBeautifier
-
 
