@@ -5,6 +5,10 @@
 *.merged-ca-bundle
 *.sublime-workspace
 
+/(Soft) Simple IDE Packages.lnk
+/Simple IDE Packages
+/ObjectBeautifier
+
 /.sublime/
 /Backup/
 /Cache/
@@ -97,14 +101,6 @@
 /Packages/package_setting_context/*
 /Packages/Jedi - Python autocompletion/*
 
-
-# Added new dependency ignore rule.
-# It was not working on linux with git 2.9.3 as just /Pyv8/*, or /Pyv8/linux32-p3/*.
-# But on windows with git 2.10, just /Pyv8/* is working to ignore the /Pyv8/win32-p3/ folder.
 */linux32-p3/*
 **/linux32-p3/**
-
-/(Soft) Simple IDE Packages.lnk
-/Simple IDE Packages
-/ObjectBeautifier
 
