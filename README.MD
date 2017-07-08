@@ -30,7 +30,7 @@ See its main post at the AlliedModders' Forum: [Versioned Sublime Text Settings]
 ___
 # Installation
 
-If you are using the portable version (Linux/Windows/Mac), rename/delete the folder `Data/` if it exists: 
+If you are using the portable version (Linux/Windows/Mac), rename/delete the folder `Data/` if it exists:
 
 * The folder `Data/` contain all your **current settings**.
 
@@ -187,12 +187,12 @@ sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(
 
 
 ___
-## Licence
+## License
 
 All files in this repository are released under GNU General Public License v3.0, unless stated otherwise.
 See:
 
-1. The [LICENCE.TXT](LICENCE.TXT) file.
+1. The [LICENSE](LICENSE) file.
 1. And the website [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 For more information.
