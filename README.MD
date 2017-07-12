@@ -189,15 +189,35 @@ sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(
 ___
 ## License
 
-All files in this repository are released under GNU General Public License v3.0, unless stated otherwise.
-See:
+All files in this repository are released under GNU General Public License v3.0
+or the latest version available on http://www.gnu.org/licenses/gpl.html
 
-1. The [LICENSE](LICENSE) file.
-1. And the website [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html).
+For more information see:
 
-For more information.
+1. The [LICENSE](LICENSE) file for the GPL v3.0 license
+1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
+Notice the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules)
+does not include an Open Source License from their original author listed as follow:
 
+nº | Directory on Packages folder       | Github URL
+-- | ---------------------------------- | --------------------------------------------------------------
+1  | Add Folder To Project              | https://github.com/DavidGerva/AddFolderToProject-SublimePlugin
+2  | AdvancedNewFile                    | https://github.com/skuroda/Sublime-AdvancedNewFile
+3  | AutoFileName                       | https://github.com/BoundInCode/AutoFileName
+4  | BBCode                             | https://github.com/chipotle/BBCode
+5  | Better CoffeeScript                | https://github.com/aponxi/sublime-better-coffeescript
+6  | Color Highlighter                  | https://github.com/Monnoroch/ColorHighlighter
+7  | Compare Side-By-Side               | https://github.com/DougTy/sublime-compare-side-by-side
+8  | ConvertToUTF8                      | https://github.com/seanliang/ConvertToUTF8
+9  | Google Spell Check                 | https://github.com/noahcoad/google-spell-check
+10 | Indent and braces                  | https://github.com/Epskampie/sublime_indent_and_braces
+11 | Invert Selection                   | https://github.com/vontio/sublime-invert-selection
+12 | LaTeXTools                         | https://github.com/SublimeText/LaTeXTools
+13 | Markdown to BB Code Converter      | https://github.com/Kristinita/1Sasha1MarkdownNoBBCode
+14 | Origami                            | https://github.com/SublimeText/Origami
+15 | Project Specific Syntax Settings   | https://github.com/reywood/sublime-project-specific-syntax
+16 | SyncedSideBar                      | https://github.com/TheSpyder/SyncedSideBar
 
 
 
