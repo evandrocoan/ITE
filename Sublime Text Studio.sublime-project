@@ -2,7 +2,20 @@
     "folders":
     [
         {
-            "path": "."
+            "path": ".",
+            "folder_exclude_patterns":
+            [
+                "Cache",
+                "Index",
+                "Lib",
+                "Local",
+                "Settings",
+                "Installed Packages",
+                "Packages/ObjectBeautifier",
+                "Packages/User/Color Highlighter",
+                "Packages/User/Package Control.cache",
+            ],
         },
+
     ]
 }
