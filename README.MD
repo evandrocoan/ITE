@@ -189,15 +189,17 @@ sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(
 ___
 ## License
 
-All files in this repository are released under GNU General Public License v3.0
-or the latest version available on http://www.gnu.org/licenses/gpl.html
+All files in this repository, i.e., excluding its `git submodules` and the files which include its
+own license header, are released under GNU General Public License v3.0 or the latest version
+available on http://www.gnu.org/licenses/gpl.html
 
 For more information see:
 
 1. The [LICENSE](LICENSE) file for the GPL v3.0 license
 1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
-Notice the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules)
+All the other files within each git submodule have its own license as specified, except until 13/07/2017,
+where the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules)
 does not include an Open Source License from their original author listed as follow:
 
 nº | Directory on Packages folder       | Github URL
