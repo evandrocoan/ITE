@@ -31,7 +31,7 @@ Its current version is: v1.0.1-481
 1. [Sublime Text Studio](#sublime-text-studio)
    1. [Descriptions](#descriptions)
 1. [Installation](#installation)
-   1. [Installation for Linux/Max OS](#installation-for-linuxmax-os)
+   1. [Installation for Linux/Max OS](#installation-for-linuxmac-os)
       1. [Steps](#steps)
    1. [Installation for Windows](#installation-for-windows)
       1. [Steps](#steps-1)
@@ -57,7 +57,7 @@ cd ~/.config/sublime-text-3                        # On Linux
 
 
 
-## Installation for Linux/Max OS
+## Installation for Linux/Mac OS
 
 Requirements for `Linux` systems are:
 
@@ -213,7 +213,7 @@ For more information see:
 1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
 All the other files within each git submodule have its own license specified, except until 13/07/2017,
-where the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules)
+where the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules),
 does not include an explicit license from their original author:
 
 nº | Directory on Packages folder       | Github URL
