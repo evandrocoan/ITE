@@ -212,9 +212,9 @@ For more information see:
 1. The [LICENSE](LICENSE) file for the GPL v3.0 license
 1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
-All the other files within each git submodule have its own license as specified, except until 13/07/2017,
+All the other files within each git submodule have its own license specified, except until 13/07/2017,
 where the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules)
-does not include an Open Source License from their original author listed as follow:
+does not include an explicit license from their original author:
 
 nº | Directory on Packages folder       | Github URL
 -- | ---------------------------------- | --------------------------------------------------------------
