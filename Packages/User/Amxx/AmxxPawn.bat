@@ -29,9 +29,7 @@ echo.
 
 rem Put here the paths to the folders where do you want to install the plugin.
 rem You must to provide at least one folder.
-set folders_list[0]=F:\SteamCMD\steamapps\common\Half-Life\cstrike\addons\amxmodx\plugins
-set folders_list[1]=F:\SteamCMD\steamapps\common\Half-Life\czero\addons\amxmodx\plugins
-set folders_list[2]=F:\SteamLibrary\steamapps\common\Sven Co-op Dedicated Server\svencoop\addons\amxmodx\plugins
+set folders_list[0]=F:\SteamCMD\steamapps\common\Half-Life\czero\addons\amxmodx\plugins
 
 rem Where is your compiler?
 rem

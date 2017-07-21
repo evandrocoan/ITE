@@ -25,8 +25,6 @@ printf "\nCompiling $2... Current time is: $(date)\n"
 # You can access them using echo "${arr[0]}", "${arr[1]}"
 declare -a folders_list=(
 "F:/SteamCMD/steamapps/common/Half-Life/czero/addons/amxmodx/plugins"
-"F:/SteamCMD/steamapps/common/Half-Life/cstrike/addons/amxmodx/plugins"
-"F:/SteamLibrary/steamapps/common/Sven Co-op Dedicated Server/svencoop/addons/amxmodx/plugins"
 )
 
 # Where is your compiler?
