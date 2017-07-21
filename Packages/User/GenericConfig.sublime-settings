@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		".inputrc",
-		"Doxyfile"
+		"Doxyfile",
+		".dircolors"
 	]
 }
