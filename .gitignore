@@ -76,9 +76,9 @@
 #
 # Ignored unpacked packages
 #
+/Packages/coverage/*
 /Packages/Terminal/*
 /Packages/Pyyaml/*
-/Packages/pyyaml/*
 /Packages/Pyv8/*
 /Packages/python-markdown/*
 /Packages/python-jinja2/*
