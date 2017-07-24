@@ -220,3 +220,6 @@
 [submodule "Packages/User/Multilingual Dictionary"]
 	path = Packages/User/Multilingual Dictionary
 	url = https://github.com/evandrocoan/SublimeMultilingualDictionary
+[submodule "Packages/TypeScript"]
+	path = Packages/TypeScript
+	url = https://github.com/evandrocoan/TypeScript-Sublime-Plugin
