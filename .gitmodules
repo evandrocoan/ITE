@@ -223,3 +223,6 @@
 [submodule "Packages/TypeScript"]
 	path = Packages/TypeScript
 	url = https://github.com/evandrocoan/TypeScript-Sublime-Plugin
+[submodule "Packages/Pretty JSON"]
+	path = Packages/Pretty JSON
+	url = https://github.com/evandrocoan/SublimePrettyJson
