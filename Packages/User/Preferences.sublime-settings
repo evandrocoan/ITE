@@ -27,7 +27,7 @@
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
-	"auto_complete_delay": 1000,
+	"auto_complete_delay": 0,
 	"auto_complete_selector": "source, text",
 	"auto_complete_triggers":
 	[
@@ -120,7 +120,8 @@
 		"SyncedSideBar",
 		"SyntaxManager",
 		"Vintage",
-		"WordHighlight"
+		"WordHighlight",
+		"GotoLastEditEnhanced"
 	],
 	"ignored_packages_original":
 	[
