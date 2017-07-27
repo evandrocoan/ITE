@@ -119,6 +119,8 @@
 	],
 	"ignored_packages_to_not_enable":
 	[
+		"See the issue: https://github.com/evandrocoan/SublimeTextStudio/issues/50",
+		"Before enabled any of these packages!",
 		"Anaconda",
 		"GotoLastEditEnhanced",
 		"SublimeCodeIntel",
