@@ -66,13 +66,13 @@ Requirements for `Linux` systems are:
 1. Install `rsync` (http://rsync.samba.org/)
 1. Install `Sublime Text` (https://www.sublimetext.com/)
 
-```shell
-sudo apt-get update
-sudo apt-get install git
-sudo apt-get install rsync
-sudo apt-get install sublime-text
-printf "Success\!\n"
-```
+    ```shell
+    sudo apt-get update
+    sudo apt-get install git
+    sudo apt-get install rsync
+    sudo apt-get install sublime-text
+    printf "Success\!\n"
+    ```
 
 ![](http://i.imgur.com/VA4zC7F.gif)
 
@@ -83,37 +83,37 @@ printf "Success\!\n"
 1. Go to the menu: `Preferences -> Browse Packages...`. It should open your `Sublie Text` **Packages** folder:
 1. Then open `a shell command line` on this folder.
 1. Now close `Sublime Text` and run these commands:
-```shell
-# This is the folder where all your `Sublime Text` settings/data is on.
-#
-# * If you are running the portable version of `Sublime Text`, replace `sublime-text-3` by `Data`
-# * If you are a Mac OS User, replace `sublime-text-3` by `Sublime Text 3`
-#
-sublime_text_folder="sublime-text-3"
+    ```shell
+    # This is the folder where all your `Sublime Text` settings/data is on.
+    #
+    # * If you are running the portable version of `Sublime Text`, replace `sublime-text-3` by `Data`
+    # * If you are a Mac OS User, replace `sublime-text-3` by `Sublime Text 3`
+    #
+    sublime_text_folder="sublime-text-3"
 
-# Backup your settings and files, assuming the current folder is `Packages`
-cd ../..
-mv ./$sublime_text_folder/ ./"$sublime_text_folder"_backup_$(date '+%Y%m%d%H%M%S')/
-mkdir ./$sublime_text_folder
-cd ./$sublime_text_folder
+    # Backup your settings and files, assuming the current folder is `Packages`
+    cd ../..
+    mv ./$sublime_text_folder/ ./"$sublime_text_folder"_backup_$(date '+%Y%m%d%H%M%S')/
+    mkdir ./$sublime_text_folder
+    cd ./$sublime_text_folder
 
-# Download the required files
-git clone https://github.com/evandrocoan/Packages
-git clone --recursive -j8 https://github.com/evandrocoan/SublimeTextStudio
+    # Download the required files
+    git clone https://github.com/evandrocoan/Packages
+    git clone --recursive -j8 https://github.com/evandrocoan/SublimeTextStudio
 
-# Configure the environment
-mkdir -p ./Packages
-shopt -s dotglob
-git submodule foreach git checkout master
+    # Configure the environment
+    mkdir -p ./Packages
+    shopt -s dotglob
+    git submodule foreach git checkout master
 
-# To install the files
-mv ./SublimeTextStudio/Packages/* ./Packages
-rsync -a ./SublimeTextStudio/ ./
-rm -r -f ./SublimeTextStudio
+    # To install the files
+    mv ./SublimeTextStudio/Packages/* ./Packages
+    rsync -a ./SublimeTextStudio/ ./
+    rm -r -f ./SublimeTextStudio
 
-# Success
-printf "Success\\!\n"
-```
+    # Success
+    printf "Success\\!\n"
+    ```
 
 After finish running all these commands, open `Sublime Text` and wait until the `Packages Control`
 install all the packages:
@@ -145,35 +145,35 @@ Requirements for `Windows` systems are:
 1. Run the command line `cmd /open`
 1. Now close the Windows Explorer opened on the Packages folder.
 1. And also close `Sublime Text` and run these commands bellow:
-```batch
-:: This is the folder where all your `Sublime Text` settings/data is on.
-:: * If you are running the portable version of `Sublime Text`, replace `Sublime Text 3` by `Data`
-::
-set sublime_text_folder=Sublime Text 3
+    ```batch
+    :: This is the folder where all your `Sublime Text` settings/data is on.
+    :: * If you are running the portable version of `Sublime Text`, replace `Sublime Text 3` by `Data`
+    ::
+    set sublime_text_folder=Sublime Text 3
 
-:: Backup your settings and files, assuming the current folder is `Packages`
-cd ..\..
-set "pp=%%"
-for /f "delims=" %pp:~-1%a in ('wmic OS Get localdatetime  ^| find "."') do set dt=%pp:~-1%a
-rename "%sublime_text_folder%" "%sublime_text_folder% Backup %dt:~8,2%-%dt:~10,2%-%dt:~12,2%"
-mkdir "%sublime_text_folder%"
-cd .\%sublime_text_folder%
+    :: Backup your settings and files, assuming the current folder is `Packages`
+    cd ..\..
+    set "pp=%%"
+    for /f "delims=" %pp:~-1%a in ('wmic OS Get localdatetime  ^| find "."') do set dt=%pp:~-1%a
+    rename "%sublime_text_folder%" "%sublime_text_folder% Backup %dt:~8,2%-%dt:~10,2%-%dt:~12,2%"
+    mkdir "%sublime_text_folder%"
+    cd .\%sublime_text_folder%
 
-:: Download the required files
-git clone https://github.com/evandrocoan/Packages
-git clone --recursive -j8 https://github.com/evandrocoan/SublimeTextStudio
+    :: Download the required files
+    git clone https://github.com/evandrocoan/Packages
+    git clone --recursive -j8 https://github.com/evandrocoan/SublimeTextStudio
 
-:: Configure the environment
-mkdir Packages
-git submodule foreach git checkout master
+    :: Configure the environment
+    mkdir Packages
+    git submodule foreach git checkout master
 
-:: To install the files
-robocopy /move /e .\SublimeTextStudio\Packages\ .\Packages\ /NFL /NDL /nc /ns
-robocopy /move /e .\SublimeTextStudio\ .\ /NFL /NDL /NJH /NJS /nc /ns /np
+    :: To install the files
+    robocopy /move /e .\SublimeTextStudio\Packages\ .\Packages\ /NFL /NDL /nc /ns
+    robocopy /move /e .\SublimeTextStudio\ .\ /NFL /NDL /NJH /NJS /nc /ns /np
 
-:: Success
-echo "Success\\!\n"
-```
+    :: Success
+    echo "Success\\!\n"
+    ```
 
 After finish running all these commands, open `Sublime Text` and wait until the `Packages Control`
 install all the packages:
@@ -193,6 +193,7 @@ Use on the console: (View -> Show Console)
 ```
 sublime.log_input(True); sublime.log_commands(True); sublime.log_result_regex(True)
 ```
+
 To disable it do:
 ```
 sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(False)
