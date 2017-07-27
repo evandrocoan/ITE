@@ -109,11 +109,6 @@
 		"Project Specific Syntax Settings",
 		"Qt Completions for C++",
 		"ScopeAlways",
-		"Select All Spelling Errors",
-		"SQL Keyword Uppercase",
-		"SQLExec",
-		"SQLTools",
-		"Sublime Tutor",
 		"sublime-text-2-buildview",
 		"SublimeCodeIntel",
 		"SyncedSideBar",
@@ -122,20 +117,11 @@
 		"WordHighlight",
 		"GotoLastEditEnhanced"
 	],
-	"ignored_packages_original":
+	"ignored_packages_to_not_enable":
 	[
 		"Anaconda",
-		"ApplySyntax",
-		"ColorHelper",
-		"DictionaryAutoComplete",
-		"FileManager",
-		"Git",
-		"GitGutter",
-		"Local History",
-		"Matlab Completions",
+		"GotoLastEditEnhanced",
 		"SublimeCodeIntel",
-		"Vintage",
-		"WordHighlight"
 	],
 	"indent_guide_options":
 	[
