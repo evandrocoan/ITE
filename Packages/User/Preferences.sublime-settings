@@ -101,6 +101,7 @@
 		"Gist",
 		"Git",
 		"GitGutter",
+		"GotoLastEditEnhanced",
 		"Javatar",
 		"Local History",
 		"Matlab Completions",
@@ -114,8 +115,7 @@
 		"SyncedSideBar",
 		"SyntaxManager",
 		"Vintage",
-		"WordHighlight",
-		"GotoLastEditEnhanced"
+		"WordHighlight"
 	],
 	"ignored_packages_to_not_enable":
 	[
@@ -123,7 +123,7 @@
 		"Before enabled any of these packages!",
 		"Anaconda",
 		"GotoLastEditEnhanced",
-		"SublimeCodeIntel",
+		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
 	[

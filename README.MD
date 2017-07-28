@@ -276,6 +276,7 @@ nº | Directory on Packages folder       | Github URL
 14 | Origami                            | https://github.com/SublimeText/Origami
 15 | Project Specific Syntax Settings   | https://github.com/reywood/sublime-project-specific-syntax
 16 | SyncedSideBar                      | https://github.com/TheSpyder/SyncedSideBar
+17 | SyncedSideBar                      | https://github.com/SublimeText/VBScript
 
 
 

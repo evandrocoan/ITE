@@ -226,3 +226,6 @@
 [submodule "Packages/Pretty JSON"]
 	path = Packages/Pretty JSON
 	url = https://github.com/evandrocoan/SublimePrettyJson
+[submodule "Packages/VBScript"]
+	path = Packages/VBScript
+	url = https://github.com/evandrocoan/VBScript
