@@ -232,3 +232,6 @@
 [submodule "Packages/REG"]
 	path = Packages/REG
 	url = https://github.com/evandrocoan/REG
+[submodule "Packages/Generic Config"]
+	path = Packages/Generic Config
+	url = https://github.com/evandrocoan/Sublime-GenericConfig
