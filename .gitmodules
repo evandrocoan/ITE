@@ -175,9 +175,6 @@
 [submodule "Packages/Select All Spelling Errors"]
 	path = Packages/Select All Spelling Errors
 	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
-[submodule "Packages/Shell Script"]
-	path = Packages/Shell Script
-	url = https://github.com/evandrocoan/SublimeShellScript
 [submodule "Packages/Side-by-Side Settings"]
 	path = Packages/Side-by-Side Settings
 	url = https://github.com/evandrocoan/sxs-settings
