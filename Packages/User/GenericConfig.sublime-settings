@@ -3,6 +3,9 @@
 	[
 		".inputrc",
 		"Doxyfile",
-		".dircolors"
+		".dircolors",
+		".gitmodules",
+		".gitignore",
+		".gitattributes"
 	]
 }
