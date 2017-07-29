@@ -277,6 +277,7 @@ nº | Directory on Packages folder       | Github URL
 15 | Project Specific Syntax Settings   | https://github.com/reywood/sublime-project-specific-syntax
 16 | SyncedSideBar                      | https://github.com/TheSpyder/SyncedSideBar
 17 | SyncedSideBar                      | https://github.com/SublimeText/VBScript
+18 | REG                                | https://github.com/robertcollier4/REG
 
 
 
