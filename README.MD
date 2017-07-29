@@ -215,7 +215,7 @@ ___
 
 For an updated list of packages to not enable see the issue:
 
-1. https://github.com/evandrocoan/SublimeTextStudio/issues/50 Ignore packages to not enable!
+1. https://github.com/evandrocoan/SublimeTextStudio/issues/50 Ignored packages to not enable!
 
 For now on, do not enable the packages:
 ```
@@ -276,7 +276,7 @@ nº | Directory on Packages folder       | Github URL
 14 | Origami                            | https://github.com/SublimeText/Origami
 15 | Project Specific Syntax Settings   | https://github.com/reywood/sublime-project-specific-syntax
 16 | SyncedSideBar                      | https://github.com/TheSpyder/SyncedSideBar
-17 | SyncedSideBar                      | https://github.com/SublimeText/VBScript
+17 | VBScript                           | https://github.com/SublimeText/VBScript
 18 | REG                                | https://github.com/robertcollier4/REG
 
 
