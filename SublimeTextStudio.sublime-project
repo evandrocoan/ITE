@@ -15,6 +15,10 @@
                 "Packages/User/Color Highlighter",
                 "Packages/User/Package Control.cache",
             ],
+            "file_exclude_patterns":
+            [
+                "Packages/User/FileHistory*.json",
+            ],
         },
 
     ]
