@@ -8,6 +8,116 @@
 	url = https://github.com/evandrocoan/SublimeActiveViewJumpBack
 	upstream =
 	backstroke =
+[submodule "Packages/amxmodx"]
+	path = Packages/amxmodx
+	url = https://github.com/evandrocoan/SublimeAMXX_Editor
+	upstream =
+	backstroke =
+[submodule "Packages/Amxx Pawn"]
+	path = Packages/Amxx Pawn
+	url = https://github.com/evandrocoan/SublimeAmxxPawn
+	upstream =
+	backstroke =
+[submodule "Packages/Clear Cursors Carets"]
+	path = Packages/Clear Cursors Carets
+	url = https://github.com/evandrocoan/ClearCursorsCarets
+	upstream =
+	backstroke =
+[submodule "Packages/Clipboard Scope Copy"]
+	path = Packages/Clipboard Scope Copy
+	url = https://github.com/evandrocoan/SublimeClipboardScopeCopy
+	upstream =
+	backstroke =
+[submodule "Packages/Default Syntax"]
+	path = Packages/Default Syntax
+	url = https://github.com/evandrocoan/SublimeDefaultSyntax
+	upstream =
+	backstroke =
+[submodule "Packages/Fix Project Switch Restart Bug"]
+	path = Packages/Fix Project Switch Restart Bug
+	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
+	upstream =
+	backstroke =
+[submodule "Packages/Fix Selection After Indent"]
+	path = Packages/Fix Selection After Indent
+	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
+	upstream =
+	backstroke =
+[submodule "Packages/Fixed Selections Clear"]
+	path = Packages/Fixed Selections Clear
+	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear
+	upstream =
+	backstroke =
+[submodule "Packages/Force Rewrite Sublime Settings"]
+	path = Packages/Force Rewrite Sublime Settings
+	url = https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings
+	upstream =
+	backstroke =
+[submodule "Packages/Notepad++ Color Scheme"]
+	path = Packages/Notepad++ Color Scheme
+	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
+	upstream =
+	backstroke =
+[submodule "Packages/Octave"]
+	path = Packages/Octave
+	url = https://github.com/evandrocoan/SublimeOctave
+	upstream =
+	backstroke =
+[submodule "Packages/Open Auto Completion"]
+	path = Packages/Open Auto Completion
+	url = https://github.com/evandrocoan/SublimeOpenAutoCompletion
+	upstream =
+	backstroke =
+[submodule "Packages/Override Unpacked Packages"]
+	path = Packages/Override Unpacked Packages
+	url = https://github.com/evandrocoan/SublimeUnpackedPackagesOverride
+	upstream =
+	backstroke =
+[submodule "Packages/Overwrite Commit Completion"]
+	path = Packages/Overwrite Commit Completion
+	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
+	upstream =
+	backstroke =
+[submodule "Packages/Preferences Editor"]
+	path = Packages/Preferences Editor
+	url = https://github.com/evandrocoan/SublimePreferencesEditor
+	upstream =
+	backstroke =
+[submodule "Packages/Rich Plain Text"]
+	path = Packages/Rich Plain Text
+	url = https://github.com/evandrocoan/SublimeRichPlainText
+	upstream =
+	backstroke =
+[submodule "Packages/SQL Keyword Uppercase"]
+	path = Packages/SQL Keyword Uppercase
+	url = https://github.com/evandrocoan/SublimeSQLKeywordUppercase
+	upstream =
+	backstroke =
+[submodule "Packages/Select All Spelling Errors"]
+	path = Packages/Select All Spelling Errors
+	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
+	upstream =
+	backstroke =
+[submodule "Packages/Sublime Text Studio"]
+	path = Packages/Sublime Text Studio
+	url = https://github.com/evandrocoan/SublimeTextStudioChannel
+	upstream =
+	backstroke =
+[submodule "Packages/Uncrustify"]
+	path = Packages/Uncrustify
+	url = https://github.com/evandrocoan/SublimeUncrustify
+	upstream =
+	backstroke =
+[submodule "Packages/View Settings Freely"]
+	path = Packages/View Settings Freely
+	url = https://github.com/evandrocoan/SublimeViewSettingsFreely
+	upstream =
+	backstroke =
+[submodule "Packages/User/Multilingual Dictionary"]
+	path = Packages/User/Multilingual Dictionary
+	url = https://github.com/evandrocoan/SublimeMultilingualDictionary
+	upstream =
+	backstroke =
 [submodule "Packages/ANSIescape"]
 	path = Packages/ANSIescape
 	url = https://github.com/evandrocoan/SublimeANSI
@@ -38,16 +148,6 @@
 	url = https://github.com/evandrocoan/SublimeAllAutocomplete
 	upstream = https://github.com/alienhard/SublimeAllAutocomplete
 	backstroke = https://backstroke.us/
-[submodule "Packages/amxmodx"]
-	path = Packages/amxmodx
-	url = https://github.com/evandrocoan/SublimeAMXX_Editor
-	upstream =
-	backstroke =
-[submodule "Packages/Amxx Pawn"]
-	path = Packages/Amxx Pawn
-	url = https://github.com/evandrocoan/SublimeAmxxPawn
-	upstream =
-	backstroke =
 [submodule "Packages/AutoFileName"]
 	path = Packages/AutoFileName
 	url = https://github.com/evandrocoan/AutoFileName
@@ -73,16 +173,6 @@
 	url = https://github.com/evandrocoan/ChannelRepositoryTools
 	upstream = https://github.com/wbond/ChannelRepositoryTools
 	backstroke = https://backstroke.us/
-[submodule "Packages/Clear Cursors Carets"]
-	path = Packages/Clear Cursors Carets
-	url = https://github.com/evandrocoan/ClearCursorsCarets
-	upstream =
-	backstroke =
-[submodule "Packages/Clipboard Scope Copy"]
-	path = Packages/Clipboard Scope Copy
-	url = https://github.com/evandrocoan/SublimeClipboardScopeCopy
-	upstream =
-	backstroke =
 [submodule "Packages/Color Highlighter"]
 	path = Packages/Color Highlighter
 	url = https://github.com/evandrocoan/ColorHighlighter
@@ -108,11 +198,6 @@
 	url = https://github.com/evandrocoan/CopyWithLineNumbersReloaded
 	upstream = https://github.com/crash5/CopyWithLineNumbersReloaded
 	backstroke = https://backstroke.us/
-[submodule "Packages/Default Syntax"]
-	path = Packages/Default Syntax
-	url = https://github.com/evandrocoan/SublimeDefaultSyntax
-	upstream =
-	backstroke =
 [submodule "Packages/DocBlockr"]
 	path = Packages/DocBlockr
 	url = https://github.com/evandrocoan/SublimeDocBlockr-jsdocs
@@ -138,26 +223,6 @@
 	url = https://github.com/evandrocoan/FileManager
 	upstream = https://github.com/math2001/FileManager
 	backstroke = https://backstroke.us/
-[submodule "Packages/Fix Project Switch Restart Bug"]
-	path = Packages/Fix Project Switch Restart Bug
-	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
-	upstream =
-	backstroke =
-[submodule "Packages/Fix Selection After Indent"]
-	path = Packages/Fix Selection After Indent
-	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
-	upstream =
-	backstroke =
-[submodule "Packages/Fixed Selections Clear"]
-	path = Packages/Fixed Selections Clear
-	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear
-	upstream =
-	backstroke =
-[submodule "Packages/Force Rewrite Sublime Settings"]
-	path = Packages/Force Rewrite Sublime Settings
-	url = https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings
-	upstream =
-	backstroke =
 [submodule "Packages/FuzzyFileNav"]
 	path = Packages/FuzzyFileNav
 	url = https://github.com/evandrocoan/FuzzyFileNav
@@ -218,36 +283,11 @@
 	url = https://github.com/evandrocoan/SublimeTextMarkdowToBBCode
 	upstream = https://github.com/Kristinita/1Sasha1MarkdownNoBBCode
 	backstroke = https://backstroke.us/
-[submodule "Packages/Notepad++ Color Scheme"]
-	path = Packages/Notepad++ Color Scheme
-	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
-	upstream =
-	backstroke =
-[submodule "Packages/Octave"]
-	path = Packages/Octave
-	url = https://github.com/evandrocoan/SublimeOctave
-	upstream =
-	backstroke =
-[submodule "Packages/Open Auto Completion"]
-	path = Packages/Open Auto Completion
-	url = https://github.com/evandrocoan/SublimeOpenAutoCompletion
-	upstream =
-	backstroke =
 [submodule "Packages/Origami"]
 	path = Packages/Origami
 	url = https://github.com/evandrocoan/Origami
 	upstream = https://github.com/SublimeText/Origami
 	backstroke = https://backstroke.us/
-[submodule "Packages/Override Unpacked Packages"]
-	path = Packages/Override Unpacked Packages
-	url = https://github.com/evandrocoan/SublimeUnpackedPackagesOverride
-	upstream =
-	backstroke =
-[submodule "Packages/Overwrite Commit Completion"]
-	path = Packages/Overwrite Commit Completion
-	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
-	upstream =
-	backstroke =
 [submodule "Packages/Package Control"]
 	path = Packages/Package Control
 	url = https://github.com/evandrocoan/package_control
@@ -263,31 +303,11 @@
 	url = https://github.com/evandrocoan/PowerCursors
 	upstream = https://github.com/MaokaiLin/PowerCursors
 	backstroke = https://backstroke.us/
-[submodule "Packages/Preferences Editor"]
-	path = Packages/Preferences Editor
-	url = https://github.com/evandrocoan/SublimePreferencesEditor
-	upstream =
-	backstroke =
 [submodule "Packages/Project Specific Syntax Settings"]
 	path = Packages/Project Specific Syntax Settings
 	url = https://github.com/evandrocoan/sublime-project-specific-syntax
 	upstream = https://github.com/reywood/sublime-project-specific-syntax
 	backstroke = https://backstroke.us/
-[submodule "Packages/Rich Plain Text"]
-	path = Packages/Rich Plain Text
-	url = https://github.com/evandrocoan/SublimeRichPlainText
-	upstream =
-	backstroke =
-[submodule "Packages/SQL Keyword Uppercase"]
-	path = Packages/SQL Keyword Uppercase
-	url = https://github.com/evandrocoan/SublimeSQLKeywordUppercase
-	upstream =
-	backstroke =
-[submodule "Packages/Select All Spelling Errors"]
-	path = Packages/Select All Spelling Errors
-	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
-	upstream =
-	backstroke =
 [submodule "Packages/Side-by-Side Settings"]
 	path = Packages/Side-by-Side Settings
 	url = https://github.com/evandrocoan/sxs-settings
@@ -298,11 +318,6 @@
 	url = https://github.com/evandrocoan/SideBarEnhancements
 	upstream = https://github.com/SideBarEnhancements-org/SideBarEnhancements
 	backstroke = https://backstroke.us/
-[submodule "Packages/Sublime Text Studio"]
-	path = Packages/Sublime Text Studio
-	url = https://github.com/evandrocoan/SublimeTextStudioChannel
-	upstream =
-	backstroke =
 [submodule "Packages/SublimeCodeIntel"]
 	path = Packages/SublimeCodeIntel
 	url = https://github.com/evandrocoan/SublimeCodeIntel
@@ -338,26 +353,11 @@
 	url = https://github.com/evandrocoan/Trimmer
 	upstream = https://github.com/jonlabelle/Trimmer
 	backstroke = https://backstroke.us/
-[submodule "Packages/Uncrustify"]
-	path = Packages/Uncrustify
-	url = https://github.com/evandrocoan/SublimeUncrustify
-	upstream =
-	backstroke =
-[submodule "Packages/View Settings Freely"]
-	path = Packages/View Settings Freely
-	url = https://github.com/evandrocoan/SublimeViewSettingsFreely
-	upstream =
-	backstroke =
 [submodule "Packages/Wrap Plus"]
 	path = Packages/Wrap Plus
 	url = https://github.com/evandrocoan/Sublime-Wrap-Plus
 	upstream = https://github.com/ehuss/Sublime-Wrap-Plus
 	backstroke = https://backstroke.us/
-[submodule "Packages/User/Multilingual Dictionary"]
-	path = Packages/User/Multilingual Dictionary
-	url = https://github.com/evandrocoan/SublimeMultilingualDictionary
-	upstream =
-	backstroke =
 [submodule "Packages/TypeScript"]
 	path = Packages/TypeScript
 	url = https://github.com/evandrocoan/TypeScript-Sublime-Plugin
