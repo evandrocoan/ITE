@@ -130,9 +130,6 @@
 [submodule "Packages/Markdown to BB Code Converter"]
 	path = Packages/Markdown to BB Code Converter
 	url = https://github.com/evandrocoan/SublimeTextMarkdowToBBCode
-[submodule "Packages/MarkdownLight"]
-	path = Packages/MarkdownLight
-	url = https://github.com/evandrocoan/MarkdownLight
 [submodule "Packages/Notepad++ Color Scheme"]
 	path = Packages/Notepad++ Color Scheme
 	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
