@@ -73,34 +73,4 @@
 /Packages/YAML/
 
 
-#
-# Ignored unpacked packages
-#
-/Packages/coverage/*
-/Packages/Terminal/*
-/Packages/Pyyaml/*
-/Packages/Pyv8/*
-/Packages/python-markdown/*
-/Packages/python-jinja2/*
-/Packages/pygments/*
-/Packages/mdpopups/*
-/Packages/markupsafe/*
-/Packages/bz2/*
-/Packages/backrefs/*
-/Packages/ssl-linux/*
-/Packages/BetterFindBuffer/*
-/Packages/SQLTools/*
-/Packages/Anaconda/*
-/Packages/Syntax Highlighting for Sass/*
-/Packages/zzz A File Icon zzz/*
-/Packages/Random Everything/*
-/Packages/ConvertToUTF8/*
-/Packages/Sublime Tutor/*
-
-/Packages/regex/*
-/Packages/package_setting_context/*
-/Packages/Jedi - Python autocompletion/*
-
-*/linux32-p3/*
-**/linux32-p3/**
 
