@@ -99,7 +99,7 @@
 	upstream =
 	backstroke =
 [submodule "Packages/Sublime Text Studio"]
-	path = Packages/Sublime Text Studio
+	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/SublimeTextStudioChannel
 	upstream =
 	backstroke =
