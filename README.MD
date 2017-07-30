@@ -187,7 +187,7 @@ After finish running all these commands, open `Sublime Text` and wait until the 
 install all the packages:
 
 * It should take some minutes until install all new packages, after that restart your `Sublime Text`.
-* You can open the Console on `View -> Console (Ctrl+') to view the download progress.
+* You can open the Console on `View -> Console (Ctrl+')` to view the download progress.
 * You can also see this *old video* tutorial [How to the Install Sublime Studio](https://vid.me/ODYj).
 * This is a sample output of the full process on the command line: [Windows Command line output](https://gist.github.com/evandrocoan/a2e69c01e1f2721e6772b73fff88ff3c)
 
