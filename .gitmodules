@@ -3,6 +3,11 @@
 	url = https://github.com/evandrocoan/.versioning
 	upstream =
 	backstroke =
+[submodule "Packages/PythonDebugTools"]
+	path = Packages/PythonDebugTools
+	url = https://github.com/evandrocoan/PythonDebugTools
+	upstream =
+	backstroke =
 [submodule "Packages/Active View Jump Back"]
 	path = Packages/Active View Jump Back
 	url = https://github.com/evandrocoan/SublimeActiveViewJumpBack
