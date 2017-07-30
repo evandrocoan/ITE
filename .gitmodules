@@ -388,3 +388,8 @@
 	url = https://github.com/evandrocoan/Sublime-GenericConfig
 	upstream = https://github.com/skozlovf/Sublime-GenericConfig
 	backstroke = https://backstroke.us/
+[submodule "Packages/Dotfiles Syntax Highlighting"]
+	path = Packages/Dotfiles Syntax Highlighting
+	url = https://github.com/evandrocoan/dotfiles-syntax-highlighting-st2
+	upstream = https://github.com/mattbanks/dotfiles-syntax-highlighting-st2
+	backstroke = https://backstroke.us/
