@@ -393,3 +393,8 @@
 	url = https://github.com/evandrocoan/dotfiles-syntax-highlighting-st2
 	upstream = https://github.com/mattbanks/dotfiles-syntax-highlighting-st2
 	backstroke = https://backstroke.us/
+[submodule "Packages/AutomaticPackageReloader"]
+	path = Packages/AutomaticPackageReloader
+	url = https://github.com/randy3k/AutomaticPackageReloader
+	upstream =
+	backstroke =
