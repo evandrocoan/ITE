@@ -318,3 +318,12 @@
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
 	upstream =
+[submodule "Packages/Maven"]
+	path = Packages/Maven
+	url = https://github.com/evandrocoan/SublimeMaven
+[submodule "Packages/SublimeLinter"]
+	path = Packages/SublimeLinter
+	url = https://github.com/evandrocoan/SublimeLinter3
+[submodule "Packages/SublimeLinter-javac"]
+	path = Packages/SublimeLinter-javac
+	url = https://github.com/evandrocoan/SublimeLinter-javac

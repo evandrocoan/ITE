@@ -429,7 +429,7 @@
 	// "no_warnings" (only hide the panel if no warnings occur)
 	// "no_badboxes" (only hide the panel if no badbox messages occur when badboxes are enabled) and
 	// "never" (default, never hide the build panel)
-	"hide_build_panel": "no_badboxes",
+	"hide_build_panel": "never",
 
 	// OPTION: "display_bad_boxes"
 	// controls whether or not to display any bad boxes in the build output
@@ -505,7 +505,7 @@
 	// specifies whether LaTeXTools should open the PDF file on a
 	// successful build. If set to false, the PDF file won't be opened
 	// unless explicitly launched using C-l,v or C-l,j
-	"open_pdf_on_build": true,
+	"open_pdf_on_build": false,
 
 	// OPTION: "disable_focus_hack"
 	// if set to true, this will stop LaTeXTools from attempting to steal focus
