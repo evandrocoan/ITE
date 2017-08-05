@@ -327,3 +327,6 @@
 [submodule "Packages/SublimeLinter-javac"]
 	path = Packages/SublimeLinter-javac
 	url = https://github.com/evandrocoan/SublimeLinter-javac
+[submodule "Packages/Anaconda"]
+	path = Packages/Anaconda
+	url = https://github.com/evandrocoan/anaconda
