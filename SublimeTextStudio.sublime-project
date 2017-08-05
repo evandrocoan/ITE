@@ -1,14 +1,32 @@
 {
     "folders":
     [
+        // https://forum.sublimetext.com/t/how-include-a-file-from-a-excluded-folder-in-my-sublime-project/30339
+        // { "path": ".", },
         {
             "path": ".",
+            "file_include_patterns":
+            [
+                ".github/*",
+                ".versioning/*",
+                ".vscode/*",
+                "Backup/*",
+                "Local/Backstroke.gitmodules",
+                "Packages/*",
+                "Utilities/*",
+                ".gitatributtes",
+                ".gitignore",
+                ".gitmodules",
+                "LICENSE",
+                "README.MD",
+                "SublimeStudio.bbcode",
+                "SublimeTextStudio.sublime-project",
+            ],
             "folder_exclude_patterns":
             [
                 "Cache",
                 "Index",
                 "Lib",
-                "Local",
                 "Settings",
                 "Installed Packages",
                 "Packages/ObjectBeautifier",
@@ -20,6 +38,5 @@
                 "Packages/User/FileHistory*.json",
             ],
         },
-
     ]
 }
