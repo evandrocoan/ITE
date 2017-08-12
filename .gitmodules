@@ -314,19 +314,23 @@
 	path = Packages/Dotfiles Syntax Highlighting
 	url = https://github.com/evandrocoan/dotfiles-syntax-highlighting-st2
 	upstream = https://github.com/mattbanks/dotfiles-syntax-highlighting-st2
+[submodule "Packages/Maven"]
+	path = Packages/Maven
+	url = https://github.com/evandrocoan/SublimeMaven
+	upstream =
+[submodule "Packages/SublimeLinter"]
+	path = Packages/SublimeLinter
+	url = https://github.com/evandrocoan/SublimeLinter3
+	upstream =
+[submodule "Packages/SublimeLinter-javac"]
+	path = Packages/SublimeLinter-javac
+	url = https://github.com/evandrocoan/SublimeLinter-javac
+	upstream =
+[submodule "Packages/Anaconda"]
+	path = Packages/Anaconda
+	url = https://github.com/evandrocoan/anaconda
+	upstream =
 [submodule "Packages/AutomaticPackageReloader"]
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
 	upstream =
-[submodule "Packages/Maven"]
-	path = Packages/Maven
-	url = https://github.com/evandrocoan/SublimeMaven
-[submodule "Packages/SublimeLinter"]
-	path = Packages/SublimeLinter
-	url = https://github.com/evandrocoan/SublimeLinter3
-[submodule "Packages/SublimeLinter-javac"]
-	path = Packages/SublimeLinter-javac
-	url = https://github.com/evandrocoan/SublimeLinter-javac
-[submodule "Packages/Anaconda"]
-	path = Packages/Anaconda
-	url = https://github.com/evandrocoan/anaconda
