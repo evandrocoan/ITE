@@ -13,7 +13,8 @@
 		"proprõe",
 		"reporting",
 		"Javascript",
-		"recognition"
+		"recognition",
+		"descriptografia"
 	],
 	"afn_use_keybinding": true,
 	"afn_valid_scopes":
@@ -97,6 +98,7 @@
 		"DictionaryAutoComplete",
 		"FileManager",
 		"Find++",
+		"FuzzyFilePath",
 		"Gist",
 		"Git",
 		"GitGutter",
