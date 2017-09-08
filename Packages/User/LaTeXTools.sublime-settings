@@ -396,7 +396,10 @@
 		// (built-ins): true shows the log of each command in the output panel
 		"display_log" : false,
 
-		"options" : ["-halt-on-error"],
+		// Where to find official (!) and extended documentation for
+		// tex/latex's commandline options (especially -interaction modes)?
+		// https://tex.stackexchange.com/questions/91592
+		"options" : ["-file-line-error", "-halt-on-error"],
 
 		// Platform-specific settings:
 		"osx" : {

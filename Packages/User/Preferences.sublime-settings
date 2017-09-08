@@ -14,7 +14,10 @@
 		"reporting",
 		"Javascript",
 		"recognition",
-		"descriptografia"
+		"descriptografia",
+		"Entregável",
+		"primality",
+		"primalidade"
 	],
 	"afn_use_keybinding": true,
 	"afn_valid_scopes":
@@ -89,6 +92,7 @@
 	"ignored_packages":
 	[
 		"All Autocomplete",
+		"Anaconda",
 		"ApplySyntax",
 		"BracketHighlighter",
 		"C++ Completions",
@@ -115,7 +119,6 @@
 		"sublime-text-2-buildview",
 		"SublimeCodeIntel",
 		"SyncedSideBar",
-		"SyntaxManager",
 		"Vintage",
 		"WordHighlight"
 	],
