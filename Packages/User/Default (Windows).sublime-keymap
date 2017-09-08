@@ -130,6 +130,10 @@
         "keys": ["enter"], "command": "power_cursor_select", "args": { "forward": true },
                 "context": [ { "key": "in_cursor_transition" } ]
     },
+    {
+        "keys": ["ctrl+enter"], "command": "power_cursor_select", "args": { "forward": false },
+                "context": [ { "key": "in_cursor_transition" } ]
+    },
 
 
     // Sublime Column Select, https://github.com/ehuss/Sublime-Column-Select
