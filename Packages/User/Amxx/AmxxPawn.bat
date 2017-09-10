@@ -101,7 +101,8 @@ set COMPILER_INCLUDE_FOLDER_PATH=%AMXX_COMPILER_FOLDER%include
 for %%A in ("%COMPILER_INCLUDE_FOLDER_PATH%") do for %%B in ("%SOURCE_CODE_INCLUDE_FOLDER%") do if "%%~fA"=="%%~fB" echo Skipping copy include files... & goto compile_the_plugin
 
 :: Copy the include folder
-IF EXIST "%SOURCE_CODE_INCLUDE_FOLDER%" call xcopy /S /Y "%SOURCE_CODE_INCLUDE_FOLDER%" "%COMPILER_INCLUDE_FOLDER_PATH%" > nul
+:: https://stackoverflow.com/questions/3018289/xcopy-file-rename-suppress-does-xxx-specify-a-file-name-message
+IF EXIST "%SOURCE_CODE_INCLUDE_FOLDER%" call echo d | xcopy /S /Y "%SOURCE_CODE_INCLUDE_FOLDER%" "%COMPILER_INCLUDE_FOLDER_PATH%" > nul
 
 :: Closes the `enabledelayedexpansion` scope
 endlocal
