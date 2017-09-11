@@ -24,12 +24,14 @@
             ],
             "folder_exclude_patterns":
             [
-                "Cache",
-                "Index",
-                "Installed Packages",
-                "Packages/ObjectBeautifier",
-                "Packages/User/Color Highlighter",
-                "Packages/User/Package Control.cache",
+                "Data/Cache",
+                "Data/Index",
+                "Data/Lib",
+                "Data/Settings",
+                "Data/sInstalled Packages",
+                "Data/Packages/ObjectBeautifier",
+                "Data/Packages/User/Color Highlighter",
+                "Data/Packages/User/Package Control.cache",
             ],
             "file_exclude_patterns":
             [
