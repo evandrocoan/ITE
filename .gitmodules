@@ -334,3 +334,6 @@
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
 	upstream =
+[submodule "Packages/SelectUntil"]
+	path = Packages/SelectUntil
+	url = https://github.com/evandrocoan/sublime-selectuntil
