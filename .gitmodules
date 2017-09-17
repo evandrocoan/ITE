@@ -317,23 +317,24 @@
 [submodule "Packages/Maven"]
 	path = Packages/Maven
 	url = https://github.com/evandrocoan/SublimeMaven
-	upstream =
+	upstream = https://github.com/nlloyd/SublimeMaven
 [submodule "Packages/SublimeLinter"]
 	path = Packages/SublimeLinter
 	url = https://github.com/evandrocoan/SublimeLinter3
-	upstream =
+	upstream = https://github.com/SublimeLinter/SublimeLinter3
 [submodule "Packages/SublimeLinter-javac"]
 	path = Packages/SublimeLinter-javac
 	url = https://github.com/evandrocoan/SublimeLinter-javac
-	upstream =
+	upstream = https://github.com/SublimeLinter/SublimeLinter-javac
 [submodule "Packages/Anaconda"]
 	path = Packages/Anaconda
 	url = https://github.com/evandrocoan/anaconda
-	upstream =
+	upstream = https://github.com/DamnWidget/anaconda
+[submodule "Packages/SelectUntil"]
+	path = Packages/SelectUntil
+	url = https://github.com/evandrocoan/sublime-selectuntil
+	upstream = https://github.com/xavi-/sublime-selectuntil
 [submodule "Packages/AutomaticPackageReloader"]
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
 	upstream =
-[submodule "Packages/SelectUntil"]
-	path = Packages/SelectUntil
-	url = https://github.com/evandrocoan/sublime-selectuntil
