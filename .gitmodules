@@ -338,3 +338,6 @@
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
 	upstream =
+[submodule "Packages/Case Conversion"]
+	path = Packages/Case Conversion
+	url = https://github.com/evandrocoan/CaseConversion
