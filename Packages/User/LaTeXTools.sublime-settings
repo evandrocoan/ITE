@@ -54,7 +54,7 @@
 	// "always" (always show command completions)
 	// "prefixed" (default, show command completions if the current word is prefixed with '\')
 	// "never" (never show command completions)
-	"command_completion": "prefixed",
+	"command_completion": "never",
 
 	// valid texfile extensions
 	"tex_file_exts": [".tex"],
