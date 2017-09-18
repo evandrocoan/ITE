@@ -341,3 +341,6 @@
 [submodule "Packages/Case Conversion"]
 	path = Packages/Case Conversion
 	url = https://github.com/evandrocoan/CaseConversion
+[submodule "Packages/LaTeXSmartQuotes"]
+	path = Packages/LaTeXSmartQuotes
+	url = https://github.com/r-stein/sublime-text-latex-smart-quotes
