@@ -334,13 +334,15 @@
 	path = Packages/SelectUntil
 	url = https://github.com/evandrocoan/sublime-selectuntil
 	upstream = https://github.com/xavi-/sublime-selectuntil
+[submodule "Packages/Case Conversion"]
+	path = Packages/Case Conversion
+	url = https://github.com/evandrocoan/CaseConversion
+	upstream = https://github.com/jdc0589/CaseConversion
 [submodule "Packages/AutomaticPackageReloader"]
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
 	upstream =
-[submodule "Packages/Case Conversion"]
-	path = Packages/Case Conversion
-	url = https://github.com/evandrocoan/CaseConversion
 [submodule "Packages/LaTeXSmartQuotes"]
 	path = Packages/LaTeXSmartQuotes
 	url = https://github.com/r-stein/sublime-text-latex-smart-quotes
+	upstream =
