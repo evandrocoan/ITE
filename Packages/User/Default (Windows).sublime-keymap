@@ -474,7 +474,7 @@
     { "keys": ["ctrl+shift+c"], "command": "ansi_color_build", "args": {"kill": true} },
 
 
-    { "keys": ["ctrl+t"], "command": "transpose" },
+    { "keys": ["ctrl+t"], "command": "transpose", "args": { "can_transpose_words": true } },
 
     // Auto-pair quotes
     { "keys": ["\""], "command": "insert_snippet", "args": {"contents": "\"$0\""}, "context":
