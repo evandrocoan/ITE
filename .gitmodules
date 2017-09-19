@@ -344,7 +344,7 @@
 	upstream = https://github.com/facelessuser/ApplySyntax
 [submodule "Packages/x86 and x86_64 Assembly"]
 	path = Packages/x86 and x86_64 Assembly
-	url = https://github.com/13xforever/x86-assembly-textmate-bundle
+	url = https://github.com/evandrocoan/x86-assembly-textmate-bundle
 	upstream = https://github.com/13xforever/x86-assembly-textmate-bundle
 [submodule "Packages/Increment Selection"]
 	path = Packages/Increment Selection
