@@ -350,6 +350,10 @@
 	path = Packages/Incrementor
 	url = https://github.com/evandrocoan/Incrementor
 	upstream = https://github.com/eBookArchitects/Incrementor
+[submodule "Packages/TabsExtra"]
+	path = Packages/TabsExtra
+	url = https://github.com/evandrocoan/TabsExtra
+	upstream = https://github.com/facelessuser/TabsExtra
 [submodule "Packages/Increment Selection"]
 	path = Packages/Increment Selection
 	url = https://github.com/yulanggong/IncrementSelection
@@ -581,10 +585,6 @@
 [submodule "Packages/Sync View Scroll"]
 	path = Packages/Sync View Scroll
 	url = https://github.com/zzjin/syncViewScroll
-	upstream =
-[submodule "Packages/TabsExtra"]
-	path = Packages/TabsExtra
-	url = https://github.com/facelessuser/TabsExtra
 	upstream =
 [submodule "Packages/TOML"]
 	path = Packages/TOML
