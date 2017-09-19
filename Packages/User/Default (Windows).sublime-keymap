@@ -408,11 +408,6 @@
     { "keys": ["ctrl+shift+f3"], "command": "find_under_prev" },
     { "keys": ["alt+f3"], "command": "find_all_under" },
 
-    // Is possible to package override a Sublime Text Default keybinding?
-    // https://forum.sublimetext.com/t/is-possible-to-package-override-a-sublime-text-default-keybinding/31688
-    // { "keys": ["ctrl+e"], "command": "slurp_find_string" },
-    { "keys": ["ctrl+e"], "command": "toogle_title_case" },
-
     { "keys": ["ctrl+shift+e"], "command": "slurp_replace_string" },
     { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
     { "keys": ["f4"], "command": "next_result" },
