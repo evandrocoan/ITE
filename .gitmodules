@@ -346,6 +346,10 @@
 	path = Packages/x86 and x86_64 Assembly
 	url = https://github.com/13xforever/x86-assembly-textmate-bundle
 	upstream = https://github.com/13xforever/x86-assembly-textmate-bundle
+[submodule "Packages/Increment Selection"]
+	path = Packages/Increment Selection
+	url = https://github.com/yulanggong/IncrementSelection
+	upstream = https://github.com/eBookArchitects/Incrementor
 [submodule "Packages/AutomaticPackageReloader"]
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
@@ -470,10 +474,6 @@
 [submodule "Packages/BetterFindBuffer"]
 	path = Packages/BetterFindBuffer
 	url = https://github.com/aziz/BetterFindBuffer
-	upstream =
-[submodule "Packages/Increment Selection"]
-	path = Packages/Increment Selection
-	url = https://github.com/yulanggong/IncrementSelection
 	upstream =
 [submodule "Packages/Incrementor"]
 	path = Packages/Incrementor
