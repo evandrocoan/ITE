@@ -349,7 +349,7 @@
 [submodule "Packages/Increment Selection"]
 	path = Packages/Increment Selection
 	url = https://github.com/yulanggong/IncrementSelection
-	upstream = https://github.com/eBookArchitects/Incrementor
+	upstream =
 [submodule "Packages/AutomaticPackageReloader"]
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
