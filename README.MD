@@ -254,7 +254,7 @@ For more information see:
 1. The [LICENSE](LICENSE) file for the GPL v3.0 license
 1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
-All the other files within each git submodule have its own license specified, except until 13/07/2017,
+All the other files within each git submodule have its own license specified, except until 18/09/2017,
 where the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules),
 does not include an explicit license from their original author:
 
@@ -274,10 +274,23 @@ nº | Directory on Packages folder       | Github URL
 12 | LaTeXTools                         | https://github.com/SublimeText/LaTeXTools
 13 | Markdown to BB Code Converter      | https://github.com/Kristinita/1Sasha1MarkdownNoBBCode
 14 | Origami                            | https://github.com/SublimeText/Origami
-15 | Project Specific Syntax Settings   | https://github.com/reywood/sublime-project-specific-syntax
-16 | SyncedSideBar                      | https://github.com/TheSpyder/SyncedSideBar
-17 | VBScript                           | https://github.com/SublimeText/VBScript
-18 | REG                                | https://github.com/robertcollier4/REG
+15 | SyncedSideBar                      | https://github.com/TheSpyder/SyncedSideBar
+16 | VBScript                           | https://github.com/SublimeText/VBScript
+17 | ApplySyntax                        | https://github.com/facelessuser/ApplySyntax
+18 | Edit Preferences                   | https://github.com/sublimator/EditPreferences
+19 | Extract Text to File               | https://github.com/dreki/sublime-extract-to-file
+20 | File Rename                        | https://github.com/brianlow/FileRename
+21 | HighlightWords                     | https://github.com/seanliang/HighlightWords
+22 | Increment Selection                | https://github.com/yulanggong/IncrementSelection
+23 | LESS                               | https://github.com/danro/LESS-sublime
+24 | Line Endings Unify                 | https://github.com/vontio/sublime-line-endings-unify
+25 | SQLExec                            | https://github.com/jum4/sublime-sqlexec
+26 | sublime-text-2-buildview           | https://github.com/rctay/sublime-text-2-buildview
+27 | TOML                               | https://github.com/Jayflux/sublime_toml_highlighting
+28 | WordHighlight                      | https://github.com/SublimeText/WordHighlight
+29 | SQLTools                           | https://github.com/mtxr/SQLTools
+30 | Syntax Highlighting for Sass       | https://github.com/P233/Syntax-highlighting-for-Sass
+31 | ConvertToUTF8                      | https://github.com/seanliang/ConvertToUTF8
 
 
 

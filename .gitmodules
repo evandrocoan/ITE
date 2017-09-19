@@ -338,6 +338,10 @@
 	path = Packages/Case Conversion
 	url = https://github.com/evandrocoan/CaseConversion
 	upstream = https://github.com/jdc0589/CaseConversion
+[submodule "Packages/ApplySyntax"]
+	path = Packages/ApplySyntax
+	url = https://github.com/evandrocoan/ApplySyntax
+	upstream = https://github.com/facelessuser/ApplySyntax
 [submodule "Packages/AutomaticPackageReloader"]
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
@@ -345,4 +349,285 @@
 [submodule "Packages/LaTeXSmartQuotes"]
 	path = Packages/LaTeXSmartQuotes
 	url = https://github.com/r-stein/sublime-text-latex-smart-quotes
+	upstream =
+[submodule "Packages/A File Icon"]
+	path = Packages/A File Icon
+	url = https://github.com/ihodev/a-file-icon
+	upstream =
+[submodule "Packages/Alignment"]
+	path = Packages/Alignment
+	url = https://github.com/wbond/sublime_alignment
+	upstream =
+[submodule "Packages/Auto Refresh"]
+	path = Packages/Auto Refresh
+	url = https://github.com/Waterflames/AutoRefresh
+	upstream =
+[submodule "Packages/BracketHighlighter"]
+	path = Packages/BracketHighlighter
+	url = https://github.com/facelessuser/BracketHighlighter
+	upstream =
+[submodule "Packages/C++ Completions"]
+	path = Packages/C++ Completions
+	url = https://github.com/tushortz/CPP-Completions
+	upstream =
+[submodule "Packages/C++ Snippets"]
+	path = Packages/C++ Snippets
+	url = https://github.com/Rapptz/cpp-sublime-snippet
+	upstream =
+[submodule "Packages/Chain of Command"]
+	path = Packages/Chain of Command
+	url = https://github.com/jisaacks/ChainOfCommand
+	upstream =
+[submodule "Packages/ChangeQuotes"]
+	path = Packages/ChangeQuotes
+	url = https://github.com/colinta/SublimeChangeQuotes
+	upstream =
+[submodule "Packages/Clickable URLs"]
+	path = Packages/Clickable URLs
+	url = https://github.com/leonid-shevtsov/ClickableUrls_SublimeText
+	upstream =
+[submodule "Packages/ColorSchemeEditor"]
+	path = Packages/ColorSchemeEditor
+	url = https://github.com/bobef/ColorSchemeEditor
+	upstream =
+[submodule "Packages/Column Select"]
+	path = Packages/Column Select
+	url = https://github.com/ehuss/Sublime-Column-Select
+	upstream =
+[submodule "Packages/Delete Current File"]
+	path = Packages/Delete Current File
+	url = https://github.com/yaworsw/Sublime-DeleteCurrentFile
+	upstream =
+[submodule "Packages/DictionaryAutoComplete"]
+	path = Packages/DictionaryAutoComplete
+	url = https://github.com/Zinggi/DictionaryAutoCompletehttps://github.com/Zinggi/DictionaryAutoComplete
+	upstream =
+[submodule "Packages/DistractionFreeWindow"]
+	path = Packages/DistractionFreeWindow
+	url = https://github.com/aziz/DistractionFreeWindow
+	upstream =
+[submodule "Packages/DuplicateSelections"]
+	path = Packages/DuplicateSelections
+	url = https://github.com/colinta/SublimeDuplicateSelections
+	upstream =
+[submodule "Packages/Edit Preferences"]
+	path = Packages/Edit Preferences
+	url = https://github.com/sublimator/EditPreferences
+	upstream =
+[submodule "Packages/Emmet"]
+	path = Packages/Emmet
+	url = https://github.com/sergeche/emmet-sublime
+	upstream =
+	upstream =
+[submodule "Packages/Extract Text to File"]
+	path = Packages/Extract Text to File
+	url = https://github.com/dreki/sublime-extract-to-file
+	upstream =
+[submodule "Packages/File History"]
+	path = Packages/File History
+	url = https://github.com/FichteFoll/FileHistory
+	upstream =
+[submodule "Packages/File Rename"]
+	path = Packages/File Rename
+	url = https://github.com/brianlow/FileRename
+	upstream =
+[submodule "Packages/Find++"]
+	path = Packages/Find++
+	url = https://github.com/twolfson/FindPlusPlus
+	upstream =
+[submodule "Packages/FindKeyConflicts"]
+	path = Packages/FindKeyConflicts
+	url = https://github.com/skuroda/FindKeyConflicts
+	upstream =
+[submodule "Packages/Git"]
+	path = Packages/Git
+	url = https://github.com/kemayo/sublime-text-git
+	upstream =
+[submodule "Packages/GitGutter"]
+	path = Packages/GitGutter
+	url = https://github.com/jisaacks/GitGutter
+	upstream =
+[submodule "Packages/GitHub Markdown Snippets"]
+	path = Packages/GitHub Markdown Snippets
+	url = https://github.com/praveenpuglia/github_markdown_snippets
+	upstream =
+[submodule "Packages/Glue"]
+	path = Packages/Glue
+	url = https://github.com/chrissimpkins/glue
+	upstream =
+[submodule "Packages/HighlightWords"]
+	path = Packages/HighlightWords
+	url = https://github.com/seanliang/HighlightWords
+	upstream =
+[submodule "Packages/Horizontal Scroll"]
+	path = Packages/Horizontal Scroll
+	url = https://github.com/TheOnlyRew/sublime-horizontal-scroll
+	upstream =
+[submodule "Packages/BetterFindBuffer"]
+	path = Packages/BetterFindBuffer
+	url = https://github.com/aziz/BetterFindBuffer
+	upstream =
+[submodule "Packages/Increment Selection"]
+	path = Packages/Increment Selection
+	url = https://github.com/yulanggong/IncrementSelection
+	upstream =
+[submodule "Packages/Incrementor"]
+	path = Packages/Incrementor
+	url = https://github.com/eBookArchitects/Incrementor
+	upstream =
+[submodule "Packages/Indent Size"]
+	path = Packages/Indent Size
+	url = https://github.com/socsieng/sublime-indent-size
+	upstream =
+[submodule "Packages/Javatar"]
+	path = Packages/Javatar
+	url = https://github.com/spywhere/Javatar
+	upstream =
+[submodule "Packages/LaTeX Word Count"]
+	path = Packages/LaTeX Word Count
+	url = https://github.com/kevinstadler/SublimeLaTeXWordCount
+	upstream =
+[submodule "Packages/LESS"]
+	path = Packages/LESS
+	url = https://github.com/danro/LESS-sublime
+	upstream =
+[submodule "Packages/Line Endings Unify"]
+	path = Packages/Line Endings Unify
+	url = https://github.com/vontio/sublime-line-endings-unify
+	upstream =
+[submodule "Packages/Markdown Preview"]
+	path = Packages/Markdown Preview
+	url = https://github.com/revolunet/sublimetext-markdown-preview
+	upstream =
+[submodule "Packages/Matlab Completions"]
+	path = Packages/Matlab Completions
+	url = https://github.com/tushortz/Matlab-Completions
+	upstream =
+[submodule "Packages/MatlabFilenameAutoComplete"]
+	path = Packages/MatlabFilenameAutoComplete
+	url = https://github.com/joepmoritz/MatlabFilenameAutoComplete
+	upstream =
+[submodule "Packages/MaxPane"]
+	path = Packages/MaxPane
+	url = https://github.com/jisaacks/MaxPane
+	upstream =
+[submodule "Packages/MoveText"]
+	path = Packages/MoveText
+	url = https://github.com/colinta/SublimeMoveText
+	upstream =
+[submodule "Packages/MultiEditUtils"]
+	path = Packages/MultiEditUtils
+	url = https://github.com/philippotto/Sublime-MultiEditUtils
+	upstream =
+[submodule "Packages/MySQL Snippets"]
+	path = Packages/MySQL Snippets
+	url = https://github.com/ancor-dev/sublime-sql-snippets
+	upstream =
+[submodule "Packages/Number King"]
+	path = Packages/Number King
+	url = https://github.com/hktonylee/SublimeNumberKing
+	upstream =
+[submodule "Packages/OverrideAudit"]
+	path = Packages/OverrideAudit
+	url = https://github.com/OdatNurd/OverrideAudit
+	upstream =
+[submodule "Packages/PackageResourceViewer"]
+	path = Packages/PackageResourceViewer
+	url = https://github.com/skuroda/PackageResourceViewer
+	upstream =
+[submodule "Packages/Path Translator"]
+	path = Packages/Path Translator
+	url = https://github.com/hbhakhra/Path-Translator
+	upstream =
+[submodule "Packages/PostScript"]
+	path = Packages/PostScript
+	url = https://github.com/Briles/sublime-syntax-postscript
+	upstream =
+[submodule "Packages/Qt Completions for C++"]
+	path = Packages/Qt Completions for C++
+	url = https://github.com/tushortz/Qt-Completions-for-Cpp
+	upstream =
+[submodule "Packages/ReIndent"]
+	path = Packages/ReIndent
+	url = https://github.com/kamilkp/Sublime-Text-ReIndent
+	upstream =
+[submodule "Packages/ScopeHunter"]
+	path = Packages/ScopeHunter
+	url = https://github.com/facelessuser/ScopeHunter
+	upstream =
+[submodule "Packages/SQLExec"]
+	path = Packages/SQLExec
+	url = https://github.com/jum4/sublime-sqlexec
+	upstream =
+[submodule "Packages/StickySearch"]
+	path = Packages/StickySearch
+	url = https://github.com/vim-zz/StickySearch
+	upstream =
+[submodule "Packages/ScopeAlways"]
+	path = Packages/ScopeAlways
+	url = https://github.com/yaworsw/Sublime-ScopeAlways
+	upstream =
+[submodule "Packages/sublime-text-2-buildview"]
+	path = Packages/sublime-text-2-buildview
+	url = https://github.com/rctay/sublime-text-2-buildview
+	upstream =
+[submodule "Packages/Swift"]
+	path = Packages/Swift
+	url = https://github.com/quiqueg/Swift-Sublime-Package
+	upstream =
+[submodule "Packages/Sync View Scroll"]
+	path = Packages/Sync View Scroll
+	url = https://github.com/zzjin/syncViewScroll
+	upstream =
+[submodule "Packages/TabsExtra"]
+	path = Packages/TabsExtra
+	url = https://github.com/facelessuser/TabsExtra
+	upstream =
+[submodule "Packages/TOML"]
+	path = Packages/TOML
+	url = https://github.com/Jayflux/sublime_toml_highlighting
+	upstream =
+[submodule "Packages/UnitTesting"]
+	path = Packages/UnitTesting
+	url = https://github.com/randy3k/UnitTesting
+	upstream =
+[submodule "Packages/Whitespace"]
+	path = Packages/Whitespace
+	url = https://github.com/randy3k/Whitespace
+	upstream =
+[submodule "Packages/WordHighlight"]
+	path = Packages/WordHighlight
+	url = https://github.com/SublimeText/WordHighlight
+	upstream =
+[submodule "Packages/x86 and x86_64 Assembly"]
+	path = Packages/x86 and x86_64 Assembly
+	url = https://github.com/13xforever/x86-assembly-textmate-bundle
+	upstream =
+[submodule "Packages/Terminal"]
+	path = Packages/Terminal
+	url = https://github.com/wbond/sublime_terminal
+	upstream =
+[submodule "Packages/Sublime Tutor"]
+	path = Packages/Sublime Tutor
+	url = https://github.com/jaipandya/SublimeTutor
+	upstream =
+[submodule "Packages/Jedi - Python autocompletion"]
+	path = Packages/Jedi - Python autocompletion
+	url = https://github.com/srusskih/SublimeJEDI
+	upstream =
+[submodule "Packages/SQLTools"]
+	path = Packages/SQLTools
+	url = https://github.com/mtxr/SQLTools
+	upstream =
+[submodule "Packages/Syntax Highlighting for Sass"]
+	path = Packages/Syntax Highlighting for Sass
+	url = https://github.com/P233/Syntax-highlighting-for-Sass
+	upstream =
+[submodule "Packages/ConvertToUTF8"]
+	path = Packages/ConvertToUTF8
+	url = https://github.com/seanliang/ConvertToUTF8
+	upstream =
+[submodule "Packages/Random Everything"]
+	path = Packages/Random Everything
+	url = https://github.com/kimpettersen/random-sublime-text-plugin
 	upstream =

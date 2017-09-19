@@ -7,8 +7,8 @@
 # User
 
 
+# Packages dependencies
 coverage/*
-Terminal/*
 Pyyaml/*
 pyyaml/*
 Pyv8/*
@@ -20,18 +20,10 @@ markupsafe/*
 bz2/*
 backrefs/*
 ssl-linux/*
-BetterFindBuffer/*
-SQLTools/*
-Anaconda/*
-Syntax Highlighting for Sass/*
 zzz A File Icon zzz/*
-Random Everything/*
-ConvertToUTF8/*
-Sublime Tutor/*
 
 regex/*
 package_setting_context/*
-Jedi - Python autocompletion/*
 
 */linux32-p3/*
 **/linux32-p3/**
