@@ -2,6 +2,7 @@
 	"auto_upgrade_frequency": 0,
 	"auto_upgrade_ignore":
 	[
+		"Package Control"
 	],
 	"bootstrapped": true,
 	"channels":
@@ -25,60 +26,9 @@
 	],
 	"installed_packages":
 	[
-		"Active View Jump Back",
-		"Advanced CSV",
-		"All Autocomplete",
-		"amxmodx",
-		"Amxx Pawn",
-		"Anaconda",
-		"ANSIescape",
-		"AutoFileName",
-		"BBCode",
-		"BetterFindBuffer",
-		"BufferScroll",
-		"Case Conversion",
-		"Clear Cursors Carets",
-		"Clipboard Scope Copy",
-		"ConvertToUTF8",
-		"Default Syntax",
-		"Dotfiles Syntax Highlighting",
-		"Fix Project Switch Restart Bug",
-		"Fix Selection After Indent",
-		"Fixed Selections Clear",
-		"Force Rewrite Sublime Settings",
-		"FuzzyFilePath",
-		"GotoLastEditEnhanced",
-		"Indent and braces",
-		"Jedi - Python autocompletion",
-		"LaTeXTools",
-		"Markdown to BB Code Converter",
-		"Notepad++ Color Scheme",
-		"Open Auto Completion",
-		"Override Unpacked Packages",
-		"Overwrite Commit Completion",
-		"Package Control",
-		"PackageDev",
-		"PowerCursors",
-		"Preferences Editor",
-		"Random Everything",
-		"Select All Spelling Errors",
-		"Side-by-Side Settings",
-		"SideBarEnhancements",
-		"SQL Keyword Uppercase",
-		"SQLTools",
-		"StudioChannel",
-		"Sublime Tutor",
-		"SublimeCodeIntel",
-		"SublimeREPL",
-		"SyncedSideBar",
-		"Syntax Highlighting for Sass",
-		"Terminal",
-		"Toolbar",
-		"TypeScript",
-		"View Settings Freely"
+		"Package Control"
 	],
 	"repositories":
 	[
-		"https://github.com/math2001/FileManager"
 	]
 }
