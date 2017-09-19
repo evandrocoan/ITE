@@ -254,7 +254,7 @@ For more information see:
 1. The [LICENSE](LICENSE) file for the GPL v3.0 license
 1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
-All the other files within each git submodule have its own license specified, except until 18/09/2017,
+All the other files within each git submodule have its own license specified, except until 19/09/2017,
 where the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules),
 does not include an explicit license from their original author:
 
@@ -281,16 +281,15 @@ nº | Directory on Packages folder       | Github URL
 19 | Extract Text to File               | https://github.com/dreki/sublime-extract-to-file
 20 | File Rename                        | https://github.com/brianlow/FileRename
 21 | HighlightWords                     | https://github.com/seanliang/HighlightWords
-22 | Increment Selection                | https://github.com/yulanggong/IncrementSelection
-23 | LESS                               | https://github.com/danro/LESS-sublime
-24 | Line Endings Unify                 | https://github.com/vontio/sublime-line-endings-unify
-25 | SQLExec                            | https://github.com/jum4/sublime-sqlexec
-26 | sublime-text-2-buildview           | https://github.com/rctay/sublime-text-2-buildview
-27 | TOML                               | https://github.com/Jayflux/sublime_toml_highlighting
-28 | WordHighlight                      | https://github.com/SublimeText/WordHighlight
-29 | SQLTools                           | https://github.com/mtxr/SQLTools
-30 | Syntax Highlighting for Sass       | https://github.com/P233/Syntax-highlighting-for-Sass
-31 | ConvertToUTF8                      | https://github.com/seanliang/ConvertToUTF8
+22 | LESS                               | https://github.com/danro/LESS-sublime
+23 | Line Endings Unify                 | https://github.com/vontio/sublime-line-endings-unify
+24 | SQLExec                            | https://github.com/jum4/sublime-sqlexec
+25 | sublime-text-2-buildview           | https://github.com/rctay/sublime-text-2-buildview
+26 | TOML                               | https://github.com/Jayflux/sublime_toml_highlighting
+27 | WordHighlight                      | https://github.com/SublimeText/WordHighlight
+28 | SQLTools                           | https://github.com/mtxr/SQLTools
+29 | Syntax Highlighting for Sass       | https://github.com/P233/Syntax-highlighting-for-Sass
+30 | ConvertToUTF8                      | https://github.com/seanliang/ConvertToUTF8
 
 
 
