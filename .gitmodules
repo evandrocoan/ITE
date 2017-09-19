@@ -342,6 +342,10 @@
 	path = Packages/ApplySyntax
 	url = https://github.com/evandrocoan/ApplySyntax
 	upstream = https://github.com/facelessuser/ApplySyntax
+[submodule "Packages/x86 and x86_64 Assembly"]
+	path = Packages/x86 and x86_64 Assembly
+	url = https://github.com/13xforever/x86-assembly-textmate-bundle
+	upstream = https://github.com/13xforever/x86-assembly-textmate-bundle
 [submodule "Packages/AutomaticPackageReloader"]
 	path = Packages/AutomaticPackageReloader
 	url = https://github.com/randy3k/AutomaticPackageReloader
@@ -598,10 +602,6 @@
 [submodule "Packages/WordHighlight"]
 	path = Packages/WordHighlight
 	url = https://github.com/SublimeText/WordHighlight
-	upstream =
-[submodule "Packages/x86 and x86_64 Assembly"]
-	path = Packages/x86 and x86_64 Assembly
-	url = https://github.com/13xforever/x86-assembly-textmate-bundle
 	upstream =
 [submodule "Packages/Terminal"]
 	path = Packages/Terminal
