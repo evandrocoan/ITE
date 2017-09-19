@@ -631,3 +631,6 @@
 	path = Packages/Random Everything
 	url = https://github.com/kimpettersen/random-sublime-text-plugin
 	upstream =
+[submodule "Packages/Insert Nums"]
+	path = Packages/Insert Nums
+	url = https://github.com/jbrooksuk/InsertNums
