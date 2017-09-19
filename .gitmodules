@@ -412,7 +412,7 @@
 	upstream =
 [submodule "Packages/DictionaryAutoComplete"]
 	path = Packages/DictionaryAutoComplete
-	url = https://github.com/Zinggi/DictionaryAutoCompletehttps://github.com/Zinggi/DictionaryAutoComplete
+	url = https://github.com/Zinggi/DictionaryAutoComplete
 	upstream =
 [submodule "Packages/DistractionFreeWindow"]
 	path = Packages/DistractionFreeWindow
@@ -429,7 +429,6 @@
 [submodule "Packages/Emmet"]
 	path = Packages/Emmet
 	url = https://github.com/sergeche/emmet-sublime
-	upstream =
 	upstream =
 [submodule "Packages/Extract Text to File"]
 	path = Packages/Extract Text to File
