@@ -179,5 +179,6 @@
 	"update_check": true,
 	"use_tab_stops": true,
 	"wantVerticalScrollBar": false,
-	"word_wrap": true
+	"word_wrap": true,
+	"enable_hexadecimal_encoding": false
 }
