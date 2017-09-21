@@ -634,3 +634,6 @@
 	path = Packages/Insert Nums
 	url = https://github.com/jbrooksuk/InsertNums
 	upstream =
+[submodule "Packages/AutoWrap"]
+	path = Packages/AutoWrap
+	url = https://github.com/randy3k/AutoWrap
