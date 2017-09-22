@@ -17,7 +17,8 @@
 		"descriptografia",
 		"Entregável",
 		"primality",
-		"primalidade"
+		"primalidade",
+		"enforçam"
 	],
 	"afn_use_keybinding": true,
 	"afn_valid_scopes":
@@ -47,6 +48,7 @@
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"auto_match_enabled": false,
+	"auto_wrap": false,
 	"binary_file_patterns":
 	[
 		"*.dds",
@@ -79,6 +81,7 @@
 	"draw_white_space_1": "all",
 	"draw_white_space_2": "none",
 	"draw_white_space_3": "selection",
+	"enable_hexadecimal_encoding": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"font_face_0": "Consolas",
@@ -174,12 +177,10 @@
 	"theme_original": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
-	"auto_wrap" : true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": true,
 	"use_tab_stops": true,
 	"wantVerticalScrollBar": false,
-	"word_wrap": true,
-	"enable_hexadecimal_encoding": false
+	"word_wrap": true
 }
