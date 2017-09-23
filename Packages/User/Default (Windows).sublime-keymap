@@ -146,13 +146,16 @@
 
 
     // Disable default Sublime Text dangerous commands
+    // { "keys": ["ctrl+alt+w"], "command": "close_all" },
+    // { "keys": ["ctrl+shift+w"], "command": "close_window" },
     { "keys": ["ctrl+alt+w"] },
     { "keys": ["ctrl+shift+w"] },
 
-    // { "keys": ["ctrl+alt+w"], "command": "close_all" },
-    // { "keys": ["ctrl+shift+w"], "command": "close_window" },
+    // Handy new window command as in Google's Chrome browser
     { "keys": ["ctrl+shift+n"], "command": "new_window" },
 
+    // Package Toggle Words command using the package Case Conversion key style alt+w
+    { "keys": ["alt+w", "alt+t"], "command": "toggle_word"},
 
     // How to do the jump_back command from find panel?
     // https://forum.sublimetext.com/t/how-to-do-the-jump-back-command-from-find-panel/25610
