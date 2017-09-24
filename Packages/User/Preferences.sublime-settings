@@ -136,8 +136,8 @@
 	],
 	"indent_guide_options":
 	[
-		"draw_normal",
-		"draw_active"
+		"draw_active",
+		"draw_normal"
 	],
 	"indent_to_bracket": true,
 	"index_files": true,
