@@ -67,7 +67,7 @@
 	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
 	upstream =
 [submodule "Packages/Preferences Editor"]
-	path = Packages/Preferences Editor
+	path = Packages/QuickSettings
 	url = https://github.com/evandrocoan/SublimePreferencesEditor
 	upstream =
 [submodule "Packages/Rich Plain Text"]
