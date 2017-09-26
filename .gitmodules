@@ -637,6 +637,8 @@
 [submodule "Packages/AutoWrap"]
 	path = Packages/AutoWrap
 	url = https://github.com/randy3k/AutoWrap
+	upstream =
 [submodule "Packages/Toggle Words"]
 	path = Packages/Toggle Words
 	url = https://github.com/gordio/ToggleWords
+	upstream =
