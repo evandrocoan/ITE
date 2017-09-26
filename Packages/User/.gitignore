@@ -3,6 +3,9 @@
 /Package Control.last-run
 
 /Package Control.cache
+/OverrideAudit.status
+
+/ColorHighlighter
 /Color Highlighter
 
 /SublimeLinter
@@ -20,7 +23,6 @@
 /SublimeNumberKing.sublime-settings
 *.crt
 
-
-*.javatar-packages
+/Javatar
 /Javatar.sublime-settings
-/OverrideAudit.status
+*.javatar-packages
