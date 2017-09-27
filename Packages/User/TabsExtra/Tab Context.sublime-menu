@@ -49,7 +49,6 @@
     },
 
     { "caption": "-", "id": "2_row" },
-    { "command": "clone_file", "caption": "Clone This View" },
     {
         "caption": "Copy File Path",
         "children":
@@ -59,38 +58,13 @@
             { "command": "tabs_extra_file_path", "args": {"group": -1, "index": -1, "path_type": "path_uri"}, "caption": "Full Path as URI" },
         ]
     },
-
-    { "caption": "-", "id": "3_row" },
-    { "command": "destroy_pane", "args": {"direction": "self"}, "caption": "Destroy Current Pane" },
-    {
-        "caption": "More Panel Operations",
-        "children":
-        [
-            { "caption": "-" },
-            { "caption": "-" },
-            { "command": "create_pane", "args": {"direction": "up"}, "caption":    "Create Panel Above" },
-            { "command": "create_pane", "args": {"direction": "down"}, "caption":  "Create Panel Below" },
-            { "command": "create_pane", "args": {"direction": "right"}, "caption": "Create Panel Right" },
-            { "command": "create_pane", "args": {"direction": "left"}, "caption":  "Create Panel Left" },
-            { "caption": "-"},
-            { "command": "carry_file_to_pane", "args": {"direction": "up"}, "caption":    "Carry File to Panel Above" },
-            { "command": "carry_file_to_pane", "args": {"direction": "down"}, "caption":  "Carry File to Panel Below" },
-            { "command": "carry_file_to_pane", "args": {"direction": "right"}, "caption": "Carry File to Panel Right" },
-            { "command": "carry_file_to_pane", "args": {"direction": "left"}, "caption":  "Carry File to Panel Left" },
-            { "caption": "-"},
-            { "command": "clone_file_to_pane", "args": {"direction": "up"}, "caption":    "Clone File to Panel Above" },
-            { "command": "clone_file_to_pane", "args": {"direction": "down"}, "caption":  "Clone File to Panel Below" },
-            { "command": "clone_file_to_pane", "args": {"direction": "right"}, "caption": "Clone File to Panel Right" },
-            { "command": "clone_file_to_pane", "args": {"direction": "left"}, "caption":  "Clone File to Panel Left" },
-            { "caption": "-"},
-        ]
-    },
-
     { "caption": "-", "id": "5_row" },
     { "command": "tabs_extra_view_wrapper", "args": {"group": -1, "index": -1, "command": "save"}, "caption": "Save" },
     { "command": "tabs_extra_view_wrapper", "args": {"group": -1, "index": -1, "command": "prompt_save_as"}, "caption": "Save As…" },
     { "command": "save_all", "caption": "Save All" },
     { "caption": "-" },
+    { "command": "tabs_extra_toggle_sticky", "args": { "group": -1, "index": -1 }, "caption": "Sticky Tab" },
+    { "command": "tabs_extra_clear_all_sticky", "args": { "group": -1, "force": true }, "caption": "Clear All Sticky Tabs" },
     { "command": "tabs_extra_delete", "args": {"group": -1, "index": -1}, "caption": "Delete File" },
     { "caption": "-" },
     { "command": "tabs_extra_rename", "args": {"group": -1, "index": -1}, "caption": "Rename…" },
