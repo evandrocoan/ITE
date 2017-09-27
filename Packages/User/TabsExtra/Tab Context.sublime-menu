@@ -1,5 +1,5 @@
 [
-    { "caption": "-", "id": "first_row" },
+    { "caption": "-", "id": "1_row" },
     {
         "caption": "Close Options...",
         "children":
@@ -48,7 +48,7 @@
         ]
     },
 
-    { "caption": "-", "id": "second_row" },
+    { "caption": "-", "id": "2_row" },
     { "command": "clone_file", "caption": "Clone This View" },
     {
         "caption": "Copy File Path",
@@ -60,17 +60,7 @@
         ]
     },
 
-    { "caption": "-", "id": "third_row" },
-    {
-        "caption": "Compare With...",
-        "children":
-        [
-            { "caption": "Git Style Diff", "command": "file_diff_tab" },
-            { "caption": "Git Style Diff Menu", "command": "file_diff_menu" },
-            { "caption": "-" },
-            { "caption": "Synced Scrolling Diff", "command": "sbs_compare" },
-        ]
-    },
+    { "caption": "-", "id": "3_row" },
     { "command": "destroy_pane", "args": {"direction": "self"}, "caption": "Destroy Current Pane" },
     {
         "caption": "More Panel Operations",
@@ -96,7 +86,7 @@
         ]
     },
 
-    { "caption": "-", "id": "fifth_row" },
+    { "caption": "-", "id": "5_row" },
     { "command": "tabs_extra_view_wrapper", "args": {"group": -1, "index": -1, "command": "save"}, "caption": "Save" },
     { "command": "tabs_extra_view_wrapper", "args": {"group": -1, "index": -1, "command": "prompt_save_as"}, "caption": "Save As…" },
     { "command": "save_all", "caption": "Save All" },
