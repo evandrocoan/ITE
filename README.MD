@@ -299,5 +299,7 @@ nº | Directory on Packages folder       | Github URL
 28 | SQLTools                           | https://github.com/mtxr/SQLTools
 29 | Syntax Highlighting for Sass       | https://github.com/P233/Syntax-highlighting-for-Sass
 30 | ConvertToUTF8                      | https://github.com/seanliang/ConvertToUTF8
+31 | Default                            | https://github.com/evandrocoan/SublimeDefault
+32 | ../Default.sublime-package         | https://github.com/evandrocoan/DefaultSublimePackage
 
 
