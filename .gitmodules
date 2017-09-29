@@ -95,7 +95,7 @@
 	url = https://github.com/evandrocoan/SublimeViewSettingsFreely
 	upstream =
 [submodule "Packages/User/Multilingual Dictionary"]
-	path = Packages/User/Multilingual Dictionary
+	path = Packages/Language - English and Portuguese
 	url = https://github.com/evandrocoan/SublimeMultilingualDictionary
 	upstream =
 [submodule "Default.sublime-package"]

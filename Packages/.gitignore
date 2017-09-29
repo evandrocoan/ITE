@@ -4,7 +4,10 @@
 # Ignore Everything
 # *
 # **
-# User
+
+
+# Ignore other custom packages
+User/*
 
 
 # Packages dependencies
