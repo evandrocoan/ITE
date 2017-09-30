@@ -6,8 +6,173 @@
 # **
 
 
+
 # Ignore other custom packages
-User/*
+.gitignore
+
+A File Icon
+ANSIescape
+Active View Jump Back
+Add Folder To Project
+Advanced CSV
+AdvancedNewFile
+AlignTab
+Alignment
+All Autocomplete
+Amxx Pawn
+Anaconda
+ApplySyntax
+Auto Refresh
+AutoFileName
+AutoWrap
+AutomaticPackageReloader
+BBCode
+Better CoffeeScript
+BetterFindBuffer
+BracketHighlighter
+BufferScroll
+C++ Completions
+C++ Snippets
+Case Conversion
+Chain of Command
+ChangeQuotes
+ChannelRepositoryTools
+Clear Cursors Carets
+Clickable URLs
+Clipboard Scope Copy
+ColorHelper
+ColorHighlighter
+ColorSchemeEditor
+Column Select
+Compare Side-By-Side
+ConvertToUTF8
+Copy Filepath With Line Numbers
+CopyWithLineNumbersReloaded
+Default
+Default Syntax
+Delete Current File
+DictionaryAutoComplete
+DistractionFreeWindow
+DocBlockr
+Dotfiles Syntax Highlighting
+DuplicateSelections
+Edit Preferences
+Emmet
+ExportHtml
+ExtendedTabSwitcher
+Extract Text to File
+File History
+File Rename
+FileDiffs
+FileManager
+Find++
+FindKeyConflicts
+Fix Project Switch Restart Bug
+Fix Selection After Indent
+Fixed Selections Clear
+Force Rewrite Sublime Settings
+FuzzyFileNav
+FuzzyFilePath
+Generic Config
+Gist
+Git
+GitGutter
+GitHub Markdown Snippets
+Glue
+Google Spell Check
+GotoLastEditEnhanced
+Highlight Build Errors
+HighlightWords
+Horizontal Scroll
+Hungry Backspace
+Increment Selection
+Incrementor
+Indent Size
+Indent and braces
+Insert Nums
+Invert Selection
+Javatar
+Jedi - Python autocompletion
+LESS
+LaTeX Word Count
+LaTeXSmartQuotes
+LaTeXTools
+Language - English and Portuguese
+Line Endings Unify
+Local History
+Markdown Preview
+Markdown to BB Code Converter
+Matlab Completions
+MatlabFilenameAutoComplete
+Maven
+MaxPane
+MoveText
+MultiEditUtils
+MySQL Snippets
+Notepad++ Color Scheme
+Number King
+Octave
+Open Auto Completion
+Origami
+Override Unpacked Packages
+OverrideAudit
+Overwrite Commit Completion
+Package Control
+PackageDev
+PackageResourceViewer
+Path Translator
+PostScript
+PowerCursors
+Pretty JSON
+Project Specific Syntax Settings
+PythonDebugTools
+Qt Completions for C++
+QuickSettings
+REG
+Random Everything
+ReIndent
+Rich Plain Text
+SQL Keyword Uppercase
+SQLExec
+SQLTools
+ScopeAlways
+ScopeHunter
+Select All Spelling Errors
+SelectUntil
+Side-by-Side Settings
+SideBarEnhancements
+StickySearch
+StudioChannel
+Sublime Tutor
+SublimeCodeIntel
+SublimeLinter
+SublimeLinter-javac
+SublimeREPL
+Swift
+Sync View Scroll
+SyncedSideBar
+Syntax Highlighting for Sass
+SyntaxManager
+TOML
+TabsExtra
+Terminal
+Text Pastry
+Toggle Words
+Toolbar
+Trimmer
+TypeScript
+Uncrustify
+UnitTesting
+User
+VBScript
+View Settings Freely
+Whitespace
+WordHighlight
+Wrap Plus
+amxmodx
+sublime-text-2-buildview
+x86 and x86_64 Assembly
+
 
 
 # Packages dependencies
