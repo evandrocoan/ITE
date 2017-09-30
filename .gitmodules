@@ -1,3 +1,7 @@
+[submodule "Packages/User"]
+	path = Packages/User
+	url = https://github.com/evandrocoan/User
+	upstream =
 [submodule ".versioning"]
 	path = .versioning
 	url = https://github.com/evandrocoan/.versioning
@@ -650,3 +654,4 @@
 	path = Packages/Toggle Words
 	url = https://github.com/evandrocoan/ToggleWords
 	upstream = https://github.com/gordio/ToggleWords
+

@@ -137,6 +137,28 @@ Requirements for `Linux` systems are:
     # Success
     printf "Success\\!\n"
     ```
+1. Now delete the `User` folder, which contain my settings for Sublime Text. You can do it in
+   several ways depending on your wishes. But you can just remove the submodule and add yours
+   instead of:
+    ```
+    # Remove the standard settings files
+    git rm Packages/User
+    git add Packages/User
+    git commit -m "Removed default settings file."
+
+    # Create you settings files as a git repository
+    mkdir Packages/User
+    cd Packages/User
+    git init
+    git remove add https://your.remote.com/username/User
+    git add your_setting_file1 your_setting_file2
+    git commit -m "Added my standard settings files."
+
+    # Add your settings files as a git submodule
+    cd ../..
+    git submodule add -- https://your.remote.com/username/User Packages/User
+    git commit -m "Added my settings files as a git submodule."
+    ```
 
 After finish running all these commands, open `Sublime Text` and wait until the `Packages Control`
 install all the packages:
@@ -194,6 +216,28 @@ Requirements for `Windows` systems are:
 
     :: Success
     echo "Success\\!\n"
+    ```
+1. Now delete the `User` folder, which contain my settings for Sublime Text. You can do it in
+   several ways depending on your wishes. But you can just remove the submodule and add yours
+   instead of:
+    ```
+    # Remove the standard settings files
+    git rm Packages/User
+    git add Packages/User
+    git commit -m "Removed default settings file."
+
+    # Create you settings files as a git repository
+    mkdir Packages/User
+    cd Packages/User
+    git init
+    git remove add https://your.remote.com/username/User
+    git add your_setting_file1 your_setting_file2
+    git commit -m "Added my standard settings files."
+
+    # Add your settings files as a git submodule
+    cd ../..
+    git submodule add -- https://your.remote.com/username/User Packages/User
+    git commit -m "Added my settings files as a git submodule."
     ```
 
 After finish running all these commands, open `Sublime Text` and wait until the `Packages Control`
