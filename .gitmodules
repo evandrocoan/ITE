@@ -10,6 +10,7 @@
 	path = Packages/PythonDebugTools
 	url = https://github.com/evandrocoan/PythonDebugTools
 	upstream =
+	dependency = 50
 [submodule "Packages/Active View Jump Back"]
 	path = Packages/Active View Jump Back
 	url = https://github.com/evandrocoan/SublimeActiveViewJumpBack
@@ -18,6 +19,7 @@
 	path = Packages/amxmodx
 	url = https://github.com/evandrocoan/SublimeAMXX_Editor
 	upstream =
+	dependency = PythonDebugTools
 [submodule "Packages/Amxx Pawn"]
 	path = Packages/Amxx Pawn
 	url = https://github.com/evandrocoan/SublimeAmxxPawn
@@ -70,10 +72,6 @@
 	path = Packages/Overwrite Commit Completion
 	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
 	upstream =
-[submodule "Packages/Preferences Editor"]
-	path = Packages/QuickSettings
-	url = https://github.com/evandrocoan/SublimePreferencesEditor
-	upstream =
 [submodule "Packages/Rich Plain Text"]
 	path = Packages/Rich Plain Text
 	url = https://github.com/evandrocoan/SublimeRichPlainText
@@ -90,6 +88,7 @@
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/SublimeTextStudioChannel
 	upstream =
+	dependency = PythonDebugTools
 [submodule "Packages/Uncrustify"]
 	path = Packages/Uncrustify
 	url = https://github.com/evandrocoan/SublimeUncrustify
@@ -106,6 +105,11 @@
 	path = Default.sublime-package
 	url = https://github.com/evandrocoan/DefaultSublimePackage
 	upstream =
+[submodule "Packages/Preferences Editor"]
+	path = Packages/QuickSettings
+	url = https://github.com/evandrocoan/SublimePreferencesEditor
+	upstream = https://bitbucket.org/klorenz/sublimepreferenceseditor
+	dependency = PythonDebugTools
 [submodule "Packages/ANSIescape"]
 	path = Packages/ANSIescape
 	url = https://github.com/evandrocoan/SublimeANSI
@@ -146,6 +150,7 @@
 	path = Packages/BufferScroll
 	url = https://github.com/evandrocoan/BufferScroll
 	upstream = https://github.com/titoBouzout/BufferScroll
+	dependency = PythonDebugTools
 [submodule "Packages/ChannelRepositoryTools"]
 	path = Packages/ChannelRepositoryTools
 	url = https://github.com/evandrocoan/ChannelRepositoryTools
