@@ -89,6 +89,10 @@
 	url = https://github.com/evandrocoan/SublimeChannelManager
 	upstream =
 	dependency = PythonDebugTools
+[submodule "StudioChannel"]
+	path = StudioChannel
+	url = https://github.com/evandrocoan/SublimeStudioChannel
+	upstream =
 [submodule "Packages/Uncrustify"]
 	path = Packages/Uncrustify
 	url = https://github.com/evandrocoan/SublimeUncrustify
@@ -659,4 +663,3 @@
 	path = Packages/Toggle Words
 	url = https://github.com/evandrocoan/ToggleWords
 	upstream = https://github.com/gordio/ToggleWords
-
