@@ -85,8 +85,8 @@
 	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
 	upstream =
 [submodule "Packages/Sublime Text Studio"]
-	path = Packages/StudioChannel
-	url = https://github.com/evandrocoan/SublimeTextStudioChannel
+	path = Packages/ChannelManager
+	url = https://github.com/evandrocoan/SublimeChannelManager
 	upstream =
 	dependency = PythonDebugTools
 [submodule "Packages/Uncrustify"]
