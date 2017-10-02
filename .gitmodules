@@ -398,7 +398,7 @@
 [submodule "Packages/Auto Refresh"]
 	path = Packages/Auto Refresh
 	url = https://github.com/evandrocoan/AutoRefresh
-	upstream = https://github.com/Waterflames/AutoRefresh
+	upstream = https://github.com/Wouterdek/AutoRefresh
 [submodule "Packages/BracketHighlighter"]
 	path = Packages/BracketHighlighter
 	url = https://github.com/evandrocoan/BracketHighlighter
