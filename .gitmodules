@@ -160,7 +160,7 @@
 	url = https://github.com/evandrocoan/ChannelRepositoryTools
 	upstream = https://github.com/wbond/ChannelRepositoryTools
 [submodule "Packages/Color Highlighter"]
-	path = Packages/ColorHighlighter
+	path = Packages/Color Highlighter
 	url = https://github.com/evandrocoan/ColorHighlighter
 	upstream = https://github.com/Monnoroch/ColorHighlighter
 [submodule "Packages/ColorHelper"]
