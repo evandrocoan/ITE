@@ -252,7 +252,7 @@
 	url = https://github.com/evandrocoan/Origami
 	upstream = https://github.com/SublimeText/Origami
 [submodule "Packages/Package Control"]
-	path = Packages/PackageManager
+	path = Packages/PackagesManager
 	url = https://github.com/evandrocoan/package_control
 	upstream = https://github.com/wbond/package_control
 [submodule "Packages/PackageDev"]
