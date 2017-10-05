@@ -90,7 +90,7 @@
 	upstream =
 	dependency = PythonDebugTools
 [submodule "StudioChannel"]
-	path = StudioChannel
+	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/SublimeStudioChannel
 	upstream =
 [submodule "Packages/Uncrustify"]
