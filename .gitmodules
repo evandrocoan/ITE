@@ -56,6 +56,7 @@
 	path = Packages/Notepad++ Color Scheme
 	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
 	upstream =
+	tags = 3144
 [submodule "Packages/Octave"]
 	path = Packages/Octave
 	url = https://github.com/evandrocoan/SublimeOctave
