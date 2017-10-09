@@ -94,6 +94,7 @@
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/SublimeStudioChannel
 	upstream =
+	dependency = PythonDebugTools
 [submodule "Packages/Uncrustify"]
 	path = Packages/Uncrustify
 	url = https://github.com/evandrocoan/SublimeUncrustify
