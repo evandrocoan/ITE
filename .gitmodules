@@ -113,7 +113,7 @@
 	upstream =
 [submodule "Packages/Preferences Editor"]
 	path = Packages/QuickSettings
-	url = https://github.com/evandrocoan/SublimePreferencesEditor
+	url = https://github.com/evandrocoan/SublimeQuickSettings
 	upstream = https://bitbucket.org/klorenz/sublimepreferenceseditor
 	dependency = PythonDebugTools
 [submodule "Packages/ANSIescape"]
