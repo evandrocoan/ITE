@@ -11,21 +11,22 @@
 .gitignore
 
 A File Icon
-ANSIescape
-Active View Jump Back
+ActiveViewJumpBack
 Add Folder To Project
 Advanced CSV
 AdvancedNewFile
-AlignTab
 Alignment
+AlignTab
 All Autocomplete
-Amxx Pawn
+amxmodx
+AmxxPawn
 Anaconda
+ANSIescape
 ApplySyntax
 Auto Refresh
 AutoFileName
-AutoWrap
 AutomaticPackageReloader
+AutoWrap
 BBCode
 Better CoffeeScript
 BetterFindBuffer
@@ -36,10 +37,12 @@ C++ Snippets
 Case Conversion
 Chain of Command
 ChangeQuotes
+ChannelManager
 ChannelRepositoryTools
-Clear Cursors Carets
+ClearCursorsCarets
 Clickable URLs
 Clipboard Scope Copy
+Color Highlighter
 ColorHelper
 ColorHighlighter
 ColorSchemeEditor
@@ -49,7 +52,7 @@ ConvertToUTF8
 Copy Filepath With Line Numbers
 CopyWithLineNumbersReloaded
 Default
-Default Syntax
+DefaultSyntax
 Delete Current File
 DictionaryAutoComplete
 DistractionFreeWindow
@@ -67,9 +70,9 @@ FileDiffs
 FileManager
 Find++
 FindKeyConflicts
-Fix Project Switch Restart Bug
 Fix Selection After Indent
-Fixed Selections Clear
+FixedSelectionsClear
+FixProjectSwitchRestartBug
 Force Rewrite Sublime Settings
 FuzzyFileNav
 FuzzyFilePath
@@ -87,17 +90,17 @@ Horizontal Scroll
 Hungry Backspace
 Increment Selection
 Incrementor
-Indent Size
 Indent and braces
+Indent Size
 Insert Nums
 Invert Selection
 Javatar
 Jedi - Python autocompletion
-LESS
+Language - English and Portuguese
 LaTeX Word Count
 LaTeXSmartQuotes
 LaTeXTools
-Language - English and Portuguese
+LESS
 Line Endings Unify
 Local History
 Markdown Preview
@@ -120,6 +123,7 @@ Overwrite Commit Completion
 Package Control
 PackageDev
 PackageResourceViewer
+PackagesManager
 Path Translator
 PostScript
 PowerCursors
@@ -128,22 +132,23 @@ Project Specific Syntax Settings
 PythonDebugTools
 Qt Completions for C++
 QuickSettings
-REG
 Random Everything
+REG
 ReIndent
 Rich Plain Text
-SQL Keyword Uppercase
-SQLExec
-SQLTools
 ScopeAlways
 ScopeHunter
 Select All Spelling Errors
 SelectUntil
 Side-by-Side Settings
 SideBarEnhancements
+SQL Keyword Uppercase
+SQLExec
+SQLTools
 StickySearch
 StudioChannel
 Sublime Tutor
+sublime-text-2-buildview
 SublimeCodeIntel
 SublimeLinter
 SublimeLinter-javac
@@ -153,11 +158,11 @@ Sync View Scroll
 SyncedSideBar
 Syntax Highlighting for Sass
 SyntaxManager
-TOML
 TabsExtra
 Terminal
 Text Pastry
 Toggle Words
+TOML
 Toolbar
 Trimmer
 TypeScript
@@ -169,13 +174,8 @@ View Settings Freely
 Whitespace
 WordHighlight
 Wrap Plus
-amxmodx
-sublime-text-2-buildview
 x86 and x86_64 Assembly
 
-ChannelManager
-Color Highlighter
-PackagesManager
 
 
 # Packages dependencies
@@ -198,4 +198,5 @@ package_setting_context/*
 
 */linux32-p3/*
 **/linux32-p3/**
+
 
