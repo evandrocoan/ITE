@@ -12,7 +12,7 @@
 	upstream =
 	dependency = 50
 [submodule "Packages/Active View Jump Back"]
-	path = Packages/Active View Jump Back
+	path = Packages/ActiveViewJumpBack
 	url = https://github.com/evandrocoan/SublimeActiveViewJumpBack
 	upstream =
 [submodule "Packages/amxmodx"]
@@ -21,11 +21,11 @@
 	upstream =
 	dependency = PythonDebugTools
 [submodule "Packages/Amxx Pawn"]
-	path = Packages/Amxx Pawn
+	path = Packages/AmxxPawn
 	url = https://github.com/evandrocoan/SublimeAmxxPawn
 	upstream =
 [submodule "Packages/Clear Cursors Carets"]
-	path = Packages/Clear Cursors Carets
+	path = Packages/ClearCursorsCarets
 	url = https://github.com/evandrocoan/ClearCursorsCarets
 	upstream =
 [submodule "Packages/Clipboard Scope Copy"]
@@ -33,11 +33,11 @@
 	url = https://github.com/evandrocoan/SublimeClipboardScopeCopy
 	upstream =
 [submodule "Packages/Default Syntax"]
-	path = Packages/Default Syntax
+	path = Packages/DefaultSyntax
 	url = https://github.com/evandrocoan/SublimeDefaultSyntax
 	upstream =
 [submodule "Packages/Fix Project Switch Restart Bug"]
-	path = Packages/Fix Project Switch Restart Bug
+	path = Packages/FixProjectSwitchRestartBug
 	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
 	upstream =
 [submodule "Packages/Fix Selection After Indent"]
@@ -45,7 +45,7 @@
 	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
 	upstream =
 [submodule "Packages/Fixed Selections Clear"]
-	path = Packages/Fixed Selections Clear
+	path = Packages/FixedSelectionsClear
 	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear
 	upstream =
 [submodule "Packages/Force Rewrite Sublime Settings"]
