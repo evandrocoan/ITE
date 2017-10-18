@@ -29,7 +29,7 @@
 	url = https://github.com/evandrocoan/ClearCursorsCarets
 	upstream =
 [submodule "Packages/Clipboard Scope Copy"]
-	path = Packages/Clipboard Scope Copy
+	path = Packages/ClipboardScopeCopy
 	url = https://github.com/evandrocoan/SublimeClipboardScopeCopy
 	upstream =
 [submodule "Packages/Default Syntax"]
@@ -41,7 +41,7 @@
 	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
 	upstream =
 [submodule "Packages/Fix Selection After Indent"]
-	path = Packages/Fix Selection After Indent
+	path = Packages/FixSelectionAfterIndent
 	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
 	upstream =
 [submodule "Packages/Fixed Selections Clear"]
@@ -49,7 +49,7 @@
 	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear
 	upstream =
 [submodule "Packages/Force Rewrite Sublime Settings"]
-	path = Packages/Force Rewrite Sublime Settings
+	path = Packages/ForceRewriteSublimeSettings
 	url = https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings
 	upstream =
 [submodule "Packages/Notepad++ Color Scheme"]
@@ -62,27 +62,27 @@
 	url = https://github.com/evandrocoan/SublimeOctave
 	upstream =
 [submodule "Packages/Open Auto Completion"]
-	path = Packages/Open Auto Completion
+	path = Packages/OpenAutoCompletion
 	url = https://github.com/evandrocoan/SublimeOpenAutoCompletion
 	upstream =
 [submodule "Packages/Override Unpacked Packages"]
-	path = Packages/Override Unpacked Packages
+	path = Packages/OverrideUnpackedPackages
 	url = https://github.com/evandrocoan/SublimeUnpackedPackagesOverride
 	upstream =
 [submodule "Packages/Overwrite Commit Completion"]
-	path = Packages/Overwrite Commit Completion
+	path = Packages/OverwriteCommitCompletion
 	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
 	upstream =
 [submodule "Packages/Rich Plain Text"]
-	path = Packages/Rich Plain Text
+	path = Packages/RichPlainText
 	url = https://github.com/evandrocoan/SublimeRichPlainText
 	upstream =
 [submodule "Packages/SQL Keyword Uppercase"]
-	path = Packages/SQL Keyword Uppercase
+	path = Packages/SqlKeywordUppercase
 	url = https://github.com/evandrocoan/SublimeSQLKeywordUppercase
 	upstream =
 [submodule "Packages/Select All Spelling Errors"]
-	path = Packages/Select All Spelling Errors
+	path = Packages/SelectAllSpellingErrors
 	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
 	upstream =
 [submodule "Packages/Sublime Text Studio"]
@@ -100,7 +100,7 @@
 	url = https://github.com/evandrocoan/SublimeUncrustify
 	upstream =
 [submodule "Packages/View Settings Freely"]
-	path = Packages/View Settings Freely
+	path = Packages/ViewSettingsFreely
 	url = https://github.com/evandrocoan/SublimeViewSettingsFreely
 	upstream =
 [submodule "Packages/User/Multilingual Dictionary"]

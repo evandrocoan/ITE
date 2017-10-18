@@ -41,7 +41,7 @@ ChannelManager
 ChannelRepositoryTools
 ClearCursorsCarets
 Clickable URLs
-Clipboard Scope Copy
+ClipboardScopeCopy
 Color Highlighter
 ColorHelper
 ColorHighlighter
@@ -70,10 +70,10 @@ FileDiffs
 FileManager
 Find++
 FindKeyConflicts
-Fix Selection After Indent
+FixSelectionAfterIndent
 FixedSelectionsClear
 FixProjectSwitchRestartBug
-Force Rewrite Sublime Settings
+ForceRewriteSublimeSettings
 FuzzyFileNav
 FuzzyFilePath
 Generic Config
@@ -115,11 +115,11 @@ MySQL Snippets
 Notepad++ Color Scheme
 Number King
 Octave
-Open Auto Completion
+OpenAutoCompletion
 Origami
-Override Unpacked Packages
+OverrideUnpackedPackages
 OverrideAudit
-Overwrite Commit Completion
+OverwriteCommitCompletion
 Package Control
 PackageDev
 PackageResourceViewer
@@ -135,14 +135,14 @@ QuickSettings
 Random Everything
 REG
 ReIndent
-Rich Plain Text
+RichPlainText
 ScopeAlways
 ScopeHunter
-Select All Spelling Errors
+SelectAllSpellingErrors
 SelectUntil
 Side-by-Side Settings
 SideBarEnhancements
-SQL Keyword Uppercase
+SqlKeywordUppercase
 SQLExec
 SQLTools
 StickySearch
@@ -170,7 +170,7 @@ Uncrustify
 UnitTesting
 User
 VBScript
-View Settings Freely
+ViewSettingsFreely
 Whitespace
 WordHighlight
 Wrap Plus
