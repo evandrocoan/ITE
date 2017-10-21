@@ -18,7 +18,7 @@ to be able to any language you ever need to.
 
 
 ___
-# Installation
+## Installation
 
 In development.
 <!--
@@ -26,13 +26,13 @@ In development.
 1. Install the Sublime Text `Package Control` (https://packagecontrol.io/installation)
 1. Go to the menu `Preferences -> Package Control`
 1. Type `install` on the opened quick panel and press enter
-1. Now type `StudioChannel` and press enter
+1. Now search for `StudioChannel` and press enter
 -->
 
 
 
 ___
-# Disabled Packages
+## Disabled Packages
 
 For an updated list of packages to not enable see the issue:
 
@@ -77,7 +77,7 @@ sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(
 
 
 ___
-# License
+## License
 
 All files in this repository, i.e., excluding its `git submodules` (see [.gitmodules](.gitmodules)
 file) and the files which include its own license header, are released under GNU General Public
