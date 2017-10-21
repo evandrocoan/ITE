@@ -661,3 +661,6 @@
 	path = Packages/Toggle Words
 	url = https://github.com/evandrocoan/ToggleWords
 	upstream = https://github.com/gordio/ToggleWords
+[submodule "Packages/User"]
+	path = Packages/User
+	url = https://github.com/evandrocoan/User
