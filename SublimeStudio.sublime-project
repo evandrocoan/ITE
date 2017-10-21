@@ -34,6 +34,7 @@
                 "Data/Packages/ObjectBeautifier",
                 "Data/Packages/User/Color Highlighter",
                 "Data/Packages/User/Package Control.cache",
+                "Data/Packages/User/PackagesManager.cache",
             ],
             "file_exclude_patterns":
             [
