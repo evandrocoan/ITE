@@ -21,7 +21,7 @@
                 "LICENSE",
                 "README.MD",
                 "SublimeStudio.bbcode",
-                "SublimeTextStudio.sublime-project",
+                "SublimeStudio.sublime-project",
             ],
             "folder_exclude_patterns":
             [
@@ -30,7 +30,7 @@
                 "Data/Lib",
                 "Data/Settings",
                 "Data/Backup",
-                "Data/sInstalled Packages",
+                "Data/Installed Packages",
                 "Data/Packages/ObjectBeautifier",
                 "Data/Packages/User/Color Highlighter",
                 "Data/Packages/User/Package Control.cache",
