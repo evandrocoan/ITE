@@ -1,7 +1,3 @@
-[submodule "Packages/User"]
-	path = Packages/User
-	url = https://github.com/evandrocoan/User
-	upstream =
 [submodule ".versioning"]
 	path = .versioning
 	url = https://github.com/evandrocoan/.versioning
