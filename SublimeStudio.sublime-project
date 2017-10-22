@@ -38,6 +38,7 @@
             ],
             "file_exclude_patterns":
             [
+                ".vscode/tags",
                 "Packages/User/FileHistory*.json",
             ],
         },
