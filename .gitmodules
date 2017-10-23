@@ -301,10 +301,6 @@
 	path = Packages/Text Pastry
 	url = https://github.com/evandrocoan/Text-Pastry
 	upstream = https://github.com/duydao/Text-Pastry
-[submodule "Packages/Toolbar"]
-	path = Packages/Toolbar
-	url = https://github.com/evandrocoan/SublimeTextToolBar
-	upstream = https://github.com/titoBouzout/Toolbar
 [submodule "Packages/Trimmer"]
 	path = Packages/Trimmer
 	url = https://github.com/evandrocoan/Trimmer
