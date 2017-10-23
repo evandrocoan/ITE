@@ -111,6 +111,10 @@
 	path = Default.sublime-package
 	url = https://github.com/evandrocoan/DefaultSublimePackage
 	upstream =
+[submodule "Packages/AmxxChannel"]
+	path = Packages/AmxxChannel
+	url = https://github.com/evandrocoan/SublimeAmxxChannel
+	upstream =
 [submodule "Packages/Preferences Editor"]
 	path = Packages/QuickSettings
 	url = https://github.com/evandrocoan/SublimeQuickSettings
