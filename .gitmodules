@@ -132,10 +132,6 @@
 	path = Packages/Advanced CSV
 	url = https://github.com/evandrocoan/Sublime-Text-Advanced-CSV
 	upstream = https://github.com/wadetb/Sublime-Text-Advanced-CSV
-[submodule "Packages/AdvancedNewFile"]
-	path = Packages/AdvancedNewFile
-	url = https://github.com/evandrocoan/Sublime-AdvancedNewFile
-	upstream = https://github.com/skuroda/Sublime-AdvancedNewFile
 [submodule "Packages/AlignTab"]
 	path = Packages/AlignTab
 	url = https://github.com/evandrocoan/AlignTab
