@@ -115,6 +115,10 @@
 	path = Packages/AmxxChannel
 	url = https://github.com/evandrocoan/SublimeAmxxChannel
 	upstream =
+[submodule "Packages/KeepPastedTextSelected"]
+	path = Packages/KeepPastedTextSelected
+	url = https://github.com/evandrocoan/SublimeKeepPastedTextSelected
+	upstream =
 [submodule "Packages/Preferences Editor"]
 	path = Packages/QuickSettings
 	url = https://github.com/evandrocoan/SublimeQuickSettings
