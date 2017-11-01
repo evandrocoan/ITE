@@ -665,3 +665,7 @@
 	path = Packages/Toggle Words
 	url = https://github.com/evandrocoan/ToggleWords
 	upstream = https://github.com/gordio/ToggleWords
+[submodule "Packages/AceJump"]
+	path = Packages/AceJump
+	url = https://github.com/evandrocoan/ace-jump-sublime
+	upstream = https://github.com/ice9js/ace-jump-sublime
