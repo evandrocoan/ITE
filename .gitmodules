@@ -669,7 +669,7 @@
 	path = Packages/AceJump
 	url = https://github.com/evandrocoan/ace-jump-sublime
 	upstream = https://github.com/ice9js/ace-jump-sublime
-[submodule "Packages/Jump Along Indent"]
-	path = Packages/Jump Along Indent
-	url = https://github.com/evandrocoan/sublime_jump_along_indent
-	upstream = https://github.com/mwean/sublime_jump_along_indent
+[submodule "Packages/AltUp"]
+	path = Packages/AltUp
+	url = https://github.com/evandrocoan/AltUp
+	upstream = https://github.com/germtb/AltUp
