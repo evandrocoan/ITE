@@ -677,3 +677,7 @@
 	path = Packages/Jump Along Indent
 	url = https://github.com/evandrocoan/sublime_jump_along_indent
 	upstream = https://github.com/mwean/sublime_jump_along_indent
+[submodule "Packages/Select all by current scope"]
+	path = Packages/Select all by current scope
+	url = https://github.com/evandrocoan/sublime-select-all-by-current-scope
+	upstream = https://github.com/mreq/sublime-select-all-by-current-scope
