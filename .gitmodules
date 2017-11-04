@@ -681,3 +681,7 @@
 	path = Packages/Select all by current scope
 	url = https://github.com/evandrocoan/sublime-select-all-by-current-scope
 	upstream = https://github.com/mreq/sublime-select-all-by-current-scope
+[submodule "Packages/ExpandRegion"]
+	path = Packages/ExpandRegion
+	url = https://github.com/evandrocoan/sublime-expand-region
+	upstream = https://github.com/aronwoost/sublime-expand-region
