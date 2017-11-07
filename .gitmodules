@@ -685,3 +685,7 @@
 	path = Packages/ExpandRegion
 	url = https://github.com/evandrocoan/sublime-expand-region
 	upstream = https://github.com/aronwoost/sublime-expand-region
+[submodule "Packages/SemanticLineWrapping"]
+	path = Packages/SemanticLineWrapping
+	url = https://github.com/evandrocoan/sublime-semantic-wrap
+	upstream = https://github.com/bordaigorl/sublime-semantic-wrap

@@ -145,5 +145,6 @@ nº | Directory on Packages folder       | Github URL
 30 | ConvertToUTF8                      | https://github.com/seanliang/ConvertToUTF8
 31 | Default                            | https://github.com/evandrocoan/SublimeDefault
 32 | ../Default.sublime-package         | https://github.com/evandrocoan/DefaultSublimePackage
+33 | SemanticLineWrapping               | https://github.com/bordaigorl/sublime-semantic-wrap
 
 
