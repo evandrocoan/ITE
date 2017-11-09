@@ -70,7 +70,7 @@
 	url = https://github.com/evandrocoan/SublimeUnpackedPackagesOverride
 	upstream =
 [submodule "Packages/Overwrite Commit Completion"]
-	path = Packages/OverwriteCommitCompletion
+	path = Packages/OverrideCommitCompletion
 	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
 	upstream =
 [submodule "Packages/Rich Plain Text"]
