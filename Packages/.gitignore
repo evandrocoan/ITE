@@ -126,7 +126,8 @@ OpenAutoCompletion
 Origami
 OverrideUnpackedPackages
 OverrideAudit
-OverwriteCommitCompletion
+OverrideCommitCompletion
+SemanticLineWrapping
 Package Control
 PackageDev
 PackageResourceViewer
