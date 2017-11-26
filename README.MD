@@ -141,10 +141,10 @@ nº | Directory on Packages folder       | Github URL
 26 | TOML                               | https://github.com/Jayflux/sublime_toml_highlighting
 27 | WordHighlight                      | https://github.com/SublimeText/WordHighlight
 28 | SQLTools                           | https://github.com/mtxr/SQLTools
-29 | Syntax Highlighting for Sass       | https://github.com/P233/Syntax-highlighting-for-Sass
 30 | ConvertToUTF8                      | https://github.com/seanliang/ConvertToUTF8
 31 | Default                            | https://github.com/evandrocoan/SublimeDefault
 32 | ../Default.sublime-package         | https://github.com/evandrocoan/DefaultSublimePackage
 33 | SemanticLineWrapping               | https://github.com/bordaigorl/sublime-semantic-wrap
 
+<!-- 29 | Syntax Highlighting for Sass       | https://github.com/P233/Syntax-highlighting-for-Sass (added) -->
 
