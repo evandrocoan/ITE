@@ -689,3 +689,6 @@
 	path = Packages/SemanticLineWrapping
 	url = https://github.com/evandrocoan/sublime-semantic-wrap
 	upstream = https://github.com/bordaigorl/sublime-semantic-wrap
+[submodule "Packages/OverrideEditSettingsDefaultContents"]
+	path = Packages/OverrideEditSettingsDefaultContents
+	url = https://github.com/evandrocoan/OverrideEditSettingsDefaultContents
