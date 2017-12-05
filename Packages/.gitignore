@@ -124,6 +124,7 @@ Number King
 Octave
 OpenAutoCompletion
 Origami
+OverrideEditSettingsDefaultContents
 OverrideUnpackedPackages
 OverrideAudit
 OverrideCommitCompletion
@@ -184,6 +185,8 @@ WordHighlight
 Wrap Plus
 x86 and x86_64 Assembly
 
+tests.py
+tests.sublime-commands
 
 
 # Packages dependencies
