@@ -41,6 +41,10 @@
 	path = Packages/DefaultSyntax
 	url = https://github.com/evandrocoan/SublimeDefaultSyntax
 	upstream =
+[submodule "Packages/OverrideEditSettingsDefaultContents"]
+	path = Packages/OverrideEditSettingsDefaultContents
+	url = https://github.com/evandrocoan/OverrideEditSettingsDefaultContents
+	upstream =
 [submodule "Packages/Fix Project Switch Restart Bug"]
 	path = Packages/FixProjectSwitchRestartBug
 	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
@@ -694,6 +698,3 @@
 	path = Packages/SemanticLineWrapping
 	url = https://github.com/evandrocoan/sublime-semantic-wrap
 	upstream = https://github.com/bordaigorl/sublime-semantic-wrap
-[submodule "Packages/OverrideEditSettingsDefaultContents"]
-	path = Packages/OverrideEditSettingsDefaultContents
-	url = https://github.com/evandrocoan/OverrideEditSettingsDefaultContents
