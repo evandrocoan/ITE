@@ -9,6 +9,10 @@
 
 # Ignore other custom packages
 .gitignore
+.travis.yml
+tests.py
+tests.sublime-commands
+
 
 A File Icon
 ActiveViewJumpBack
@@ -185,8 +189,6 @@ WordHighlight
 Wrap Plus
 x86 and x86_64 Assembly
 
-tests.py
-tests.sublime-commands
 
 
 # Packages dependencies
