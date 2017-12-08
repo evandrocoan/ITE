@@ -41,7 +41,7 @@ ___
 1. Now, go again to the menu `Preferences -> Package Control`
 1. This time type `Install Package` on the opened quick panel and press enter
 1. Then search for `StudioChannel` and press enter
-1. Afer finish installing the `Studio Channel` package, you can either install the `Development Version` or the `Stable Version` of this tool, just follow the instructions on the screen, as they will explain the difference between the `Stable` and `Development` versions.
+1. After finish installing the `Studio Channel` package, just follow the instructions on the screen.
 
 
 
