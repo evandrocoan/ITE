@@ -10,12 +10,12 @@
 	path = Packages/EstimatedTimeLeft
 	url = https://github.com/evandrocoan/EstimatedTimeLeft
 	upstream = https://github.com/arp2600/Etc
-	dependency = 01
+	dependency = 20
 [submodule "Packages/PythonDebugTools"]
 	path = Packages/PythonDebugTools
 	url = https://github.com/evandrocoan/PythonDebugTools
 	upstream =
-	dependency = 01
+	dependency = 10
 [submodule "Packages/Active View Jump Back"]
 	path = Packages/ActiveViewJumpBack
 	url = https://github.com/evandrocoan/SublimeActiveViewJumpBack
@@ -98,7 +98,7 @@
 	path = Packages/ChannelManager
 	url = https://github.com/evandrocoan/SublimeChannelManager
 	upstream =
-	dependency = 50, PythonDebugTools, EstimatedTimeLeft
+	dependency = 30, PythonDebugTools, EstimatedTimeLeft
 [submodule "StudioChannel"]
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/SublimeStudioChannel
