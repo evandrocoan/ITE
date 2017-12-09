@@ -98,12 +98,12 @@
 	path = Packages/ChannelManager
 	url = https://github.com/evandrocoan/SublimeChannelManager
 	upstream =
-	dependency = 50, PythonDebugTools, estimated_time_left
+	dependency = 50, PythonDebugTools, EstimatedTimeLeft
 [submodule "StudioChannel"]
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/SublimeStudioChannel
 	upstream =
-	dependency = ChannelManager
+	dependency = ChannelManager, PythonDebugTools, EstimatedTimeLeft
 [submodule "Packages/Uncrustify"]
 	path = Packages/Uncrustify
 	url = https://github.com/evandrocoan/SublimeUncrustify
