@@ -7,8 +7,8 @@
 	url = https://github.com/evandrocoan/.versioning
 	upstream =
 [submodule "Packages/estimated_time_left"]
-	path = Packages/estimated_time_left
-	url = https://github.com/evandrocoan/estimated_time_left
+	path = Packages/EstimatedTimeLeft
+	url = https://github.com/evandrocoan/EstimatedTimeLeft
 	upstream = https://github.com/arp2600/Etc
 	dependency = 01
 [submodule "Packages/PythonDebugTools"]
