@@ -698,3 +698,6 @@
 	path = Packages/SemanticLineWrapping
 	url = https://github.com/evandrocoan/sublime-semantic-wrap
 	upstream = https://github.com/bordaigorl/sublime-semantic-wrap
+[submodule "Packages/0_settings_loader"]
+	path = Packages/0_settings_loader
+	url = https://github.com/evandrocoan/0_settings_loader
