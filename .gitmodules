@@ -1,138 +1,111 @@
-[submodule "Packages/User"]
-	path = Packages/User
-	url = https://github.com/evandrocoan/User
-	upstream =
-[submodule ".versioning"]
-	path = .versioning
-	url = https://github.com/evandrocoan/.versioning
-	upstream =
-[submodule "Packages/estimated_time_left"]
-	path = Packages/EstimatedTimeLeft
-	url = https://github.com/evandrocoan/EstimatedTimeLeft
-	upstream = https://github.com/arp2600/Etc
-	dependency = 20
-[submodule "Packages/PythonDebugTools"]
-	path = Packages/PythonDebugTools
-	url = https://github.com/evandrocoan/PythonDebugTools
-	upstream =
-	dependency = 10
-[submodule "Packages/Active View Jump Back"]
-	path = Packages/ActiveViewJumpBack
-	url = https://github.com/evandrocoan/SublimeActiveViewJumpBack
-	upstream =
-[submodule "Packages/amxmodx"]
-	path = Packages/amxmodx
-	url = https://github.com/evandrocoan/SublimeAMXX_Editor
-	upstream =
-	dependency = PythonDebugTools
-[submodule "Packages/Amxx Pawn"]
-	path = Packages/AmxxPawn
-	url = https://github.com/evandrocoan/SublimeAmxxPawn
-	upstream =
-[submodule "Packages/Clear Cursors Carets"]
-	path = Packages/ClearCursorsCarets
-	url = https://github.com/evandrocoan/ClearCursorsCarets
-	upstream =
-[submodule "Packages/Clipboard Scope Copy"]
-	path = Packages/ClipboardScopeCopy
-	url = https://github.com/evandrocoan/SublimeClipboardScopeCopy
-	upstream =
-[submodule "Packages/Default Syntax"]
-	path = Packages/DefaultSyntax
-	url = https://github.com/evandrocoan/SublimeDefaultSyntax
-	upstream =
-[submodule "Packages/OverrideEditSettingsDefaultContents"]
-	path = Packages/OverrideEditSettingsDefaultContents
-	url = https://github.com/evandrocoan/OverrideEditSettingsDefaultContents
-	upstream =
-[submodule "Packages/Fix Project Switch Restart Bug"]
-	path = Packages/FixProjectSwitchRestartBug
-	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
-	upstream =
-[submodule "Packages/Fix Selection After Indent"]
-	path = Packages/FixSelectionAfterIndent
-	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
-	upstream =
-[submodule "Packages/Fixed Selections Clear"]
-	path = Packages/FixedSelectionsClear
-	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear
-	upstream =
-[submodule "Packages/Force Rewrite Sublime Settings"]
-	path = Packages/ForceRewriteSublimeSettings
-	url = https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings
-	upstream =
 [submodule "Packages/Notepad++ Color Scheme"]
 	path = Packages/Notepad++ Color Scheme
 	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
-	upstream =
 	tags = 3144
-[submodule "Packages/Octave"]
-	path = Packages/Octave
-	url = https://github.com/evandrocoan/SublimeOctave
-	upstream =
-[submodule "Packages/Open Auto Completion"]
-	path = Packages/OpenAutoCompletion
-	url = https://github.com/evandrocoan/SublimeOpenAutoCompletion
-	upstream =
-[submodule "Packages/Override Unpacked Packages"]
-	path = Packages/OverrideUnpackedPackages
-	url = https://github.com/evandrocoan/SublimeUnpackedPackagesOverride
-	upstream =
-[submodule "Packages/Overwrite Commit Completion"]
-	path = Packages/OverrideCommitCompletion
-	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
-	upstream =
-[submodule "Packages/Rich Plain Text"]
-	path = Packages/RichPlainText
-	url = https://github.com/evandrocoan/SublimeRichPlainText
-	upstream =
-[submodule "Packages/SQL Keyword Uppercase"]
-	path = Packages/SqlKeywordUppercase
-	url = https://github.com/evandrocoan/SublimeSQLKeywordUppercase
-	upstream =
-[submodule "Packages/Select All Spelling Errors"]
-	path = Packages/SelectAllSpellingErrors
-	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
-	upstream =
+[submodule "Packages/PythonDebugTools"]
+	path = Packages/PythonDebugTools
+	url = https://github.com/evandrocoan/PythonDebugTools
+	dependency = 10
+[submodule "Packages/amxmodx"]
+	path = Packages/amxmodx
+	url = https://github.com/evandrocoan/SublimeAMXX_Editor
+	dependency = PythonDebugTools
 [submodule "Packages/Sublime Text Studio"]
 	path = Packages/ChannelManager
 	url = https://github.com/evandrocoan/SublimeChannelManager
-	upstream =
 	dependency = 30, PythonDebugTools, EstimatedTimeLeft
 [submodule "StudioChannel"]
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/SublimeStudioChannel
-	upstream =
 	dependency = ChannelManager, PythonDebugTools, EstimatedTimeLeft
-[submodule "Packages/Uncrustify"]
-	path = Packages/Uncrustify
-	url = https://github.com/evandrocoan/SublimeUncrustify
-	upstream =
-[submodule "Packages/View Settings Freely"]
-	path = Packages/ViewSettingsFreely
-	url = https://github.com/evandrocoan/SublimeViewSettingsFreely
-	upstream =
-[submodule "Packages/User/Multilingual Dictionary"]
-	path = Packages/Language - English and Portuguese
-	url = https://github.com/evandrocoan/SublimeMultilingualDictionary
-	upstream =
-[submodule "Default.sublime-package"]
-	path = Default.sublime-package
-	url = https://github.com/evandrocoan/DefaultSublimePackage
-	upstream =
-[submodule "Packages/AmxxChannel"]
-	path = Packages/AmxxChannel
-	url = https://github.com/evandrocoan/SublimeAmxxChannel
-	upstream =
-[submodule "Packages/KeepPastedTextSelected"]
-	path = Packages/KeepPastedTextSelected
-	url = https://github.com/evandrocoan/SublimeKeepPastedTextSelected
-	upstream =
 [submodule "Packages/Preferences Editor"]
 	path = Packages/QuickSettings
 	url = https://github.com/evandrocoan/SublimeQuickSettings
 	upstream = https://bitbucket.org/klorenz/sublimepreferenceseditor
 	dependency = PythonDebugTools
+[submodule "Packages/estimated_time_left"]
+	path = Packages/EstimatedTimeLeft
+	url = https://github.com/evandrocoan/EstimatedTimeLeft
+	upstream = https://github.com/arp2600/Etc
+	dependency = 20
+[submodule "Packages/0_settings_loader"]
+	path = Packages/0_settings_loader
+	url = https://github.com/evandrocoan/0_settings_loader
+[submodule "Packages/User"]
+	path = Packages/User
+	url = https://github.com/evandrocoan/User
+[submodule ".versioning"]
+	path = .versioning
+	url = https://github.com/evandrocoan/.versioning
+[submodule "Packages/Active View Jump Back"]
+	path = Packages/ActiveViewJumpBack
+	url = https://github.com/evandrocoan/SublimeActiveViewJumpBack
+[submodule "Packages/Amxx Pawn"]
+	path = Packages/AmxxPawn
+	url = https://github.com/evandrocoan/SublimeAmxxPawn
+[submodule "Packages/Clear Cursors Carets"]
+	path = Packages/ClearCursorsCarets
+	url = https://github.com/evandrocoan/ClearCursorsCarets
+[submodule "Packages/Clipboard Scope Copy"]
+	path = Packages/ClipboardScopeCopy
+	url = https://github.com/evandrocoan/SublimeClipboardScopeCopy
+[submodule "Packages/Default Syntax"]
+	path = Packages/DefaultSyntax
+	url = https://github.com/evandrocoan/SublimeDefaultSyntax
+[submodule "Packages/OverrideEditSettingsDefaultContents"]
+	path = Packages/OverrideEditSettingsDefaultContents
+	url = https://github.com/evandrocoan/OverrideEditSettingsDefaultContents
+[submodule "Packages/Fix Project Switch Restart Bug"]
+	path = Packages/FixProjectSwitchRestartBug
+	url = https://github.com/evandrocoan/SublimeFixProjectSwitchRestartBug
+[submodule "Packages/Fix Selection After Indent"]
+	path = Packages/FixSelectionAfterIndent
+	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
+[submodule "Packages/Fixed Selections Clear"]
+	path = Packages/FixedSelectionsClear
+	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear
+[submodule "Packages/Force Rewrite Sublime Settings"]
+	path = Packages/ForceRewriteSublimeSettings
+	url = https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings
+[submodule "Packages/Octave"]
+	path = Packages/Octave
+	url = https://github.com/evandrocoan/SublimeOctave
+[submodule "Packages/Open Auto Completion"]
+	path = Packages/OpenAutoCompletion
+	url = https://github.com/evandrocoan/SublimeOpenAutoCompletion
+[submodule "Packages/Override Unpacked Packages"]
+	path = Packages/OverrideUnpackedPackages
+	url = https://github.com/evandrocoan/SublimeUnpackedPackagesOverride
+[submodule "Packages/Overwrite Commit Completion"]
+	path = Packages/OverrideCommitCompletion
+	url = https://github.com/evandrocoan/SublimeOverwriteCommitCompletion
+[submodule "Packages/Rich Plain Text"]
+	path = Packages/RichPlainText
+	url = https://github.com/evandrocoan/SublimeRichPlainText
+[submodule "Packages/SQL Keyword Uppercase"]
+	path = Packages/SqlKeywordUppercase
+	url = https://github.com/evandrocoan/SublimeSQLKeywordUppercase
+[submodule "Packages/Select All Spelling Errors"]
+	path = Packages/SelectAllSpellingErrors
+	url = https://github.com/evandrocoan/SublimeSelectAllSpellingErrors
+[submodule "Packages/Uncrustify"]
+	path = Packages/Uncrustify
+	url = https://github.com/evandrocoan/SublimeUncrustify
+[submodule "Packages/View Settings Freely"]
+	path = Packages/ViewSettingsFreely
+	url = https://github.com/evandrocoan/SublimeViewSettingsFreely
+[submodule "Packages/User/Multilingual Dictionary"]
+	path = Packages/Language - English and Portuguese
+	url = https://github.com/evandrocoan/SublimeMultilingualDictionary
+[submodule "Default.sublime-package"]
+	path = Default.sublime-package
+	url = https://github.com/evandrocoan/DefaultSublimePackage
+[submodule "Packages/AmxxChannel"]
+	path = Packages/AmxxChannel
+	url = https://github.com/evandrocoan/SublimeAmxxChannel
+[submodule "Packages/KeepPastedTextSelected"]
+	path = Packages/KeepPastedTextSelected
+	url = https://github.com/evandrocoan/SublimeKeepPastedTextSelected
 [submodule "Packages/ANSIescape"]
 	path = Packages/ANSIescape
 	url = https://github.com/evandrocoan/SublimeANSI
@@ -698,6 +671,3 @@
 	path = Packages/SemanticLineWrapping
 	url = https://github.com/evandrocoan/sublime-semantic-wrap
 	upstream = https://github.com/bordaigorl/sublime-semantic-wrap
-[submodule "Packages/0_settings_loader"]
-	path = Packages/0_settings_loader
-	url = https://github.com/evandrocoan/0_settings_loader
