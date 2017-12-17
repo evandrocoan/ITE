@@ -423,10 +423,6 @@
 	path = Packages/DictionaryAutoComplete
 	url = https://github.com/evandrocoan/DictionaryAutoComplete
 	upstream = https://github.com/Zinggi/DictionaryAutoComplete
-[submodule "Packages/DistractionFreeWindow"]
-	path = Packages/DistractionFreeWindow
-	url = https://github.com/evandrocoan/DistractionFreeWindow
-	upstream = https://github.com/aziz/DistractionFreeWindow
 [submodule "Packages/DuplicateSelections"]
 	path = Packages/DuplicateSelections
 	url = https://github.com/evandrocoan/SublimeDuplicateSelections
