@@ -5,8 +5,8 @@
 *.merged-ca-bundle
 *.sublime-workspace
 
-/(Soft) Simple IDE Packages.lnk
-/Simple IDE Packages
+/Simple IDE Packages.lnk
+/Sublime Text Builds.lnk
 /ObjectBeautifier
 
 /.sublime/
