@@ -2,14 +2,6 @@
 	path = Packages/Notepad++ Color Scheme
 	url = https://github.com/evandrocoan/SublimeNotepadPlusPlusTheme
 	tags = 3144
-[submodule "Packages/Default"]
-	path = Packages/Default
-	url = https://github.com/evandrocoan/SublimeDefault
-	upstream = ../../Default.sublime-package
-[submodule "Packages/DefaultSettings"]
-	path = Packages/DefaultSettings
-	url = https://github.com/evandrocoan/DefaultSettings
-	dependency = 0_settings_loader
 [submodule "Packages/amxmodx"]
 	path = Packages/amxmodx
 	url = https://github.com/evandrocoan/SublimeAMXX_Editor
@@ -23,10 +15,6 @@
 	url = https://github.com/evandrocoan/SublimeQuickSettings
 	upstream = https://bitbucket.org/klorenz/sublimepreferenceseditor
 	dependency = PythonDebugTools
-[submodule "Packages/0_settings_loader"]
-	path = Packages/0_settings_loader
-	url = https://github.com/evandrocoan/0_settings_loader
-	dependency = 10
 [submodule "Packages/PythonDebugTools"]
 	path = Packages/PythonDebugTools
 	url = https://github.com/evandrocoan/PythonDebugTools
@@ -40,6 +28,13 @@
 	path = Packages/ChannelManager
 	url = https://github.com/evandrocoan/SublimeChannelManager
 	dependency = 30, PythonDebugTools, EstimatedTimeLeft
+[submodule "Packages/Default"]
+	path = Packages/Default
+	url = https://github.com/evandrocoan/SublimeDefault
+	upstream = ../../Default.sublime-package
+[submodule "Packages/0_settings_loader"]
+	path = Packages/0_settings_loader
+	url = https://github.com/evandrocoan/0_settings_loader
 [submodule "Packages/User"]
 	path = Packages/User
 	url = https://github.com/evandrocoan/User
