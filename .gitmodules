@@ -6,6 +6,9 @@
 	path = Packages/Default
 	url = https://github.com/evandrocoan/SublimeDefault
 	upstream = ../../Default.sublime-package
+[submodule "Packages/DefaultSettings"]
+	path = Packages/DefaultSettings
+	url = https://github.com/evandrocoan/DefaultSettings
 	dependency = 0_settings_loader
 [submodule "Packages/amxmodx"]
 	path = Packages/amxmodx
