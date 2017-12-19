@@ -671,3 +671,7 @@
 	path = Packages/SemanticLineWrapping
 	url = https://github.com/evandrocoan/sublime-semantic-wrap
 	upstream = https://github.com/bordaigorl/sublime-semantic-wrap
+[submodule "Packages/WordCount"]
+	path = Packages/WordCount
+	url = https://github.com/evandrocoan/WordCount
+	upstream = https://github.com/titoBouzout/WordCount
