@@ -10,6 +10,7 @@
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/SublimeStudioChannel
 	dependency = ChannelManager, PythonDebugTools, EstimatedTimeLeft
+	tags = master
 [submodule "Packages/Preferences Editor"]
 	path = Packages/QuickSettings
 	url = https://github.com/evandrocoan/SublimeQuickSettings
