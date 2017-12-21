@@ -676,3 +676,6 @@
 	path = Packages/WordCount
 	url = https://github.com/evandrocoan/WordCount
 	upstream = https://github.com/titoBouzout/WordCount
+[submodule "Packages/ColorSchemeUnit"]
+	path = Packages/ColorSchemeUnit
+	url = https://github.com/evandrocoan/sublime-color-scheme-unit
