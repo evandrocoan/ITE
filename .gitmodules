@@ -679,3 +679,4 @@
 [submodule "Packages/ColorSchemeUnit"]
 	path = Packages/ColorSchemeUnit
 	url = https://github.com/evandrocoan/sublime-color-scheme-unit
+	upstream = https://github.com/gerardroche/sublime-color-scheme-unit
