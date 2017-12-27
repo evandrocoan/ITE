@@ -1,6 +1,6 @@
 [submodule "Packages/Notepad++ Color Scheme"]
 	path = Packages/Notepad++ Color Scheme
-	url = https://github.com/evandrocoan/NotepadPlusPlusTheme
+	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
 	tags = 3144
 [submodule "Packages/amxmodx"]
 	path = Packages/amxmodx
@@ -36,12 +36,12 @@
 [submodule "Packages/0_settings_loader"]
 	path = Packages/0_settings_loader
 	url = https://github.com/evandrocoan/0_settings_loader
-[submodule "Packages/User"]
-	path = Packages/User
-	url = https://github.com/evandrocoan/User
 [submodule ".versioning"]
 	path = .versioning
 	url = https://github.com/evandrocoan/.versioning
+[submodule "Packages/User"]
+	path = Packages/User
+	url = https://github.com/evandrocoan/User
 [submodule "Packages/Active View Jump Back"]
 	path = Packages/ActiveViewJumpBack
 	url = https://github.com/evandrocoan/ActiveViewJumpBack
@@ -80,28 +80,28 @@
 	url = https://github.com/evandrocoan/OpenAutoCompletion
 [submodule "Packages/Override Unpacked Packages"]
 	path = Packages/OverrideUnpackedPackages
-	url = https://github.com/evandrocoan/UnpackedPackagesOverride
+	url = https://github.com/evandrocoan/OverrideUnpackedPackages
 [submodule "Packages/Overwrite Commit Completion"]
 	path = Packages/OverrideCommitCompletion
-	url = https://github.com/evandrocoan/OverwriteCommitCompletion
+	url = https://github.com/evandrocoan/OverrideCommitCompletion
 [submodule "Packages/Rich Plain Text"]
 	path = Packages/RichPlainText
 	url = https://github.com/evandrocoan/RichPlainText
 [submodule "Packages/SQL Keyword Uppercase"]
-	path = Packages/SqlKeywordUppercase
+	path = Packages/SQLKeywordUppercase
 	url = https://github.com/evandrocoan/SQLKeywordUppercase
 [submodule "Packages/Select All Spelling Errors"]
 	path = Packages/SelectAllSpellingErrors
 	url = https://github.com/evandrocoan/SelectAllSpellingErrors
 [submodule "Packages/Uncrustify"]
-	path = Packages/Uncrustify
-	url = https://github.com/evandrocoan/SublimeUncrustify
+	path = Packages/UncrustifySublimePlugin
+	url = https://github.com/evandrocoan/UncrustifySublimePlugin
 [submodule "Packages/View Settings Freely"]
 	path = Packages/ViewSettingsFreely
 	url = https://github.com/evandrocoan/ViewSettingsFreely
 [submodule "Packages/User/Multilingual Dictionary"]
 	path = Packages/Language - English and Portuguese
-	url = https://github.com/evandrocoan/MultilingualDictionary
+	url = https://github.com/evandrocoan/LanguageEnglishAndPortuguese
 [submodule "Default.sublime-package"]
 	path = Default.sublime-package
 	url = https://github.com/evandrocoan/DefaultSublimePackage
@@ -113,22 +113,22 @@
 	url = https://github.com/evandrocoan/KeepPastedTextSelected
 [submodule "Packages/ANSIescape"]
 	path = Packages/ANSIescape
-	url = https://github.com/evandrocoan/ANSI
+	url = https://github.com/evandrocoan/ANSIescape
 	upstream = https://github.com/aziz/SublimeANSI
 [submodule "Packages/Add Folder To Project"]
-	path = Packages/Add Folder To Project
-	url = https://github.com/evandrocoan/AddFolderToProject-SublimePlugin
+	path = Packages/AddFolderToProject
+	url = https://github.com/evandrocoan/AddFolderToProject
 	upstream = https://github.com/DavidGerva/AddFolderToProject-SublimePlugin
 [submodule "Packages/Advanced CSV"]
-	path = Packages/Advanced CSV
-	url = https://github.com/evandrocoan/Advanced-CSV
+	path = Packages/AdvancedCSV
+	url = https://github.com/evandrocoan/AdvancedCSV
 	upstream = https://github.com/wadetb/Sublime-Text-Advanced-CSV
 [submodule "Packages/AlignTab"]
 	path = Packages/AlignTab
 	url = https://github.com/evandrocoan/AlignTab
 	upstream = https://github.com/randy3k/AlignTab
 [submodule "Packages/All Autocomplete"]
-	path = Packages/All Autocomplete
+	path = Packages/AllAutocomplete
 	url = https://github.com/evandrocoan/AllAutocomplete
 	upstream = https://github.com/alienhard/SublimeAllAutocomplete
 [submodule "Packages/AutoFileName"]
@@ -140,8 +140,8 @@
 	url = https://github.com/evandrocoan/BBCode
 	upstream = https://github.com/chipotle/BBCode
 [submodule "Packages/Better CoffeeScript"]
-	path = Packages/Better CoffeeScript
-	url = https://github.com/evandrocoan/better-coffeescript
+	path = Packages/BetterCoffeeScript
+	url = https://github.com/evandrocoan/BetterCoffeescript
 	upstream = https://github.com/aponxi/sublime-better-coffeescript
 [submodule "Packages/BufferScroll"]
 	path = Packages/BufferScroll
@@ -161,11 +161,11 @@
 	url = https://github.com/evandrocoan/ColorHelper
 	upstream = https://github.com/facelessuser/ColorHelper
 [submodule "Packages/Compare Side-By-Side"]
-	path = Packages/Compare Side-By-Side
-	url = https://github.com/evandrocoan/compare-side-by-side
+	path = Packages/CompareSideBySide
+	url = https://github.com/evandrocoan/CompareSideBySide
 	upstream = https://github.com/DougTy/sublime-compare-side-by-side
 [submodule "Packages/Copy Filepath With Line Numbers"]
-	path = Packages/Copy Filepath With Line Numbers
+	path = Packages/CopyFilepathWithLineNumbers
 	url = https://github.com/evandrocoan/CopyFilepathWithLineNumbers
 	upstream = https://github.com/theskyliner/CopyFilepathWithLineNumbers
 [submodule "Packages/CopyWithLineNumbersReloaded"]
@@ -205,40 +205,40 @@
 	url = https://github.com/evandrocoan/Gist
 	upstream = https://github.com/condemil/Gist
 [submodule "Packages/Google Spell Check"]
-	path = Packages/Google Spell Check
-	url = https://github.com/evandrocoan/google-spell-check
+	path = Packages/GoogleSpellCheck
+	url = https://github.com/evandrocoan/GoogleSpellCheck
 	upstream = https://github.com/noahcoad/google-spell-check
 [submodule "Packages/GotoLastEditEnhanced"]
 	path = Packages/GotoLastEditEnhanced
-	url = https://github.com/evandrocoan/goto-last-edit-enhanced
+	url = https://github.com/evandrocoan/GotoLastEditEnhanced
 	upstream = https://github.com/shagabutdinov/sublime-goto-last-edit-enhanced
 [submodule "Packages/Highlight Build Errors"]
-	path = Packages/Highlight Build Errors
+	path = Packages/HighlightBuildErrors
 	url = https://github.com/evandrocoan/HighlightBuildErrors
 	upstream = https://github.com/bblanchon/SublimeText-HighlightBuildErrors
 [submodule "Packages/Hungry Backspace"]
-	path = Packages/Hungry Backspace
-	url = https://github.com/evandrocoan/Hungry-Backspace
+	path = Packages/HungryBackspace
+	url = https://github.com/evandrocoan/HungryBackspace
 	upstream = https://github.com/xdrop/Hungry-Backspace
 [submodule "Packages/Indent and braces"]
-	path = Packages/Indent and braces
-	url = https://github.com/evandrocoan/indent_and_braces
+	path = Packages/IndentAndBraces
+	url = https://github.com/evandrocoan/IndentAndBraces
 	upstream = https://github.com/Epskampie/sublime_indent_and_braces
 [submodule "Packages/Invert Selection"]
-	path = Packages/Invert Selection
-	url = https://github.com/evandrocoan/invert-selection
+	path = Packages/InvertSelection
+	url = https://github.com/evandrocoan/InvertSelection
 	upstream = https://github.com/vontio/sublime-invert-selection
 [submodule "Packages/LaTeXTools"]
 	path = Packages/LaTeXTools
 	url = https://github.com/evandrocoan/LaTeXTools
 	upstream = https://github.com/SublimeText/LaTeXTools
 [submodule "Packages/Local History"]
-	path = Packages/Local History
-	url = https://github.com/evandrocoan/local-history
+	path = Packages/LocalHistory
+	url = https://github.com/evandrocoan/LocalHistory
 	upstream = https://github.com/vishr/local-history
 [submodule "Packages/Markdown to BB Code Converter"]
-	path = Packages/Markdown to BB Code Converter
-	url = https://github.com/evandrocoan/MarkdowToBBCode
+	path = Packages/MarkdownToBBCode
+	url = https://github.com/evandrocoan/MarkdownToBBCode
 	upstream = https://github.com/Kristinita/1Sasha1MarkdownNoBBCode
 [submodule "Packages/Origami"]
 	path = Packages/Origami
@@ -246,7 +246,7 @@
 	upstream = https://github.com/SublimeText/Origami
 [submodule "Packages/Package Control"]
 	path = Packages/PackagesManager
-	url = https://github.com/evandrocoan/package_control
+	url = https://github.com/evandrocoan/PackagesManager
 	upstream = https://github.com/wbond/package_control
 [submodule "Packages/PackageDev"]
 	path = Packages/PackageDev
@@ -257,12 +257,12 @@
 	url = https://github.com/evandrocoan/PowerCursors
 	upstream = https://github.com/MaokaiLin/PowerCursors
 [submodule "Packages/Project Specific Syntax Settings"]
-	path = Packages/Project Specific Syntax Settings
-	url = https://github.com/evandrocoan/project-specific-syntax
+	path = Packages/ProjectSpecificSyntax
+	url = https://github.com/evandrocoan/ProjectSpecificSyntax
 	upstream = https://github.com/reywood/sublime-project-specific-syntax
 [submodule "Packages/Side-by-Side Settings"]
-	path = Packages/Side-by-Side Settings
-	url = https://github.com/evandrocoan/sxs-settings
+	path = Packages/SideBySideSettings
+	url = https://github.com/evandrocoan/SideBySideSettings
 	upstream = https://github.com/jgbishop/sxs-settings
 [submodule "Packages/SideBarEnhancements"]
 	path = Packages/SideBarEnhancements
@@ -285,24 +285,24 @@
 	url = https://github.com/evandrocoan/SyntaxManager
 	upstream = https://github.com/randy3k/SyntaxManager
 [submodule "Packages/Text Pastry"]
-	path = Packages/Text Pastry
-	url = https://github.com/evandrocoan/Text-Pastry
+	path = Packages/TextPastry
+	url = https://github.com/evandrocoan/TextPastry
 	upstream = https://github.com/duydao/Text-Pastry
 [submodule "Packages/Trimmer"]
 	path = Packages/Trimmer
 	url = https://github.com/evandrocoan/Trimmer
 	upstream = https://github.com/jonlabelle/Trimmer
 [submodule "Packages/Wrap Plus"]
-	path = Packages/Wrap Plus
-	url = https://github.com/evandrocoan/Wrap-Plus
+	path = Packages/WrapPlus
+	url = https://github.com/evandrocoan/WrapPlus
 	upstream = https://github.com/ehuss/Sublime-Wrap-Plus
 [submodule "Packages/TypeScript"]
 	path = Packages/TypeScript
-	url = https://github.com/evandrocoan/TypeScript-Sublime-Plugin
+	url = https://github.com/evandrocoan/TypeScript
 	upstream = https://github.com/Microsoft/TypeScript-Sublime-Plugin
 [submodule "Packages/Pretty JSON"]
-	path = Packages/Pretty JSON
-	url = https://github.com/evandrocoan/PrettyJson
+	path = Packages/PrettyJSON
+	url = https://github.com/evandrocoan/PrettyJSON
 	upstream = https://github.com/dzhibas/SublimePrettyJson
 [submodule "Packages/VBScript"]
 	path = Packages/VBScript
@@ -313,12 +313,12 @@
 	url = https://github.com/evandrocoan/REG
 	upstream = https://github.com/robertcollier4/REG
 [submodule "Packages/Generic Config"]
-	path = Packages/Generic Config
+	path = Packages/GenericConfig
 	url = https://github.com/evandrocoan/GenericConfig
 	upstream = https://github.com/skozlovf/Sublime-GenericConfig
 [submodule "Packages/Dotfiles Syntax Highlighting"]
-	path = Packages/Dotfiles Syntax Highlighting
-	url = https://github.com/evandrocoan/dotfiles-syntax-highlighting-st2
+	path = Packages/Dotfiles
+	url = https://github.com/evandrocoan/Dotfiles
 	upstream = https://github.com/mattbanks/dotfiles-syntax-highlighting-st2
 [submodule "Packages/Maven"]
 	path = Packages/Maven
@@ -330,18 +330,18 @@
 	upstream = https://github.com/SublimeLinter/SublimeLinter3
 [submodule "Packages/SublimeLinter-javac"]
 	path = Packages/LinterJava
-	url = https://github.com/evandrocoan/Linter-javac
+	url = https://github.com/evandrocoan/LinterJava
 	upstream = https://github.com/SublimeLinter/SublimeLinter-javac
 [submodule "Packages/Anaconda"]
 	path = Packages/Anaconda
-	url = https://github.com/evandrocoan/anaconda
+	url = https://github.com/evandrocoan/Anaconda
 	upstream = https://github.com/DamnWidget/anaconda
 [submodule "Packages/SelectUntil"]
 	path = Packages/SelectUntil
-	url = https://github.com/evandrocoan/selectuntil
+	url = https://github.com/evandrocoan/SelectUntil
 	upstream = https://github.com/xavi-/sublime-selectuntil
 [submodule "Packages/Case Conversion"]
-	path = Packages/Case Conversion
+	path = Packages/CaseConversion
 	url = https://github.com/evandrocoan/CaseConversion
 	upstream = https://github.com/jdc0589/CaseConversion
 [submodule "Packages/ApplySyntax"]
@@ -349,8 +349,8 @@
 	url = https://github.com/evandrocoan/ApplySyntax
 	upstream = https://github.com/facelessuser/ApplySyntax
 [submodule "Packages/x86 and x86_64 Assembly"]
-	path = Packages/x86 and x86_64 Assembly
-	url = https://github.com/evandrocoan/x86-assembly-textmate-bundle
+	path = Packages/X86Assembly
+	url = https://github.com/evandrocoan/X86Assembly
 	upstream = https://github.com/13xforever/x86-assembly-textmate-bundle
 [submodule "Packages/Incrementor"]
 	path = Packages/Incrementor
@@ -361,7 +361,7 @@
 	url = https://github.com/evandrocoan/TabsExtra
 	upstream = https://github.com/facelessuser/TabsExtra
 [submodule "Packages/Increment Selection"]
-	path = Packages/Increment Selection
+	path = Packages/IncrementSelection
 	url = https://github.com/evandrocoan/IncrementSelection
 	upstream = https://github.com/yulanggong/IncrementSelection
 [submodule "Packages/AutomaticPackageReloader"]
@@ -370,18 +370,18 @@
 	upstream = https://github.com/randy3k/AutomaticPackageReloader
 [submodule "Packages/LaTeXSmartQuotes"]
 	path = Packages/LaTeXSmartQuotes
-	url = https://github.com/evandrocoan/latex-smart-quotes
+	url = https://github.com/evandrocoan/LaTeXSmartQuotes
 	upstream = https://github.com/r-stein/sublime-text-latex-smart-quotes
 [submodule "Packages/A File Icon"]
 	path = Packages/A File Icon
-	url = https://github.com/evandrocoan/a-file-icon
+	url = https://github.com/evandrocoan/AFileIcon
 	upstream = https://github.com/ihodev/a-file-icon
 [submodule "Packages/Alignment"]
 	path = Packages/Alignment
-	url = https://github.com/evandrocoan/alignment
+	url = https://github.com/evandrocoan/Alignment
 	upstream = https://github.com/wbond/sublime_alignment
 [submodule "Packages/Auto Refresh"]
-	path = Packages/Auto Refresh
+	path = Packages/AutoRefresh
 	url = https://github.com/evandrocoan/AutoRefresh
 	upstream = https://github.com/Wouterdek/AutoRefresh
 [submodule "Packages/BracketHighlighter"]
@@ -390,14 +390,14 @@
 	upstream = https://github.com/facelessuser/BracketHighlighter
 [submodule "Packages/C++ Completions"]
 	path = Packages/C++ Completions
-	url = https://github.com/evandrocoan/CPP-Completions
+	url = https://github.com/evandrocoan/CppCompletions
 	upstream = https://github.com/tushortz/CPP-Completions
 [submodule "Packages/C++ Snippets"]
 	path = Packages/C++ Snippets
-	url = https://github.com/evandrocoan/cpp-sublime-snippet
+	url = https://github.com/evandrocoan/CppSnippets
 	upstream = https://github.com/Rapptz/cpp-sublime-snippet
 [submodule "Packages/Chain of Command"]
-	path = Packages/Chain of Command
+	path = Packages/ChainOfCommand
 	url = https://github.com/evandrocoan/ChainOfCommand
 	upstream = https://github.com/jisaacks/ChainOfCommand
 [submodule "Packages/ChangeQuotes"]
@@ -405,19 +405,19 @@
 	url = https://github.com/evandrocoan/ChangeQuotes
 	upstream = https://github.com/colinta/SublimeChangeQuotes
 [submodule "Packages/Clickable URLs"]
-	path = Packages/Clickable URLs
-	url = https://github.com/evandrocoan/ClickableUrls_SublimeText
+	path = Packages/ClickableURLs
+	url = https://github.com/evandrocoan/ClickableURLs
 	upstream = https://github.com/leonid-shevtsov/ClickableUrls_SublimeText
 [submodule "Packages/ColorSchemeEditor"]
 	path = Packages/ColorSchemeEditor
 	url = https://github.com/evandrocoan/ColorSchemeEditor
 	upstream = https://github.com/bobef/ColorSchemeEditor
 [submodule "Packages/Column Select"]
-	path = Packages/Column Select
-	url = https://github.com/evandrocoan/Column-Select
+	path = Packages/ColumnSelect
+	url = https://github.com/evandrocoan/ColumnSelect
 	upstream = https://github.com/ehuss/Sublime-Column-Select
 [submodule "Packages/Delete Current File"]
-	path = Packages/Delete Current File
+	path = Packages/DeleteCurrentFile
 	url = https://github.com/evandrocoan/DeleteCurrentFile
 	upstream = https://github.com/yaworsw/Sublime-DeleteCurrentFile
 [submodule "Packages/DictionaryAutoComplete"]
@@ -433,23 +433,23 @@
 	url = https://github.com/evandrocoan/DuplicateSelections
 	upstream = https://github.com/colinta/SublimeDuplicateSelections
 [submodule "Packages/Edit Preferences"]
-	path = Packages/Edit Preferences
+	path = Packages/EditPreferences
 	url = https://github.com/evandrocoan/EditPreferences
 	upstream = https://github.com/sublimator/EditPreferences
 [submodule "Packages/Emmet"]
 	path = Packages/Emmet
-	url = https://github.com/evandrocoan/emmet-sublime
+	url = https://github.com/evandrocoan/Emmet
 	upstream = https://github.com/sergeche/emmet-sublime
 [submodule "Packages/Extract Text to File"]
-	path = Packages/Extract Text to File
-	url = https://github.com/evandrocoan/extract-to-file
+	path = Packages/ExtractText
+	url = https://github.com/evandrocoan/ExtractText
 	upstream = https://github.com/dreki/sublime-extract-to-file
 [submodule "Packages/File History"]
-	path = Packages/File History
+	path = Packages/FileHistory
 	url = https://github.com/evandrocoan/FileHistory
 	upstream = https://github.com/FichteFoll/FileHistory
 [submodule "Packages/File Rename"]
-	path = Packages/File Rename
+	path = Packages/FileRename
 	url = https://github.com/evandrocoan/FileRename
 	upstream = https://github.com/brianlow/FileRename
 [submodule "Packages/Find++"]
@@ -469,52 +469,52 @@
 	url = https://github.com/evandrocoan/GitGutter
 	upstream = https://github.com/jisaacks/GitGutter
 [submodule "Packages/GitHub Markdown Snippets"]
-	path = Packages/GitHub Markdown Snippets
-	url = https://github.com/evandrocoan/github_markdown_snippets
+	path = Packages/GitHubMarkdownSnippets
+	url = https://github.com/evandrocoan/GitHubMarkdownSnippets
 	upstream = https://github.com/praveenpuglia/github_markdown_snippets
 [submodule "Packages/Glue"]
 	path = Packages/Glue
-	url = https://github.com/evandrocoan/glue
+	url = https://github.com/evandrocoan/Glue
 	upstream = https://github.com/chrissimpkins/glue
 [submodule "Packages/HighlightWords"]
 	path = Packages/HighlightWords
 	url = https://github.com/evandrocoan/HighlightWords
 	upstream = https://github.com/seanliang/HighlightWords
 [submodule "Packages/Horizontal Scroll"]
-	path = Packages/Horizontal Scroll
-	url = https://github.com/evandrocoan/horizontal-scroll
+	path = Packages/HorizontalScroll
+	url = https://github.com/evandrocoan/HorizontalScroll
 	upstream = https://github.com/TheOnlyRew/sublime-horizontal-scroll
 [submodule "Packages/BetterFindBuffer"]
 	path = Packages/BetterFindBuffer
 	url = https://github.com/evandrocoan/BetterFindBuffer
 	upstream = https://github.com/aziz/BetterFindBuffer
 [submodule "Packages/Indent Size"]
-	path = Packages/Indent Size
-	url = https://github.com/evandrocoan/indent-size
+	path = Packages/IndentSize
+	url = https://github.com/evandrocoan/IndentSize
 	upstream = https://github.com/socsieng/sublime-indent-size
 [submodule "Packages/Javatar"]
 	path = Packages/Javatar
 	url = https://github.com/evandrocoan/Javatar
 	upstream = https://github.com/spywhere/Javatar
 [submodule "Packages/LaTeX Word Count"]
-	path = Packages/LaTeX Word Count
+	path = Packages/LaTeXWordCount
 	url = https://github.com/evandrocoan/LaTeXWordCount
 	upstream = https://github.com/kevinstadler/SublimeLaTeXWordCount
 [submodule "Packages/LESS"]
 	path = Packages/LESS
-	url = https://github.com/evandrocoan/LESS-sublime
+	url = https://github.com/evandrocoan/LESS
 	upstream = https://github.com/danro/LESS-sublime
 [submodule "Packages/Line Endings Unify"]
-	path = Packages/Line Endings Unify
-	url = https://github.com/evandrocoan/line-endings-unify
+	path = Packages/LineEndingsUnify
+	url = https://github.com/evandrocoan/LineEndingsUnify
 	upstream = https://github.com/vontio/sublime-line-endings-unify
 [submodule "Packages/Markdown Preview"]
-	path = Packages/Markdown Preview
-	url = https://github.com/evandrocoan/markdown-preview
+	path = Packages/MarkdownPreview
+	url = https://github.com/evandrocoan/MarkdownPreview
 	upstream = https://github.com/revolunet/sublimetext-markdown-preview
 [submodule "Packages/Matlab Completions"]
-	path = Packages/Matlab Completions
-	url = https://github.com/evandrocoan/Matlab-Completions
+	path = Packages/MatlabCompletions
+	url = https://github.com/evandrocoan/MatlabCompletions
 	upstream = https://github.com/tushortz/Matlab-Completions
 [submodule "Packages/MatlabFilenameAutoComplete"]
 	path = Packages/MatlabFilenameAutoComplete
@@ -533,11 +533,11 @@
 	url = https://github.com/evandrocoan/MultiEditUtils
 	upstream = https://github.com/philippotto/Sublime-MultiEditUtils
 [submodule "Packages/MySQL Snippets"]
-	path = Packages/MySQL Snippets
-	url = https://github.com/evandrocoan/sql-snippets
+	path = Packages/MySQLSnippets
+	url = https://github.com/evandrocoan/MySqlSnippets
 	upstream = https://github.com/ancor-dev/sublime-sql-snippets
 [submodule "Packages/Number King"]
-	path = Packages/Number King
+	path = Packages/NumberKing
 	url = https://github.com/evandrocoan/NumberKing
 	upstream = https://github.com/hktonylee/SublimeNumberKing
 [submodule "Packages/OverrideAudit"]
@@ -549,16 +549,16 @@
 	url = https://github.com/evandrocoan/PackageResourceViewer
 	upstream = https://github.com/skuroda/PackageResourceViewer
 [submodule "Packages/Path Translator"]
-	path = Packages/Path Translator
-	url = https://github.com/evandrocoan/Path-Translator
+	path = Packages/PathTranslator
+	url = https://github.com/evandrocoan/PathTranslator
 	upstream = https://github.com/hbhakhra/Path-Translator
 [submodule "Packages/PostScript"]
 	path = Packages/PostScript
-	url = https://github.com/evandrocoan/syntax-postscript
+	url = https://github.com/evandrocoan/PostScript
 	upstream = https://github.com/Briles/sublime-syntax-postscript
 [submodule "Packages/Qt Completions for C++"]
-	path = Packages/Qt Completions for C++
-	url = https://github.com/evandrocoan/Qt-Completions-for-Cpp
+	path = Packages/C++ Qt Completions
+	url = https://github.com/evandrocoan/CppQtCompletions
 	upstream = https://github.com/tushortz/Qt-Completions-for-Cpp
 [submodule "Packages/ReIndent"]
 	path = Packages/ReIndent
@@ -570,7 +570,7 @@
 	upstream = https://github.com/facelessuser/ScopeHunter
 [submodule "Packages/SQLExec"]
 	path = Packages/SQLExec
-	url = https://github.com/evandrocoan/sqlexec
+	url = https://github.com/evandrocoan/SQLExec
 	upstream = https://github.com/jum4/sublime-sqlexec
 [submodule "Packages/StickySearch"]
 	path = Packages/StickySearch
@@ -582,19 +582,19 @@
 	upstream = https://github.com/yaworsw/Sublime-ScopeAlways
 [submodule "Packages/sublime-text-2-buildview"]
 	path = Packages/BuildView
-	url = https://github.com/evandrocoan/buildview
+	url = https://github.com/evandrocoan/BuildView
 	upstream = https://github.com/rctay/sublime-text-2-buildview
 [submodule "Packages/Swift"]
 	path = Packages/Swift
-	url = https://github.com/evandrocoan/Swift-Sublime-Package
+	url = https://github.com/evandrocoan/Swift
 	upstream = https://github.com/quiqueg/Swift-Sublime-Package
 [submodule "Packages/Sync View Scroll"]
-	path = Packages/Sync View Scroll
-	url = https://github.com/evandrocoan/syncViewScroll
+	path = Packages/SyncViewScroll
+	url = https://github.com/evandrocoan/SyncViewScroll
 	upstream = https://github.com/zzjin/syncViewScroll
 [submodule "Packages/TOML"]
 	path = Packages/TOML
-	url = https://github.com/evandrocoan/toml_highlighting
+	url = https://github.com/evandrocoan/Toml
 	upstream = https://github.com/Jayflux/sublime_toml_highlighting
 [submodule "Packages/UnitTesting"]
 	path = Packages/UnitTesting
@@ -609,35 +609,35 @@
 	url = https://github.com/evandrocoan/WordHighlight
 	upstream = https://github.com/SublimeText/WordHighlight
 [submodule "Packages/Terminal"]
-	path = Packages/Terminal
-	url = https://github.com/evandrocoan/terminal
+	path = Packages/TerminalShortcuts
+	url = https://github.com/evandrocoan/TerminalShortcuts
 	upstream = https://github.com/wbond/sublime_terminal
 [submodule "Packages/Sublime Tutor"]
-	path = Packages/Training
-	url = https://github.com/evandrocoan/SublimeTutor
+	path = Packages/SublimeTutorial
+	url = https://github.com/evandrocoan/SublimeTutorial
 	upstream = https://github.com/jaipandya/SublimeTutor
 [submodule "Packages/Jedi - Python autocompletion"]
-	path = Packages/Jedi - Python autocompletion
-	url = https://github.com/evandrocoan/JEDI
+	path = Packages/JediPythonAutoCompletion
+	url = https://github.com/evandrocoan/JediPythonAutoCompletion
 	upstream = https://github.com/srusskih/SublimeJEDI
 [submodule "Packages/SQLTools"]
 	path = Packages/SQLTools
 	url = https://github.com/evandrocoan/SQLTools
 	upstream = https://github.com/mtxr/SQLTools
 [submodule "Packages/Syntax Highlighting for Sass"]
-	path = Packages/Syntax Highlighting for Sass
-	url = https://github.com/evandrocoan/Syntax-highlighting-for-Sass
+	path = Packages/SassSyntax
+	url = https://github.com/evandrocoan/SassSyntax
 	upstream = https://github.com/P233/Syntax-highlighting-for-Sass
 [submodule "Packages/ConvertToUTF8"]
 	path = Packages/ConvertToUTF8
 	url = https://github.com/evandrocoan/ConvertToUTF8
 	upstream = https://github.com/seanliang/ConvertToUTF8
 [submodule "Packages/Random Everything"]
-	path = Packages/Random Everything
-	url = https://github.com/evandrocoan/random-sublime-text-plugin
+	path = Packages/RandomEverything
+	url = https://github.com/evandrocoan/RandomEverything
 	upstream = https://github.com/kimpettersen/random-sublime-text-plugin
 [submodule "Packages/Insert Nums"]
-	path = Packages/Insert Nums
+	path = Packages/InsertNums
 	url = https://github.com/evandrocoan/InsertNums
 	upstream = https://github.com/jbrooksuk/InsertNums
 [submodule "Packages/AutoWrap"]
@@ -645,31 +645,31 @@
 	url = https://github.com/evandrocoan/AutoWrap
 	upstream = https://github.com/randy3k/AutoWrap
 [submodule "Packages/Toggle Words"]
-	path = Packages/Toggle Words
+	path = Packages/ToggleWords
 	url = https://github.com/evandrocoan/ToggleWords
 	upstream = https://github.com/gordio/ToggleWords
 [submodule "Packages/AceJump"]
 	path = Packages/AceJump
-	url = https://github.com/evandrocoan/ace-jump-sublime
+	url = https://github.com/evandrocoan/AceJump
 	upstream = https://github.com/ice9js/ace-jump-sublime
 [submodule "Packages/AltUp"]
 	path = Packages/AltUp
 	url = https://github.com/evandrocoan/AltUp
 	upstream = https://github.com/germtb/AltUp
 [submodule "Packages/Jump Along Indent"]
-	path = Packages/Jump Along Indent
+	path = Packages/JumpAlongIndent
 	url = https://github.com/evandrocoan/JumpAlongIndent
 	upstream = https://github.com/mwean/sublime_jump_along_indent
 [submodule "Packages/Select all by current scope"]
-	path = Packages/Select all by current scope
-	url = https://github.com/evandrocoan/select-all-by-current-scope
+	path = Packages/SelectAll
+	url = https://github.com/evandrocoan/SelectAll
 	upstream = https://github.com/mreq/sublime-select-all-by-current-scope
 [submodule "Packages/ExpandRegion"]
 	path = Packages/ExpandRegion
 	url = https://github.com/evandrocoan/ExpandRegion
 	upstream = https://github.com/aronwoost/sublime-expand-region
 [submodule "Packages/SemanticLineWrapping"]
-	path = Packages/SemanticLineWrapping
+	path = Packages/SemanticLineWrap
 	url = https://github.com/evandrocoan/SemanticLineWrap
 	upstream = https://github.com/bordaigorl/sublime-semantic-wrap
 [submodule "Packages/WordCount"]
@@ -678,5 +678,5 @@
 	upstream = https://github.com/titoBouzout/WordCount
 [submodule "Packages/ColorSchemeUnit"]
 	path = Packages/ColorSchemeUnit
-	url = https://github.com/evandrocoan/color-scheme-unit
+	url = https://github.com/evandrocoan/ColorSchemeUnit
 	upstream = https://github.com/gerardroche/sublime-color-scheme-unit
