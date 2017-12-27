@@ -3,7 +3,7 @@
 	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
 	tags = 3144
 [submodule "Packages/amxmodx"]
-	path = Packages/amxmodx
+	path = Packages/Amxmodx
 	url = https://github.com/evandrocoan/AmxxEditor
 	dependency = PythonDebugTools
 [submodule "StudioChannel"]
