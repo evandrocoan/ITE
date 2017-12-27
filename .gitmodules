@@ -224,10 +224,6 @@
 	path = Packages/IndentAndBraces
 	url = https://github.com/evandrocoan/IndentAndBraces
 	upstream = https://github.com/Epskampie/sublime_indent_and_braces
-[submodule "Packages/Invert Selection"]
-	path = Packages/InvertSelection
-	url = https://github.com/evandrocoan/InvertSelection
-	upstream = https://github.com/vontio/sublime-invert-selection
 [submodule "Packages/LaTeXTools"]
 	path = Packages/LaTeXTools
 	url = https://github.com/evandrocoan/LaTeXTools
