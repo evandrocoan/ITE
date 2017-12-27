@@ -269,11 +269,11 @@
 	url = https://github.com/evandrocoan/SideBarEnhancements
 	upstream = https://github.com/SideBarEnhancements-org/SideBarEnhancements
 [submodule "Packages/SublimeCodeIntel"]
-	path = Packages/SublimeCodeIntel
+	path = Packages/CodeIntel
 	url = https://github.com/evandrocoan/CodeIntel
 	upstream = https://github.com/SublimeCodeIntel/SublimeCodeIntel
 [submodule "Packages/SublimeREPL"]
-	path = Packages/SublimeREPL
+	path = Packages/REPL
 	url = https://github.com/evandrocoan/REPL
 	upstream = https://github.com/wuub/SublimeREPL
 [submodule "Packages/SyncedSideBar"]
@@ -325,11 +325,11 @@
 	url = https://github.com/evandrocoan/Maven
 	upstream = https://github.com/nlloyd/SublimeMaven
 [submodule "Packages/SublimeLinter"]
-	path = Packages/SublimeLinter
+	path = Packages/Linter
 	url = https://github.com/evandrocoan/Linter
 	upstream = https://github.com/SublimeLinter/SublimeLinter3
 [submodule "Packages/SublimeLinter-javac"]
-	path = Packages/SublimeLinter-javac
+	path = Packages/LinterJava
 	url = https://github.com/evandrocoan/Linter-javac
 	upstream = https://github.com/SublimeLinter/SublimeLinter-javac
 [submodule "Packages/Anaconda"]
@@ -581,7 +581,7 @@
 	url = https://github.com/evandrocoan/ScopeAlways
 	upstream = https://github.com/yaworsw/Sublime-ScopeAlways
 [submodule "Packages/sublime-text-2-buildview"]
-	path = Packages/sublime-text-2-buildview
+	path = Packages/BuildView
 	url = https://github.com/evandrocoan/buildview
 	upstream = https://github.com/rctay/sublime-text-2-buildview
 [submodule "Packages/Swift"]
@@ -613,7 +613,7 @@
 	url = https://github.com/evandrocoan/terminal
 	upstream = https://github.com/wbond/sublime_terminal
 [submodule "Packages/Sublime Tutor"]
-	path = Packages/Sublime Tutor
+	path = Packages/Training
 	url = https://github.com/evandrocoan/SublimeTutor
 	upstream = https://github.com/jaipandya/SublimeTutor
 [submodule "Packages/Jedi - Python autocompletion"]
