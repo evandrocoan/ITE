@@ -325,11 +325,11 @@
 	url = https://github.com/evandrocoan/Maven
 	upstream = https://github.com/nlloyd/SublimeMaven
 [submodule "Packages/SublimeLinter"]
-	path = Packages/Linter
+	path = Packages/SublimeLinter
 	url = https://github.com/evandrocoan/Linter
 	upstream = https://github.com/SublimeLinter/SublimeLinter3
 [submodule "Packages/SublimeLinter-javac"]
-	path = Packages/LinterJava
+	path = Packages/SublimeLinter-javac
 	url = https://github.com/evandrocoan/LinterJava
 	upstream = https://github.com/SublimeLinter/SublimeLinter-javac
 [submodule "Packages/Anaconda"]
