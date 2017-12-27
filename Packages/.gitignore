@@ -16,173 +16,172 @@ tests.sublime-commands
 
 0_settings_loader
 A File Icon
+ANSIescape
+AceJump
 ActiveViewJumpBack
-Add Folder To Project
-Advanced CSV
-AdvancedNewFile
-Alignment
-AltUp
-Select all by current scope
-ExpandRegion
+AddFolderToProject
+AdvancedCSV
 AlignTab
-All Autocomplete
-amxmodx
+Alignment
+AllAutocomplete
+AltUp
+Amxmodx
 AmxxChannel
 AmxxPawn
 Anaconda
-ANSIescape
 ApplySyntax
-Auto Refresh
 AutoFileName
-AutomaticPackageReloader
+AutoRefresh
 AutoWrap
+AutomaticPackageReloader
 BBCode
-Better CoffeeScript
+BetterCoffeeScript
 BetterFindBuffer
 BracketHighlighter
 BufferScroll
+BuildView
 C++ Completions
+C++ Qt Completions
 C++ Snippets
-Case Conversion
-Chain of Command
+CaseConversion
+ChainOfCommand
 ChangeQuotes
 ChannelManager
 ChannelRepositoryTools
 ClearCursorsCarets
-Clickable URLs
+ClickableURLs
 ClipboardScopeCopy
+CodeIntel
 Color Highlighter
 ColorHelper
-ColorHighlighter
 ColorSchemeEditor
 ColorSchemeUnit
-Column Select
-Compare Side-By-Side
+ColumnSelect
+CompareSideBySide
 ConvertToUTF8
-Copy Filepath With Line Numbers
+CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
 Default
 DefaultSyntax
-Delete Current File
+DeleteCurrentFile
 DictionaryAutoComplete
 DistractionFreeWindow
 DocBlockr
-Dotfiles Syntax Highlighting
+Dotfiles
 DuplicateSelections
-EstimatedTimeLeft
-Edit Preferences
+EditPreferences
 Emmet
+EstimatedTimeLeft
+ExpandRegion
 ExportHtml
 ExtendedTabSwitcher
-Extract Text to File
-File History
-File Rename
+ExtractText
 FileDiffs
+FileHistory
 FileManager
+FileRename
 Find++
 FindKeyConflicts
 FixCommandPalette
-FixSelectionAfterIndent
 FixProjectSwitchRestartBug
+FixSelectionAfterIndent
 ForceRewriteSublimeSettings
 FuzzyFileNav
 FuzzyFilePath
-Generic Config
+GenericConfig
 Gist
 Git
 GitGutter
-GitHub Markdown Snippets
+GitHubMarkdownSnippets
 Glue
-Google Spell Check
+GoogleSpellCheck
 GotoLastEditEnhanced
-Highlight Build Errors
+HighlightBuildErrors
 HighlightWords
-Horizontal Scroll
-Hungry Backspace
-Increment Selection
+HorizontalScroll
+HungryBackspace
+IncrementSelection
 Incrementor
-Indent and braces
-Indent Size
-Insert Nums
-Invert Selection
+IndentAndBraces
+IndentSize
+InsertNums
+InvertSelection
 Javatar
-Jedi - Python autocompletion
-Language - English and Portuguese
-LaTeX Word Count
+JediPythonAutoCompletion
+JumpAlongIndent
+KeepPastedTextSelected
+LESS
+LICENSE*
 LaTeXSmartQuotes
 LaTeXTools
-LESS
-Line Endings Unify
-Local History
-KeepPastedTextSelected
-AceJump
-Jump Along Indent
-Markdown Preview
-Markdown to BB Code Converter
-Matlab Completions
+LaTeXWordCount
+Language - English and Portuguese
+LineEndingsUnify
+Linter
+LinterJava
+LocalHistory
+MarkdownPreview
+MarkdownToBBCode
+MatlabCompletions
 MatlabFilenameAutoComplete
 Maven
 MaxPane
 MoveText
 MultiEditUtils
-MySQL Snippets
+MySQLSnippets
 Notepad++ Color Scheme
-Number King
+NumberKing
 Octave
 OpenAutoCompletion
 Origami
-OverrideEditSettingsDefaultContents
-OverrideUnpackedPackages
 OverrideAudit
 OverrideCommitCompletion
-SemanticLineWrapping
-Package Control
+OverrideEditSettingsDefaultContents
+OverrideUnpackedPackages
 PackageDev
 PackageResourceViewer
 PackagesManager
-Path Translator
+PathTranslator
 PostScript
 PowerCursors
-Pretty JSON
-Project Specific Syntax Settings
+PrettyJSON
+ProjectSpecificSyntax
+PyV8
 PythonDebugTools
-Qt Completions for C++
 QuickSettings
-Random Everything
+README.md*
 REG
+REPL
+RandomEverything
 ReIndent
 RichPlainText
+SQLExec
+SQLKeywordUppercase
+SQLTools
+SassSyntax
 ScopeAlways
 ScopeHunter
+SelectAll
 SelectAllSpellingErrors
 SelectUntil
-Side-by-Side Settings
+SemanticLineWrap
 SideBarEnhancements
-SqlKeywordUppercase
-SQLExec
-SQLTools
+SideBySideSettings
 StickySearch
 StudioChannel
-Sublime Tutor
-sublime-text-2-buildview
-SublimeCodeIntel
-SublimeLinter
-SublimeLinter-javac
-SublimeREPL
+SublimeTutorial
 Swift
-Sync View Scroll
+SyncViewScroll
 SyncedSideBar
-Syntax Highlighting for Sass
 SyntaxManager
-TabsExtra
-Terminal
-Text Pastry
-Toggle Words
 TOML
-Toolbar
+TabsExtra
+TerminalShortcuts
+TextPastry
+ToggleWords
 Trimmer
 TypeScript
-Uncrustify
+UncrustifySublimePlugin
 UnitTesting
 User
 VBScript
@@ -190,8 +189,9 @@ ViewSettingsFreely
 Whitespace
 WordCount
 WordHighlight
-Wrap Plus
-x86 and x86_64 Assembly
+WrapPlus
+X86Assembly
+zzz A File Icon zzz
 
 
 
