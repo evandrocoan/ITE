@@ -117,8 +117,6 @@ LaTeXTools
 LaTeXWordCount
 Language - English and Portuguese
 LineEndingsUnify
-Linter
-LinterJava
 LocalHistory
 MarkdownPreview
 MarkdownToBBCode
@@ -169,6 +167,8 @@ SideBarEnhancements
 SideBySideSettings
 StickySearch
 StudioChannel
+SublimeLinter
+SublimeLinter-javac
 SublimeTutorial
 Swift
 SyncViewScroll
