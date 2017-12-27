@@ -81,6 +81,7 @@ FileDiffs
 FileManager
 Find++
 FindKeyConflicts
+FixCommandPalette
 FixSelectionAfterIndent
 FixedSelectionsClear
 FixProjectSwitchRestartBug
