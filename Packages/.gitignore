@@ -83,7 +83,6 @@ Find++
 FindKeyConflicts
 FixCommandPalette
 FixSelectionAfterIndent
-FixedSelectionsClear
 FixProjectSwitchRestartBug
 ForceRewriteSublimeSettings
 FuzzyFileNav

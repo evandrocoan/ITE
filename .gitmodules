@@ -69,9 +69,6 @@
 [submodule "Packages/Fix Selection After Indent"]
 	path = Packages/FixSelectionAfterIndent
 	url = https://github.com/evandrocoan/SublimeFixSelectionAfterIndent
-[submodule "Packages/Fixed Selections Clear"]
-	path = Packages/FixedSelectionsClear
-	url = https://github.com/evandrocoan/SublimeFixedSelectionsClear
 [submodule "Packages/Force Rewrite Sublime Settings"]
 	path = Packages/ForceRewriteSublimeSettings
 	url = https://github.com/evandrocoan/SublimeForceRewriteSublimeSettings
