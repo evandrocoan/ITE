@@ -6,6 +6,11 @@
 	path = Packages/Amxmodx
 	url = https://github.com/evandrocoan/AmxxEditor
 	dependency = PythonDebugTools
+[submodule "Packages/All Autocomplete"]
+	path = Packages/AllAutocomplete
+	url = https://github.com/evandrocoan/AllAutocomplete
+	upstream = https://github.com/alienhard/SublimeAllAutocomplete
+	dependency = PythonDebugTools
 [submodule "StudioChannel"]
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/StudioChannel
@@ -127,10 +132,6 @@
 	path = Packages/AlignTab
 	url = https://github.com/evandrocoan/AlignTab
 	upstream = https://github.com/randy3k/AlignTab
-[submodule "Packages/All Autocomplete"]
-	path = Packages/AllAutocomplete
-	url = https://github.com/evandrocoan/AllAutocomplete
-	upstream = https://github.com/alienhard/SublimeAllAutocomplete
 [submodule "Packages/AutoFileName"]
 	path = Packages/AutoFileName
 	url = https://github.com/evandrocoan/AutoFileName
