@@ -25,6 +25,7 @@
             ],
             "folder_exclude_patterns":
             [
+                "Data/.sublime",
                 "Data/Cache",
                 "Data/Index",
                 "Data/Lib",
