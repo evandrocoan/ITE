@@ -249,6 +249,7 @@
 	path = Packages/PackagesManager
 	url = https://github.com/evandrocoan/PackagesManager
 	upstream = https://github.com/wbond/package_control
+	tags = master
 [submodule "Packages/PackageDev"]
 	path = Packages/PackageDev
 	url = https://github.com/evandrocoan/PackageDev
