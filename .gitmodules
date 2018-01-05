@@ -79,7 +79,7 @@
 	url = https://github.com/evandrocoan/ForceRewriteSublimeSettings
 [submodule "Packages/Octave"]
 	path = Packages/Octave
-	url = https://github.com/evandrocoan/Octave
+	url = https://github.com/evandrocoan/SublimeOctave
 [submodule "Packages/Open Auto Completion"]
 	path = Packages/OpenAutoCompletion
 	url = https://github.com/evandrocoan/OpenAutoCompletion
