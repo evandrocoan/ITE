@@ -7,6 +7,31 @@
 
 
 
+# Packages dependencies
+jsonschema/*
+coverage/*
+Pyyaml/*
+pyyaml/*
+Pyv8/*
+python-markdown/*
+python-jinja2/*
+pygments/*
+mdpopups/*
+markupsafe/*
+bz2/*
+backrefs/*
+ssl-linux/*
+zzz A File Icon zzz/*
+
+pymdownx/*
+regex/*
+package_setting_context/*
+
+*/linux32-p3/*
+**/linux32-p3/**
+
+
+
 # Ignore other custom packages
 .gitignore
 .travis.yml
@@ -109,10 +134,8 @@ InvertSelection
 Javatar
 JediPythonAutoCompletion
 JumpAlongIndent
-jsonschema
 KeepPastedTextSelected
 LESS
-LICENSE*
 LaTeXSmartQuotes
 LaTeXTools
 LaTeXWordCount
@@ -148,7 +171,6 @@ ProjectSpecificSyntax
 PyV8
 PythonDebugTools
 QuickSettings
-README.md*
 REG
 REPL
 RandomEverything
@@ -192,30 +214,5 @@ WordCount
 WordHighlight
 WrapPlus
 X86Assembly
-zzz A File Icon zzz
-
-
-
-# Packages dependencies
-coverage/*
-Pyyaml/*
-pyyaml/*
-Pyv8/*
-python-markdown/*
-python-jinja2/*
-pygments/*
-mdpopups/*
-markupsafe/*
-bz2/*
-backrefs/*
-ssl-linux/*
-zzz A File Icon zzz/*
-
-pymdownx/*
-regex/*
-package_setting_context/*
-
-*/linux32-p3/*
-**/linux32-p3/**
 
 
