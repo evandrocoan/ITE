@@ -80,12 +80,12 @@ ___
 
 Use on the console: (View -> Show Console)
 ```
-sublime.log_input(True); sublime.log_commands(True); sublime.log_result_regex(True)
+sublime.log_input(True); sublime.log_commands(True); sublime.log_result_regex(True); sublime.log_indexing(True);
 ```
 
 To disable it do:
 ```
-sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(False)
+sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(False) sublime.log_indexing(False);
 ```
 
 
