@@ -681,3 +681,7 @@
 	path = Packages/ColorSchemeUnit
 	url = https://github.com/evandrocoan/ColorSchemeUnit
 	upstream = https://github.com/gerardroche/sublime-color-scheme-unit
+[submodule "Packages/LinesMultisets"]
+	path = Packages/LinesMultisets
+	url = https://github.com/evandrocoan/LinesMultisets
+	upstream = https://github.com/heldev/sublime-lines-multisets
