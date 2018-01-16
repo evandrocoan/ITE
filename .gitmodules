@@ -685,3 +685,7 @@
 	path = Packages/LinesMultisets
 	url = https://github.com/evandrocoan/LinesMultisets
 	upstream = https://github.com/heldev/sublime-lines-multisets
+[submodule "Packages/LSP"]
+	path = Packages/LSP
+	url = https://github.com/evandrocoan/LSP
+	upstream = https://github.com/tomv564/LSP
