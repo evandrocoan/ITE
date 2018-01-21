@@ -613,10 +613,6 @@
 	path = Packages/SublimeTutorial
 	url = https://github.com/evandrocoan/SublimeTutorial
 	upstream = https://github.com/jaipandya/SublimeTutor
-[submodule "Packages/Jedi - Python autocompletion"]
-	path = Packages/JediPythonAutoCompletion
-	url = https://github.com/evandrocoan/JediPythonAutoCompletion
-	upstream = https://github.com/srusskih/SublimeJEDI
 [submodule "Packages/SQLTools"]
 	path = Packages/SQLTools
 	url = https://github.com/evandrocoan/SQLTools
