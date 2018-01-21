@@ -333,10 +333,6 @@
 	path = Packages/SublimeLinter-javac
 	url = https://github.com/evandrocoan/SublimeLinter-javac
 	upstream = https://github.com/SublimeLinter/SublimeLinter-javac
-[submodule "Packages/Anaconda"]
-	path = Packages/Anaconda
-	url = https://github.com/evandrocoan/Anaconda
-	upstream = https://github.com/DamnWidget/anaconda
 [submodule "Packages/SelectUntil"]
 	path = Packages/SelectUntil
 	url = https://github.com/evandrocoan/SelectUntil
