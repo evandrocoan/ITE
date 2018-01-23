@@ -681,3 +681,7 @@
 	path = Packages/LSP
 	url = https://github.com/evandrocoan/LSP
 	upstream = https://github.com/tomv564/LSP
+[submodule "Packages/PanelManager"]
+	path = Packages/PanelManager
+	url = https://github.com/evandroforks/PanelManager
+	upstream = https://github.com/stoivo/sublime_switch_panel
