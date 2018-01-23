@@ -161,7 +161,7 @@
 	url = https://github.com/evandrocoan/ColorHelper
 	upstream = https://github.com/facelessuser/ColorHelper
 [submodule "Packages/Compare Side-By-Side"]
-	path = Packages/CompareSideBySide
+	path = Packages/SideBySideCompare
 	url = https://github.com/evandrocoan/CompareSideBySide
 	upstream = https://github.com/DougTy/sublime-compare-side-by-side
 [submodule "Packages/Copy Filepath With Line Numbers"]
