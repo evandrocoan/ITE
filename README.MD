@@ -85,7 +85,7 @@ sublime.log_input(True); sublime.log_commands(True); sublime.log_result_regex(Tr
 
 To disable it do:
 ```
-sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(False) sublime.log_indexing(False);
+sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(False); sublime.log_indexing(False);
 ```
 
 
