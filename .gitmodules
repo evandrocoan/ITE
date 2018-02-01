@@ -685,3 +685,7 @@
 	path = Packages/PanelManager
 	url = https://github.com/evandroforks/PanelManager
 	upstream = https://github.com/stoivo/sublime_switch_panel
+[submodule "Packages/LanguageTool"]
+	path = Packages/LanguageTool
+	url = https://github.com/evandroforks/LanguageTool
+	upstream = https://github.com/gtarawneh/languagetool-sublime
