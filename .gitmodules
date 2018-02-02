@@ -690,14 +690,14 @@
 	url = https://github.com/evandroforks/LanguageTool
 	upstream = https://github.com/gtarawneh/languagetool-sublime
 [submodule "Packages/ShellEvaluate"]
-	path = Packages/ShellEvaluate
+	path = Packages/EvaluateShell
 	url = https://github.com/evandroforks/ShellEvaluate
 	upstream = https://github.com/jbrooksuk/Sublime-Evaluate
 [submodule "Packages/EvalPrinter"]
-	path = Packages/EvalPrinter
+	path = Packages/EvaluatePrinter
 	url = https://github.com/evandroforks/EvalPrinter
 	upstream = https://github.com/philippotto/Sublime-EvalPrinter
 [submodule "Packages/InlinePython"]
-	path = Packages/InlinePython
+	path = Packages/EvaluateInlinePython
 	url = https://github.com/evandroforks/InlinePython
 	upstream = https://github.com/apiad/Sublime-InlinePython
