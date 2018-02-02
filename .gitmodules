@@ -692,3 +692,6 @@
 [submodule "Packages/ShellEvaluate"]
 	path = Packages/ShellEvaluate
 	url = https://github.com/evandroforks/ShellEvaluate
+[submodule "Packages/EvalPrinter"]
+	path = Packages/EvalPrinter
+	url = https://github.com/evandroforks/EvalPrinter
