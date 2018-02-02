@@ -689,3 +689,6 @@
 	path = Packages/LanguageTool
 	url = https://github.com/evandroforks/LanguageTool
 	upstream = https://github.com/gtarawneh/languagetool-sublime
+[submodule "Packages/ShellEvaluate"]
+	path = Packages/ShellEvaluate
+	url = https://github.com/evandroforks/ShellEvaluate
