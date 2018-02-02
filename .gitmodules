@@ -692,9 +692,12 @@
 [submodule "Packages/ShellEvaluate"]
 	path = Packages/ShellEvaluate
 	url = https://github.com/evandroforks/ShellEvaluate
+	upstream = https://github.com/jbrooksuk/Sublime-Evaluate
 [submodule "Packages/EvalPrinter"]
 	path = Packages/EvalPrinter
 	url = https://github.com/evandroforks/EvalPrinter
+	upstream = https://github.com/philippotto/Sublime-EvalPrinter
 [submodule "Packages/InlinePython"]
 	path = Packages/InlinePython
 	url = https://github.com/evandroforks/InlinePython
+	upstream = https://github.com/apiad/Sublime-InlinePython
