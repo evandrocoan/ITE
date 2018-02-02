@@ -695,3 +695,6 @@
 [submodule "Packages/EvalPrinter"]
 	path = Packages/EvalPrinter
 	url = https://github.com/evandroforks/EvalPrinter
+[submodule "Packages/InlinePython"]
+	path = Packages/InlinePython
+	url = https://github.com/evandroforks/InlinePython
