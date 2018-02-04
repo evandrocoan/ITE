@@ -1,6 +1,6 @@
 [submodule "Packages/PythonDebugTools"]
-	path = Packages/PythonDebugTools
-	url = https://github.com/evandrocoan/PythonDebugTools
+	path = Packages/debug_tools
+	url = https://github.com/evandrocoan/debug_tools
 	dependency = 10
 [submodule "Packages/estimated_time_left"]
 	path = Packages/EstimatedTimeLeft
@@ -10,7 +10,7 @@
 [submodule "Packages/Sublime Text Studio"]
 	path = Packages/ChannelManager
 	url = https://github.com/evandrocoan/ChannelManager
-	dependency = 30, PythonDebugTools, EstimatedTimeLeft
+	dependency = 30, debug_tools, EstimatedTimeLeft
 [submodule "Packages/Default"]
 	path = Packages/Default
 	url = https://github.com/evandrocoan/Default
@@ -18,16 +18,16 @@
 [submodule "Packages/amxmodx"]
 	path = Packages/Amxmodx
 	url = https://github.com/evandrocoan/AmxxEditor
-	dependency = PythonDebugTools
+	dependency = debug_tools
 [submodule "Packages/All Autocomplete"]
 	path = Packages/AllAutocomplete
 	url = https://github.com/evandrocoan/AllAutocomplete
 	upstream = https://github.com/alienhard/SublimeAllAutocomplete
-	dependency = PythonDebugTools
+	dependency = debug_tools
 [submodule "StudioChannel"]
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/StudioChannel
-	dependency = ChannelManager, PythonDebugTools, EstimatedTimeLeft
+	dependency = ChannelManager, debug_tools, EstimatedTimeLeft
 	tags = master
 [submodule "Packages/Notepad++ Color Scheme"]
 	path = Packages/Notepad++ Color Scheme
@@ -147,7 +147,7 @@
 	path = Packages/BufferScroll
 	url = https://github.com/evandrocoan/BufferScroll
 	upstream = https://github.com/titoBouzout/BufferScroll
-	dependency = PythonDebugTools
+	dependency = debug_tools
 [submodule "Packages/ChannelRepositoryTools"]
 	path = Packages/ChannelRepositoryTools
 	url = https://github.com/evandrocoan/ChannelRepositoryTools
