@@ -701,3 +701,11 @@
 	path = Packages/EvaluateInlinePython
 	url = https://github.com/evandroforks/InlinePython
 	upstream = https://github.com/apiad/Sublime-InlinePython
+[submodule "Packages/concurrent-log-handler"]
+	path = Packages/concurrent-log-handler
+	url = https://github.com/evandroforks/concurrent-log-handler
+	upstream = https://github.com/Preston-Landers/concurrent-log-handler
+[submodule "Packages/portalocker"]
+	path = Packages/portalocker
+	url = https://github.com/evandroforks/portalocker
+	upstream = https://github.com/WoLpH/portalocker
