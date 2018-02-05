@@ -87,7 +87,7 @@ ColumnSelect
 ConvertToUTF8
 CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
-debug_tools
+DebugTools
 Default
 DefaultSyntax
 DeleteCurrentFile
