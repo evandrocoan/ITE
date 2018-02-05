@@ -87,7 +87,6 @@ ColumnSelect
 ConvertToUTF8
 CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
-DebugTools
 Default
 DefaultSyntax
 DeleteCurrentFile
@@ -176,6 +175,7 @@ PostScript
 PowerCursors
 PrettyJSON
 ProjectSpecificSyntax
+# PythonDebugTools
 PyV8
 QuickSettings
 RandomEverything

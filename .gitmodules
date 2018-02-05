@@ -1,5 +1,5 @@
 [submodule "Packages/PythonDebugTools"]
-	path = Packages/DebugTools
+	path = Packages/PythonDebugTools
 	url = https://github.com/evandrocoan/DebugTools
 	dependency = 10
 [submodule "Packages/estimated_time_left"]
