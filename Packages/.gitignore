@@ -84,6 +84,7 @@ ColorHelper
 ColorSchemeEditor
 ColorSchemeUnit
 ColumnSelect
+ConcurrentLogHandler
 ConvertToUTF8
 CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
@@ -172,6 +173,7 @@ PackageResourceViewer
 PackagesManager
 PanelManager
 PathTranslator
+PortalockerFiles
 PostScript
 PowerCursors
 PrettyJSON
