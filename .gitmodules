@@ -709,3 +709,7 @@
 	path = Packages/PortalockerFiles
 	url = https://github.com/evandroforks/portalocker
 	upstream = https://github.com/WoLpH/portalocker
+[submodule "Packages/PowerShell"]
+	path = Packages/PowerShell
+	url = https://github.com/evandroforks/PowerShell
+	upstream = https://github.com/SublimeText/PowerShell
