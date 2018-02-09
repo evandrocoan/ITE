@@ -100,7 +100,9 @@ DuplicateSelections
 EditPreferences
 Emmet
 EstimatedTimeLeft
-EvalPrinter
+EvaluateInlinePython
+EvaluatePrinter
+EvaluateShell
 ExpandRegion
 ExportHtml
 ExtendedTabSwitcher
@@ -133,7 +135,6 @@ Incrementor
 IncrementSelection
 IndentAndBraces
 IndentSize
-InlinePython
 InsertNums
 InvertSelection
 Javatar
@@ -193,7 +194,6 @@ SelectAll
 SelectAllSpellingErrors
 SelectUntil
 SemanticLineWrap
-ShellEvaluate
 SideBarEnhancements
 SideBySideCompare
 SideBySideSettings
