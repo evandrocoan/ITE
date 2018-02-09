@@ -8,14 +8,6 @@ then
     exit 1
 fi
 
-if ! [ -d "$build" ]
-then
-    printf "Error: The first parameter folder does not exists.\n"
-    printf "You need to pass the build folder.\n"
-    exit 1
-fi
-
-
 sublime_text_root="/cygdrive/f/SublimeText"
 sublime_text_builds="/cygdrive/d/User/Programs/SublimeText"
 
