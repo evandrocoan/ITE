@@ -713,3 +713,7 @@
 	path = Packages/PowerShell
 	url = https://github.com/evandroforks/PowerShell
 	upstream = https://github.com/SublimeText/PowerShell
+[submodule "Packages/PlantUmlDiagrams"]
+	path = Packages/PlantUmlDiagrams
+	url = https://github.com/evandroforks/PlantUmlDiagrams
+	upstream = https://github.com/jvantuyl/sublime_diagram_plugin
