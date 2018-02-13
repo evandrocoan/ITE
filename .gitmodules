@@ -1,3 +1,7 @@
+[submodule "Packages/Default"]
+	path = Packages/Default
+	url = https://github.com/evandrocoan/Default
+	upstream = ../../Default.sublime-package
 [submodule "Packages/PythonDebugTools"]
 	path = Packages/DebugTools
 	url = https://github.com/evandrocoan/DebugTools
@@ -11,10 +15,25 @@
 	path = Packages/ChannelManager
 	url = https://github.com/evandrocoan/ChannelManager
 	dependency = 30, DebugTools, EstimatedTimeLeft
-[submodule "Packages/Default"]
-	path = Packages/Default
-	url = https://github.com/evandrocoan/Default
-	upstream = ../../Default.sublime-package
+[submodule "Packages/PlantUmlConnection"]
+	path = Packages/PlantUmlConnection
+	url = https://github.com/evandroforks/PlantUmlConnection
+	upstream = https://github.com/SamuelMarks/python-plantuml
+	dependency = 50
+[submodule "Packages/concurrent-log-handler"]
+	path = Packages/ConcurrentLogHandler
+	url = https://github.com/evandroforks/concurrent-log-handler
+	upstream = https://github.com/Preston-Landers/concurrent-log-handler
+	dependency = 09
+[submodule "Packages/Notepad++ Color Scheme"]
+	path = Packages/Notepad++ Color Scheme
+	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
+	tags = 3144
+[submodule "Packages/PlantUmlDiagrams"]
+	path = Packages/PlantUmlDiagrams
+	url = https://github.com/evandroforks/PlantUmlDiagrams
+	upstream = https://github.com/jvantuyl/sublime_diagram_plugin
+	dependency = PlantUmlConnection
 [submodule "Packages/amxmodx"]
 	path = Packages/Amxmodx
 	url = https://github.com/evandrocoan/AmxxEditor
@@ -29,10 +48,6 @@
 	url = https://github.com/evandrocoan/StudioChannel
 	dependency = ChannelManager, DebugTools, EstimatedTimeLeft
 	tags = master
-[submodule "Packages/Notepad++ Color Scheme"]
-	path = Packages/Notepad++ Color Scheme
-	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
-	tags = 3144
 [submodule "Packages/0_settings_loader"]
 	path = Packages/0_settings_loader
 	url = https://github.com/evandrocoan/0_settings_loader
@@ -701,10 +716,6 @@
 	path = Packages/EvaluateInlinePython
 	url = https://github.com/evandroforks/InlinePython
 	upstream = https://github.com/apiad/Sublime-InlinePython
-[submodule "Packages/concurrent-log-handler"]
-	path = Packages/ConcurrentLogHandler
-	url = https://github.com/evandroforks/concurrent-log-handler
-	upstream = https://github.com/Preston-Landers/concurrent-log-handler
 [submodule "Packages/portalocker"]
 	path = Packages/PortalockerFiles
 	url = https://github.com/evandroforks/portalocker
@@ -713,11 +724,4 @@
 	path = Packages/PowerShell
 	url = https://github.com/evandroforks/PowerShell
 	upstream = https://github.com/SublimeText/PowerShell
-[submodule "Packages/PlantUmlDiagrams"]
-	path = Packages/PlantUmlDiagrams
-	url = https://github.com/evandroforks/PlantUmlDiagrams
-	upstream = https://github.com/jvantuyl/sublime_diagram_plugin
-[submodule "Packages/PlantUmlConnection"]
-	path = Packages/PlantUmlConnection
-	url = https://github.com/evandroforks/PlantUmlConnection
-	upstream = https://github.com/SamuelMarks/python-plantuml
+
