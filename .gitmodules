@@ -717,3 +717,7 @@
 	path = Packages/PlantUmlDiagrams
 	url = https://github.com/evandroforks/PlantUmlDiagrams
 	upstream = https://github.com/jvantuyl/sublime_diagram_plugin
+[submodule "Packages/PlantUmlConnection"]
+	path = Packages/PlantUmlConnection
+	url = https://github.com/evandroforks/PlantUmlConnection
+	upstream = https://github.com/SamuelMarks/python-plantuml
