@@ -33,20 +33,16 @@
 	path = Packages/PlantUmlDiagrams
 	url = https://github.com/evandroforks/PlantUmlDiagrams
 	upstream = https://github.com/jvantuyl/sublime_diagram_plugin
-	dependency = PlantUmlConnection
 [submodule "Packages/amxmodx"]
 	path = Packages/Amxmodx
 	url = https://github.com/evandrocoan/AmxxEditor
-	dependency = DebugTools
 [submodule "Packages/All Autocomplete"]
 	path = Packages/AllAutocomplete
 	url = https://github.com/evandrocoan/AllAutocomplete
 	upstream = https://github.com/alienhard/SublimeAllAutocomplete
-	dependency = DebugTools
 [submodule "StudioChannel"]
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/StudioChannel
-	dependency = ChannelManager, DebugTools, EstimatedTimeLeft
 	tags = master
 [submodule "Packages/0_settings_loader"]
 	path = Packages/0_settings_loader
@@ -162,7 +158,6 @@
 	path = Packages/BufferScroll
 	url = https://github.com/evandrocoan/BufferScroll
 	upstream = https://github.com/titoBouzout/BufferScroll
-	dependency = DebugTools
 [submodule "Packages/ChannelRepositoryTools"]
 	path = Packages/ChannelRepositoryTools
 	url = https://github.com/evandrocoan/ChannelRepositoryTools
