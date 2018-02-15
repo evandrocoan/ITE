@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 
 # Move some packages from `Packages` to `Packages2`
 # https://stackoverflow.com/questions/44680746/how-to-use-old-newname-inside-a-shell-script-variable

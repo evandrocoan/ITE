@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 
 # Move the Sublimehq packages from `Packages` to `SublimehqPackages`
 # https://stackoverflow.com/questions/44680746/how-to-use-old-newname-inside-a-shell-script-variable

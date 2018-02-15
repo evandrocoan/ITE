@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 
 git submodule add -- https://github.com/evandrocoan/SublimeActiveViewJumpBack          "Packages/Active View Jump Back"
 git submodule add -- https://github.com/evandrocoan/SublimeANSI                        "Packages/ANSIescape"

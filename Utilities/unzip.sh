@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 
 # Unpack the default Sublime Text files non available on versioning system.
