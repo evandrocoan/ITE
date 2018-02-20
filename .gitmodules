@@ -77,8 +77,8 @@
 	path = Packages/OverrideEditSettingsDefaultContents
 	url = https://github.com/evandrocoan/OverrideEditSettingsDefaultContents
 [submodule "Packages/FixCommandPalette"]
-	path = Packages/FixCommandPalette
-	url = https://github.com/evandrocoan/FixCommandPalette
+	path = Packages/RememberCommandPaletteInput
+	url = https://github.com/evandrocoan/RememberCommandPaletteInput
 [submodule "Packages/Fix Project Switch Restart Bug"]
 	path = Packages/FixProjectSwitchRestartBug
 	url = https://github.com/evandrocoan/FixProjectSwitchRestartBug
