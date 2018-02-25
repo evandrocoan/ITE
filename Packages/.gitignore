@@ -26,7 +26,6 @@ zzz A File Icon zzz/*
 pymdownx/*
 regex/*
 package_setting_context/*
-python-pywin32/*
 
 */linux32-p3/*
 **/linux32-p3/**
@@ -39,6 +38,9 @@ python-pywin32/*
 tests.py
 tests.sublime-commands
 ObjectBeautifier
+
+
+python-pywin32
 
 
 0_settings_loader
