@@ -40,6 +40,10 @@ tests.sublime-commands
 ObjectBeautifier
 
 
+ChannelManager
+DebugTools
+EstimatedTimeLeft
+PlantUmlConnection
 python-pywin32
 
 
@@ -75,7 +79,6 @@ C++ Snippets
 CaseConversion
 ChainOfCommand
 ChangeQuotes
-ChannelManager
 ChannelRepositoryTools
 ClearCursorsCarets
 ClickableURLs
@@ -90,7 +93,6 @@ ConcurrentLogHandler
 ConvertToUTF8
 CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
-DebugTools
 Default
 DefaultSyntax
 DeleteCurrentFile
@@ -101,7 +103,6 @@ Dotfiles
 DuplicateSelections
 EditPreferences
 Emmet
-EstimatedTimeLeft
 EvaluateInlinePython
 EvaluatePrinter
 EvaluateShell
@@ -176,7 +177,6 @@ PackageResourceViewer
 PackagesManager
 PanelManager
 PathTranslator
-PlantUmlConnection
 PlantUmlDiagrams
 PortalockerFiles
 PostScript
