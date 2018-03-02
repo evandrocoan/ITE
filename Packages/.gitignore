@@ -116,7 +116,6 @@ FileManager
 FileRename
 Find++
 FindKeyConflicts
-FixCommandPalette
 FixProjectSwitchRestartBug
 FixSelectionAfterIndent
 ForceRewriteSublimeSettings
@@ -189,6 +188,7 @@ QuickSettings
 RandomEverything
 REG
 ReIndent
+RememberCommandPaletteInput
 REPL
 RichPlainText
 SassSyntax
