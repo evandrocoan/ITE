@@ -154,9 +154,8 @@ nº | Directory on Packages folder       | Github URL
 25 | sublime-text-2-buildview           | https://github.com/rctay/sublime-text-2-buildview
 26 | TOML                               | https://github.com/Jayflux/sublime_toml_highlighting
 27 | WordHighlight                      | https://github.com/SublimeText/WordHighlight
-28 | ConvertToUTF8                      | https://github.com/seanliang/ConvertToUTF8
-29 | Default                            | https://github.com/evandrocoan/SublimeDefault
-30 | ../Default.sublime-package         | https://github.com/evandrocoan/DefaultSublimePackage
-31 | SemanticLineWrapping               | https://github.com/bordaigorl/sublime-semantic-wrap
+28 | Default                            | https://github.com/evandrocoan/SublimeDefault
+29 | ../Default.sublime-package         | https://github.com/evandrocoan/DefaultSublimePackage
+30 | SemanticLineWrapping               | https://github.com/bordaigorl/sublime-semantic-wrap
 
 
