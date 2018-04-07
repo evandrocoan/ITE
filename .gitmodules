@@ -726,3 +726,7 @@
 	path = Packages/PowerShell
 	url = https://github.com/evandroforks/PowerShell
 	upstream = https://github.com/SublimeText/PowerShell
+[submodule "Packages/AutoHotkey"]
+	path = Packages/AutoHotkey
+	url = https://github.com/evandroforks/SublimeAutoHotkey
+	upstream = https://github.com/ahkscript/SublimeAutoHotkey
