@@ -726,3 +726,7 @@
 	path = Packages/AutoHotkey
 	url = https://github.com/evandroforks/SublimeAutoHotkey
 	upstream = https://github.com/ahkscript/SublimeAutoHotkey
+[submodule "Packages/JSCustom"]
+	path = Packages/JSCustom
+	url = https://github.com/evandroforks/JSCustom
+	upstream = https://github.com/Thom1729/Sublime-JS-Custom

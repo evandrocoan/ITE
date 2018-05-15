@@ -26,6 +26,8 @@ zzz A File Icon zzz/*
 pymdownx/*
 regex/*
 package_setting_context/*
+ruamel-yaml/*
+yaml_macros_engine/*
 
 */linux32-p3/*
 **/linux32-p3/**
@@ -143,6 +145,7 @@ InvertSelection
 Javatar
 JediPythonAutoCompletion
 JumpAlongIndent
+JSCustom
 KeepPastedTextSelected
 Language - English and Portuguese
 LanguageTool
