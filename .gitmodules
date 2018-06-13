@@ -730,3 +730,7 @@
 	path = Packages/JSCustom
 	url = https://github.com/evandroforks/JSCustom
 	upstream = https://github.com/Thom1729/Sublime-JS-Custom
+[submodule "Packages/TestPlier"]
+	path = Packages/TestPlier
+	url = https://github.com/evandroforks/SublimeTestPlier
+	upstream = https://github.com/asfaltboy/SublimeTestPlier
