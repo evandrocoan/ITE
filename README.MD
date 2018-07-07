@@ -1,4 +1,4 @@
-# ITE
+# ITE - Integrated Toolset Environment
 
 The goal is to create a stable set of packages which can work together,
 leading your Sublime Text to be able to program/develop any language you ever need to.
