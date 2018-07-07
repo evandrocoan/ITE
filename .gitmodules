@@ -734,3 +734,7 @@
 	path = Packages/TestPlier
 	url = https://github.com/evandroforks/SublimeTestPlier
 	upstream = https://github.com/asfaltboy/SublimeTestPlier
+[submodule "Packages/LarkGrammarParser"]
+	path = Packages/LarkGrammarParser
+	url = https://github.com/evandroforks/lark_syntax
+	upstream = https://github.com/lark-parser/lark_syntax
