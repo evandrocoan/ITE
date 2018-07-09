@@ -738,3 +738,7 @@
 	path = Packages/LarkGrammarParser
 	url = https://github.com/evandroforks/lark_syntax
 	upstream = https://github.com/lark-parser/lark_syntax
+[submodule "Packages/SublimeLinter-pylint"]
+	path = Packages/SublimeLinter-pylint
+	url = https://github.com/evandroforks/SublimeLinter-pylint
+	upstream = https://github.com/SublimeLinter/SublimeLinter-pylint

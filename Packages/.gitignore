@@ -213,6 +213,7 @@ StickySearch
 StudioChannel
 SublimeLinter
 SublimeLinter-javac
+SublimeLinter-pylint
 SublimeTutorial
 Swift
 SyncedSideBar
