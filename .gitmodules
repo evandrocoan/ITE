@@ -742,3 +742,7 @@
 	path = Packages/SublimeLinter-pylint
 	url = https://github.com/evandroforks/SublimeLinter-pylint
 	upstream = https://github.com/SublimeLinter/SublimeLinter-pylint
+[submodule "Packages/BeautifyJavaScript"]
+	path = Packages/BeautifyJavaScript
+	url = https://github.com/evandroforks/BeautifyJavaScript
+	upstream = https://github.com/victorporof/Sublime-HTMLPrettify
