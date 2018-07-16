@@ -44,7 +44,7 @@
 	url = https://github.com/evandroforks/PlantUmlDiagrams
 	upstream = https://github.com/jvantuyl/sublime_diagram_plugin
 [submodule "Packages/amxmodx"]
-	path = Packages/Amxmodx
+	path = Packages/AmxxEditor
 	url = https://github.com/evandrocoan/AmxxEditor
 [submodule "Packages/All Autocomplete"]
 	path = Packages/AllAutocomplete
