@@ -31,7 +31,6 @@
 [submodule "Packages/Notepad++ Color Scheme"]
 	path = Packages/Notepad++ Color Scheme
 	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
-	tags = 3144
 [submodule "Packages/PlantUmlDiagrams"]
 	path = Packages/PlantUmlDiagrams
 	url = https://github.com/evandroforks/PlantUmlDiagrams
@@ -46,7 +45,6 @@
 [submodule "StudioChannel"]
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/StudioChannel
-	tags = master
 [submodule "Packages/0_settings_loader"]
 	path = Packages/0_settings_loader
 	url = https://github.com/evandrocoan/0_settings_loader
@@ -122,7 +120,6 @@
 [submodule "Packages/AmxxChannel"]
 	path = Packages/AmxxChannel
 	url = https://github.com/evandrocoan/AmxxChannel
-	tags = master
 [submodule "Packages/KeepPastedTextSelected"]
 	path = Packages/KeepPastedTextSelected
 	url = https://github.com/evandrocoan/KeepPastedTextSelected
@@ -258,7 +255,6 @@
 	path = Packages/PackagesManager
 	url = https://github.com/evandrocoan/PackagesManager
 	upstream = https://github.com/wbond/package_control
-	tags = master
 [submodule "Packages/PackageDev"]
 	path = Packages/PackageDev
 	url = https://github.com/evandrocoan/PackageDev
