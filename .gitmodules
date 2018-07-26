@@ -275,10 +275,6 @@
 	path = Packages/SideBarEnhancements
 	url = https://github.com/evandrocoan/SideBarEnhancements
 	upstream = https://github.com/SideBarEnhancements-org/SideBarEnhancements
-[submodule "Packages/SublimeCodeIntel"]
-	path = Packages/CodeIntel
-	url = https://github.com/evandrocoan/CodeIntel
-	upstream = https://github.com/SublimeCodeIntel/SublimeCodeIntel
 [submodule "Packages/SublimeREPL"]
 	path = Packages/REPL
 	url = https://github.com/evandrocoan/REPL
