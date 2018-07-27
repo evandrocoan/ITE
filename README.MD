@@ -36,7 +36,7 @@ ___
 1. Type `Add Channel` on the opened quick panel and press enter
 1. Then enter the following address and press enter:
    ```
-   https://raw.githubusercontent.com/evandrocoan/SublimeStudioChannel/master/channel.json
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
    ```
 1. Now, go again to the menu `Preferences -> Package Control`
 1. This time type `Install Package` on the opened quick panel and press enter
