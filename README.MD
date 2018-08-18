@@ -15,7 +15,7 @@ be worked on.
 
 ## Table of Contents
 
-- [ITE](#ite)
+- [ITE](#ite---integrated-toolset-environment)
   * [Table of Contents](#table-of-contents)
 - [Installation](#installation-go-to-top)
 - [Disabled Packages](#disabled-packages-go-to-top)
@@ -28,7 +28,7 @@ be worked on.
 
 
 ___
-## Installation <sub><sub>[Go to Top](#ite)</sub></sub>
+## Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
 1. Install the Sublime Text `Package Control` (https://packagecontrol.io/installation)
@@ -46,7 +46,7 @@ ___
 
 
 ___
-## Disabled Packages <sub><sub>[Go to Top](#ite)</sub></sub>
+## Disabled Packages <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 For an updated list of packages to not enable see the issue:
 
@@ -76,7 +76,7 @@ better alternative to. But this still in study which package will be the better.
 
 
 ___
-## Debugging <sub><sub>[Go to Top](#ite)</sub></sub>
+## Debugging <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 Use on the console: (View -> Show Console)
 ```
@@ -91,7 +91,7 @@ sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(
 
 
 ___
-## License <sub><sub>[Go to Top](#ite)</sub></sub>
+## License <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 All files in this repository, i.e., excluding its `git submodules` (see [.gitmodules](.gitmodules)
 file) and the files which include its own license header, are released under GNU General Public
