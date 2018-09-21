@@ -275,10 +275,6 @@
 	path = Packages/SideBarEnhancements
 	url = https://github.com/evandrocoan/SideBarEnhancements
 	upstream = https://github.com/SideBarEnhancements-org/SideBarEnhancements
-[submodule "Packages/SublimeREPL"]
-	path = Packages/REPL
-	url = https://github.com/evandrocoan/REPL
-	upstream = https://github.com/wuub/SublimeREPL
 [submodule "Packages/SyncedSideBar"]
 	path = Packages/SyncedSideBar
 	url = https://github.com/evandrocoan/SyncedSideBar
