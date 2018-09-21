@@ -731,3 +731,7 @@
 	path = Packages/BeautifyJavaScript
 	url = https://github.com/evandroforks/BeautifyJavaScript
 	upstream = https://github.com/victorporof/Sublime-HTMLPrettify
+[submodule "Packages/Terminus"]
+	path = Packages/Terminus
+	url = https://github.com/evandroforks/Terminus
+	upstream = https://github.com/randy3k/Terminus
