@@ -24,6 +24,9 @@ ssl-linux/*
 zzz A File Icon zzz/*
 sublime_lib/*
 
+pywinpty/**
+wcwidth/**
+pyte/**
 pymdownx/*
 regex/*
 package_setting_context/*
