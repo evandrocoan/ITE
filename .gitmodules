@@ -731,3 +731,7 @@
 	path = Packages/Terminus
 	url = https://github.com/evandroforks/Terminus
 	upstream = https://github.com/randy3k/Terminus
+[submodule "Packages/DiffMatchPatch"]
+	path = Packages/DiffMatchPatch
+	url = https://github.com/evandroforks/DiffMatchPatch
+	upstream = https://github.com/google/diff-match-patch
