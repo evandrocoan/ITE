@@ -105,9 +105,6 @@
 [submodule "Packages/Select All Spelling Errors"]
 	path = Packages/SelectAllSpellingErrors
 	url = https://github.com/evandrocoan/SelectAllSpellingErrors
-[submodule "Packages/Uncrustify"]
-	path = Packages/UncrustifySublimePlugin
-	url = https://github.com/evandrocoan/UncrustifySublimePlugin
 [submodule "Packages/View Settings Freely"]
 	path = Packages/ViewSettingsFreely
 	url = https://github.com/evandrocoan/ViewSettingsFreely
