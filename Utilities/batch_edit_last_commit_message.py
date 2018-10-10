@@ -10,7 +10,7 @@ import shlex
 import subprocess
 
 """
-Iterates throw all subdirectories of the current directory where this script file is on, but do not
+Iterates through all subdirectories of the current directory where this script file is on, but do not
 recurse into them. Then, replace the last commit message, if matches the defined pattern.
 """
 
