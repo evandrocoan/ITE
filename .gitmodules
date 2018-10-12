@@ -732,3 +732,138 @@
 	path = Packages/DiffMatchPatch
 	url = https://github.com/evandroforks/DiffMatchPatch
 	upstream = https://github.com/google/diff-match-patch
+[submodule "Packages/ASP"]
+	path = Packages/ASP
+	url = https://github.com/evandroforks/SublimePackageASP.git
+[submodule "Packages/ActionScript"]
+	path = Packages/ActionScript
+	url = https://github.com/evandroforks/SublimePackageActionScript.git
+[submodule "Packages/AppleScript"]
+	path = Packages/AppleScript
+	url = https://github.com/evandroforks/SublimePackageAppleScript.git
+[submodule "Packages/C#"]
+	path = "Packages/C#"
+	url = "https://github.com/evandroforks/SublimePackageC#.git"
+[submodule "Packages/C++"]
+	path = Packages/C++
+	url = https://github.com/evandroforks/SublimePackageC++.git
+[submodule "Packages/Clojure"]
+	path = Packages/Clojure
+	url = https://github.com/evandroforks/SublimePackageClojure.git
+[submodule "Packages/CSS"]
+	path = Packages/CSS
+	url = https://github.com/evandroforks/SublimePackageCSS.git
+[submodule "Packages/D"]
+	path = Packages/D
+	url = https://github.com/evandroforks/SublimePackageD.git
+[submodule "Packages/Diff"]
+	path = Packages/Diff
+	url = https://github.com/evandroforks/SublimePackageDiff.git
+[submodule "Packages/Erlang"]
+	path = Packages/Erlang
+	url = https://github.com/evandroforks/SublimePackageErlang.git
+[submodule "Packages/Go"]
+	path = Packages/Go
+	url = https://github.com/evandroforks/SublimePackageGo.git
+[submodule "Packages/Graphviz"]
+	path = Packages/Graphviz
+	url = https://github.com/evandroforks/SublimePackageGraphviz.git
+[submodule "Packages/Groovy"]
+	path = Packages/Groovy
+	url = https://github.com/evandroforks/SublimePackageGroovy.git
+[submodule "Packages/Haskell"]
+	path = Packages/Haskell
+	url = https://github.com/evandroforks/SublimePackageHaskell.git
+[submodule "Packages/HTML"]
+	path = Packages/HTML
+	url = https://github.com/evandroforks/SublimePackageHTML.git
+[submodule "Packages/Java"]
+	path = Packages/Java
+	url = https://github.com/evandroforks/SublimePackageJava.git
+[submodule "Packages/JavaScript"]
+	path = Packages/JavaScript
+	url = https://github.com/evandroforks/SublimePackageJavaScript.git
+[submodule "Packages/LaTeX"]
+	path = Packages/LaTeX
+	url = https://github.com/evandroforks/SublimePackageLaTeX.git
+[submodule "Packages/Lisp"]
+	path = Packages/Lisp
+	url = https://github.com/evandroforks/SublimePackageLisp.git
+[submodule "Packages/Lua"]
+	path = Packages/Lua
+	url = https://github.com/evandroforks/SublimePackageLua.git
+[submodule "Packages/Makefile"]
+	path = Packages/Makefile
+	url = https://github.com/evandroforks/SublimePackageMakefile.git
+[submodule "Packages/Markdown"]
+	path = Packages/Markdown
+	url = https://github.com/evandroforks/SublimePackageMarkdown.git
+[submodule "Packages/Matlab"]
+	path = Packages/Matlab
+	url = https://github.com/evandroforks/SublimePackageMatlab.git
+[submodule "Packages/Objective-C"]
+	path = Packages/Objective-C
+	url = https://github.com/evandroforks/SublimePackageObjective-C.git
+[submodule "Packages/OCaml"]
+	path = Packages/OCaml
+	url = https://github.com/evandroforks/SublimePackageOCaml.git
+[submodule "Packages/Pascal"]
+	path = Packages/Pascal
+	url = https://github.com/evandroforks/SublimePackagePascal.git
+[submodule "Packages/Perl"]
+	path = Packages/Perl
+	url = https://github.com/evandroforks/SublimePackagePerl.git
+[submodule "Packages/PHP"]
+	path = Packages/PHP
+	url = https://github.com/evandroforks/SublimePackagePHP.git
+[submodule "Packages/Python"]
+	path = Packages/Python
+	url = https://github.com/evandroforks/SublimePackagePython.git
+[submodule "Packages/R"]
+	path = Packages/R
+	url = https://github.com/evandroforks/SublimePackageR.git
+[submodule "Packages/Rails"]
+	path = Packages/Rails
+	url = https://github.com/evandroforks/SublimePackageRails.git
+[submodule "Packages/RestructuredText"]
+	path = Packages/RestructuredText
+	url = https://github.com/evandroforks/SublimePackageRestructuredText.git
+[submodule "Packages/Ruby"]
+	path = Packages/Ruby
+	url = https://github.com/evandroforks/SublimePackageRuby.git
+[submodule "Packages/Rust"]
+	path = Packages/Rust
+	url = https://github.com/evandroforks/SublimePackageRust.git
+[submodule "Packages/Scala"]
+	path = Packages/Scala
+	url = https://github.com/evandroforks/SublimePackageScala.git
+[submodule "Packages/ShellScript"]
+	path = Packages/ShellScript
+	url = https://github.com/evandroforks/SublimePackageShellScript.git
+[submodule "Packages/SQL"]
+	path = Packages/SQL
+	url = https://github.com/evandroforks/SublimePackageSQL.git
+[submodule "Packages/TCL"]
+	path = Packages/TCL
+	url = https://github.com/evandroforks/SublimePackageTCL.git
+[submodule "Packages/Text"]
+	path = Packages/Text
+	url = https://github.com/evandroforks/SublimePackageText.git
+[submodule "Packages/Textile"]
+	path = Packages/Textile
+	url = https://github.com/evandroforks/SublimePackageTextile.git
+[submodule "Packages/XML"]
+	path = Packages/XML
+	url = https://github.com/evandroforks/SublimePackageXML.git
+[submodule "Packages/YAML"]
+	path = Packages/YAML
+	url = https://github.com/evandroforks/SublimePackageYAML.git
+[submodule "Packages/Regular Expressions"]
+	path = Packages/Regular Expressions
+	url = https://github.com/evandroforks/SublimePackageRegularExpressions.git
+[submodule "Packages/Git Formats"]
+	path = Packages/Git Formats
+	url = https://github.com/evandroforks/SublimePackageGitFormats.git
+[submodule "Packages/Batch File"]
+	path = Packages/Batch File
+	url = https://github.com/evandroforks/SublimePackageBatchFile.git

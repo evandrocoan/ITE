@@ -22,55 +22,10 @@
 #
 # Files and folders from the sublimehq/Packages
 #
+/Packages/.git/
 /Packages/LICENSE
 /Packages/README.md
 
-/Packages/.git/
-/Packages/ActionScript/
-/Packages/AppleScript/
-/Packages/ASP/
-/Packages/Batch File/
-/Packages/C#/
-/Packages/C++/
-/Packages/Clojure/
-/Packages/CSS/
-/Packages/D/
-/Packages/Diff/
-/Packages/Erlang/
-/Packages/Git Formats/
-/Packages/Go/
-/Packages/Graphviz/
-/Packages/Groovy/
-/Packages/Haskell/
-/Packages/HTML/
-/Packages/Java/
-/Packages/JavaScript/
-/Packages/LaTeX/
-/Packages/Lisp/
-/Packages/Lua/
-/Packages/Makefile/
-/Packages/Markdown/
-/Packages/Matlab/
-/Packages/Objective-C/
-/Packages/OCaml/
-/Packages/Pascal/
-/Packages/Perl/
-/Packages/PHP/
-/Packages/Python/
-/Packages/R/
-/Packages/Rails/
-/Packages/Regular Expressions/
-/Packages/RestructuredText/
-/Packages/Ruby/
-/Packages/Rust/
-/Packages/Scala/
-/Packages/ShellScript/
-/Packages/SQL/
-/Packages/TCL/
-/Packages/Text/
-/Packages/Textile/
-/Packages/XML/
-/Packages/YAML/
 
 
 
