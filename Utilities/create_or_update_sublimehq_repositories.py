@@ -13,13 +13,16 @@ import shutil
 
 """
 Iterates through all subdirectories of the current directory where this script file is on, but do not
-recurse into them. Then, replace the last commit message, if matches the defined pattern.
+recurse into them.
 
 1. https://stackoverflow.com/questions/23937436/add-subdirectory-of-remote-repo-with-git-subtree
 1. https://stackoverflow.com/questions/20102594/git-subtree-push-squash-does-not-squash
 1. https://stackoverflow.com/questions/9614255/git-subtree-push-squash-needs-a-long-time-and-it-is-getting-longer-over-time
+1. https://stackoverflow.com/questions/16134975/reduce-increasing-time-to-push-a-subtree
 1. https://stackoverflow.com/questions/10081681/git-subtree-push-changes-back-to-subtree-project
 1. https://stackoverflow.com/questions/26928299/why-does-git-subtree-push-always-list-hundreds-of-commits
+1. https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt
+1. https://github.com/git/git/blob/master/contrib/subtree/git-subtree.sh
 """
 
 from debug_tools import getLogger
