@@ -130,7 +130,7 @@
 	url = "https://github.com/evandroforks/SublimePackageC#.git"
 [submodule "Packages/C++"]
 	path = Packages/C++
-	url = https://github.com/evandroforks/SublimePackageC++.git
+	url = https://github.com/evandroforks/SublimePackageCpp.git
 [submodule "Packages/Clojure"]
 	path = Packages/Clojure
 	url = https://github.com/evandroforks/SublimePackageClojure.git
