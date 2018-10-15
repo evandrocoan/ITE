@@ -43,6 +43,17 @@ ___
 1. Then search for `StudioChannel` and press enter
 1. After finish installing the `Studio Channel` package, just follow the instructions on the screen.
 
+### Extra
+
+You can also open the `SublimeStudio.sublime-project` inside the `Packages/StudioChannel`
+package (git submodule) to quickly view/edit all installed packages.
+Just note,
+if you are using the stable version and as all packages are distributed unpacked on the stable version,
+all of your changes to the installed packages will be lost when they upgrade.
+If you would like to save them after the upgrade,
+you can use the `OverrideUnpackedPackages` feature.
+See:
+[OverrideUnpackedPackages](https://github.com/evandrocoan/OverrideUnpackedPackages) for more information.
 
 
 ___
