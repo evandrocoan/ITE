@@ -1,7 +1,7 @@
 [submodule "Packages/Default"]
 	path = Packages/Default
-	url = https://github.com/evandrocoan/Default
-	upstream = ../../Default.sublime-package
+	url = https://github.com/evandrocoan/SublimePackageDefault
+	upstream = https://github.com/evandroforks/SublimePackageDefault
 [submodule "Packages/PythonDebugTools"]
 	path = Packages/DebugTools
 	url = https://github.com/evandrocoan/DebugTools
