@@ -110,7 +110,7 @@ License v3.0 or the latest version available on http://www.gnu.org/licenses/gpl.
 
 ```
 Sublime Studio, A set of Settings and Packages for Sublime Text 3
-Copyright (C) 2017 Evandro Coan <https://github.com/evandrocoan>
+Copyright (C) 2018 Evandro Coan <https://github.com/evandrocoan>
 
 Redistributions of source code must retain the above
 copyright notice, this list of conditions and the
