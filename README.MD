@@ -60,8 +60,11 @@ See:
 If you installed or would like to install the development version,
 you need to have installed on your system path variable the following programs:
 1. git
-1. curl
-1. wget
+1. curl (linux/cygwin)
+1. wget (linux/cygwin)
+1. zip (linux/cygwin)
+1. unzip (linux/cygwin)
+1. date (linux/cygwin)
 
 You git client need to have the user/login and password cached because some commands used
 by some packages like the [Channel Manager](https://github.com/evandrocoan/ChannelManager),
