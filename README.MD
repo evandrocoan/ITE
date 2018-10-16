@@ -55,6 +55,26 @@ you can use the `OverrideUnpackedPackages` feature.
 See:
 [OverrideUnpackedPackages](https://github.com/evandrocoan/OverrideUnpackedPackages) for more information.
 
+### Development
+
+If you installed or would like to install the development version,
+you need to have installed on your system path variable the following programs:
+1. git
+1. curl
+1. wget
+
+You git client need to have the user/login and password cached because some commands used
+by some packages like the [Channel Manager](https://github.com/evandrocoan/ChannelManager),
+directly/unattended perform git operations like `git pull` and `git push`.
+Then,
+if your username or password is not cached,
+these packages commands which do git operations,
+are going to hang/block/not work properly.
+
+To cache your git password you can use tools like:
+1. https://github.com/Microsoft/Git-Credential-Manager-for-Windows
+1. https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+
 
 ___
 ## Disabled Packages <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
