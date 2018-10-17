@@ -1,5 +1,6 @@
+#!/usr/bin/env bash
 
-# sync_only="Uncomment this"
+
 target_zip_file="$1"
 build="$2"
 
@@ -10,6 +11,9 @@ fi
 if [ -z $build ]; then
     build="3176"
 fi
+
+# sync_only="Uncomment this to sync only, instead of doing a full replacement."
+# target_zip_file="IteMinimal.zip"
 
 full_data="./../"
 clean_testing="./../../CleanTesting"
@@ -24,36 +28,47 @@ get_directory_path () {
 }
 
 if [ -z $sync_only ]; then
-    printf "$(date)\nRemoving folders from %s\n" "$(get_directory_path "$build/Data/")"
+    printf "$(date)\nRemoving directories from %s\n" "$(get_file_path "$build/Data/")"
     rm -rf "$build/Data/"
 fi
 
 printf "Unzipping files from %s\n" "$(get_file_path "$clean_testing/$target_zip_file")"
-unzip -q "./$clean_testing/$target_zip_file" -d "$build/Data/"
+unzip -q -n "./$clean_testing/$target_zip_file" -d "$build/Data/"
 
 if [[ "$target_zip_file" != "IteMinimal.zip" ]]
 then
+    printf "\n"
     printf "Syncing folders...\n"
 
-    # mkdir -p "$build/Data/Packages/StudioChannel"
-    # rsync -r --exclude /.git "$full_data/lPackages/StudioChannel/" \
-    #         "$build/Data/Packages/StudioChannel/"
+    printf "%s\n" "$(get_file_path "$build/Data/Packages/StudioChannel")"
+    mkdir -p "$build/Data/Packages/StudioChannel"
+    rsync -r --exclude /.git "$full_data/Packages/StudioChannel/" \
+            "$build/Data/Packages/StudioChannel/"
 
+    # printf "%s\n" "$(get_file_path "$build/Data/Packages/AmxxChannel")"
     # mkdir -p "$build/Data/Packages/AmxxChannel"
-    # rsync -r --exclude /.git "$full_data/lPackages/AmxxChannel/" \
+    # rsync -r --exclude /.git "$full_data/Packages/AmxxChannel/" \
     #         "$build/Data/Packages/AmxxChannel/"
 
-    # mkdir -p "$build/Data/Packages/ChannelManager"
-    # rsync -r --exclude /.git "$full_data/lPackages/ChannelManager/" \
-    #         "$build/Data/Packages/ChannelManager/"
+    printf "%s\n" "$(get_file_path "$build/Data/Packages/ChannelManager")"
+    mkdir -p "$build/Data/Packages/ChannelManager"
+    rsync -r --exclude /.git "$full_data/Packages/ChannelManager/" \
+            "$build/Data/Packages/ChannelManager/"
 
-    # mkdir -p "$build/Data/Packages/DebugTools"
-    # rsync -r --exclude /.git "$full_data/lPackages/DebugTools/" \
-    #         "$build/Data/Packages/DebugTools/"
+    printf "%s\n" "$(get_file_path "$build/Data/Packages/DebugTools")"
+    mkdir -p "$build/Data/Packages/DebugTools"
+    rsync -r --exclude /.git "$full_data/Packages/DebugTools/" \
+            "$build/Data/Packages/DebugTools/"
 
-    mkdir -p "$build/Data/Packages/PackagesManager"
-    rsync -r --exclude /.git "$full_data/Packages/PackagesManager/" \
-            "$build/Data/Packages/PackagesManager/"
+    # printf "%s\n" "$(get_file_path "$build/Data/Packages/PackagesManager")"
+    # mkdir -p "$build/Data/Packages/PackagesManager"
+    # rsync -r --exclude /.git "$full_data/Packages/PackagesManager/" \
+    #         "$build/Data/Packages/PackagesManager/"
+
+    printf "%s\n" "$(get_file_path "$build/Data/Packages/UnitTesting")"
+    mkdir -p "$build/Data/Packages/UnitTesting"
+    rsync -r --exclude /.git "$full_data/Packages/UnitTesting/" \
+            "$build/Data/Packages/UnitTesting/"
 
 fi
 
