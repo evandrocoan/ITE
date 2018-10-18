@@ -29,6 +29,14 @@ get_directory_path () {
    printf "%s" "$(cd $(dirname "$1") && pwd -P)/"
 }
 
+sync_directory_path () {
+    package_name="$1"
+    printf "%s\n" "$(get_file_path "$build/Data/Packages/$package_name")"
+    mkdir -p "$build/Data/Packages/$package_name"
+    rsync -r --exclude /.git --exclude __pycache__ "$full_data/Packages/$package_name/" \
+            "$build/Data/Packages/$package_name/"
+}
+
 if [ -z $sync_only ]; then
     printf "$(date)\nRemoving directories from %s\n" "$(get_file_path "$build/Data/")"
     rm -rf "$build/Data/"
@@ -42,55 +50,16 @@ then
     printf "\n"
     printf "Syncing folders...\n"
 
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/StudioChannel")"
-    mkdir -p "$build/Data/Packages/StudioChannel"
-    rsync -r --exclude /.git "$full_data/Packages/StudioChannel/" \
-            "$build/Data/Packages/StudioChannel/"
-
-    # printf "%s\n" "$(get_file_path "$build/Data/Packages/AmxxChannel")"
-    # mkdir -p "$build/Data/Packages/AmxxChannel"
-    # rsync -r --exclude /.git "$full_data/Packages/AmxxChannel/" \
-    #         "$build/Data/Packages/AmxxChannel/"
-
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/ChannelManager")"
-    mkdir -p "$build/Data/Packages/ChannelManager"
-    rsync -r --exclude /.git "$full_data/Packages/ChannelManager/" \
-            "$build/Data/Packages/ChannelManager/"
-
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/DebugTools")"
-    mkdir -p "$build/Data/Packages/DebugTools"
-    rsync -r --exclude /.git "$full_data/Packages/DebugTools/" \
-            "$build/Data/Packages/DebugTools/"
-
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/PackagesManager")"
-    mkdir -p "$build/Data/Packages/PackagesManager"
-    rsync -r --exclude /.git "$full_data/Packages/PackagesManager/" \
-            "$build/Data/Packages/PackagesManager/"
-
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/UnitTesting")"
-    mkdir -p "$build/Data/Packages/UnitTesting"
-    rsync -r --exclude /.git "$full_data/Packages/UnitTesting/" \
-            "$build/Data/Packages/UnitTesting/"
-
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/coverage")"
-    mkdir -p "$build/Data/Packages/coverage"
-    rsync -r --exclude /.git "$full_data/Packages/coverage/" \
-            "$build/Data/Packages/coverage/"
-
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/ConcurrentLogHandler")"
-    mkdir -p "$build/Data/Packages/ConcurrentLogHandler"
-    rsync -r --exclude /.git "$full_data/Packages/ConcurrentLogHandler/" \
-            "$build/Data/Packages/ConcurrentLogHandler/"
-
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/PortalockerFiles")"
-    mkdir -p "$build/Data/Packages/PortalockerFiles"
-    rsync -r --exclude /.git "$full_data/Packages/PortalockerFiles/" \
-            "$build/Data/Packages/PortalockerFiles/"
-
-    printf "%s\n" "$(get_file_path "$build/Data/Packages/python-pywin32")"
-    mkdir -p "$build/Data/Packages/python-pywin32"
-    rsync -r --exclude /.git "$full_data/Packages/python-pywin32/" \
-            "$build/Data/Packages/python-pywin32/"
+    sync_directory_path "StudioChannel"
+    # sync_directory_path "AmxxChannel"
+    sync_directory_path "ChannelManager"
+    sync_directory_path "DebugTools"
+    sync_directory_path "PackagesManager"
+    sync_directory_path "UnitTesting"
+    sync_directory_path "coverage"
+    sync_directory_path "ConcurrentLogHandler"
+    sync_directory_path "PortalockerFiles"
+    sync_directory_path "python-pywin32"
 
 fi
 
