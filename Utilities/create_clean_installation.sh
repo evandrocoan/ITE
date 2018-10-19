@@ -33,7 +33,8 @@ sync_directory_path () {
     package_name="$1"
     printf "%s\n" "$(get_file_path "$build/Data/Packages/$package_name")"
     mkdir -p "$build/Data/Packages/$package_name"
-    rsync -r --exclude /.git --exclude __pycache__ "$full_data/Packages/$package_name/" \
+    rsync -r --exclude .git --exclude __pycache__ --exclude *.pyc --no-p --chmod=ugo=rwX \
+            "$full_data/Packages/$package_name/" \
             "$build/Data/Packages/$package_name/"
 }
 

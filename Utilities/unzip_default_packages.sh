@@ -40,7 +40,8 @@ fi
 # How to exclude multiple directories with rsync?
 # https://askubuntu.com/questions/320458/how-to-exclude-multiple-directories-with-rsync
 printf "$(date)\nCoping files from build $build...\n"
-rsync -r --delete "$sublime_text_currrent_build/" $sublime_text_git_versioning/ --exclude=".git" \
+rsync -r --delete "$sublime_text_currrent_build/" $sublime_text_git_versioning/ \
+--exclude .git --exclude __pycache__ --exclude *.pyc --no-p --chmod=ugo=rwX \
 --exclude "Packages/ActionScript.sublime-package" \
 --exclude "Packages/AppleScript.sublime-package" \
 --exclude "Packages/ASP.sublime-package" \
