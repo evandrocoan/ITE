@@ -21,6 +21,7 @@ markupsafe/*
 bz2/*
 backrefs/*
 ssl-linux/*
+ZzzReloadDefaultPackage
 zzz A File Icon zzz/*
 sublime_lib/*
 
@@ -44,7 +45,6 @@ yaml_macros_engine/*
 tests.py
 tests.sublime-commands
 ObjectBeautifier
-
 
 ChannelManager
 DebugTools
