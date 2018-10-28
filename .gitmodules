@@ -729,7 +729,7 @@
 	upstream = https://github.com/randy3k/Whitespace
 [submodule "Packages/WordHighlight"]
 	path = Packages/HighlightWordsOnSelection
-	url = https://github.com/evandrocoan/WordHighlight
+	url = https://github.com/evandroforks/HighlightWordsOnSelection
 	upstream = https://github.com/SublimeText/WordHighlight
 [submodule "Packages/Terminal"]
 	path = Packages/TerminalShortcuts
