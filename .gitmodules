@@ -863,3 +863,7 @@
 	path = Packages/DiffMatchPatch
 	url = https://github.com/evandroforks/DiffMatchPatch
 	upstream = https://github.com/google/diff-match-patch
+[submodule "Packages/PushdownParser"]
+	path = Packages/PushdownParser
+	url = https://github.com/evandrocoan/pushdown
+	upstream = https://github.com/lark-parser/lark_syntax
