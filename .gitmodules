@@ -41,9 +41,6 @@
 [submodule "StudioChannel"]
 	path = Packages/StudioChannel
 	url = https://github.com/evandrocoan/StudioChannel
-[submodule "Packages/0_settings_loader"]
-	path = Packages/0_settings_loader
-	url = https://github.com/evandrocoan/0_settings_loader
 [submodule ".versioning"]
 	path = .versioning
 	url = https://github.com/evandrocoan/.versioning
