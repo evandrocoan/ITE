@@ -42,6 +42,7 @@ yaml_macros_engine/*
 # Ignore other custom packages
 .gitignore
 .travis.yml
+zz_packagesmanager_reenabler.py
 tests.py
 tests.sublime-commands
 ObjectBeautifier
@@ -53,6 +54,7 @@ python-pywin32
 
 DiffMatchPatch
 Terminus
+
 
 0_settings_loader
 A File Icon
@@ -139,6 +141,7 @@ GoogleSpellCheck
 GotoLastEditEnhanced
 HighlightBuildErrors
 HighlightWords
+HighlightWordsOnSelection
 HorizontalScroll
 HungryBackspace
 Incrementor
@@ -154,7 +157,6 @@ JSCustom
 KeepPastedTextSelected
 Language - English and Portuguese
 LanguageTool
-LarkGrammarParser
 LaTeXSmartQuotes
 LaTeXTools
 LaTeXWordCount
@@ -193,6 +195,8 @@ PowerCursors
 PowerShell
 PrettyJSON
 ProjectSpecificSyntax
+PushdownParser
+PushdownParserSyntax
 PyV8
 QuickSettings
 RandomEverything
@@ -239,7 +243,6 @@ VBScript
 ViewSettingsFreely
 Whitespace
 WordCount
-WordHighlight
 WrapPlus
 X86Assembly
 
