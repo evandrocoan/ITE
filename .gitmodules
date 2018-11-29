@@ -864,3 +864,7 @@
 	path = Packages/PushdownParser
 	url = https://github.com/evandrocoan/pushdown
 	upstream = https://github.com/lark-parser/lark_syntax
+[submodule "Packages/HexViewer"]
+	path = Packages/HexViewer
+	url = https://github.com/evandroforks/HexViewer
+	upstream = https://github.com/facelessuser/HexViewer
