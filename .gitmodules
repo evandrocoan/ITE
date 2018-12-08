@@ -6,8 +6,8 @@
 	path = Packages/debugtools
 	url = https://github.com/evandrocoan/debugtools
 [submodule "Packages/Sublime Text Studio"]
-	path = Packages/ChannelManager
-	url = https://github.com/evandrocoan/ChannelManager
+	path = Packages/channelmanager
+	url = https://github.com/evandrocoan/channelmanager
 [submodule "Packages/PlantUmlConnection"]
 	path = Packages/plantumlconnection
 	url = https://github.com/evandroforks/plantumlconnection

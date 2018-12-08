@@ -53,7 +53,7 @@ then
 
     sync_directory_path "StudioChannel"
     # sync_directory_path "AmxxChannel"
-    sync_directory_path "ChannelManager"
+    sync_directory_path "channelmanager"
     sync_directory_path "debugtools"
     sync_directory_path "PackagesManager"
     sync_directory_path "UnitTesting"

@@ -67,7 +67,7 @@ you need to have installed on your system path variable the following programs:
 1. date (linux/cygwin)
 
 You git client need to have the user/login and password cached because some commands used
-by some packages like the [Channel Manager](https://github.com/evandrocoan/ChannelManager),
+by some packages like the [Channel Manager](https://github.com/evandrocoan/channelmanager),
 directly/unattended perform git operations like `git pull` and `git push`.
 Then,
 if your username or password is not cached,

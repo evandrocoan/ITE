@@ -30,7 +30,7 @@ printf "Syncing folders...\n"
 
 # sync_directory_path "debugtools"
 sync_directory_path "StudioChannel"
-sync_directory_path "ChannelManager"
+sync_directory_path "channelmanager"
 sync_directory_path "PackagesManager"
 
 printf "\n"
