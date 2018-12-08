@@ -3,22 +3,22 @@
 	url = https://github.com/evandrocoan/SublimePackageDefault
 	upstream = https://github.com/evandroforks/SublimePackageDefault
 [submodule "Packages/PythonDebugTools"]
-	path = Packages/DebugTools
+	path = Packages/debugtools
 	url = https://github.com/evandrocoan/DebugTools
 [submodule "Packages/Sublime Text Studio"]
 	path = Packages/ChannelManager
 	url = https://github.com/evandrocoan/ChannelManager
 [submodule "Packages/PlantUmlConnection"]
-	path = Packages/PlantUmlConnection
-	url = https://github.com/evandroforks/PlantUmlConnection
+	path = Packages/plantumlconnection
+	url = https://github.com/evandroforks/plantumlconnection
 	upstream = https://github.com/SamuelMarks/python-plantuml
 [submodule "Packages/concurrent-log-handler"]
 	path = Packages/ConcurrentLogHandler
 	url = https://github.com/evandroforks/concurrent-log-handler
 	upstream = https://github.com/Preston-Landers/concurrent-log-handler
 [submodule "Packages/portalocker"]
-	path = Packages/PortalockerFiles
-	url = https://github.com/evandroforks/portalocker
+	path = Packages/portalockerfiles
+	url = https://github.com/evandroforks/portalockerfiles
 	upstream = https://github.com/WoLpH/portalocker
 [submodule "Packages/python-pywin32"]
 	path = Packages/python-pywin32
@@ -857,12 +857,12 @@
 	url = https://github.com/evandroforks/Terminus
 	upstream = https://github.com/randy3k/Terminus
 [submodule "Packages/DiffMatchPatch"]
-	path = Packages/DiffMatchPatch
-	url = https://github.com/evandroforks/DiffMatchPatch
+	path = Packages/diffmatchpatch
+	url = https://github.com/evandroforks/diffmatchpatch
 	upstream = https://github.com/google/diff-match-patch
 [submodule "Packages/PushdownParser"]
-	path = Packages/PushdownParser
-	url = https://github.com/evandrocoan/pushdown
+	path = Packages/pushdownparser
+	url = https://github.com/evandrocoan/pushdownparser
 	upstream = https://github.com/lark-parser/lark_syntax
 [submodule "Packages/HexViewer"]
 	path = Packages/HexViewer
