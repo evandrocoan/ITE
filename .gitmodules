@@ -24,6 +24,14 @@
 	path = Packages/python-pywin32
 	url = https://github.com/evandroforks/python-pywin32
 	upstream = https://github.com/randy3k/sublime-pywin32
+[submodule "Packages/DiffMatchPatch"]
+	path = Packages/diffmatchpatch
+	url = https://github.com/evandroforks/diffmatchpatch
+	upstream = https://github.com/google/diff-match-patch
+[submodule "Packages/PushdownParser"]
+	path = Packages/pushdownparser
+	url = https://github.com/evandrocoan/pushdownparser
+	upstream = https://github.com/lark-parser/lark_syntax
 [submodule "Packages/Notepad++ Color Scheme"]
 	path = Packages/Notepad++ Color Scheme
 	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
@@ -856,14 +864,6 @@
 	path = Packages/Terminus
 	url = https://github.com/evandroforks/Terminus
 	upstream = https://github.com/randy3k/Terminus
-[submodule "Packages/DiffMatchPatch"]
-	path = Packages/diffmatchpatch
-	url = https://github.com/evandroforks/diffmatchpatch
-	upstream = https://github.com/google/diff-match-patch
-[submodule "Packages/PushdownParser"]
-	path = Packages/pushdownparser
-	url = https://github.com/evandrocoan/pushdownparser
-	upstream = https://github.com/lark-parser/lark_syntax
 [submodule "Packages/HexViewer"]
 	path = Packages/HexViewer
 	url = https://github.com/evandroforks/HexViewer
