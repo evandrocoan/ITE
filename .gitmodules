@@ -17,8 +17,8 @@
 	url = https://github.com/evandroforks/concurrentloghandler
 	upstream = https://github.com/Preston-Landers/concurrent-log-handler
 [submodule "Packages/portalocker"]
-	path = Packages/portalockerfiles
-	url = https://github.com/evandroforks/portalockerfiles
+	path = Packages/portalockerfile
+	url = https://github.com/evandroforks/portalockerfile
 	upstream = https://github.com/WoLpH/portalocker
 [submodule "Packages/python-pywin32"]
 	path = Packages/python-pywin32
