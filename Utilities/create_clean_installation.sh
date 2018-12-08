@@ -59,7 +59,7 @@ then
     sync_directory_path "UnitTesting"
     sync_directory_path "coverage"
     sync_directory_path "ConcurrentLogHandler"
-    sync_directory_path "PortalockerFiles"
+    sync_directory_path "portalockerfiles"
     sync_directory_path "python-pywin32"
 
 fi
