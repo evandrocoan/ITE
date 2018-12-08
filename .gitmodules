@@ -13,8 +13,8 @@
 	url = https://github.com/evandroforks/plantumlconnection
 	upstream = https://github.com/SamuelMarks/python-plantuml
 [submodule "Packages/concurrent-log-handler"]
-	path = Packages/ConcurrentLogHandler
-	url = https://github.com/evandroforks/concurrent-log-handler
+	path = Packages/concurrentloghandler
+	url = https://github.com/evandroforks/concurrentloghandler
 	upstream = https://github.com/Preston-Landers/concurrent-log-handler
 [submodule "Packages/portalocker"]
 	path = Packages/portalockerfiles
