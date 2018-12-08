@@ -407,7 +407,7 @@
 [submodule "Packages/SideBarEnhancements"]
 	path = Packages/SideBarEnhancements
 	url = https://github.com/evandrocoan/SideBarEnhancements
-	upstream = https://github.com/SideBarEnhancements-org/SideBarEnhancements
+	upstream = https://github.com/titoBouzout/SideBarEnhancements
 [submodule "Packages/SyncedSideBar"]
 	path = Packages/SyncedSideBar
 	url = https://github.com/evandrocoan/SyncedSideBar
