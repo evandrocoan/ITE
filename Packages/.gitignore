@@ -39,7 +39,6 @@ pathlib/*
 **/linux32-p3/**
 
 
-
 # Ignore other custom packages
 .gitignore
 .travis.yml
@@ -48,14 +47,14 @@ tests.py
 tests.sublime-commands
 ObjectBeautifier
 
-ChannelManager
-DebugTools
-PlantUmlConnection
+channelmanager
+debugtools
+plantumlconnection
+diffmatchpatch
+portalockerfiles
+pushdownparser
+concurrentloghandler
 python-pywin32
-
-DiffMatchPatch
-Terminus
-
 
 0_settings_loader
 A File Icon
@@ -100,7 +99,6 @@ ColorHelper
 ColorSchemeEditor
 ColorSchemeUnit
 ColumnSelect
-ConcurrentLogHandler
 ConvertToUTF8
 CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
@@ -191,13 +189,11 @@ PackagesManager
 PanelManager
 PathTranslator
 PlantUmlDiagrams
-PortalockerFiles
 PostScript
 PowerCursors
 PowerShell
 PrettyJSON
 ProjectSpecificSyntax
-PushdownParser
 PushdownParserSyntax
 PyV8
 QuickSettings
@@ -233,6 +229,7 @@ SyntaxManager
 TabsExtra
 TestPlier
 TerminalShortcuts
+Terminus
 TextPastry
 ToggleWords
 TOML

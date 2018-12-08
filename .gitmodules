@@ -4,7 +4,7 @@
 	upstream = https://github.com/evandroforks/SublimePackageDefault
 [submodule "Packages/PythonDebugTools"]
 	path = Packages/debugtools
-	url = https://github.com/evandrocoan/DebugTools
+	url = https://github.com/evandrocoan/debugtools
 [submodule "Packages/Sublime Text Studio"]
 	path = Packages/ChannelManager
 	url = https://github.com/evandrocoan/ChannelManager
