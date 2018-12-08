@@ -58,7 +58,7 @@ then
     sync_directory_path "PackagesManager"
     sync_directory_path "UnitTesting"
     sync_directory_path "coverage"
-    sync_directory_path "ConcurrentLogHandler"
+    sync_directory_path "concurrentloghandler"
     sync_directory_path "portalockerfiles"
     sync_directory_path "python-pywin32"
 
