@@ -50,6 +50,7 @@ def run_command(absolute_path, command_name):
     log( 1, "\n%s", output.decode('utf-8') )
     return output
 
+
 def process_submodule(current_directory, submodule_path, submodule_name):
 
     if os.path.isdir(submodule_path):
