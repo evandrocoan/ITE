@@ -20,6 +20,10 @@
 	path = Packages/portalockerfile
 	url = https://github.com/evandroforks/portalockerfile
 	upstream = https://github.com/WoLpH/portalocker
+[submodule "Packages/sublime_lib"]
+	path = Packages/sublime_lib
+	url = https://github.com/evandrocoan/sublime_lib
+	upstream = https://github.com/SublimeText/sublime_lib
 [submodule "Packages/python-pywin32"]
 	path = Packages/python-pywin32
 	url = https://github.com/evandroforks/python-pywin32

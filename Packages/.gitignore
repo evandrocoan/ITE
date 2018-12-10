@@ -23,7 +23,6 @@ backrefs/*
 ssl-linux/*
 ZzzReloadDefaultPackage
 zzz A File Icon zzz/*
-sublime_lib/*
 
 pywinpty/**
 wcwidth/**
@@ -54,6 +53,7 @@ diffmatchpatch
 portalockerfile
 pushdownparser
 concurrentloghandler
+sublime_lib
 python-pywin32
 
 0_settings_loader
