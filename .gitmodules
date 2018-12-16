@@ -643,7 +643,7 @@
 [submodule "Packages/Markdown Preview"]
 	path = Packages/MarkdownPreview
 	url = https://github.com/evandrocoan/MarkdownPreview
-	upstream = https://github.com/revolunet/sublimetext-markdown-preview
+	upstream = https://github.com/facelessuser/MarkdownPreview
 [submodule "Packages/Matlab Completions"]
 	path = Packages/MatlabCompletions
 	url = https://github.com/evandrocoan/MatlabCompletions
