@@ -506,8 +506,8 @@
 	upstream = https://github.com/r-stein/sublime-text-latex-smart-quotes
 [submodule "Packages/A File Icon"]
 	path = Packages/A File Icon
-	url = https://github.com/evandrocoan/AFileIcon
-	upstream = https://github.com/ihodev/a-file-icon
+	url = https://github.com/evandroforks/AFileIcon
+	upstream = https://github.com/deathaxe/sublime-a-file-icon
 [submodule "Packages/Alignment"]
 	path = Packages/Alignment
 	url = https://github.com/evandrocoan/Alignment
