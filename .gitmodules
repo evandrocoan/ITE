@@ -507,7 +507,7 @@
 [submodule "Packages/A File Icon"]
 	path = Packages/A File Icon
 	url = https://github.com/evandroforks/AFileIcon
-	upstream = https://github.com/deathaxe/sublime-a-file-icon
+	upstream = https://github.com/SublimeText/AFileIcon
 [submodule "Packages/Alignment"]
 	path = Packages/Alignment
 	url = https://github.com/evandrocoan/Alignment
