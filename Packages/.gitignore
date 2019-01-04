@@ -201,6 +201,7 @@ RandomEverything
 REG
 ReIndent
 RememberCommandPaletteInput
+RemoveNonAsciiChars
 REPL
 RichPlainText
 SassSyntax

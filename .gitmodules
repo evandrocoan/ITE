@@ -872,3 +872,7 @@
 	path = Packages/HexViewer
 	url = https://github.com/evandroforks/HexViewer
 	upstream = https://github.com/facelessuser/HexViewer
+[submodule "Packages/RemoveNonAsciiChars"]
+	path = Packages/RemoveNonAsciiChars
+	url = https://github.com/evandroforks/RemoveNonAsciiChars
+	upstream = https://github.com/Gabriel-p/RemoveNonAsciiChars
