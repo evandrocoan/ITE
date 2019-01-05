@@ -42,7 +42,7 @@
 [submodule "Packages/PushdownParser"]
 	path = Packages/pushdownparser
 	url = https://github.com/evandrocoan/pushdownparser
-	upstream = https://github.com/lark-parser/lark_syntax
+	upstream = https://github.com/lark-parser/lark
 	branches = master->master,
 [submodule "Packages/Notepad++ Color Scheme"]
 	path = Packages/Notepad++ Color Scheme
