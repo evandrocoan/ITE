@@ -23,7 +23,7 @@
 	path = Packages/portalockerfile
 	url = https://github.com/evandroforks/portalockerfile
 	upstream = https://github.com/WoLpH/portalocker
-	branches = master->master,
+	branches = develop->master,
 [submodule "Packages/sublime_lib"]
 	path = Packages/sublime_lib
 	url = https://github.com/evandrocoan/sublime_lib
@@ -314,7 +314,7 @@
 	path = Packages/BufferScroll
 	url = https://github.com/evandrocoan/BufferScroll
 	upstream = https://github.com/titoBouzout/BufferScroll
-	branches = master->master,
+	branches = st3->master,
 [submodule "Packages/ChannelRepositoryTools"]
 	path = Packages/ChannelRepositoryTools
 	url = https://github.com/evandrocoan/ChannelRepositoryTools
@@ -384,7 +384,7 @@
 	path = Packages/GoogleSpellCheck
 	url = https://github.com/evandrocoan/GoogleSpellCheck
 	upstream = https://github.com/noahcoad/google-spell-check
-	branches = master->master,
+	branches = st3->master,
 [submodule "Packages/GotoLastEditEnhanced"]
 	path = Packages/GotoLastEditEnhanced
 	url = https://github.com/evandrocoan/GotoLastEditEnhanced
@@ -459,7 +459,7 @@
 	path = Packages/SideBarEnhancements
 	url = https://github.com/evandrocoan/SideBarEnhancements
 	upstream = https://github.com/titoBouzout/SideBarEnhancements
-	branches = master->master,
+	branches = st3->master,
 [submodule "Packages/SyncedSideBar"]
 	path = Packages/SyncedSideBar
 	url = https://github.com/evandrocoan/SyncedSideBar
@@ -519,7 +519,7 @@
 	path = Packages/Maven
 	url = https://github.com/evandrocoan/Maven
 	upstream = https://github.com/nlloyd/SublimeMaven
-	branches = master->master,
+	branches = sublime3->master,
 [submodule "Packages/SublimeLinter"]
 	path = Packages/SublimeLinter
 	url = https://github.com/evandrocoan/SublimeLinter
@@ -734,7 +734,7 @@
 	path = Packages/LaTeXWordCount
 	url = https://github.com/evandrocoan/LaTeXWordCount
 	upstream = https://github.com/kevinstadler/SublimeLaTeXWordCount
-	branches = master->master,
+	branches = st3->master,
 [submodule "Packages/LESS"]
 	path = Packages/LESS
 	url = https://github.com/evandrocoan/LESS
