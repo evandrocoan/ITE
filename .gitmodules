@@ -66,6 +66,9 @@
 [submodule ".versioning"]
 	path = .versioning
 	url = https://github.com/evandrocoan/.versioning
+[submodule "githubpullrequests"]
+	path = githubpullrequests
+	url = https://github.com/evandrocoan/githubpullrequests
 [submodule "Packages/User"]
 	path = Packages/User
 	url = https://github.com/evandrocoan/User
