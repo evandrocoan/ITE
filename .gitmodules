@@ -32,7 +32,7 @@
 [submodule "Packages/python-pywin32"]
 	path = Packages/python-pywin32
 	url = https://github.com/evandroforks/python-pywin32
-	upstream = https://github.com/randy3k/sublime-pywin32
+	upstream = https://github.com/packagecontrol/sublime-pywin32
 	branches = master->master,
 [submodule "Packages/DiffMatchPatch"]
 	path = Packages/diffmatchpatch
@@ -49,7 +49,7 @@
 	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
 [submodule "Packages/PlantUmlDiagrams"]
 	path = Packages/PlantUmlDiagrams
-	url = https://github.com/evandroforks/PlantUmlDiagrams
+	url = https://github.com/evandrocoan/PlantUmlDiagrams
 	upstream = https://github.com/jvantuyl/sublime_diagram_plugin
 	branches = master->master,
 [submodule "Packages/amxmodx"]
@@ -465,8 +465,8 @@
 	branches = st3->master,
 [submodule "Packages/SyncedSideBar"]
 	path = Packages/SyncedSideBar
-	url = https://github.com/evandrocoan/SyncedSideBar
-	upstream = https://github.com/evandrocoan/SyncedSideBar
+	url = https://github.com/evandroforks/SyncedSideBar
+	upstream = https://github.com/TheSpyder/SyncedSideBar
 	branches = master->master,
 [submodule "Packages/SyntaxManager"]
 	path = Packages/SyntaxManager
@@ -541,7 +541,7 @@
 [submodule "Packages/Case Conversion"]
 	path = Packages/CaseConversion
 	url = https://github.com/evandrocoan/CaseConversion
-	upstream = https://github.com/jdc0589/CaseConversion
+	upstream = https://github.com/jdavisclark/CaseConversion
 	branches = master->master,
 [submodule "Packages/ApplySyntax"]
 	path = Packages/ApplySyntax
@@ -716,7 +716,7 @@
 [submodule "Packages/Horizontal Scroll"]
 	path = Packages/HorizontalScroll
 	url = https://github.com/evandrocoan/HorizontalScroll
-	upstream = https://github.com/TheOnlyRew/sublime-horizontal-scroll
+	upstream = https://github.com/pyrrho/sublime-horizontal-scroll
 	branches = master->master,
 [submodule "Packages/BetterFindBuffer"]
 	path = Packages/BetterFindBuffer
@@ -737,7 +737,7 @@
 	path = Packages/LaTeXWordCount
 	url = https://github.com/evandrocoan/LaTeXWordCount
 	upstream = https://github.com/kevinstadler/SublimeLaTeXWordCount
-	branches = st3->master,
+	branches = master->master,
 [submodule "Packages/LESS"]
 	path = Packages/LESS
 	url = https://github.com/evandrocoan/LESS
@@ -855,13 +855,13 @@
 	branches = master->master,
 [submodule "Packages/TOML"]
 	path = Packages/TOML
-	url = https://github.com/evandrocoan/Toml
-	upstream = https://github.com/Jayflux/sublime_toml_highlighting
+	url = https://github.com/evandroforks/Toml
+	upstream = https://github.com/jasonwilliams/sublime_toml_highlighting
 	branches = master->master,
 [submodule "Packages/UnitTesting"]
 	path = Packages/UnitTesting
 	url = https://github.com/evandrocoan/UnitTesting
-	upstream = https://github.com/randy3k/UnitTesting
+	upstream = https://github.com/SublimeText/UnitTesting
 	branches = master->master,
 [submodule "Packages/Whitespace"]
 	path = Packages/Whitespace
@@ -952,7 +952,7 @@
 	path = Packages/WordCount
 	url = https://github.com/evandrocoan/WordCount
 	upstream = https://github.com/titoBouzout/WordCount
-	branches = master->master,
+	branches = st3->master,
 [submodule "Packages/ColorSchemeUnit"]
 	path = Packages/ColorSchemeUnit
 	url = https://github.com/evandrocoan/ColorSchemeUnit
