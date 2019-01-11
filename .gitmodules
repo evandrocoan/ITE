@@ -700,7 +700,7 @@
 	branches = master->master,
 [submodule "Packages/GitHub Markdown Snippets"]
 	path = Packages/GitHubMarkdownSnippets
-	url = https://github.com/evandroforks/GitHubMarkdownSnippets
+	url = https://github.com/evandroforks/GithubMarkdownSnippets
 	upstream = https://github.com/praveenpuglia/github_markdown_snippets
 	branches = master->master,
 [submodule "Packages/Glue"]
