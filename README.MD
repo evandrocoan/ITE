@@ -55,6 +55,22 @@ you can use the `OverrideUnpackedPackages` feature.
 See:
 [OverrideUnpackedPackages](https://github.com/evandrocoan/OverrideUnpackedPackages) for more information.
 
+### `git clone`
+
+It is not advised to use the `git --close` command because git is buggy cannot handle to clone this repository correctly.
+By following the installation instructions just above,
+you will be prompted whether you would like to install the `Stable` version or the `Development` version.
+And choosing the `Development`,
+this repository will be programmatically and correctly cloned by a Python Script.
+So,
+there is not need to directly use the `git clone` command.
+But,
+if you feel like manually using the `git clone` command, you need to pass the `--recursive` option and use it like this:
+```
+git clone --recursive -j4 https://github.com/evandrocoan/ITE
+```
+The `-j4` parameter is to parallelly clone the repository using up to 4 threads or CPU cores.
+
 ### Development
 
 If you installed or would like to install the development version,
