@@ -33,7 +33,7 @@ ___
 1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
 1. Install the Sublime Text `Package Control` (https://packagecontrol.io/installation)
 1. Go to the menu `Preferences -> Package Control`
-1. Type `Add Channel` on the opened quick panel and press enter
+1. Type `Package Control Add Channel` on the opened quick panel and press enter
 1. Then enter the following address and press enter:
    ```
    https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
