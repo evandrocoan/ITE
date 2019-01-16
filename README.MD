@@ -39,7 +39,7 @@ ___
    https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
    ```
 1. Now, go again to the menu `Preferences -> Package Control`
-1. This time type `Install Package` on the opened quick panel and press enter
+1. This time type `Package Control Install Package` on the opened quick panel and press enter
 1. Then search for `StudioChannel` and press enter
 1. After finish installing the `Studio Channel` package, just follow the instructions on the screen.
 
@@ -57,7 +57,7 @@ See:
 
 ### `git clone`
 
-It is not advised to use the `git --close` command because git is buggy cannot handle to clone this repository correctly.
+It is not advised to use the `git --close` command because git is buggy and cannot handle to clone this repository correctly.
 By following the installation instructions just above,
 you will be prompted whether you would like to install the `Stable` version or the `Development` version.
 And choosing the `Development`,
@@ -82,7 +82,7 @@ you need to have installed on your system path variable the following programs:
 1. unzip (linux/cygwin)
 1. date (linux/cygwin)
 
-You git client need to have the user/login and password cached because some commands used
+Your git client need to have the user/login and password cached because some commands used
 by some packages like the [Channel Manager](https://github.com/evandrocoan/channelmanager),
 directly/unattended perform git operations like `git pull` and `git push`.
 Then,
