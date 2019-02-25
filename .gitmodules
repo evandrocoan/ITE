@@ -252,9 +252,6 @@
 [submodule "Packages/TCL"]
 	path = Packages/TCL
 	url = https://github.com/evandroforks/SublimePackageTCL.git
-[submodule "Packages/Text"]
-	path = Packages/Text
-	url = https://github.com/evandroforks/SublimePackageText.git
 [submodule "Packages/Textile"]
 	path = Packages/Textile
 	url = https://github.com/evandroforks/SublimePackageTextile.git
