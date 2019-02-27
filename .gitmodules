@@ -122,7 +122,7 @@
 	url = https://github.com/evandrocoan/SQLKeywordUppercase
 [submodule "Packages/Select All Spelling Errors"]
 	path = Packages/SelectAllSpellingErrors
-	url = https://github.com/evandroforks/SelectAllSpellingErrors
+	url = https://github.com/evandrocoan/SelectAllSpellingErrors
 [submodule "Packages/View Settings Freely"]
 	path = Packages/ViewSettingsFreely
 	url = https://github.com/evandrocoan/ViewSettingsFreely
