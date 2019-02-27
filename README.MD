@@ -143,9 +143,10 @@ sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(
 ___
 ## License <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
-All files in this repository, i.e., excluding its `git submodules` (see [.gitmodules](.gitmodules)
-file) and the files which include its own license header, are released under GNU General Public
-License v3.0 or the latest version available on http://www.gnu.org/licenses/gpl.html
+All files in this repository are released under GNU General Public License
+v3.0 or the latest version available on http://www.gnu.org/licenses/gpl.html,
+except the files coming from `git submodules` (see [.gitmodules](.gitmodules)
+file) and the files/directories which include their own license header/file.
 
 ```
 Sublime Studio, A set of Settings and Packages for Sublime Text 3
