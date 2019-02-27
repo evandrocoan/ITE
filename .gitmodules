@@ -1,3 +1,6 @@
+[submodule "Default.sublime-package"]
+	path = Default.sublime-package
+	url = https://github.com/evandroforks/SublimePackageDefault
 [submodule "Packages/Default"]
 	path = Packages/Default
 	url = https://github.com/evandrocoan/SublimePackageDefault
@@ -129,9 +132,6 @@
 [submodule "Packages/User/Multilingual Dictionary"]
 	path = Packages/Language - English and Portuguese
 	url = https://github.com/evandrocoan/LanguageEnglishAndPortuguese
-[submodule "Default.sublime-package"]
-	path = Default.sublime-package
-	url = https://github.com/evandrocoan/DefaultSublimePackage
 [submodule "Packages/AmxxChannel"]
 	path = Packages/AmxxChannel
 	url = https://github.com/evandrocoan/AmxxChannel
