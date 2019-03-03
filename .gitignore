@@ -8,6 +8,7 @@
 /Simple IDE Packages.lnk
 /Sublime Text Builds.lnk
 /ObjectBeautifier
+/zz_packagesmanager_reenabler.py
 
 /.sublime/
 /Backup/
@@ -25,7 +26,6 @@
 /Packages/.git/
 /Packages/LICENSE
 /Packages/README.md
-
 
 
 
