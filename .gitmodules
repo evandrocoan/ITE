@@ -585,11 +585,6 @@
 	url = https://github.com/evandroforks/Alignment
 	upstream = https://github.com/wbond/sublime_alignment
 	branches = master->master,
-[submodule "Packages/Auto Refresh"]
-	path = Packages/AutoRefresh
-	url = https://github.com/evandroforks/AutoRefresh
-	upstream = https://github.com/Wouterdek/AutoRefresh
-	branches = master->master,
 [submodule "Packages/BracketHighlighter"]
 	path = Packages/BracketHighlighter
 	url = https://github.com/evandroforks/BracketHighlighter
