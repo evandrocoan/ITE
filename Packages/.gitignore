@@ -13,6 +13,7 @@ coverage/*
 Pyyaml/*
 pyyaml/*
 Pyv8/*
+numpy/*
 python-markdown/*
 python-jinja2/*
 pygments/*
