@@ -45,6 +45,7 @@ zz_packagesmanager_reenabler.py
 tests.py
 tests.sublime-commands
 ObjectBeautifier
+Text
 
 channelmanager
 debugtools
