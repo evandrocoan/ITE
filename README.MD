@@ -23,6 +23,7 @@ be worked on.
     + [Adding to git](#adding-to-git-go-to-top)
   * [Development Installation](#development-installation-go-to-top)
     + [`git clone`](#git-clone-go-to-top)
+    + [Sublimehq/Packages](#sublimehqpackages-go-to-top)
   * [Disabled Packages](#disabled-packages-go-to-top)
   * [Debugging](#debugging-go-to-top)
   * [License](#license-go-to-top)
@@ -147,6 +148,20 @@ you need to pass the `--recursive` option and use it like this:
 git clone --recursive -j4 https://github.com/evandrocoan/ITE
 ```
 The `-j4` parameter is to parallelly clone the repository using up to 4 threads or CPU cores.
+
+### Sublimehq/Packages <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
+
+Even if you choose to install the development version,
+by the automated installer,
+it will not install the default upstream for [Sublimehq/Packages](https://github.com/sublimehq/Packages).
+For it, you can just run these commands:
+```sh
+git clone --recursive https://github.com/evandroforks/Packages
+mv Packages/.git "$SUBLIME_TEXT_DATA/Packages/.git"
+```
+Then,
+you will need to open the directory `$SUBLIME_TEXT_DATA/Packages` as a usual git repository,
+which is completely disconnected from the main ITE repository.
 
 
 ___
