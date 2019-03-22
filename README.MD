@@ -18,10 +18,11 @@ be worked on.
 - [ITE - Integrated Toolset Environment](#ite---integrated-toolset-environment)
   * [Table of Contents](#table-of-contents)
   * [Installation](#installation-go-to-top)
-  * [Stable Install](#stable-install)
-    + [Using the Sublime Project](#using-the-sublime-project)
-  * [Development Installation](#development-installation)
-    + [`git clone`](#git-clone)
+  * [Stable Installation](#stable-installation-go-to-top)
+    + [Using the Sublime Project](#using-the-sublime-project-go-to-top)
+    + [Adding to git](#adding-to-git-go-to-top)
+  * [Development Installation](#development-installation-go-to-top)
+    + [`git clone`](#git-clone-go-to-top)
   * [Disabled Packages](#disabled-packages-go-to-top)
   * [Debugging](#debugging-go-to-top)
   * [License](#license-go-to-top)
@@ -59,7 +60,7 @@ you can choose the Stable installation.
 1. After finish installing the `Studio Channel` package, just follow the instructions on the screen.
 
 
-## Stable Installation
+## Stable Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 If you chose the Stable [Installation](#installation-go-to-top),
 on this section you will be presented with development instructions/tips.
@@ -70,7 +71,7 @@ you can quickly edit any installed packages files by:
    Extract All Packages`.
 1. And setting the PackagesManager setting `"extract_everything": false`
 
-### Using the Sublime Project
+### Using the Sublime Project <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 You can also open the `SublimeStudio.sublime-project` inside the `Packages/StudioChannel`
 package (git submodule) to quickly view/edit all installed packages.
@@ -82,7 +83,7 @@ you can use the `OverrideUnpackedPackages` feature.
 See:
 [OverrideUnpackedPackages](https://github.com/evandrocoan/OverrideUnpackedPackages) for more information.
 
-### Adding to git
+### Adding to git <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 You can create a git repository on the root of your Stable Sublime Text installation by
 using the following `.gitignore` file:
@@ -104,7 +105,7 @@ This should exclude most undesired/binary things and allow you to fiercely contr
 which changes happens with your Sublime Text Stable installation of the ITE.
 
 
-## Development Installation
+## Development Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 If you chose the Development [Installation](#installation-go-to-top),
 on this section you will be presented with development instructions/tips.
@@ -130,7 +131,7 @@ To cache your git password you can use tools like:
 1. https://github.com/Microsoft/Git-Credential-Manager-for-Windows
 1. https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 
-### `git clone`
+### `git clone` <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 It is not advised to use the `git --close` command because git is buggy and cannot handle to clone this repository correctly.
 By following the installation instructions just above,
