@@ -1035,3 +1035,8 @@
 	url = https://github.com/evandrocoan/RemoveNonAsciiChars
 	upstream = https://github.com/Gabriel-p/RemoveNonAsciiChars
 	branches = master->master,
+[submodule "Packages/CMake"]
+	path = Packages/CMake
+	url = https://github.com/evandroforks/CMake
+	upstream = https://github.com/zyxar/Sublime-CMakeLists
+	branches = master->master,

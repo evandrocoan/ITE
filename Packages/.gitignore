@@ -101,6 +101,7 @@ ColorHelper
 ColorSchemeEditor
 ColorSchemeUnit
 ColumnSelect
+CMake
 ConvertToUTF8
 CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
