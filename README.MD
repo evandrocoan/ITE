@@ -40,7 +40,7 @@ ___
 ## Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 When following the installation steps,
-you will be prompted to install either the Stable or Development version.
+you are going to be prompted to install either the Stable or Development version.
 If you are planning to fix bugs and contribute to Sublime Text plugins development,
 you should choose the Development installation.
 But,
@@ -64,7 +64,7 @@ you can choose the Stable installation.
 ## Stable Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 If you chose the Stable [Installation](#installation-go-to-top),
-on this section you will be presented with development instructions/tips.
+on this section you are going to be introduced with development instructions/tips.
 
 While installing the Stable version,
 you can quickly edit any installed packages files by:
@@ -78,7 +78,7 @@ You can also open the `SublimeStudio.sublime-project` inside the `Packages/Studi
 package (git submodule) to quickly view/edit all installed packages.
 Just note,
 if you are using the stable version and as all packages are distributed unpacked on the stable version,
-all of your changes to the installed packages will be lost when they upgrade.
+all of your changes to the installed packages are going to be lost when they upgrade.
 If you would like to save them after the upgrade,
 you can use the `OverrideUnpackedPackages` feature.
 See:
@@ -109,7 +109,7 @@ which changes happens with your Sublime Text Stable installation of the ITE.
 ## Development Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 If you chose the Development [Installation](#installation-go-to-top),
-on this section you will be presented with development instructions/tips.
+on this section you are going to be introduced with development instructions/tips.
 
 If you installed the development version,
 you need to have installed on your system path variable the following programs:
@@ -136,9 +136,9 @@ To cache your git password you can use tools like:
 
 It is not advised to use the `git --close` command because git is buggy and cannot handle to clone this repository correctly.
 By following the installation instructions just above,
-you will be prompted whether you would like to install the `Stable` version or the `Development` version.
+you are going to be prompted whether you would like to install the `Stable` version or the `Development` version.
 And choosing the `Development`,
-this repository will be programmatically and correctly cloned by a Python Script.
+this repository is going to programmatically and correctly cloned by a Python Script.
 So,
 there is not need to directly use the `git clone` command.
 But,
