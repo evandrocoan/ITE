@@ -138,7 +138,7 @@ It is not advised to use the `git --close` command because git is buggy and cann
 By following the installation instructions just above,
 you are going to be prompted whether you would like to install the `Stable` version or the `Development` version.
 And choosing the `Development`,
-this repository is going to programmatically and correctly cloned by a Python Script.
+this repository is going to programmatically and correctly be cloned by a Python Script.
 So,
 there is not need to directly use the `git clone` command.
 But,
