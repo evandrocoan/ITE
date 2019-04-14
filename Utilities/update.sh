@@ -2,63 +2,78 @@
 
 
 build=$1
+printf '%s\n' "$(date)"
 
-if [[ -z "$build" ]]
+if [[ -z "${build}" ]]
 then
-    printf "Error: The first parameter variable is empty.\n"
-    printf "You need to pass the build folder.\n"
+    printf 'Error: The first parameter variable is empty.\n'
+    printf 'You need to pass the build directory.\n'
     exit 1
 fi
 
-sublime_text_root="/cygdrive/f/SublimeText"
+sublime_text_root=(
+"/cygdrive/f/SublimeText"
+"/cygdrive/f/SublimeText/MSYS2"
+"/cygdrive/f/SublimeText/StableVersion"
+"/cygdrive/f/SublimeText/Vanilla"
+"/cygdrive/f/SublimeText/CleanTesting/3176"
+)
 sublime_text_builds="/cygdrive/d/User/Programs/SublimeText"
+sublime_text_build="${sublime_text_builds}/${build}"
 
-if ! [ -d "$sublime_text_root" ]
+if ! [ -d "${sublime_text_build}" ]
 then
-    printf "Error: The sublime_text_root: $sublime_text_root folder does not exists.\n"
-    printf "You need to edit this script fixing its path.\n"
+    printf 'Error: The sublime_text_build: %s directory does not exists.\n' "${sublime_text_build}"
+    printf 'You need to edit this script fixing its path.\n'
     exit 1
 fi
 
-if ! [ -d "$sublime_text_builds" ]
-then
-    printf "Error: The sublime_text_builds: $sublime_text_builds folder does not exists.\n"
-    printf "You need to edit this script fixing its path.\n"
-    exit 1
-fi
+for sublime_destine_path in "${sublime_text_root[@]}"
+do
+    if [ ! -d "${sublime_destine_path}" ]
+    then
+        printf 'Error: The sublime_destine_path: %s directory does not exists.\n' "${sublime_destine_path}"
+        printf 'You need to edit this script fixing its path.\n'
+        exit 1
+    fi
+done
 
+# https://stackoverflow.com/questions/1951506/add-a-new-element-to-an-array-without-specifying-the-index-in-bash
+declare -a filenames
 
-printf "$(date)\nRemoving folders...\n"
+for filename in "${sublime_text_build}"/*
+do
+    if [[ ! -d ${filename} ]]
+    then
+        # filenames+=($(basename "${filename}"))
+        filenames=("${filenames[@]}" $(basename "${filename}"))
+    fi
+done
 
-cd $sublime_text_root
-rm -r "Packages"
-rm "changelog.txt"
-rm "msvcr100.dll"
-rm "plugin_host.exe"
-rm "python33.dll"
-rm "sublime.py"
-rm "sublime_text.exe"
-rm "crash_reporter.exe"
-rm "python3.3.zip"
-rm "subl.exe"
-rm "sublime_plugin.py"
-rm "update_installer.exe"
+for sublime_destine_path in "${sublime_text_root[@]}"
+do
+    printf '\nRemoving Packages directory...\n'
+    rm -r "${sublime_destine_path}/Packages"
 
+    # https://stackoverflow.com/questions/15691942/bash-print-array-elements-on-separate-lines
+    printf 'Removing files...\n'
 
-printf "Copying new files...\n"
-cd $sublime_text_builds
+    for filename in "${filenames[@]}"
+    do
+        full_path="${sublime_destine_path}/${filename}"
+        rm -v "${full_path}"
+    done
 
-cp -r "$build/Packages" $sublime_text_root/
-cp "$build/changelog.txt" $sublime_text_root/
-cp "$build/msvcr100.dll" $sublime_text_root/
-cp "$build/plugin_host.exe" $sublime_text_root/
-cp "$build/python33.dll" $sublime_text_root/
-cp "$build/sublime.py" $sublime_text_root/
-cp "$build/sublime_text.exe" $sublime_text_root/
-cp "$build/crash_reporter.exe" $sublime_text_root/
-cp "$build/python3.3.zip" $sublime_text_root/
-cp "$build/subl.exe" $sublime_text_root/
-cp "$build/sublime_plugin.py" $sublime_text_root/
-cp "$build/update_installer.exe" $sublime_text_root/
+    printf '\nCopying Packages directory...\n'
+    cp -r "${sublime_text_build}/Packages" "${sublime_destine_path}/"
 
+    printf 'Copying files...\n'
+    for filename in "${filenames[@]}"
+    do
+        source_full_path="${sublime_text_build}/${filename}"
+        destine_full_path="${sublime_destine_path}/${filename}"
+
+        cp -v "${source_full_path}" "${destine_full_path}"
+    done
+done
 
