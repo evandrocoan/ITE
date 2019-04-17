@@ -64,7 +64,7 @@ you can choose the Stable installation.
 ## Stable Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 If you chose the Stable [Installation](#installation-go-to-top),
-on this section you are going to be introduced with development instructions/tips.
+on this section you are going to be introduced with stable installation tips.
 
 While installing the Stable version,
 you can quickly edit any installed packages files by:
