@@ -1040,3 +1040,6 @@
 	url = https://github.com/evandroforks/CMake
 	upstream = https://github.com/zyxar/Sublime-CMakeLists
 	branches = master->master,
+[submodule "Packages/LaTeXYZ"]
+	path = Packages/LaTeXYZ
+	url = https://github.com/evandroforks/LaTeXYZ
