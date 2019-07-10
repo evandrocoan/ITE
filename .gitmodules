@@ -1043,3 +1043,6 @@
 [submodule "Packages/LaTeXYZ"]
 	path = Packages/LaTeXYZ
 	url = https://github.com/evandroforks/LaTeXYZ
+[submodule "Packages/AutoRefresh"]
+	path = Packages/AutoRefresh
+	url = https://github.com/evandroforks/AutoRefresh
