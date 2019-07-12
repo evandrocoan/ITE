@@ -32,7 +32,7 @@ be worked on.
   1. `git clone https://github.com/evandroforks/markdown-toc`
   1. `cd markdown-toc`
   1. `npm -g install`
-  1. `../ITE`
+  1. `cd ../this-repository-root`
   1. `markdown-toc README.MD`
 
 
