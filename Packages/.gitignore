@@ -192,6 +192,7 @@ PackageDev
 PackageResourceViewer
 PackagesManager
 PanelManager
+PaneNavigation
 PathTranslator
 PlantUmlDiagrams
 PostScript

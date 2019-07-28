@@ -1049,3 +1049,6 @@
 [submodule "Packages/MoveTab"]
 	path = Packages/MoveTab
 	url = https://github.com/evandroforks/MoveTab
+[submodule "Packages/PaneNavigation"]
+	path = Packages/PaneNavigation
+	url = https://github.com/evandroforks/SublimePaneNavigation
