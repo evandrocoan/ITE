@@ -1046,3 +1046,6 @@
 [submodule "Packages/AutoRefresh"]
 	path = Packages/AutoRefresh
 	url = https://github.com/evandroforks/AutoRefresh
+[submodule "Packages/MoveTab"]
+	path = Packages/MoveTab
+	url = https://github.com/evandroforks/MoveTab
