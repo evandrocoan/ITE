@@ -75,6 +75,9 @@
 [submodule "Packages/User"]
 	path = Packages/User
 	url = https://github.com/evandrocoan/User
+[submodule "Packages/SkipCloseForClonedViews"]
+	path = Packages/SkipCloseForClonedViews
+	url = https://github.com/evandrocoan/SkipCloseForClonedViews
 [submodule "Packages/Active View Jump Back"]
 	path = Packages/ActiveViewJumpBack
 	url = https://github.com/evandrocoan/ActiveViewJumpBack
@@ -1043,15 +1046,20 @@
 [submodule "Packages/LaTeXYZ"]
 	path = Packages/LaTeXYZ
 	url = https://github.com/evandroforks/LaTeXYZ
+	upstream = https://github.com/randy3k/LaTeXYZ
+	branches = master->master,
 [submodule "Packages/AutoRefresh"]
 	path = Packages/AutoRefresh
 	url = https://github.com/evandroforks/AutoRefresh
+	upstream = https://github.com/Wouterdek/AutoRefresh
+	branches = master->master,
 [submodule "Packages/MoveTab"]
 	path = Packages/MoveTab
 	url = https://github.com/evandroforks/MoveTab
+	upstream = https://github.com/SublimeText/MoveTab
+	branches = master->master,
 [submodule "Packages/PaneNavigation"]
 	path = Packages/PaneNavigation
-	url = https://github.com/evandroforks/SublimePaneNavigation
-[submodule "Packages/SkipCloseForClonedViews"]
-	path = Packages/SkipCloseForClonedViews
-	url = https://github.com/evandrocoan/SkipCloseForClonedViews
+	url = https://github.com/evandroforks/PaneNavigation
+	upstream = https://github.com/borist/SublimePaneNavigation
+	branches = master->master,
