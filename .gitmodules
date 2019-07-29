@@ -1052,3 +1052,6 @@
 [submodule "Packages/PaneNavigation"]
 	path = Packages/PaneNavigation
 	url = https://github.com/evandroforks/SublimePaneNavigation
+[submodule "Packages/SkipCloseForClonedViews"]
+	path = Packages/SkipCloseForClonedViews
+	url = https://github.com/evandrocoan/SkipCloseForClonedViews

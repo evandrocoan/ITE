@@ -220,6 +220,7 @@ SemanticLineWrap
 SideBarEnhancements
 SideBySideCompare
 SideBySideSettings
+SkipCloseForClonedViews
 SQLExec
 SQLKeywordUppercase
 SQLTools
