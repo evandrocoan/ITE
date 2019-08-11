@@ -96,6 +96,9 @@
 [submodule "Packages/OverrideEditSettingsDefaultContents"]
 	path = Packages/OverrideEditSettingsDefaultContents
 	url = https://github.com/evandrocoan/OverrideEditSettingsDefaultContents
+[submodule "Packages/FixedToggleFindPanel"]
+	path = Packages/FixedToggleFindPanel
+	url = https://github.com/evandrocoan/FixedToggleFindPanel
 [submodule "Packages/FixCommandPalette"]
 	path = Packages/RememberCommandPaletteInput
 	url = https://github.com/evandrocoan/RememberCommandPaletteInput

@@ -128,6 +128,7 @@ FileManager
 FileRename
 Find++
 FindKeyConflicts
+FixedToggleFindPanel
 FixProjectSwitchRestartBug
 FixSelectionAfterIndent
 ForceRewriteSublimeSettings
