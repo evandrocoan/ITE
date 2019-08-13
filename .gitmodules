@@ -543,7 +543,7 @@
 	branches = master->master,
 [submodule "Packages/Case Conversion"]
 	path = Packages/CaseConversion
-	url = https://github.com/evandroforks/CaseConversion
+	url = https://github.com/evandrocoan/CaseConversion
 	upstream = https://github.com/jdavisclark/CaseConversion
 	branches = master->master,
 [submodule "Packages/ApplySyntax"]
@@ -708,7 +708,7 @@
 	branches = master->master,
 [submodule "Packages/HighlightWords"]
 	path = Packages/HighlightWords
-	url = https://github.com/evandroforks/HighlightWords
+	url = https://github.com/evandrocoan/HighlightWords
 	upstream = https://github.com/seanliang/HighlightWords
 	branches = master->master,
 [submodule "Packages/Horizontal Scroll"]
@@ -763,7 +763,7 @@
 	branches = master->master,
 [submodule "Packages/MaxPane"]
 	path = Packages/MaxPane
-	url = https://github.com/evandroforks/MaxPane
+	url = https://github.com/evandrocoan/MaxPane
 	upstream = https://github.com/jisaacks/MaxPane
 	branches = master->master,
 [submodule "Packages/MoveText"]
@@ -868,7 +868,7 @@
 	branches = master->master,
 [submodule "Packages/WordHighlight"]
 	path = Packages/HighlightWordsOnSelection
-	url = https://github.com/evandroforks/HighlightWordsOnSelection
+	url = https://github.com/evandrocoan/HighlightWordsOnSelection
 	upstream = https://github.com/SublimeText/WordHighlight
 	branches = master->master,
 [submodule "Packages/Terminal"]
@@ -1008,7 +1008,7 @@
 	branches = master->master,
 [submodule "Packages/TestPlier"]
 	path = Packages/TestPlier
-	url = https://github.com/evandroforks/SublimeTestPlier
+	url = https://github.com/evandrocoan/TestPlier
 	upstream = https://github.com/asfaltboy/SublimeTestPlier
 	branches = master->master,
 [submodule "Packages/LarkGrammarParser"]
@@ -1053,7 +1053,7 @@
 	branches = master->master,
 [submodule "Packages/AutoRefresh"]
 	path = Packages/AutoRefresh
-	url = https://github.com/evandroforks/AutoRefresh
+	url = https://github.com/evandrocoan/AutoRefresh
 	upstream = https://github.com/Wouterdek/AutoRefresh
 	branches = master->master,
 [submodule "Packages/MoveTab"]
