@@ -141,6 +141,9 @@
 [submodule "Packages/AmxxChannel"]
 	path = Packages/AmxxChannel
 	url = https://github.com/evandrocoan/AmxxChannel
+[submodule "Packages/ToggleSettingsInBatch"]
+	path = Packages/ToggleSettingsInBatch
+	url = https://github.com/evandrocoan/ToggleSettingsInBatch
 [submodule "Packages/KeepPastedTextSelected"]
 	path = Packages/KeepPastedTextSelected
 	url = https://github.com/evandrocoan/KeepPastedTextSelected
