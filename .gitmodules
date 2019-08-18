@@ -78,9 +78,6 @@
 [submodule "Packages/SkipCloseForClonedViews"]
 	path = Packages/SkipCloseForClonedViews
 	url = https://github.com/evandrocoan/SkipCloseForClonedViews
-[submodule "Packages/Active View Jump Back"]
-	path = Packages/ActiveViewJumpBack
-	url = https://github.com/evandrocoan/ActiveViewJumpBack
 [submodule "Packages/Amxx Pawn"]
 	path = Packages/AmxxPawn
 	url = https://github.com/evandrocoan/AmxxPawn
