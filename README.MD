@@ -9,8 +9,10 @@ can just do so by installing the development version of this project,
 and then creating a awesome package for Sublime Text,
 which can be used and lacks on this project.
 
-You can check our [issue tracker](https://github.com/evandrocoan/ITE/issues) for a list o issues to
-be worked on.
+You can check our [issue tracker](https://github.com/evandrocoan/ITE/issues) for a list o issues to be worked on.
+Note,
+there are several issues I already fixed,
+but forgot to close.
 
 
 ## Table of Contents
@@ -32,7 +34,7 @@ be worked on.
   1. `git clone https://github.com/evandroforks/markdown-toc`
   1. `cd markdown-toc`
   1. `npm -g install`
-  1. `cd ../this-repository-root`
+  1. `cd ../repository-root`
   1. `markdown-toc README.MD`
 
 
@@ -50,15 +52,15 @@ you can choose the Stable installation.
 1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
 1. Install the Sublime Text `Package Control` (https://packagecontrol.io/installation)
 1. Go to the menu `Preferences -> Package Control`
-1. Type `Package Control Add Channel` on the opened quick panel and press enter
-1. Then enter the following address and press enter:
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
    ```
    https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
    ```
 1. Now, go again to the menu `Preferences -> Package Control`
-1. This time type `Package Control Install Package` on the opened quick panel and press enter
-1. Then search for `StudioChannel` and press enter
-1. After finish installing the `Studio Channel` package, just follow the instructions on the screen.
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `StudioChannel` and press <kbd>Enter</kbd>
+1. After finished installing the `Studio Channel` package, just follow the instructions on the screen.
 
 
 ## Stable Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
@@ -72,6 +74,7 @@ you can quickly edit any installed packages files by:
    Extract All Packages`.
 1. And setting the PackagesManager setting `"extract_everything": true`
 
+
 ### Using the Sublime Project <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 You can also open the `SublimeStudio.sublime-project` inside the `Packages/StudioChannel`
@@ -83,6 +86,7 @@ If you would like to save them after the upgrade,
 you can use the `OverrideUnpackedPackages` feature.
 See:
 [OverrideUnpackedPackages](https://github.com/evandrocoan/OverrideUnpackedPackages) for more information.
+
 
 ### Adding to git <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
@@ -100,6 +104,7 @@ using the following `.gitignore` file:
 /Packages/User/FileHistory*.json
 /Packages/User/PackagesManager.cache/*
 
+**/.git/**
 *.sublime-package
 ```
 This should exclude most undesired/binary things and allow you to fiercely control
@@ -132,6 +137,7 @@ To cache your git password you can use tools like:
 1. https://github.com/Microsoft/Git-Credential-Manager-for-Windows
 1. https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 
+
 ### `git clone` <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 It is not advised to use the `git --close` command because git is buggy and cannot handle to clone this repository correctly.
@@ -148,6 +154,7 @@ you need to pass the `--recursive` option and use it like this:
 git clone --recursive -j4 https://github.com/evandrocoan/ITE
 ```
 The `-j4` parameter is to parallelly clone the repository using up to 4 threads or CPU cores.
+
 
 ### Sublimehq/Packages <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
