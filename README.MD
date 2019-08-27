@@ -140,7 +140,7 @@ To cache your git password you can use tools like:
 
 ### `git clone` <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
-It is not advised to use the `git --close` command because git is buggy and cannot handle to clone this repository correctly.
+It is not advised to use the `git --clone` command because git is buggy and cannot handle to clone this repository correctly.
 By following the installation instructions just above,
 you are going to be prompted whether you would like to install the `Stable` version or the `Development` version.
 And choosing the `Development`,
