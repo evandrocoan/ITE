@@ -3,13 +3,13 @@
 The goal is to create a stable set of packages which can work together,
 leading your Sublime Text to be able to program/develop any language you ever need to.
 
-Currently it is under heavily development.
-Anyone interested in contribute,
+Currently it is under heavy development.
+Anyone interested in contributing,
 can just do so by installing the development version of this project,
-and then creating a awesome package for Sublime Text,
-which can be used and lacks on this project.
+and then creating an awesome package for Sublime Text,
+which can be used and is missing in this project.
 
-You can check our [issue tracker](https://github.com/evandrocoan/ITE/issues) for a list o issues to be worked on.
+You can check our [issue tracker](https://github.com/evandrocoan/ITE/issues) for a list of issues to be worked on.
 Note,
 there are several issues I already fixed,
 but forgot to close.
