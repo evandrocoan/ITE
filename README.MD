@@ -49,19 +49,37 @@ But,
 if you are only looking to use things and report bugs,
 you can choose the Stable installation.
 
-1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
-1. Go to the menu `Tools -> Install Package Control`, then,
-   wait few seconds until the `Package Control` installation finishes
-1. Go to the menu `Preferences -> Package Control`
-1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
-1. Then, input the following address and press <kbd>Enter</kbd>
+1. Download & Install **`Sublime Text 3`** (https://www.sublimetext.com/3)
+1. Go to the menu **`Tools -> Install Package Control`**, then,
+   wait few seconds until the installation finishes up
+1. Go to the menu **`Tools -> Command Palette...
+   (Ctrl+Shift+P)`**
+1. Type **`Preferences:
+   Package Control Settings – User`** on the opened quick panel and press <kbd>Enter</kbd>
+1. Then,
+   add the following setting to your **`Package Control.sublime-settings`** file, if it is not already there
+   ```js
+   [
+       ...
+       "channels":
+       [
+           "https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json",
+           "https://packagecontrol.io/channel_v3.json",
+       ],
+       ...
+   ]
    ```
-   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
-   ```
-1. Now, go again to the menu `Preferences -> Package Control`
-1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
-1. Then, search for `StudioChannel` and press <kbd>Enter</kbd>
-1. After finished installing the `Studio Channel` package, just follow the instructions on the screen.
+   * Note,
+     the **`https://raw...`** line must to be added before the **`https://packagecontrol...`**,
+     otherwise you will not install this forked version of the package,
+     but the original available on the Package Control default channel **`https://packagecontrol...`**
+1. Now,
+   go to the menu **`Preferences -> Package Control`**
+1. Type **`Install Package`** on the opened quick panel and press <kbd>Enter</kbd>
+1. Then,
+   search for **`StudioChannel`** and press <kbd>Enter</kbd>
+1. After finished installing the **`Studio Channel`** package,
+   just follow the instructions on the screen.
 
 
 ## Stable Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
