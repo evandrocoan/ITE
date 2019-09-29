@@ -1,18 +1,20 @@
 # ITE - Integrated Toolset Environment
 
-The goal is to create a stable set of packages which can work together,
+The goal is to create a Stable set of packages which can work together,
 leading your Sublime Text to be able to program/develop any language you ever need to.
 
-Currently it is under heavy development.
-Anyone interested in contributing,
-can just do so by installing the development version of this project,
-and then creating an awesome package for Sublime Text,
-which can be used and is missing in this project.
+Either its Stable or
+its Development version have been Stable for some time.
+Anyone interested in using it,
+can just follow the installation instructions at the **[Installation](#installation-go-to-top)** section.
 
-You can check our [issue tracker](https://github.com/evandrocoan/ITE/issues) for a list of issues to be worked on.
+Any interested in contributing,
+can just do so by creating a new issue with your new ideias or
+issues.
+You can check the [issue tracker](https://github.com/evandrocoan/ITE/issues) for a list of issues to be worked on.
 Note,
-there are several issues I already fixed,
-but forgot to close.
+there are some issues I already fixed,
+just forgot to close them yet.
 
 
 ## Table of Contents
@@ -42,8 +44,10 @@ ___
 ## Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 When following the installation steps,
-you are going to be prompted to install either the Stable or Development version.
-If you are planning to fix bugs and contribute to Sublime Text plugins development,
+you are going to be prompted to install either the Stable or
+Development version.
+If you are planning to fix bugs and
+contribute to Sublime Text plugins Development,
 you should choose the Development installation.
 But,
 if you are only looking to use things and report bugs,
@@ -85,32 +89,34 @@ you can choose the Stable installation.
 ## Stable Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 If you chose the Stable [Installation](#installation-go-to-top),
-on this section you are going to be introduced with stable installation tips.
+on this section you are going to be introduced with Stable installation tips.
 
 While installing the Stable version,
 you can quickly edit any installed packages files by:
-1. Opening the command palette and running the command `PackageResourceViewer:
+1. Opening the command palette and
+   running the command `PackageResourceViewer:
    Extract All Packages`.
-1. And setting the PackagesManager setting `"extract_everything": true`
+1. And setting the PackagesManager setting `"extract_everything":
+   true`
 
 
 ### Using the Sublime Project <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
-You can also open the `SublimeStudio.sublime-project` inside the `Packages/StudioChannel`
-package (git submodule) to quickly view/edit all installed packages.
+You can also open the **`SublimeStudio.sublime-project`** inside the **`Packages/StudioChannel`** package (**`git`** submodule) to quickly view/edit all installed
+packages.
 Just note,
-if you are using the stable version and as all packages are distributed unpacked on the stable version,
+if you are using the Stable version and
+as all packages are distributed unpacked on the Stable version,
 all of your changes to the installed packages are going to be lost when they upgrade.
 If you would like to save them after the upgrade,
-you can use the `OverrideUnpackedPackages` feature.
+you can use the **`OverrideUnpackedPackages`** feature.
 See:
 [OverrideUnpackedPackages](https://github.com/evandrocoan/OverrideUnpackedPackages) for more information.
 
 
 ### Adding to git <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
-You can create a git repository on the root of your Stable Sublime Text installation by
-using the following `.gitignore` file:
+You can create a **`git`** repository on the root of your Stable Sublime Text installation by using the following **`.gitignore`** file:
 ```sh
 /.sublime/
 /Backup/
@@ -126,67 +132,77 @@ using the following `.gitignore` file:
 **/.git/**
 *.sublime-package
 ```
-This should exclude most undesired/binary things and allow you to fiercely control
-which changes happens with your Sublime Text Stable installation of the ITE.
+This should exclude most undesired/binary things and
+allow you to fiercely control which changes happens with your Sublime Text Stable installation of the ITE.
 
 
 ## Development Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
 If you chose the Development [Installation](#installation-go-to-top),
-on this section you are going to be introduced with development instructions/tips.
+on this section you are going to be introduced with Development instructions/tips.
 
-If you installed the development version,
+If you installed the Development version,
 you need to have installed on your system path variable the following programs:
-1. git
-1. curl (linux/cygwin)
-1. wget (linux/cygwin)
-1. zip (linux/cygwin)
-1. unzip (linux/cygwin)
-1. date (linux/cygwin)
+1. **`git`**
+1. **`curl`** (linux/cygwin)
+1. **`wget`** (linux/cygwin)
+1. **`zip`** (linux/cygwin)
+1. **`unzip`** (linux/cygwin)
+1. **`date`** (linux/cygwin)
 
-Your git client need to have the user/login and password cached because some commands used
-by some packages like the [Channel Manager](https://github.com/evandrocoan/channelmanager),
-directly/unattended perform git operations like `git pull` and `git push`.
-Then,
-if your username or password is not cached,
-these packages commands which do git operations,
+Beyond your a local **`git`** client,
+it is recommended to install some **`git`** client interface as [SmartGit](https://www.syntevo.com/smartgit/download/),
+in order to manage this project because it has very complex submodules management.
+Also,
+your local **`git`** client need to have the user/login and
+password cached because some commands used by some packages like the [Channel Manager](https://github.com/evandrocoan/channelmanager),
+directly/unattended perform **`git`** operations like **`git pull`** and **`git push`**. Then,
+if your username or
+password is not cached,
+these packages commands which do **`git`** operations,
 are going to hang/block/not work properly.
 
-To cache your git password you can use tools like:
+To cache your **`git`** password you can use tools like:
 1. https://github.com/Microsoft/Git-Credential-Manager-for-Windows
 1. https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 
 
 ### `git clone` <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
-It is not advised to use the `git --clone` command because git is buggy and cannot handle to clone this repository correctly.
+It is not advised to use the **`git --clone`** command because **`git`** is buggy and
+cannot handle to clone this repository correctly.
 By following the installation instructions just above,
-you are going to be prompted whether you would like to install the `Stable` version or the `Development` version.
-And choosing the `Development`,
-this repository is going to programmatically and correctly be cloned by a Python Script.
+you are going to be prompted whether you would like to install the Stable version or
+the Development version.
+And choosing the Development,
+this repository is going to programmatically and
+correctly be cloned by a Python Script.
 So,
-there is not need to directly use the `git clone` command.
+there is not need to directly use the **`git clone`** command.
 But,
-if you feel like manually using the `git clone` command,
-you need to pass the `--recursive` option and use it like this:
+if you feel like manually using the **`git clone`** command,
+you need to pass the **`--recursive`** option and
+use it like this:
 ```
 git clone --recursive -j4 https://github.com/evandrocoan/ITE
 ```
-The `-j4` parameter is to parallelly clone the repository using up to 4 threads or CPU cores.
+The **`-j4`** parameter is to parallelly clone the repository using up to 4 threads or
+CPU cores.
 
 
 ### Sublimehq/Packages <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
-Even if you choose to install the development version,
+Even if you choose to install the Development version,
 by the automated installer,
 it will not install the default upstream for [Sublimehq/Packages](https://github.com/sublimehq/Packages).
-For it, you can just run these commands:
+For it,
+you can just run these commands:
 ```sh
 git clone --recursive https://github.com/evandroforks/Packages
 mv Packages/.git "$SUBLIME_TEXT_DATA/Packages/.git"
 ```
 Then,
-you will need to open the directory `$SUBLIME_TEXT_DATA/Packages` as a usual git repository,
+you will need to open the directory **`$SUBLIME_TEXT_DATA/Packages`** as a usual **`git`** repository,
 which is completely disconnected from the main ITE repository.
 
 
@@ -200,7 +216,8 @@ For an updated list of packages to not enable see the issue:
 ___
 ## Debugging <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
-Use on the console: (View -> Show Console)
+Use on the console:
+(View -> Show Console)
 ```
 sublime.log_input(True); sublime.log_commands(True); sublime.log_result_regex(True); sublime.log_indexing(True);
 ```
@@ -214,10 +231,10 @@ sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(
 ___
 ## License <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
 
-All files in this repository are released under GNU General Public License
-v3.0 or the latest version available on http://www.gnu.org/licenses/gpl.html,
-except the files coming from `git submodules` (see [.gitmodules](.gitmodules)
-file) and the files/directories which include their own license header/file.
+All files in this repository are released under GNU General Public License v3.0 or
+the latest version available on http://www.gnu.org/licenses/gpl.html,
+except the files coming from **`git submodules`** (see [.gitmodules](.gitmodules) file) and
+the files/directories which include their own license header/file.
 
 ```
 Sublime Studio, A set of Settings and Packages for Sublime Text 3
@@ -256,10 +273,9 @@ For more information see:
 1. The [LICENSE](LICENSE) file for the GPL v3.0 license
 1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
-All the other files within each git submodule have its own license specified,
-except until 19/09/2017, where the following linked packages as `git submodules`
-by the file [.gitmodules](.gitmodules), does not include an explicit license
-from their original author:
+All the other files within each **`git`** submodule have its own license specified, except until 19/09/2017,
+where the following linked packages as **`git submodules`** by the file [.gitmodules](.gitmodules),
+does not include an explicit license from their original author:
 
 nº | Directory on Packages folder       | Github URL
 -- | ---------------------------------- | --------------------------------------------------------------
