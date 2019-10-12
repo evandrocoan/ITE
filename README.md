@@ -107,10 +107,10 @@ on this section you are going to be introduced with Stable installation tips.
 While installing the Stable version,
 you can quickly edit any installed packages files by:
 1. Opening the command palette and
-   running the command `PackageResourceViewer:
-   Extract All Packages`.
-1. And setting the PackagesManager setting `"extract_everything":
-   true`
+   running the command **`PackageResourceViewer:
+   Extract All Packages`**.
+1. And setting the PackagesManager setting **`"extract_everything":
+   true`**
 
 
 ### Using the Sublime Project <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
