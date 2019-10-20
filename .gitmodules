@@ -1066,3 +1066,8 @@
 	url = https://github.com/evandroforks/PaneNavigation
 	upstream = https://github.com/borist/SublimePaneNavigation
 	branches = master->master,
+[submodule "Packages/VimScript"]
+	path = Packages/VimScript
+	url = https://github.com/evandroforks/VimScript
+	upstream = https://github.com/RobRoseKnows/vimscript-sublime
+	branches = master->master,
