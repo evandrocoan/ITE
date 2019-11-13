@@ -1071,3 +1071,8 @@
 	url = https://github.com/evandroforks/VimL
 	upstream = https://github.com/SalGnt/Sublime-VimL
 	branches = master->master,
+[submodule "Packages/NSIS"]
+	path = Packages/NSIS
+	url = https://github.com/evandroforks/NSIS
+	upstream = https://github.com/SublimeText/NSIS
+	branches = master->master,
