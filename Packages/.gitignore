@@ -34,6 +34,7 @@ package_setting_context/*
 ruamel-yaml/*
 yaml_macros_engine/*
 pathlib/*
+ptyprocess/*
 
 */linux32-p3/*
 **/linux32-p3/**
