@@ -175,6 +175,7 @@ default_packages = \
     "HTML",
     "Java",
     "JavaScript",
+    "JSON",
     "LaTeX",
     "Lisp",
     "Lua",

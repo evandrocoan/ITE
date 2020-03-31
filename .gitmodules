@@ -198,6 +198,9 @@
 [submodule "Packages/LaTeX"]
 	path = Packages/LaTeX
 	url = https://github.com/evandroforks/SublimePackageLaTeX.git
+[submodule "Packages/JSON"]
+	path = Packages/JSON
+	url = https://github.com/evandroforks/SublimePackageJSON.git
 [submodule "Packages/Lisp"]
 	path = Packages/Lisp
 	url = https://github.com/evandroforks/SublimePackageLisp.git
