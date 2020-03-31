@@ -23,6 +23,7 @@
 # Files and folders from the sublimehq/Packages
 #
 /Packages/.git/
+/Packages/.github/
 /Packages/LICENSE
 /Packages/README.md
 
