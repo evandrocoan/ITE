@@ -97,6 +97,7 @@ you can choose the Stable installation.
     search for **`StudioChannel`** and press <kbd>Enter</kbd>
 1. After finished installing the **`StudioChannel`** package,
    just follow the instructions on the screen.
+1. You can also see this *old video* tutorial [How to the Install Sublime Studio](https://youtu.be/362kbFW-tr4).
 
 
 ## Stable Installation <sub><sub>[Go to Top](#ite---integrated-toolset-environment)</sub></sub>
