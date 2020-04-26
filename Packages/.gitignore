@@ -1,11 +1,6 @@
-
-
-
 # Ignore Everything
 # *
 # **
-
-
 
 # Packages dependencies
 jsonschema/*
@@ -38,7 +33,6 @@ ptyprocess/*
 
 */linux32-p3/*
 **/linux32-p3/**
-
 
 # Ignore other custom packages
 .gitignore
@@ -257,4 +251,3 @@ Whitespace
 WordCount
 WrapPlus
 X86Assembly
-
