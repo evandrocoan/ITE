@@ -164,7 +164,7 @@ you need to have installed on your system path variable the following programs:
 1. **`unzip`** (linux/cygwin)
 1. **`date`** (linux/cygwin)
 
-Beyond your a local **`git`** client,
+Beyond your local **`git`** client,
 it is recommended to install some **`git`** client interface as [SmartGit](https://www.syntevo.com/smartgit/download/),
 in order to manage this project because it has very complex submodules management.
 Also,
