@@ -12,13 +12,13 @@ then
 fi
 
 sublime_text_root=(
-"/cygdrive/f/SublimeText"
-"/cygdrive/f/SublimeText/MSYS2"
-"/cygdrive/f/SublimeText/StableVersion"
-"/cygdrive/f/SublimeText/Vanilla"
-"/cygdrive/f/SublimeText/CleanTesting/3176"
+"/f/SublimeText"
+"/f/SublimeText/MSYS2"
+"/f/SublimeText/StableVersion"
+"/f/SublimeText/Vanilla"
+"/f/SublimeText/CleanTesting/3211"
 )
-sublime_text_builds="/cygdrive/d/User/Programs/SublimeText"
+sublime_text_builds="/d/User/Programs/SublimeText"
 sublime_text_build="${sublime_text_builds}/${build}"
 
 if ! [ -d "${sublime_text_build}" ]
