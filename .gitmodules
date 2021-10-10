@@ -307,7 +307,7 @@
 [submodule "Packages/AutoFileName"]
 	path = Packages/AutoFileName
 	url = https://github.com/evandrocoan/AutoFileName
-	upstream = https://github.com/BoundInCode/AutoFileName
+	upstream = https://github.com/liamcain/AutoFileName
 	branches = master->master,
 [submodule "Packages/BBCode"]
 	path = Packages/BBCode
@@ -618,7 +618,7 @@
 	path = Packages/ChangeQuotes
 	url = https://github.com/evandroforks/ChangeQuotes
 	upstream = https://github.com/colinta/SublimeChangeQuotes
-	branches = master->master,
+	branches = main->master,
 [submodule "Packages/Clickable URLs"]
 	path = Packages/ClickableURLs
 	url = https://github.com/evandroforks/ClickableURLs
@@ -653,7 +653,7 @@
 	path = Packages/DuplicateSelections
 	url = https://github.com/evandroforks/DuplicateSelections
 	upstream = https://github.com/colinta/SublimeDuplicateSelections
-	branches = master->master,
+	branches = main->master,
 [submodule "Packages/Edit Preferences"]
 	path = Packages/EditPreferences
 	url = https://github.com/evandroforks/EditPreferences
@@ -773,7 +773,7 @@
 	path = Packages/MoveText
 	url = https://github.com/evandroforks/MoveText
 	upstream = https://github.com/colinta/SublimeMoveText
-	branches = master->master,
+	branches = main->master,
 [submodule "Packages/MultiEditUtils"]
 	path = Packages/MultiEditUtils
 	url = https://github.com/evandroforks/MultiEditUtils
@@ -782,7 +782,7 @@
 [submodule "Packages/MySQL Snippets"]
 	path = Packages/MySQLSnippets
 	url = https://github.com/evandroforks/MySqlSnippets
-	upstream = https://github.com/ancor-dev/sublime-sql-snippets
+	upstream = https://github.com/korniychuk/sublime-sql-snippets
 	branches = master->master,
 [submodule "Packages/Number King"]
 	path = Packages/NumberKing
@@ -918,7 +918,7 @@
 	path = Packages/ToggleWords
 	url = https://github.com/evandroforks/ToggleWords
 	upstream = https://github.com/gordio/ToggleWords
-	branches = master->master,
+	branches = main->master,
 [submodule "Packages/AceJump"]
 	path = Packages/AceJump
 	url = https://github.com/evandroforks/AceJump
@@ -967,8 +967,8 @@
 [submodule "Packages/LSP"]
 	path = Packages/LSP
 	url = https://github.com/evandrocoan/LSP
-	upstream = https://github.com/tomv564/LSP
-	branches = master->master,
+	upstream = https://github.com/sublimelsp/LSP
+	branches = main->master,
 [submodule "Packages/PanelManager"]
 	path = Packages/PanelManager
 	url = https://github.com/evandroforks/PanelManager
@@ -1073,7 +1073,7 @@
 	path = Packages/VimL
 	url = https://github.com/evandroforks/VimL
 	upstream = https://github.com/SalGnt/Sublime-VimL
-	branches = master->master,
+	branches = main->master,
 [submodule "Packages/NSIS"]
 	path = Packages/NSIS
 	url = https://github.com/evandroforks/NSIS
