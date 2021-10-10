@@ -1099,3 +1099,8 @@
 	url = https://github.com/evandroforks/sublime-backrefs
 	upstream = https://github.com/facelessuser/sublime-backrefs
 	branches = master->master,
+[submodule "Packages/DockerSyntaxHighlight"]
+	path = Packages/DockerSyntaxHighlight
+	url = https://github.com/evandroforks/DockerSyntaxHighlight
+	upstream = https://github.com/asbjornenge/Docker.tmbundle
+	branches = master->master,
