@@ -1079,3 +1079,7 @@
 	url = https://github.com/evandroforks/NSIS
 	upstream = https://github.com/SublimeText/NSIS
 	branches = master->master,
+[submodule "Packages/SortLinesNumerically"]
+	path = Packages/SortLinesNumerically
+	url = https://github.com/evandroforks/sublime-sort-numerically
+	branches = master->master,
