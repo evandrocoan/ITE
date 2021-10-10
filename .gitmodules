@@ -1082,4 +1082,20 @@
 [submodule "Packages/SortLinesNumerically"]
 	path = Packages/SortLinesNumerically
 	url = https://github.com/evandroforks/sublime-sort-numerically
+	upstream = https://github.com/alimony/sublime-sort-numerically
+	branches = master->master,
+[submodule "Packages/wcmatch"]
+	path = Packages/wcmatch
+	url = https://github.com/evandroforks/sublime-wcmatch
+	upstream = https://github.com/facelessuser/sublime-wcmatch
+	branches = master->master,
+[submodule "Packages/bracex"]
+	path = Packages/bracex
+	url = https://github.com/evandroforks/sublime-bracex
+	upstream = https://github.com/facelessuser/sublime-bracex
+	branches = master->master,
+[submodule "Packages/backrefs"]
+	path = Packages/backrefs
+	url = https://github.com/evandroforks/sublime-backrefs
+	upstream = https://github.com/facelessuser/sublime-backrefs
 	branches = master->master,
