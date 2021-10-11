@@ -1104,3 +1104,8 @@
 	url = https://github.com/evandroforks/DockerSyntaxHighlight
 	upstream = https://github.com/asbjornenge/Docker.tmbundle
 	branches = master->master,
+[submodule "Packages/natsort"]
+	path = Packages/natsort
+	url = https://github.com/evandroforks/sublime-natsort
+	upstream = https://github.com/alimony/sublime-natsort
+	branches = master->master,
