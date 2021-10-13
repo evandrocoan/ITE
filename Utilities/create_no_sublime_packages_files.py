@@ -9,6 +9,7 @@ file is on.
 """
 
 current_directory = os.path.dirname(os.path.realpath(__file__))
+# current_directory = os.path.join( current_directory, '..', 'Packages' )
 print('\ndirectory walk', current_directory)
 
 def create_no_sublime_package():

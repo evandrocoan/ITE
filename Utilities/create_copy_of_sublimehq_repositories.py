@@ -19,6 +19,7 @@ from debug_tools import getLogger
 log = getLogger( __name__ )
 
 current_directory = os.path.dirname( os.path.realpath(__file__) )
+# current_directory = os.path.join( current_directory, '..', 'Packages' )
 log( 1, 'directory walk %s', current_directory )
 
 
