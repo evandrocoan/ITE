@@ -12,10 +12,8 @@ numpy/*
 python-markdown/*
 python-jinja2/*
 pygments/*
-mdpopups/*
 markupsafe/*
 bz2/*
-backrefs/*
 ssl-linux/*
 ZzzReloadDefaultPackage
 zzz A File Icon zzz/*
@@ -43,15 +41,21 @@ tests.sublime-commands
 ObjectBeautifier
 Text
 
+backrefs
+bracex
 channelmanager
+concurrentloghandler
 debugtools
-plantumlconnection
 diffmatchpatch
+lsp_utils
+mdpopups
+natsort
+plantumlconnection
 portalockerfile
 pushdownparser
-concurrentloghandler
-sublime_lib
 python-pywin32
+sublime_lib
+wcmatch
 
 0_settings_loader
 A File Icon
@@ -91,12 +95,12 @@ ChannelRepositoryTools
 ClearCursorsCarets
 ClickableURLs
 ClipboardScopeCopy
+CMake
 Color Highlighter
 ColorHelper
 ColorSchemeEditor
 ColorSchemeUnit
 ColumnSelect
-CMake
 ConvertToUTF8
 CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
@@ -106,6 +110,7 @@ DeleteCurrentFile
 DictionaryAutoComplete
 DistractionFreeWindow
 DocBlockr
+DockerSyntaxHighlight
 Dotfiles
 DuplicateSelections
 EditPreferences
@@ -151,8 +156,8 @@ InsertNums
 InvertSelection
 Javatar
 JediPythonAutoCompletion
-JumpAlongIndent
 JSCustom
+JumpAlongIndent
 KeepPastedTextSelected
 Language - English and Portuguese
 LanguageTool
@@ -165,6 +170,7 @@ LineEndingsUnify
 LinesMultisets
 LocalHistory
 LSP
+LSP-pylsp
 MarkdownPreview
 MarkdownToBBCode
 MatlabCompletions
@@ -176,8 +182,8 @@ MoveText
 MultiEditUtils
 MySQLSnippets
 Notepad++ Color Scheme
-NumberKing
 NSIS
+NumberKing
 Octave
 OpenAutoCompletion
 Origami
@@ -218,6 +224,7 @@ SideBarEnhancements
 SideBySideCompare
 SideBySideSettings
 SkipCloseForClonedViews
+SortLinesNumerically
 SQLExec
 SQLKeywordUppercase
 SQLTools
@@ -232,9 +239,9 @@ SyncedSideBar
 SyncViewScroll
 SyntaxManager
 TabsExtra
-TestPlier
 TerminalShortcuts
 Terminus
+TestPlier
 TextPastry
 ToggleSettingsInBatch
 ToggleWords
