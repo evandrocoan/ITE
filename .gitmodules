@@ -1109,3 +1109,18 @@
 	url = https://github.com/evandroforks/sublime-natsort
 	upstream = https://github.com/alimony/sublime-natsort
 	branches = master->master,
+[submodule "Packages/mdpopups"]
+	path = Packages/mdpopups
+	url = https://github.com/evandroforks/mdpopups
+	upstream = https://github.com/facelessuser/sublime-markdown-popups
+	branches = master->master,
+[submodule "Packages/lsp_utils"]
+	path = Packages/lsp_utils
+	url = https://github.com/evandroforks/lsp_utils
+	upstream = https://github.com/sublimelsp/lsp_utils
+	branches = master->master,
+[submodule "Packages/LSP-pylsp"]
+	path = Packages/LSP-pylsp
+	url = https://github.com/evandroforks/LSP-pylsp
+	upstream = https://github.com/sublimelsp/LSP-pylsp
+	branches = master->master,
