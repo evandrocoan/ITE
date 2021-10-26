@@ -1124,3 +1124,8 @@
 	url = https://github.com/evandroforks/LSP-pylsp
 	upstream = https://github.com/sublimelsp/LSP-pylsp
 	branches = master->master,
+[submodule "Packages/CythonSyntax"]
+	path = Packages/CythonSyntax
+	url = https://github.com/evandroforks/CythonSyntax
+	upstream = https://github.com/NotSqrt/sublime-cython
+	branches = master->master,
