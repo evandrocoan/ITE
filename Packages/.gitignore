@@ -104,6 +104,7 @@ ColumnSelect
 ConvertToUTF8
 CopyFilepathWithLineNumbers
 CopyWithLineNumbersReloaded
+CythonSyntax
 Default
 DefaultSyntax
 DeleteCurrentFile
