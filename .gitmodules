@@ -949,10 +949,10 @@
 	url = https://github.com/evandroforks/SemanticLineWrap
 	upstream = https://github.com/bordaigorl/sublime-semantic-wrap
 	branches = master->master,
-[submodule "Packages/WordCount"]
-	path = Packages/WordCount
-	url = https://github.com/evandrocoan/WordCount
-	upstream = https://github.com/titoBouzout/WordCount
+[submodule "Packages/WordingStatus"]
+	path = Packages/WordingStatus
+	url = https://github.com/evandrocoan/WordingStatus
+	upstream = https://github.com/titoBouzout/WordingStatus
 	branches = st3->master,
 [submodule "Packages/ColorSchemeUnit"]
 	path = Packages/ColorSchemeUnit
