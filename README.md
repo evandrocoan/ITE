@@ -90,6 +90,11 @@ you can choose the Stable installation.
     * The **`https://raw.githubusercontent...`** line must to be added before the **`https://packagecontrol.io...`** one, otherwise,
       you will not install this forked version of the package,
       but the original available on the Package Control default channel **`https://packagecontrol.io...`**
+    > [!WARNING]
+    > Placing this custom channel before the default channel changes Package Control's resolution globally. Packages from this channel with the same name will override versions from the default channel.
+    >
+    > You can review the channel contents here:
+    > https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
 1. Now,
     go to the menu **`Preferences -> Package Control`**
 1. Type **`Install Package`** on the opened quick panel and press <kbd>Enter</kbd>
