@@ -32,15 +32,6 @@ def find_project_root() -> Path:
 ROOT = find_project_root()
 
 TEXT_TO_FIND = """\
-    * The **`https://raw.githubusercontent...`** line must to be added before the **`https://packagecontrol.io...`** one, otherwise,
-      you will not install this forked version of the package,
-      but the original available on the Package Control default channel **`https://packagecontrol.io...`**
-"""
-
-TEXT_TO_REPLACE = """\
-    * The **`https://raw.githubusercontent...`** line must to be added before the **`https://packagecontrol.io...`** one, otherwise,
-      you will not install this forked version of the package,
-      but the original available on the Package Control default channel **`https://packagecontrol.io...`**
     > [!WARNING]
     > Placing this custom channel before the default channel changes Package Control's resolution globally. Packages from this channel with the same name will override versions from the default channel.
     >
@@ -48,17 +39,26 @@ TEXT_TO_REPLACE = """\
     > https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
 """
 
+TEXT_TO_REPLACE = """\
+    > [!WARNING]
+    > Placing this custom channel before the default channel changes Package Control's resolution globally.
+    > Packages from this channel with the same name will override versions from the default channel.
+    >
+    > You can review the channel contents here:
+    > https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+"""
+
 WARNING_SIGNATURE = (
-    "Placing this custom channel before the default channel changes "
-    "Package Control's resolution globally."
+"""\
+Placing this custom channel before the default channel changes Package Control's resolution globally. Packages from
+"""
 )
 
 COMMIT_SUBJECT = (
-    "Add README.md warning for "
-    "https://github.com/sublimehq/package_control_channel/issues/9545"
+    "Fix README.md line wrap"
 )
 COMMIT_BODY = (
-    "Installation instructions that include adding a separate channel"
+    ""
 )
 
 
