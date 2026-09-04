@@ -55,10 +55,14 @@ Placing this custom channel before the default channel changes Package Control's
 )
 
 COMMIT_SUBJECT = (
-    "Fix README.md line wrap"
+"""\
+Fix README.md line wrap"
+"""
 )
+
 COMMIT_BODY = (
-    ""
+"""\
+"""
 )
 
 
@@ -70,7 +74,15 @@ def read_submodule_paths() -> List[str]:
     paths = []
     for section in config.sections():
         if section.startswith('submodule "') and config.has_option(section, "path"):
-            paths.append(config.get(section, "path"))
+            path = config.get(section, "path").strip()
+
+            # ConfigParser preserves quotes around values such as
+            # path = "Packages/C#". They delimit the Git configuration value
+            # and are not part of the directory name.
+            if len(path) >= 2 and path[0] == path[-1] and path[0] in ('"', "'"):
+                path = path[1:-1]
+
+            paths.append(path)
     return paths
 
 
