@@ -24,6 +24,26 @@ constraints that span packages.
 - For a light upstream fork, inspect the proposed update and its overlap with local customizations
   before accepting it. Review changes to locally maintained code or integration behavior in depth.
 
+## Upstream updates and conflict resolution
+
+- Apply the same review to every upstream update in this parent repository and its submodules,
+  regardless of ownership, fork classification, or whether Git reports a conflict. Treat the local
+  checkout as a maintained rewrite built from upstream code. Preserve its customizations and
+  design; a clean automatic merge is not evidence that an upstream change fits the local code.
+- Establish the common ancestor and compare upstream changes and local changes against it
+  separately for every affected file and behavior. Identify what the upstream actually changed,
+  why it changed, and its effect before deciding whether it applies locally. Use upstream history,
+  tests, and code context as evidence; label any inferred or unknown rationale. Do not mistake
+  existing upstream code for a new correction. Verify Git's rename matches against each file's
+  platform and role before relying on them; similar content can pair unrelated files.
+- When an upstream change applies, adapt its intended behavior to the local implementation with
+  the smallest equivalent change, rather than replacing the local rewrite. Review the resulting
+  behavior even in files Git merged automatically; do not silently discard an upstream change.
+- If the upstream reason cannot be established, the equivalent local change is unclear or cannot
+  be applied, or the change conflicts with the local design, explain the observed upstream change,
+  the available rationale, and the trade-offs to the user. Consult the user before applying,
+  skipping, or replacing that part of the local implementation.
+
 ## Python runtime
 
 - Python 3.3 compatibility is no longer required. Target Python 3.8 or newer for new code
