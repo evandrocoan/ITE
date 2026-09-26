@@ -14,6 +14,16 @@ constraints that span packages.
 - Treat `Installed Packages/`, `Log/`, `Cache/`, and `Crash Reports/` as runtime locations. Inspect
   them when diagnosing failures, but do not treat their contents as the source for package fixes.
 
+## Repository ownership
+
+- Use `PACKAGE_OWNERSHIP.md` for the explicit list of Evandro-maintained packages and the
+  `evandrocoan` packages that can receive upstream updates with focused review. Account ownership
+  alone does not determine review effort; an upstream entry alone does not grant lighter review.
+- Treat packages under `evandroforks` as light upstream forks by default. Follow the canonical
+  repository destination when a URL in `.gitmodules` redirects to another account.
+- For a light upstream fork, inspect the proposed update and its overlap with local customizations
+  before accepting it. Review changes to locally maintained code or integration behavior in depth.
+
 ## Python runtime
 
 - Python 3.3 compatibility is no longer required. Target Python 3.8 or newer for new code
