@@ -32,6 +32,9 @@ constraints that span packages.
   Sublime APIs. Keep the runtime declaration aligned with code changes; the system Python used
   for local checks may differ from Sublime's embedded interpreter.
 - Respect a vendored dependency's own compatibility contract when editing its source.
+- Before updating a dependency managed by `Packages/PackagesManager`, verify its supported Python
+  versions and installation layout against the loader and its consumers. Coordinate any layout
+  change with the loader or installer, then check affected imports after a fresh Sublime startup.
 
 ## Source and deployed packages
 
