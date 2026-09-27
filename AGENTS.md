@@ -30,12 +30,32 @@ constraints that span packages.
   regardless of ownership, fork classification, or whether Git reports a conflict. Treat the local
   checkout as a maintained rewrite built from upstream code. Preserve its customizations and
   design; a clean automatic merge is not evidence that an upstream change fits the local code.
-- Establish the common ancestor and compare upstream changes and local changes against it
-  separately for every affected file and behavior. Identify what the upstream actually changed,
-  why it changed, and its effect before deciding whether it applies locally. Use upstream history,
-  tests, and code context as evidence; label any inferred or unknown rationale. Do not mistake
-  existing upstream code for a new correction. Verify Git's rename matches against each file's
-  platform and role before relying on them; similar content can pair unrelated files.
+
+### Identify changes since the previous update
+
+- In the owning repository, identify the verified upstream revision or snapshot used as the
+  source for the previous update before claiming which upstream changes are newly published.
+  Inspect the previous merge's upstream parent and history when available; that parent identifies
+  a source tip, not which changes were accepted locally. In a single-head merge in progress,
+  `HEAD` is the local pre-merge tip and `MERGE_HEAD` is the incoming tip; neither identifies the
+  previous upstream source by itself. The merge base supports a three-way comparison but does
+  not prove which upstream snapshot was used in the previous update.
+- Compare that verified prior upstream source with the incoming upstream state to find candidate
+  newly published changes. Use a commit range only after verifying that the prior upstream commit
+  is an ancestor of the incoming tip; otherwise compare verified snapshots. Compare the local
+  rewrite with the common ancestor separately where that ancestry exists. Account individually
+  for changes previously applied, adapted, skipped, or partially applied so they are not called
+  new. Copied or selective updates and rewritten history may leave no reliable single prior
+  snapshot. If the source or per-change provenance cannot be verified, explain the uncertainty
+  and consult the user before calling a change new or deciding to apply or skip it.
+- For every affected file and behavior, identify what upstream actually changed, why it changed,
+  and its effect before deciding whether it applies locally. Use upstream history, tests, and code
+  context as evidence; label inferred or unknown rationale. Do not mistake existing upstream code
+  for a new correction. Verify Git's rename matches against each file's platform and role before
+  relying on them; similar content can pair unrelated files.
+
+### Adapt changes to the local rewrite
+
 - When an upstream change applies, adapt its intended behavior to the local implementation with
   the smallest equivalent change, rather than replacing the local rewrite. Review the resulting
   behavior even in files Git merged automatically; do not silently discard an upstream change.
