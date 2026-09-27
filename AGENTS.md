@@ -64,6 +64,19 @@ constraints that span packages.
   the available rationale, and the trade-offs to the user. Consult the user before applying,
   skipping, or replacing that part of the local implementation.
 
+### Preserve merge direction in history
+
+- For an upstream merge in this repository or any submodule, create a temporary local branch at
+  the incoming upstream tip. Merge the local branch into that temporary branch with an explicit
+  merge commit: its first parent must be upstream and its second parent the local branch. Resolve
+  conflicts there while preserving the local rewrite and reviewing upstream behavior as above.
+- Return to the local branch and merge the temporary branch with another explicit merge commit:
+  its first parent must be the previous local tip and its second parent the temporary merge. Check
+  the first merge's first-parent diff for the project's changes applied to upstream, and the
+  second merge's first-parent diff for upstream changes applied to the local branch. Remove the
+  temporary branch only after both merges and their results are verified. Do not mutate the
+  upstream remote or push as part of this procedure unless separately requested.
+
 ## Python runtime
 
 - Python 3.3 compatibility is no longer required. Target Python 3.8 or newer for new code
@@ -71,6 +84,11 @@ constraints that span packages.
 - Check a package's `.python-version` and the Sublime Text build before using Python features or
   Sublime APIs. Keep the runtime declaration aligned with code changes; the system Python used
   for local checks may differ from Sublime's embedded interpreter.
+- During upstream merges, retain the upstream `.python-version` unless actual runtime behavior
+  proves it incompatible. Sublime may run a declared Python version through a compatible plugin
+  host even when there is no executable with that exact version in its name. Verify which host
+  loads the package in the intended editor before changing the declaration or adapting code for
+  a different runtime.
 - Respect a vendored dependency's own compatibility contract when editing its source.
 - Before updating a dependency managed by `Packages/PackagesManager`, verify its supported Python
   versions and installation layout against the loader and its consumers. Coordinate any layout
