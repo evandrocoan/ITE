@@ -67,15 +67,18 @@ constraints that span packages.
 ### Preserve merge direction in history
 
 - For an upstream merge in this repository or any submodule, create a temporary local branch at
-  the incoming upstream tip. Merge the local branch into that temporary branch with an explicit
-  merge commit: its first parent must be upstream and its second parent the local branch. Resolve
-  conflicts there while preserving the local rewrite and reviewing upstream behavior as above.
+  the incoming upstream tip without tracking the remote branch. Merge the local branch into that
+  temporary branch with an explicit merge commit: its first parent must be upstream and its second
+  parent the local branch. Resolve conflicts there while preserving the local rewrite and
+  reviewing upstream behavior as above.
 - Return to the local branch and merge the temporary branch with another explicit merge commit:
   its first parent must be the previous local tip and its second parent the temporary merge. Check
   the first merge's first-parent diff for the project's changes applied to upstream, and the
-  second merge's first-parent diff for upstream changes applied to the local branch. Remove the
-  temporary branch only after both merges and their results are verified. Do not mutate the
-  upstream remote or push as part of this procedure unless separately requested.
+  second merge's first-parent diff for upstream changes applied to the local branch. Verify both
+  parent orders and check each merge's first-parent diff with `git diff --check`; inspect
+  conflict-resolved files for mixed line endings. Remove the temporary branch only after both
+  merges and their results are verified. Do not mutate the upstream remote or push unless
+  separately requested.
 
 ## Python runtime
 
@@ -103,3 +106,9 @@ constraints that span packages.
   does not update an installed archive.
 - When a fix depends on startup or plugin loading, verify it in the intended Sublime Text
   instance. The console collector records Python plugin output only after the collector loads.
+- During a merge, plugin errors from intermediate checkouts do not establish the final result.
+  Once the final tree is in place, record the current console log position, explicitly reload the
+  affected package, exercise a representative command, and inspect only the subsequent output.
+  A successful command-line exit or a silent log does not by itself prove that the command ran.
+- In PowerShell, keep JSON quotes intact when passing arguments to `subl --command` as one native
+  argument. Verify the received argument if a command produces no observable result.
